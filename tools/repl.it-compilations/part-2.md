@@ -1,32 +1,36 @@
 # Part 2
 
-https://replit.com/@bgoonz/flasktemplate
+{% embed url="https://replit.com/@bgoonz/flasktemplate" %}
 
-https://replit.com/@bgoonz/chess-2
+{% embed url="https://replit.com/@bgoonz/chess-2" %}
 
-https://replit.com/@bgoonz/Chatroom
+{% embed url="https://replit.com/@bgoonz/Chatroom" %}
 
-https://replit.com/@bgoonz/Database
+{% embed url="https://replit.com/@bgoonz/Database" %}
 
-https://replit.com/@bgoonz/chess-1
+{% embed url="https://replit.com/@bgoonz/chess-1" %}
 
-https://replit.com/@bgoonz/Lucas
+{% embed url="https://replit.com/@bgoonz/Lucas" %}
 
-https://replit.com/@bgoonz/form-builder-vanilla-js
+{% embed url="https://replit.com/@bgoonz/form-builder-vanilla-js" %}
 
 oonzblog-things-2-remember
 
-https://replit.com/@bgoonz/BasicDSAinJS
 
-https://replit.com/@bgoonz/interview-2
 
-https://replit.com/@bgoonz/MarvelousUsedDeclarations
 
-https://replit.com/@bgoonz/DS-ALGO-OFFICIAL-7
 
-https://replit.com/@bgoonz/DS-ALGO-OFFICIAL-6
+{% embed url="https://replit.com/@bgoonz/BasicDSAinJS" %}
 
-https://replit.com/@bgoonz/2emulate
+{% embed url="https://replit.com/@bgoonz/interview-2" %}
+
+{% embed url="https://replit.com/@bgoonz/MarvelousUsedDeclarations" %}
+
+{% embed url="https://replit.com/@bgoonz/DS-ALGO-OFFICIAL-7" %}
+
+{% embed url="https://replit.com/@bgoonz/DS-ALGO-OFFICIAL-6" %}
+
+{% embed url="https://replit.com/@bgoonz/2emulate" %}
 
 https://replit.com/@bgoonz/array-methods
 
@@ -50,39 +54,39 @@ https://replit.com/@bgoonz/js-tutorial-1
 
 https://replit.com/@bgoonz/js-tutorial
 
-https://replit.com/@bgoonz/medium-sandbox-1
+{% embed url="https://replit.com/@bgoonz/medium-sandbox-1" %}
 
 \-leetcode
 
 https://replit.com/@bgoonz/CODESIGNAL
 
-https://replit.com/@bgoonz/week-10-take-7
+{% embed url="https://replit.com/@bgoonz/week-10-take-7" %}
 
-https://replit.com/@bgoonz/chess
+{% embed url="https://replit.com/@bgoonz/chess" %}
 
-https://replit.com/@bgoonz/Timer
+{% embed url="https://replit.com/@bgoonz/Timer" %}
 
 https://replit.com/@bgoonz/languages/python\_turtle/webscraping
 
 https://replit.com/@bgoonz/My
 
-https://replit.com/@bgoonz/languages/web\_project/Quiz
+{% embed url="https://replit.com/@bgoonz/languages/web_project/Quiz" %}
 
 HTML,CSS,JS
 
-https://replit.com/@bgoonz/languages/web\_project/TrickyPreviousBinarytree
+{% embed url="https://replit.com/@bgoonz/languages/web_project/TrickyPreviousBinarytree" %}
 
-https://replit.com/@bgoonz/languages/web\_project/Login
+{% embed url="https://replit.com/@bgoonz/languages/web_project/Login" %}
 
-https://replit.com/@bgoonz/languages/web\_project/Calculator
+{% embed url="https://replit.com/@bgoonz/languages/web_project/Calculator" %}
 
-https://replit.com/@bgoonz/react
+{% embed url="https://replit.com/@bgoonz/react" %}
 
-https://replit.com/@bgoonz/ds-web-dev-hub
+{% embed url="https://replit.com/@bgoonz/ds-web-dev-hub" %}
 
-https://replit.com/@bgoonz/languages/web\_project/jquery-shopping-list-walkthrough-13-test1
+{% embed url="https://replit.com/@bgoonz/languages/web_project/jquery-shopping-list-walkthrough-13-test1" %}
 
-https://replit.com/@bgoonz/languages/web\_project/get-fetch-dog-spicific-breed
+{% embed url="https://replit.com/@bgoonz/languages/web_project/get-fetch-dog-spicific-breed" %}
 
 https://replit.com/@bgoonz/languages/web\_project/jQuery
 
@@ -104,27 +108,31 @@ https://replit.com/@bgoonz/Leetcode
 
 https://replit.com/@bgoonz/JS\_ALGO\_PRAC
 
-https://replit.com/@bgoonz/JS-ALGOS
+{% embed url="https://replit.com/@bgoonz/JS-ALGOS" %}
 
 https://replit.com/@bgoonz/JS-Algo-Prac
 
-https://replit.com/@bgoonz/interview-prep
+{% embed url="https://replit.com/@bgoonz/interview-prep" %}
 
 \-sorting
 
-https://replit.com/@bgoonz/DATASTRUCTURES-NOTES
 
-https://replit.com/@bgoonz/30-days-python
+
+{% embed url="https://replit.com/@bgoonz/DATASTRUCTURES-NOTES" %}
+
+{% embed url="https://replit.com/@bgoonz/30-days-python" %}
 
 https://replit.com/@bgoonz/2.2
 
 \-ds-2
 
+
+
 https://replit.com/@bgoonz/ADS-practice
 
-https://replit.com/@bgoonz/Data-Structures-6
+{% embed url="https://replit.com/@bgoonz/Data-Structures-6" %}
 
-https://replit.com/@bgoonz/CGA-Prep
+{% embed url="https://replit.com/@bgoonz/CGA-Prep" %}
 
 https://replit.com/@bgoonz/notes
 
