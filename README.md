@@ -403,9 +403,9 @@ Website Navigation (my websites)
 
 * [Blockchain Basics](https://bryan-guner.gitbook.io/web-dev-hub-docs/blockchain-and-crypto/blockchain-basics)
 
-![](<.gitbook/assets/image (2) (2) (3) (3) (3) (3).png>)
-
 ![](<.gitbook/assets/image (2) (2) (3) (3) (3) (3) (2).png>)
+
+![](<.gitbook/assets/image (2) (2) (3) (3) (3) (3) (2) (1).png>)
 
 **WEBSITE ⇄ Portfolio ⇄ Collaborate ⇄ Other-Websites ⇄ Recent Work**
 
