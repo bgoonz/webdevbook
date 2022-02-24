@@ -99,9 +99,9 @@ The three block level tags every HTML document needs to contain are **\<html>**,
 2. The **\<head>\</head>** tag holds meta information such as the page’s title and charset.
 3. Finally, the **\<body>\</body>** tag encloses all the content that appears on the page.
 
-- Paragraphs are enclosed by _**\<p>\</p>**_, while blockquotes use the _**\<blockquote>\</blockquote>**_ tag.
-- Divisions are bigger content sections that typically contain several paragraphs, images, sometimes blockquotes, and other smaller elements. We can mark them up using the _**\<div>\</div>**_ tag. A div element can contain another div tag inside it as well.
-- You may also use _**\<ol>\</ol>**_ tags for ordered lists and _**\<ul>\</ul>**_ for unordered ones. Individual list items must be enclosed by the _**\<li>\</li>**_ tag. For example, this is how a basic unordered list looks like in HTML:
+-   Paragraphs are enclosed by _**\<p>\</p>**_, while blockquotes use the _**\<blockquote>\</blockquote>**_ tag.
+-   Divisions are bigger content sections that typically contain several paragraphs, images, sometimes blockquotes, and other smaller elements. We can mark them up using the _**\<div>\</div>**_ tag. A div element can contain another div tag inside it as well.
+-   You may also use _**\<ol>\</ol>**_ tags for ordered lists and _**\<ul>\</ul>**_ for unordered ones. Individual list items must be enclosed by the _**\<li>\</li>**_ tag. For example, this is how a basic unordered list looks like in HTML:
 
 1. **\<ul>**
 2. **\<li>List item 1\</li>**
@@ -113,14 +113,14 @@ The three block level tags every HTML document needs to contain are **\<html>**,
 
 An HTML Document is mainly divided into two parts:
 
-- **HEAD**: This contains the information about the HTML document. For Example, Title of the page, version of HTML, Meta-Data etc.
+-   **HEAD**: This contains the information about the HTML document. For Example, Title of the page, version of HTML, Meta-Data etc.
 
 HTML TAG Specifies an html document. The HTML element (or HTML root element) represents the root of an HTML document. All other elements must be descendants of this element. Since the element is the first in a document, it is called the root element.
 
 Although this tag can be implied, or not required, with HTML, it is required to be opened and closed in XHTML.
 
-- Divisions are bigger content sections that typically contain several paragraphs, images, sometimes blockquotes, and other smaller elements. We can mark them up using the _**\<div>\</div>**_ tag. A div element can contain another div tag inside it as well.
-- You may also use _**\<ol>\</ol>**_ tags for ordered lists and _**\<ul>\</ul>**_ for unordered ones. Individual list items must be enclosed by the _**\<li>\</li>**_ tag. For example, this is how a basic unordered list looks like in HTML:
+-   Divisions are bigger content sections that typically contain several paragraphs, images, sometimes blockquotes, and other smaller elements. We can mark them up using the _**\<div>\</div>**_ tag. A div element can contain another div tag inside it as well.
+-   You may also use _**\<ol>\</ol>**_ tags for ordered lists and _**\<ul>\</ul>**_ for unordered ones. Individual list items must be enclosed by the _**\<li>\</li>**_ tag. For example, this is how a basic unordered list looks like in HTML:
 
 1. **\<ul>**
 2. **\<li>List item 1\</li>**

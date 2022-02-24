@@ -150,8 +150,8 @@ See [dataloader](https://pytorch.org/docs/stable/data.html?highlight=dataloader#
 
 You can run this tutorial in a couple of ways:
 
-- **In the cloud**: This is the easiest way to get started! Each section has a “Run in Microsoft Learn” link at the top, which opens an integrated notebook in Microsoft Learn with the code in a fully-hosted environment.
-- **Locally**: This option requires you to setup PyTorch and TorchVision first on your local machine ([installation instructions](https://pytorch.org/get-started/locally/)). Download the notebook or copy the code into your favorite IDE.
+-   **In the cloud**: This is the easiest way to get started! Each section has a “Run in Microsoft Learn” link at the top, which opens an integrated notebook in Microsoft Learn with the code in a fully-hosted environment.
+-   **Locally**: This option requires you to setup PyTorch and TorchVision first on your local machine ([installation instructions](https://pytorch.org/get-started/locally/)). Download the notebook or copy the code into your favorite IDE.
 
 ### How to Use this Guide
 
@@ -177,99 +177,99 @@ Features described in this documentation are classified by release status:
 
 Notes
 
-- [Automatic Mixed Precision examples](https://pytorch.org/docs/stable/notes/amp_examples.html)
-- [Autograd mechanics](https://pytorch.org/docs/stable/notes/autograd.html)
-- [Broadcasting semantics](https://pytorch.org/docs/stable/notes/broadcasting.html)
-- [CPU threading and TorchScript inference](https://pytorch.org/docs/stable/notes/cpu_threading_torchscript_inference.html)
-- [CUDA semantics](https://pytorch.org/docs/stable/notes/cuda.html)
-- [Distributed Data Parallel](https://pytorch.org/docs/stable/notes/ddp.html)
-- [Extending PyTorch](https://pytorch.org/docs/stable/notes/extending.html)
-- [Frequently Asked Questions](https://pytorch.org/docs/stable/notes/faq.html)
-- [Gradcheck mechanics](https://pytorch.org/docs/stable/notes/gradcheck.html)
-- [HIP (ROCm) semantics](https://pytorch.org/docs/stable/notes/hip.html)
-- [Features for large-scale deployments](https://pytorch.org/docs/stable/notes/large_scale_deployments.html)
-- [Modules](https://pytorch.org/docs/stable/notes/modules.html)
-- [Multiprocessing best practices](https://pytorch.org/docs/stable/notes/multiprocessing.html)
-- [Reproducibility](https://pytorch.org/docs/stable/notes/randomness.html)
-- [Serialization semantics](https://pytorch.org/docs/stable/notes/serialization.html)
-- [Windows FAQ](https://pytorch.org/docs/stable/notes/windows.html)
+-   [Automatic Mixed Precision examples](https://pytorch.org/docs/stable/notes/amp_examples.html)
+-   [Autograd mechanics](https://pytorch.org/docs/stable/notes/autograd.html)
+-   [Broadcasting semantics](https://pytorch.org/docs/stable/notes/broadcasting.html)
+-   [CPU threading and TorchScript inference](https://pytorch.org/docs/stable/notes/cpu_threading_torchscript_inference.html)
+-   [CUDA semantics](https://pytorch.org/docs/stable/notes/cuda.html)
+-   [Distributed Data Parallel](https://pytorch.org/docs/stable/notes/ddp.html)
+-   [Extending PyTorch](https://pytorch.org/docs/stable/notes/extending.html)
+-   [Frequently Asked Questions](https://pytorch.org/docs/stable/notes/faq.html)
+-   [Gradcheck mechanics](https://pytorch.org/docs/stable/notes/gradcheck.html)
+-   [HIP (ROCm) semantics](https://pytorch.org/docs/stable/notes/hip.html)
+-   [Features for large-scale deployments](https://pytorch.org/docs/stable/notes/large_scale_deployments.html)
+-   [Modules](https://pytorch.org/docs/stable/notes/modules.html)
+-   [Multiprocessing best practices](https://pytorch.org/docs/stable/notes/multiprocessing.html)
+-   [Reproducibility](https://pytorch.org/docs/stable/notes/randomness.html)
+-   [Serialization semantics](https://pytorch.org/docs/stable/notes/serialization.html)
+-   [Windows FAQ](https://pytorch.org/docs/stable/notes/windows.html)
 
 Language Bindings
 
-- [C++](https://pytorch.org/docs/stable/cpp_index.html)
-- [Javadoc](https://pytorch.org/javadoc/)
+-   [C++](https://pytorch.org/docs/stable/cpp_index.html)
+-   [Javadoc](https://pytorch.org/javadoc/)
 
 Python API
 
-- [torch](https://pytorch.org/docs/stable/torch.html)
-- [torch.nn](https://pytorch.org/docs/stable/nn.html)
-- [torch.nn.functional](https://pytorch.org/docs/stable/nn.functional.html)
-- [torch.Tensor](https://pytorch.org/docs/stable/tensors.html)
-- [Tensor Attributes](https://pytorch.org/docs/stable/tensor_attributes.html)
-- [Tensor Views](https://pytorch.org/docs/stable/tensor_view.html)
-- [torch.autograd](https://pytorch.org/docs/stable/autograd.html)
-- [torch.cuda](https://pytorch.org/docs/stable/cuda.html)
-- [torch.cuda.amp](https://pytorch.org/docs/stable/amp.html)
-- [torch.backends](https://pytorch.org/docs/stable/backends.html)
-- [torch.distributed](https://pytorch.org/docs/stable/distributed.html)
-- [torch.distributed.algorithms.join](https://pytorch.org/docs/stable/distributed.algorithms.join.html)
-- [torch.distributed.elastic](https://pytorch.org/docs/stable/distributed.elastic.html)
-- [torch.distributed.optim](https://pytorch.org/docs/stable/distributed.optim.html)
-- [torch.distributions](https://pytorch.org/docs/stable/distributions.html)
-- [torch.fft](https://pytorch.org/docs/stable/fft.html)
-- [torch.futures](https://pytorch.org/docs/stable/futures.html)
-- [torch.fx](https://pytorch.org/docs/stable/fx.html)
-- [torch.hub](https://pytorch.org/docs/stable/hub.html)
-- [torch.jit](https://pytorch.org/docs/stable/jit.html)
-- [torch.linalg](https://pytorch.org/docs/stable/linalg.html)
-- [torch.special](https://pytorch.org/docs/stable/special.html)
-- [torch.overrides](https://pytorch.org/docs/stable/torch.overrides.html)
-- [torch.package](https://pytorch.org/docs/stable/package.html)
-- [torch.profiler](https://pytorch.org/docs/stable/profiler.html)
-- [torch.nn.init](https://pytorch.org/docs/stable/nn.init.html)
-- [torch.onnx](https://pytorch.org/docs/stable/onnx.html)
-- [torch.optim](https://pytorch.org/docs/stable/optim.html)
-- [Complex Numbers](https://pytorch.org/docs/stable/complex_numbers.html)
-- [DDP Communication Hooks](https://pytorch.org/docs/stable/ddp_comm_hooks.html)
-- [Pipeline Parallelism](https://pytorch.org/docs/stable/pipeline.html)
-- [Quantization](https://pytorch.org/docs/stable/quantization.html)
-- [Distributed RPC Framework](https://pytorch.org/docs/stable/rpc.html)
-- [torch.random](https://pytorch.org/docs/stable/random.html)
-- [torch.sparse](https://pytorch.org/docs/stable/sparse.html)
-- [torch.Storage](https://pytorch.org/docs/stable/storage.html)
-- [torch.testing](https://pytorch.org/docs/stable/testing.html)
-- [torch.utils.benchmark](https://pytorch.org/docs/stable/benchmark_utils.html)
-- [torch.utils.bottleneck](https://pytorch.org/docs/stable/bottleneck.html)
-- [torch.utils.checkpoint](https://pytorch.org/docs/stable/checkpoint.html)
-- [torch.utils.cpp_extension](https://pytorch.org/docs/stable/cpp_extension.html)
-- [torch.utils.data](https://pytorch.org/docs/stable/data.html)
-- [torch.utils.dlpack](https://pytorch.org/docs/stable/dlpack.html)
-- [torch.utils.mobile_optimizer](https://pytorch.org/docs/stable/mobile_optimizer.html)
-- [torch.utils.model_zoo](https://pytorch.org/docs/stable/model_zoo.html)
-- [torch.utils.tensorboard](https://pytorch.org/docs/stable/tensorboard.html)
-- [Type Info](https://pytorch.org/docs/stable/type_info.html)
-- [Named Tensors](https://pytorch.org/docs/stable/named_tensor.html)
-- [Named Tensors operator coverage](https://pytorch.org/docs/stable/name_inference.html)
-- [torch.\_\_config\_\_](https://pytorch.org/docs/stable/__config__.html)
+-   [torch](https://pytorch.org/docs/stable/torch.html)
+-   [torch.nn](https://pytorch.org/docs/stable/nn.html)
+-   [torch.nn.functional](https://pytorch.org/docs/stable/nn.functional.html)
+-   [torch.Tensor](https://pytorch.org/docs/stable/tensors.html)
+-   [Tensor Attributes](https://pytorch.org/docs/stable/tensor_attributes.html)
+-   [Tensor Views](https://pytorch.org/docs/stable/tensor_view.html)
+-   [torch.autograd](https://pytorch.org/docs/stable/autograd.html)
+-   [torch.cuda](https://pytorch.org/docs/stable/cuda.html)
+-   [torch.cuda.amp](https://pytorch.org/docs/stable/amp.html)
+-   [torch.backends](https://pytorch.org/docs/stable/backends.html)
+-   [torch.distributed](https://pytorch.org/docs/stable/distributed.html)
+-   [torch.distributed.algorithms.join](https://pytorch.org/docs/stable/distributed.algorithms.join.html)
+-   [torch.distributed.elastic](https://pytorch.org/docs/stable/distributed.elastic.html)
+-   [torch.distributed.optim](https://pytorch.org/docs/stable/distributed.optim.html)
+-   [torch.distributions](https://pytorch.org/docs/stable/distributions.html)
+-   [torch.fft](https://pytorch.org/docs/stable/fft.html)
+-   [torch.futures](https://pytorch.org/docs/stable/futures.html)
+-   [torch.fx](https://pytorch.org/docs/stable/fx.html)
+-   [torch.hub](https://pytorch.org/docs/stable/hub.html)
+-   [torch.jit](https://pytorch.org/docs/stable/jit.html)
+-   [torch.linalg](https://pytorch.org/docs/stable/linalg.html)
+-   [torch.special](https://pytorch.org/docs/stable/special.html)
+-   [torch.overrides](https://pytorch.org/docs/stable/torch.overrides.html)
+-   [torch.package](https://pytorch.org/docs/stable/package.html)
+-   [torch.profiler](https://pytorch.org/docs/stable/profiler.html)
+-   [torch.nn.init](https://pytorch.org/docs/stable/nn.init.html)
+-   [torch.onnx](https://pytorch.org/docs/stable/onnx.html)
+-   [torch.optim](https://pytorch.org/docs/stable/optim.html)
+-   [Complex Numbers](https://pytorch.org/docs/stable/complex_numbers.html)
+-   [DDP Communication Hooks](https://pytorch.org/docs/stable/ddp_comm_hooks.html)
+-   [Pipeline Parallelism](https://pytorch.org/docs/stable/pipeline.html)
+-   [Quantization](https://pytorch.org/docs/stable/quantization.html)
+-   [Distributed RPC Framework](https://pytorch.org/docs/stable/rpc.html)
+-   [torch.random](https://pytorch.org/docs/stable/random.html)
+-   [torch.sparse](https://pytorch.org/docs/stable/sparse.html)
+-   [torch.Storage](https://pytorch.org/docs/stable/storage.html)
+-   [torch.testing](https://pytorch.org/docs/stable/testing.html)
+-   [torch.utils.benchmark](https://pytorch.org/docs/stable/benchmark_utils.html)
+-   [torch.utils.bottleneck](https://pytorch.org/docs/stable/bottleneck.html)
+-   [torch.utils.checkpoint](https://pytorch.org/docs/stable/checkpoint.html)
+-   [torch.utils.cpp_extension](https://pytorch.org/docs/stable/cpp_extension.html)
+-   [torch.utils.data](https://pytorch.org/docs/stable/data.html)
+-   [torch.utils.dlpack](https://pytorch.org/docs/stable/dlpack.html)
+-   [torch.utils.mobile_optimizer](https://pytorch.org/docs/stable/mobile_optimizer.html)
+-   [torch.utils.model_zoo](https://pytorch.org/docs/stable/model_zoo.html)
+-   [torch.utils.tensorboard](https://pytorch.org/docs/stable/tensorboard.html)
+-   [Type Info](https://pytorch.org/docs/stable/type_info.html)
+-   [Named Tensors](https://pytorch.org/docs/stable/named_tensor.html)
+-   [Named Tensors operator coverage](https://pytorch.org/docs/stable/name_inference.html)
+-   [torch.\_\_config\_\_](https://pytorch.org/docs/stable/__config__.html)
 
 Libraries
 
-- [torchaudio](https://pytorch.org/audio/stable)
-- [torchtext](https://pytorch.org/text/stable)
-- [torchvision](https://pytorch.org/vision/stable)
-- [TorchServe](https://pytorch.org/serve)
-- [PyTorch on XLA Devices](http://pytorch.org/xla/)
+-   [torchaudio](https://pytorch.org/audio/stable)
+-   [torchtext](https://pytorch.org/text/stable)
+-   [torchvision](https://pytorch.org/vision/stable)
+-   [TorchServe](https://pytorch.org/serve)
+-   [PyTorch on XLA Devices](http://pytorch.org/xla/)
 
 Community
 
-- [PyTorch Contribution Guide](https://pytorch.org/docs/stable/community/contribution_guide.html)
-- [PyTorch Governance](https://pytorch.org/docs/stable/community/governance.html)
-- [PyTorch Governance | Persons of Interest](https://pytorch.org/docs/stable/community/persons_of_interest.html)
+-   [PyTorch Contribution Guide](https://pytorch.org/docs/stable/community/contribution_guide.html)
+-   [PyTorch Governance](https://pytorch.org/docs/stable/community/governance.html)
+-   [PyTorch Governance | Persons of Interest](https://pytorch.org/docs/stable/community/persons_of_interest.html)
 
 ## INDICES AND TABLES
 
-- [Index](https://pytorch.org/docs/stable/genindex.html)
-- [Module Index](https://pytorch.org/docs/stable/py-modindex.html)
+-   [Index](https://pytorch.org/docs/stable/genindex.html)
+-   [Module Index](https://pytorch.org/docs/stable/py-modindex.html)
 
 **Author**: [Justin Johnson](https://github.com/jcjohnson/pytorch-examples)
 
@@ -281,8 +281,8 @@ This tutorial introduces the fundamental concepts of [PyTorch](https://github.co
 
 At its core, PyTorch provides two main features:
 
-- An n-dimensional Tensor, similar to numpy but can run on GPUs
-- Automatic differentiation for building and training neural networks
+-   An n-dimensional Tensor, similar to numpy but can run on GPUs
+-   Automatic differentiation for building and training neural networks
 
 We will use a problem of fitting y=sin⁡(x)y=\sin(x) with a third order polynomial as our running example. The network will have four parameters, and will be trained with gradient descent to fit random data by minimizing the Euclidean distance between the network output and the true output.
 

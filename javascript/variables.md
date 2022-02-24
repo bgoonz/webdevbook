@@ -13,7 +13,7 @@ The concept of a `variable` is a central concept within programming. It's applie
 
 A variable always contains a `value`: the piece of information that you want to save and refer to at a later stage. Read more about this here:
 
-- [Values](./javascript/values.md)
+-   [Values](./javascript/values.md)
 
 When creating variables, it's important to think about the right name to give it. It should always reflect what "type" of data it contains and what its purpose is. You (and other developers that will read your code) should be able to read a variable name and know what its purpose is.
 
@@ -38,9 +38,9 @@ Prior to JavaScript ES6 (a version of JavaScript, the language itself is also st
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=3W7wC9vXvtQ" %}
 
-- read about [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
-- read about [const](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Statements/const)
-- read about [let vs const](http://wesbos.com/let-vs-const/)
+-   read about [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+-   read about [const](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Statements/const)
+-   read about [let vs const](http://wesbos.com/let-vs-const/)
 
 Here, we say: "declare variable foo and initialize it with the integer (number) 6".
 

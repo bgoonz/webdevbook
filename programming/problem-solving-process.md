@@ -42,18 +42,18 @@ In the end the computer only executes on instructions that are written in a way 
 
 Whenever this happens, you can do the following:
 
-- In case 1, make sure that you carefully read the error message, as it often
-  gives you a good hint where the problem lies within your code. This should be
-  the first thing to look for when something went wrong.
-- Check for syntax errors. Use JsLint for this (an extension for VSCode that
-  helps you find syntax errors). Most of your mistakes will be simple
-  spelling/syntax mistakes.
-- Use the debugger to understand what steps the computer goes through when
-  interpreting your code, and find where it goes wrong. Try to explain each part
-  of the code to yourself of what it does exactly.
-- Formulate your problem in clear terms to google and search for solutions
-- Ask people in your class/teacher or take a break and look back at your
-  problem with fresh eyes.
+-   In case 1, make sure that you carefully read the error message, as it often
+    gives you a good hint where the problem lies within your code. This should be
+    the first thing to look for when something went wrong.
+-   Check for syntax errors. Use JsLint for this (an extension for VSCode that
+    helps you find syntax errors). Most of your mistakes will be simple
+    spelling/syntax mistakes.
+-   Use the debugger to understand what steps the computer goes through when
+    interpreting your code, and find where it goes wrong. Try to explain each part
+    of the code to yourself of what it does exactly.
+-   Formulate your problem in clear terms to google and search for solutions
+-   Ask people in your class/teacher or take a break and look back at your
+    problem with fresh eyes.
 
 ### 6. Reflect
 
@@ -65,12 +65,12 @@ Reflection also includes ​refactoring​. Refactoring is the process of rewrit
 
 In summary, reflection includes the following steps:
 
-- how could I rewrite this code for simplicity and better readability (refactoring)
-- what concepts in your code you don’t understand yet 100% (even though it
-  works), and study them.
-- what you can learn from other solutions (by looking at other solutions of the
-  same problem)?
-- what would you do differently next time?
+-   how could I rewrite this code for simplicity and better readability (refactoring)
+-   what concepts in your code you don’t understand yet 100% (even though it
+    works), and study them.
+-   what you can learn from other solutions (by looking at other solutions of the
+    same problem)?
+-   what would you do differently next time?
 
 [TOP](#how-to-study-programming)
 
@@ -111,13 +111,11 @@ After some more googling, we find out that includes() is a function that allows 
 This leads us to write the following code:
 
 ```js
-const fruits = ["apple", "rottenBanana", "mango"];
+const fruits = ['apple', 'rottenBanana', 'mango'];
 
 function takeOutRottenFruit(arrayOfFruits) {
-  const goodFruitsArray = arrayOfFruits.filter((fruit) =>
-    fruit.include("rotten")
-  );
-  return goodFruitsArray;
+    const goodFruitsArray = arrayOfFruits.filter((fruit) => fruit.include('rotten'));
+    return goodFruitsArray;
 }
 
 const freshhhh = takeOutRottenFruit(fruits);
@@ -135,13 +133,11 @@ However, I do notice that only ​rottenBanana ​is selected and displayed.
 Hmmm, what to do? Let’s go back to the basics. I remember that in my JavaScript Module I learned something about ​operators.​ Indeed, I find that you can use the ​`!` operator​ to return what is not ​true​ (everything that does ​not​ contain the word rotten). Let me try to add the ​`!` operator.
 
 ```js
-const fruits = ["apple", "rottenBanana", "mango"];
+const fruits = ['apple', 'rottenBanana', 'mango'];
 
 function takeOutRottenFruit(arrayOfFruits) {
-  const goodFruitsArray = arrayOfFruits.filter(
-    (fruit) => !fruit.includes("rotten")
-  );
-  return goodFruitsArray;
+    const goodFruitsArray = arrayOfFruits.filter((fruit) => !fruit.includes('rotten'));
+    return goodFruitsArray;
 }
 
 const freshhhh = takeOutRottenFruit(fruits);
@@ -155,7 +151,7 @@ Reflecting over the code a couple of ideas cross our minds. The `goodFruitsArray
 
 ```js
 function takeOutRottenFruit(arrayOfFruits) {
-  return arrayOfFruits.filter((fruit) => !fruit.includes("rotten"));
+    return arrayOfFruits.filter((fruit) => !fruit.includes('rotten'));
 }
 ```
 
@@ -163,7 +159,7 @@ We also use some modern JavaScript syntax in the filter and includes functions, 
 
 ```js
 const takeOutRottenFruit = (arrayOfFruits) => {
-  return arrayOfFruits.filter((fruit) => !fruit.includes("rotten"));
+    return arrayOfFruits.filter((fruit) => !fruit.includes('rotten'));
 };
 ```
 
@@ -173,7 +169,7 @@ Finally we think of the fact if we will understand what this function does in 6 
 
 # Extra Reading
 
-- [How to THINK like a programmer](https://www.youtube.com/watch?v=NNazO2tMHno)
-- [Problem-Solving for Developers](https://www.youtube.com/watch?v=UFc-RPbq8kg)
-- [Lessons in problem solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/)
-- [Computational thinking](https://www.youtube.com/watch?v=qbnTZCj0ugI)
+-   [How to THINK like a programmer](https://www.youtube.com/watch?v=NNazO2tMHno)
+-   [Problem-Solving for Developers](https://www.youtube.com/watch?v=UFc-RPbq8kg)
+-   [Lessons in problem solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/)
+-   [Computational thinking](https://www.youtube.com/watch?v=qbnTZCj0ugI)

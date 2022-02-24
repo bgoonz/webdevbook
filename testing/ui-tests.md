@@ -51,4 +51,4 @@ So whenever you are working on a project that requires UI testing, do not forget
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [UI testing: a comprehensive guide](https://www.perfecto.io/blog/ui-testing-comprehensive-guide)
+-   [UI testing: a comprehensive guide](https://www.perfecto.io/blog/ui-testing-comprehensive-guide)

@@ -8,7 +8,7 @@ In your journey into becoming a web developer it's important to know the tools y
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=z0HN-fG6oT4" %}
 
-- [How do web browsers work?](https://medium.com/@monica1109/how-does-web-browsers-work-c95ad628a509)
+-   [How do web browsers work?](https://medium.com/@monica1109/how-does-web-browsers-work-c95ad628a509)
 
 ### Different browsers work differently
 
@@ -18,7 +18,7 @@ That's why you should check the way your website looks on different browsers dur
 
 You can use the following online tool in order see how your pages look on multiple browsers:
 
-- [Browsershots](http://browsershots.org)
+-   [Browsershots](http://browsershots.org)
 
 A good website should look and function the same in any browser.
 
@@ -28,8 +28,8 @@ This is because browser development doesn't go at the same speed as programming 
 
 When you do your styling, especially, it's important to know if a certain browser (and browser version) is even able to understand it. A helpful tool in identifying this is a website called **caniuse.com**:
 
-- [caniuse](https://caniuse.com/)
-- [Check HTML5/CSS3 Support with CANIUSE.COM](https://www.youtube.com/watch?v=el7McMP8CB8)
+-   [caniuse](https://caniuse.com/)
+-   [Check HTML5/CSS3 Support with CANIUSE.COM](https://www.youtube.com/watch?v=el7McMP8CB8)
 
 Generally speaking, you want to support as many browsers (and browser versions) with your code as possible.
 
@@ -37,11 +37,11 @@ Generally speaking, you want to support as many browsers (and browser versions) 
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [Dealing with Cross Browser Compatibility](https://www.youtube.com/watch?v=9tEixRJ3GeI)
-- [Understanding The Stacking Context for Cross Browser Compatibility](https://medium.com/@mattcroak718/understanding-the-stacking-context-for-cross-browser-compatibility-2b21db1cf621)
-- [LifeWire](https://www.lifewire.com/what-is-a-browser-446234)
-- [Foxy Video](https://www.google.com/search?q=what+is+a+web+browser&client=safari&rls=en&source=lnms&tbm=vid&sa=X&ved=0ahUKEwjT_fHmrubbAhWszIMKHYArAKUQ_AUICigB&biw=1280&bih=739)
-- [Browser vs Search Engine](https://www.computer-geek.net/what-is-the-difference-be-va-47.html)
-- [how do they work](https://www.youtube.com/watch?v=WjDrMKZWCt0)
-- [Browsers? 1](https://www.youtube.com/watch?v=TcbhVv9ty44)
-- [Browsers? 2](https://www.youtube.com/watch?v=Ir61LfjYyHk)
+-   [Dealing with Cross Browser Compatibility](https://www.youtube.com/watch?v=9tEixRJ3GeI)
+-   [Understanding The Stacking Context for Cross Browser Compatibility](https://medium.com/@mattcroak718/understanding-the-stacking-context-for-cross-browser-compatibility-2b21db1cf621)
+-   [LifeWire](https://www.lifewire.com/what-is-a-browser-446234)
+-   [Foxy Video](https://www.google.com/search?q=what+is+a+web+browser&client=safari&rls=en&source=lnms&tbm=vid&sa=X&ved=0ahUKEwjT_fHmrubbAhWszIMKHYArAKUQ_AUICigB&biw=1280&bih=739)
+-   [Browser vs Search Engine](https://www.computer-geek.net/what-is-the-difference-be-va-47.html)
+-   [how do they work](https://www.youtube.com/watch?v=WjDrMKZWCt0)
+-   [Browsers? 1](https://www.youtube.com/watch?v=TcbhVv9ty44)
+-   [Browsers? 2](https://www.youtube.com/watch?v=Ir61LfjYyHk)

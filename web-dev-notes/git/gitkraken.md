@@ -10,7 +10,7 @@ GitKraken is the recommended Git Client for HYF, but you are free to use any oth
 
 ## Helpful Links
 
-- [GitKraken Download](https://www.gitkraken.com/download)
-- [Getting Started](https://support.gitkraken.com/start-here/interface/)
-- [Pulling and Pushing](https://support.gitkraken.com/working-with-repositories/pushing-and-pulling/)
-- [Video tutorial from Ibrahim, <3](https://youtu.be/oQn3eSc7u_Y)
+-   [GitKraken Download](https://www.gitkraken.com/download)
+-   [Getting Started](https://support.gitkraken.com/start-here/interface/)
+-   [Pulling and Pushing](https://support.gitkraken.com/working-with-repositories/pushing-and-pulling/)
+-   [Video tutorial from Ibrahim, <3](https://youtu.be/oQn3eSc7u_Y)

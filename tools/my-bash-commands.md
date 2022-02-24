@@ -2,7 +2,7 @@
 
 ## Resources:
 
-- [holy grail](https://gist.github.com/bgoonz/df74dfa73bb5edd239ac738a14104eee)
+-   [holy grail](https://gist.github.com/bgoonz/df74dfa73bb5edd239ac738a14104eee)
 
 ## 1. Remove spaces from file and folder names and then remove numbers from files and folder names....
 
@@ -35,10 +35,10 @@ for i in *.*; do mv "$i" "${i%-*}.${i##*.}"; done
 
 ```javascript
 //APPEND-DIR.js
-const fs = require("fs");
-let cat = require("child_process").execSync("cat *").toString("UTF-8");
-fs.writeFile("output.md", cat, (err) => {
-  if (err) throw err;
+const fs = require('fs');
+let cat = require('child_process').execSync('cat *').toString('UTF-8');
+fs.writeFile('output.md', cat, (err) => {
+    if (err) throw err;
 });
 ```
 
@@ -403,10 +403,10 @@ for d in ./*; do mv $d ${d:0:12}; done
 
 ```js
 //APPEND-DIR.js
-const fs = require("fs");
-let cat = require("child_process").execSync("cat *").toString("UTF-8");
-fs.writeFile("output.md", cat, (err) => {
-  if (err) throw err;
+const fs = require('fs');
+let cat = require('child_process').execSync('cat *').toString('UTF-8');
+fs.writeFile('output.md', cat, (err) => {
+    if (err) throw err;
 });
 ```
 

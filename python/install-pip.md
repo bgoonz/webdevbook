@@ -57,8 +57,8 @@ See [VCS Support](https://pip.pypa.io/en/stable/topics/vcs-support/) for more in
 
 pip can install directly from distribution files as well. They come in 2 forms:
 
-- [source distribution](https://packaging.python.org/glossary/#term-Source-Distribution-or-sdist) (usually shortened to “sdist”)
-- [wheel distribution](https://packaging.python.org/glossary/#term-Wheel) (usually shortened to “wheel”)
+-   [source distribution](https://packaging.python.org/glossary/#term-Source-Distribution-or-sdist) (usually shortened to “sdist”)
+-   [wheel distribution](https://packaging.python.org/glossary/#term-Wheel) (usually shortened to “wheel”)
 
 Linux
 
@@ -121,15 +121,15 @@ It is recommended to learn about what virtual environments are and how to use th
 
 [NextInstallation](https://pip.pypa.io/en/stable/installation/)[PreviousHome](https://pip.pypa.io/en/stable/)[Copyright](https://pip.pypa.io/en/stable/copyright/) © The pip developers. | Built with [Sphinx](https://www.sphinx-doc.org) and [@pradyunsg](https://pradyunsg.me)'s [Furo theme](https://github.com/pradyunsg/furo). | [Show Source](https://pip.pypa.io/en/stable/_sources/getting-started.md.txt)CONTENTS
 
-- - [Ensure you have a working pip](https://pip.pypa.io/en/stable/getting-started/#ensure-you-have-a-working-pip)
-  - [Common tasks](https://pip.pypa.io/en/stable/getting-started/#common-tasks)
-    - [Install a package](https://pip.pypa.io/en/stable/getting-started/#install-a-package)
-    - [Install a package from GitHub](https://pip.pypa.io/en/stable/getting-started/#install-a-package-from-github)
-    - [Install a package from a distribution file](https://pip.pypa.io/en/stable/getting-started/#install-a-package-from-a-distribution-file)
-    - [Install multiple packages using a requirements file](https://pip.pypa.io/en/stable/getting-started/#install-multiple-packages-using-a-requirements-file)
-    - [Upgrade a package](https://pip.pypa.io/en/stable/getting-started/#upgrade-a-package)
-    - [Uninstall a package](https://pip.pypa.io/en/stable/getting-started/#uninstall-a-package)
-  - [Next Steps](https://pip.pypa.io/en/stable/getting-started/#next-steps)
+-   -   [Ensure you have a working pip](https://pip.pypa.io/en/stable/getting-started/#ensure-you-have-a-working-pip)
+    -   [Common tasks](https://pip.pypa.io/en/stable/getting-started/#common-tasks)
+        -   [Install a package](https://pip.pypa.io/en/stable/getting-started/#install-a-package)
+        -   [Install a package from GitHub](https://pip.pypa.io/en/stable/getting-started/#install-a-package-from-github)
+        -   [Install a package from a distribution file](https://pip.pypa.io/en/stable/getting-started/#install-a-package-from-a-distribution-file)
+        -   [Install multiple packages using a requirements file](https://pip.pypa.io/en/stable/getting-started/#install-multiple-packages-using-a-requirements-file)
+        -   [Upgrade a package](https://pip.pypa.io/en/stable/getting-started/#upgrade-a-package)
+        -   [Uninstall a package](https://pip.pypa.io/en/stable/getting-started/#uninstall-a-package)
+    -   [Next Steps](https://pip.pypa.io/en/stable/getting-started/#next-steps)
 
 Install Python
 
@@ -350,9 +350,9 @@ Python 3.6.10
 
 You’ll want to get the latest version of Python if any of these conditions is true:
 
-- None of the above commands returns a version number.
-- The only version you see displayed is in the Python 2.X series.
-- You have a version of Python 3 that isn’t the latest available, which was version 3.8.4 as of this writing.
+-   None of the above commands returns a version number.
+-   The only version you see displayed is in the Python 2.X series.
+-   You have a version of Python 3 that isn’t the latest available, which was version 3.8.4 as of this writing.
 
 #### What Your Options Are
 
@@ -424,11 +424,11 @@ If you already have Homebrew installed, then you can skip this step. If you don�
 1. Open a browser and navigate to [http://brew.sh/](http://brew.sh).
 2. You should see a command for installing Homebrew near the top of the page under the tile “Install Homebrew.” This command will be something like the following:
 
-   ```
-   $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-   ```
+    ```
+    $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    ```
 
-   Highlight the command with your cursor and press Cmd+C to copy it to your clipboard.
+    Highlight the command with your cursor and press Cmd+C to copy it to your clipboard.
 
 3. Open a terminal window and paste the command, then press Enter. This will begin the Homebrew installation.
 4. Enter your macOS user password when prompted.
@@ -448,9 +448,9 @@ Follow these steps to complete the installation with Homebrew:
 1. Open a terminal application.
 2. Type in the following command to upgrade Homebrew:
 
-   ```
-   $ brew update && brew upgrade
-   ```
+    ```
+    $ brew update && brew upgrade
+    ```
 
 Installing with Homebrew is now as straightforward as running the command `brew install python3`. This will download and set up the latest version of Python on your machine.
 
@@ -549,24 +549,24 @@ Codename:       xenial
 
 Follow the instructions below that match the version number you see under `Release` in the console output:
 
-- **Ubuntu 18.04, Ubuntu 20.04 and above:** Python 3.8 doesn’t come by default on Ubuntu 18.04 and above, but it is available in the Universe repository. To install version 3.8, open a terminal application and type the following commands:
+-   **Ubuntu 18.04, Ubuntu 20.04 and above:** Python 3.8 doesn’t come by default on Ubuntu 18.04 and above, but it is available in the Universe repository. To install version 3.8, open a terminal application and type the following commands:
 
-  ```
-  $ sudo apt-get update
-  $ sudo apt-get install python3.8 python3-pip
-  ```
+    ```
+    $ sudo apt-get update
+    $ sudo apt-get install python3.8 python3-pip
+    ```
 
-  Once the installation is complete, you can run Python 3.8 with the `python3.8` command and `pip` with the `pip3` command.
+    Once the installation is complete, you can run Python 3.8 with the `python3.8` command and `pip` with the `pip3` command.
 
-- **Linux Mint and Ubuntu 17 and below:** Python 3.8 isn’t in the Universe repository, so you need to get it from a Personal Package Archive (PPA). For example, to install from the [“deadsnakes” PPA](https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa), use the following commands:
+-   **Linux Mint and Ubuntu 17 and below:** Python 3.8 isn’t in the Universe repository, so you need to get it from a Personal Package Archive (PPA). For example, to install from the [“deadsnakes” PPA](https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa), use the following commands:
 
-  ```
-  $ sudo add-apt-repository ppa:deadsnakes/ppa
-  $ sudo apt-get update
-  $ sudo apt-get install python3.8 python3-pip
-  ```
+    ```
+    $ sudo add-apt-repository ppa:deadsnakes/ppa
+    $ sudo apt-get update
+    $ sudo apt-get install python3.8 python3-pip
+    ```
 
-  Once the installation is complete, you can run Python 3.8 with the `python3.8` command and run `pip` with the `pip3` command.
+    Once the installation is complete, you can run Python 3.8 with the `python3.8` command and run `pip` with the `pip3` command.
 
 Congratulations! You now have Python 3 set up on your machine!
 

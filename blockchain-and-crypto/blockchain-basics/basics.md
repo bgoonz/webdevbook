@@ -8,13 +8,13 @@ The Bitcoin Core developers sign all of their releases using the “Pretty Good 
 
 **See also:**![](https://hackernoon.com/emojis/heart.png)![](https://hackernoon.com/emojis/light.png)![](https://hackernoon.com/emojis/money.png)![](https://hackernoon.com/emojis/thumbs-down.png)
 
-- [Paxos](<https://en.wikipedia.org/wiki/Paxos_(computer_science)?ref=hackernoon.com>)
-- [Proof of authority](https://en.wikipedia.org/wiki/Proof_of_authority?ref=hackernoon.com)
-- [Proof of burn](https://en.wikipedia.org/wiki/Proof_of_burn?ref=hackernoon.com)
-- [Proof of personhood](https://en.wikipedia.org/wiki/Proof_of_personhood?ref=hackernoon.com)
-- [Proof of space](https://en.wikipedia.org/wiki/Proof_of_space?ref=hackernoon.com)
-- [Proof of stake](https://en.wikipedia.org/wiki/Proof_of_stake?ref=hackernoon.com)
-- [Proof of elapsed time](https://en.wikipedia.org/wiki/Proof_of_elapsed_time?ref=hackernoon.com)
+-   [Paxos](<https://en.wikipedia.org/wiki/Paxos_(computer_science)?ref=hackernoon.com>)
+-   [Proof of authority](https://en.wikipedia.org/wiki/Proof_of_authority?ref=hackernoon.com)
+-   [Proof of burn](https://en.wikipedia.org/wiki/Proof_of_burn?ref=hackernoon.com)
+-   [Proof of personhood](https://en.wikipedia.org/wiki/Proof_of_personhood?ref=hackernoon.com)
+-   [Proof of space](https://en.wikipedia.org/wiki/Proof_of_space?ref=hackernoon.com)
+-   [Proof of stake](https://en.wikipedia.org/wiki/Proof_of_stake?ref=hackernoon.com)
+-   [Proof of elapsed time](https://en.wikipedia.org/wiki/Proof_of_elapsed_time?ref=hackernoon.com)
 
 In many respects, blockchain can be considered a meta-technology, since it utilizes, enhances, challenges, and potentially supersedes other pre-existing software technologies. As such, it allows us to create versatile technological solutions that aim to minimize the agency of third-party providers and, in a way, return power back to the users. This can be achieved by the blockchain providing an environment where users can interact freely in a trustless ecosystem for very low to almost zero fees, at speeds that make everybody in the world reachable in a matter of minutes. To make this possible, the blockchain is used as a transaction platform and distributed accounting ledger that uses cryptocurrency tokens (digital money) as a representation of a specific value at the current time (much like traditional fiat currencies). Nevertheless, for trustless technology to work on a global scale, it needs to implement trust in a different manner. This is where ISO standards come into the picture, as they ensure that the blockchain interactions follow globally applicable rules, norms, and procedures. This is also why starting in 2016, the blockchain technology obtained its own set of ISO standards, called ISO/TC307.![](https://hackernoon.com/emojis/heart.png)![](https://hackernoon.com/emojis/light.png)![](https://hackernoon.com/emojis/money.png)![](https://hackernoon.com/emojis/thumbs-down.png)
 

@@ -18,5 +18,5 @@ The video below also explains it well:
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [Client-Server Model & Structure of a Web Application](https://medium.freecodecamp.org/how-the-web-works-part-ii-client-server-model-the-structure-of-a-web-application-735b4b6d76e3)
-- [Fundamentals of Web apps](https://fullstackopen.com/en/part0/fundamentals_of_web_apps)
+-   [Client-Server Model & Structure of a Web Application](https://medium.freecodecamp.org/how-the-web-works-part-ii-client-server-model-the-structure-of-a-web-application-735b4b6d76e3)
+-   [Fundamentals of Web apps](https://fullstackopen.com/en/part0/fundamentals_of_web_apps)

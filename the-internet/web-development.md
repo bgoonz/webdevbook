@@ -17,7 +17,7 @@ The field of programming is broad. As a software developer (a general term for a
 
 Read the following article to read more about different career paths:
 
-- [Software Development Career Paths](https://simpleprogrammer.com/software-development-career-paths/#title-career-developer-options)
+-   [Software Development Career Paths](https://simpleprogrammer.com/software-development-career-paths/#title-career-developer-options)
 
 Note: once you've chosen a certain track it doesn't mean you can't try out any other! If anything, you are encouraged to explore and see what fits your taste, while building your career :)
 
@@ -45,16 +45,16 @@ Our own Uday, former bgoonz student and now successful web developer also made a
 
 If you want some extra information, have a look at the following link:
 
-- [Website vs. Web Application](https://www.seguetech.com/website-vs-web-application-whats-the-difference/)
+-   [Website vs. Web Application](https://www.seguetech.com/website-vs-web-application-whats-the-difference/)
 
 # Extra reading
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [Being a Web Developer](https://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-web-development)
-- [great video](https://www.youtube.com/watch?v=RsQ1tFLwldY)
-- [another video](https://www.youtube.com/watch?v=_E8qXBHI4cg)
-- [what exactly is a web app](https://www.lifewire.com/what-is-a-web-application-3486637)
-- [what's a web app, how's it work?](https://www.quora.com/What-is-a-web-app-and-how-does-it-work-Please-explain-what-it-is-how-it-works-architecture-wise-and-whatever-else-you-think-is-important-and-in-which-way-it-is-different-than-the-previous-way-of-doing-things)
-- [web-app vs web-site 1](https://stackoverflow.com/questions/8694922/whats-the-difference-between-a-web-site-and-a-web-application)
-- [web-app vs web-site 2](https://www.seguetech.com/website-vs-web-application-whats-the-difference/)
+-   [Being a Web Developer](https://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-web-development)
+-   [great video](https://www.youtube.com/watch?v=RsQ1tFLwldY)
+-   [another video](https://www.youtube.com/watch?v=_E8qXBHI4cg)
+-   [what exactly is a web app](https://www.lifewire.com/what-is-a-web-application-3486637)
+-   [what's a web app, how's it work?](https://www.quora.com/What-is-a-web-app-and-how-does-it-work-Please-explain-what-it-is-how-it-works-architecture-wise-and-whatever-else-you-think-is-important-and-in-which-way-it-is-different-than-the-previous-way-of-doing-things)
+-   [web-app vs web-site 1](https://stackoverflow.com/questions/8694922/whats-the-difference-between-a-web-site-and-a-web-application)
+-   [web-app vs web-site 2](https://www.seguetech.com/website-vs-web-application-whats-the-difference/)

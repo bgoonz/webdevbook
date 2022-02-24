@@ -6,7 +6,7 @@ In JavaScript, we call these blocks of code `functions`. They are written like t
 
 ```js
 function multiplyTwoNumbers(number1, number2) {
-  return number1 * number2;
+    return number1 * number2;
 }
 ```
 
@@ -54,8 +54,8 @@ Now, when _calling_ function sum, e.g. `let s = sum(4, 5);`, we say that the num
 
 So remember the difference between the word "parameter" and "argument". Many people confuse them, and that's not a big problem, but understanding the difference is always nice:
 
-- A parameter is the name you want to give to the variable that is available inside of the function.
-- An argument is the actual value you want to assign to the parameters when you call the function.
+-   A parameter is the name you want to give to the variable that is available inside of the function.
+-   An argument is the actual value you want to assign to the parameters when you call the function.
 
 A function that "has two parameters" is also said to "take/accept two arguments". But, sometimes you'll hear people say: "the function has two arguments" or "the function takes two parameters". While formally incorrect, you'll know what they mean.
 
@@ -64,7 +64,7 @@ A function that "has two parameters" is also said to "take/accept two arguments"
 In JavaScript, you can call functions _on_ something. By this, we mean that you use the dot to call the function. For instance, when we say "call method `trim` on string `s`", we mean:
 
 ```js
-let s = " this is a string  ";
+let s = ' this is a string  ';
 s.trim(); // -> "this is a string"
 ```
 
@@ -76,7 +76,7 @@ However, there are functions that you don't call on anything:
 
 ```js
 function sum(a, b) {
-  return a + b;
+    return a + b;
 }
 sum(4, 5); // -> 9
 ```
@@ -87,7 +87,7 @@ Most built-in functions in JavaScript, like math functions or logging functions,
 
 ```js
 Math.round(4.5);
-console.log("hello");
+console.log('hello');
 Array.from([1, 2, 3]);
 ```
 
@@ -133,6 +133,6 @@ Again, Wilgert is here to talk you through this as well:
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [Introduction to Functions](https://www.youtube.com/watch?v=4LklwbSP--4)
-- [What is a function in programming?](https://www.youtube.com/watch?v=QcCnfAxGpgg)
-- [JavaScript Functions](https://www.youtube.com/watch?v=R8SjM4DKK80)
+-   [Introduction to Functions](https://www.youtube.com/watch?v=4LklwbSP--4)
+-   [What is a function in programming?](https://www.youtube.com/watch?v=QcCnfAxGpgg)
+-   [JavaScript Functions](https://www.youtube.com/watch?v=R8SjM4DKK80)

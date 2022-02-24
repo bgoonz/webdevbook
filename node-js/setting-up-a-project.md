@@ -21,15 +21,15 @@ This will take you through a few steps, asking for a project name, version numbe
 
 ```json
 {
-  "name": "my-project",
-  "version": "0.1.0",
-  "description": "This is my little project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Pieter-Jan Vandenberghe",
-  "license": "ISC"
+    "name": "my-project",
+    "version": "0.1.0",
+    "description": "This is my little project",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Pieter-Jan Vandenberghe",
+    "license": "ISC"
 }
 ```
 
@@ -41,25 +41,25 @@ Let's go over this configuration file step by step.
 
 These fields generally won't change and are self explanatory.
 
-- [Name](https://docs.npmjs.com/files/package.json#name): name of your project.
-- [Author](https://docs.npmjs.com/files/package.json#people-fields-author-contributors): that's you.
-- [Description](https://docs.npmjs.com/files/package.json#description): description of what your project does.
-- [License](https://docs.npmjs.com/files/package.json#license): the license under which you publish your project, check [this website](https://tldrlegal.com/) for explanations in plain English.
+-   [Name](https://docs.npmjs.com/files/package.json#name): name of your project.
+-   [Author](https://docs.npmjs.com/files/package.json#people-fields-author-contributors): that's you.
+-   [Description](https://docs.npmjs.com/files/package.json#description): description of what your project does.
+-   [License](https://docs.npmjs.com/files/package.json#license): the license under which you publish your project, check [this website](https://tldrlegal.com/) for explanations in plain English.
 
 ### Main & scripts
 
 These fields contain ways to run your project.
 
-- [Main](https://docs.npmjs.com/files/package.json#main): main entry point to your project, points to a JavaScript file. When you run `$ node .` it will look in `package.json` for the `main` field and run that file.
-- [Scripts](https://docs.npmjs.com/files/package.json#scripts): this field is used to add other commands to your project. For example for testing `$ npm run test` will look in `package.json` for the entry `test` in `scripts`.
+-   [Main](https://docs.npmjs.com/files/package.json#main): main entry point to your project, points to a JavaScript file. When you run `$ node .` it will look in `package.json` for the `main` field and run that file.
+-   [Scripts](https://docs.npmjs.com/files/package.json#scripts): this field is used to add other commands to your project. For example for testing `$ npm run test` will look in `package.json` for the entry `test` in `scripts`.
 
 ### Version
 
 This field contains the version of your project. As projects are being updated changes will be introduced that may not be compatible with previous versions. To have an idea of compatibility between versions, a convention called [**Semantic Versioning** (SemVer)](https://semver.org/) is used. In this convention versions consist of three numbers which each have a specific meaning: `MAJOR.MINOR.PATCH`.
 
-- `MAJOR`: incremented when incompatible changes are introduced, this is the most important number.
-- `MINOR`: incremented when new functionalities are added that are compatible with the previous version.
-- `PATCH`: incremented whenever bugs are fixed, this is the least important number.
+-   `MAJOR`: incremented when incompatible changes are introduced, this is the most important number.
+-   `MINOR`: incremented when new functionalities are added that are compatible with the previous version.
+-   `PATCH`: incremented whenever bugs are fixed, this is the least important number.
 
 Whenever a number is incremented, less important numbers will reset back to 0. So if the major number is incremented both minor and patch will be reset to 0.
 
@@ -120,14 +120,14 @@ Try for yourself: `npm list -g`
 > TODO: example install cowsay locally and use it in a script
 
 ```js
-var cowsay = require("cowsay");
+var cowsay = require('cowsay');
 
 console.log(
-  cowsay.say({
-    text: "I'm a moooodule",
-    e: "oO",
-    T: "U ",
-  })
+    cowsay.say({
+        text: "I'm a moooodule",
+        e: 'oO',
+        T: 'U '
+    })
 );
 ```
 
@@ -170,15 +170,15 @@ Add a configuration file named `.eslintrc` in your project directory
 
 ```json
 {
-  "extends": ["airbnb-base"],
-  "env": {
-    "es6": true,
-    "node": true
-  },
-  "rules": {
-    "linebreak-style": "off",
-    "no-console": "off"
-  }
+    "extends": ["airbnb-base"],
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "rules": {
+        "linebreak-style": "off",
+        "no-console": "off"
+    }
 }
 ```
 

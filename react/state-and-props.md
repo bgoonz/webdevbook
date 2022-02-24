@@ -12,7 +12,7 @@ The other side of `state` is the how we pass it down to our other components. Wh
 
 ```js
 const Parent = () => {
-  return <Child thisIsaProp={randomPropName} />;
+    return <Child thisIsaProp={randomPropName} />;
 };
 ```
 
@@ -20,7 +20,7 @@ The `thisIsaProp` name is something I've created myself, it has no special meani
 
 ```js
 const Parent = () => {
-  return <Child user={userDetails} />;
+    return <Child user={userDetails} />;
 };
 ```
 
@@ -37,7 +37,7 @@ An important thing to remember when working with state is that only (_almost, bu
 Props are ways that we can pass data down to our other components. They are very similar to arguments in functions - you can "pass" props to components, and you can use those props within a component.
 
 ```js
-<User name={"Eyad"} />
+<User name={'Eyad'} />
 ```
 
 As you can see props are key-value pairs, in this example the key is `name` and the value is the string 'Eyad'. We can pass as many props as we like to a component. It also does not always have to be a string, you can pass down objects, arrays, numbers and even functions. In JSX you can write any valid JavaScript code into the curly braces `{}`.
@@ -46,7 +46,7 @@ When receiving props, we get everything as one big object. So our `User` compone
 
 ```js
 const User = (props) => {
-  return <span>{props.name}</span>;
+    return <span>{props.name}</span>;
 };
 ```
 
@@ -54,7 +54,7 @@ It is a common practice to use destructuring on the props argument. So we would 
 
 ```js
 const User = ({ name }) => {
-  return <span>{name}</span>;
+    return <span>{name}</span>;
 };
 ```
 
@@ -73,22 +73,21 @@ This is how we should think about creating our components: just like with the DO
 
 ```js
 const App = () => {
-  return (
-    <Contacts>
-      // The Contacts component has 3 children: AddContact, ContactList and
-      SearchBar
-      <AddContact>
-        // This component has 1 child: AddContactForm
-        <AddContactForm />
-      </AddContact>
-      <ContactList>
-        // This component has 1 child: ContactCard
-        <ContactCard />
-      </ContactList>
-      // This component has no children, so is therefore self-closing
-      <SearchBar />
-    </Contacts>
-  );
+    return (
+        <Contacts>
+            // The Contacts component has 3 children: AddContact, ContactList and SearchBar
+            <AddContact>
+                // This component has 1 child: AddContactForm
+                <AddContactForm />
+            </AddContact>
+            <ContactList>
+                // This component has 1 child: ContactCard
+                <ContactCard />
+            </ContactList>
+            // This component has no children, so is therefore self-closing
+            <SearchBar />
+        </Contacts>
+    );
 };
 ```
 
@@ -96,4 +95,4 @@ As you've learned previously, we use `props` to pass our `state` to our differen
 
 In our example, it means that our `props` can only move from `<Contact>` > `<AddContact>`
 
-- [Unidirectional Data Flow in React](https://flaviocopes.com/react-unidirectional-data-flow/)
+-   [Unidirectional Data Flow in React](https://flaviocopes.com/react-unidirectional-data-flow/)

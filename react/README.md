@@ -16,7 +16,7 @@ For the developer the main benefits are that (1) it allows us to split our appli
 
 Learn more about the React philosophy here:
 
-- [What is React?](https://www.w3schools.com/whatis/whatis_react.asp)
+-   [What is React?](https://www.w3schools.com/whatis/whatis_react.asp)
 
 ### What React is not
 
@@ -58,7 +58,7 @@ Take a look at this code:
 
 ```js
 const Example = () => {
-  return <div>This is an example component</div>;
+    return <div>This is an example component</div>;
 };
 ```
 
@@ -70,7 +70,7 @@ In order to write valid `JSX`, we need to import the React library into our file
 
 Learn more about `JSX` here:
 
-- [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
+-   [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
 
 ### DOM management
 

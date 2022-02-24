@@ -26,17 +26,17 @@ There are 6 cycles for the development lifecycle that are important to distingui
 
 Questions typically answered in this phase are.
 
-- What tool or technology is most suited for the job:<br/>
-  o Does the system need to be high available<br/>
-  o Will there be a high load on the system (a lot of concurrent users)?<br/>
-  o What data storage do we need to select<br/>
-- What tools do we have available in the company<br/>
-  o Some tools (like databases) come with high licenses costs<br/>
-  o Not all teams can decide themselves what they want to use<br/>
-  o The design needs to make sure the software can be supported and operated within the organization’s constraints<br/>
-- How do the different components communicate<br/>
-  o In a complex system there are multiple applications communicating with each other to complete a business process<br/>
-  o What data format will be used<br/>
+-   What tool or technology is most suited for the job:<br/>
+    o Does the system need to be high available<br/>
+    o Will there be a high load on the system (a lot of concurrent users)?<br/>
+    o What data storage do we need to select<br/>
+-   What tools do we have available in the company<br/>
+    o Some tools (like databases) come with high licenses costs<br/>
+    o Not all teams can decide themselves what they want to use<br/>
+    o The design needs to make sure the software can be supported and operated within the organization’s constraints<br/>
+-   How do the different components communicate<br/>
+    o In a complex system there are multiple applications communicating with each other to complete a business process<br/>
+    o What data format will be used<br/>
 
 ### Software architecture
 
@@ -89,9 +89,9 @@ In the explanation above you see the difference of a local development environme
 After the product is tested, it is deployed to the production environment. Sometimes first a UAT (User acceptance test) is done to verify if the developed product meets the desired customer or product manager expectation. This test usually happens on the staging environment.
 Deploying to production is the most sensitive step, this environment is usually protected and engineers should not directly push to it. Making changes to production may be done by deploying new code directly (overwriting old code, so only one copy is present at a time), or by deploying a configuration change. This can take various forms: <br/>
 
-- deploying a parallel installation of a new version of code, and switching between them with a configuration change; <br/>
-- deploying a new version of code with the old behavior and a feature flag, and switching to the new behavior with a configuration change that performs a flag flip; <br/>
-- or by deploying separate servers (one running the old code, one the new) and redirecting traffic from old to new with a configuration change at the traffic routing level. These in turn may be done all at once or gradually, in phases.<br/>
+-   deploying a parallel installation of a new version of code, and switching between them with a configuration change; <br/>
+-   deploying a new version of code with the old behavior and a feature flag, and switching to the new behavior with a configuration change that performs a flag flip; <br/>
+-   or by deploying separate servers (one running the old code, one the new) and redirecting traffic from old to new with a configuration change at the traffic routing level. These in turn may be done all at once or gradually, in phases.<br/>
 
 In some companies a small amount of users is being served a different version of the application. This concept is called A/B testing or multivariate testing. In this way it can be confirmed that the new change (for example a new text or button) has the desired effect, for example a higher conversion.<br/>
 **Output:** An artifact deployed and running on production
@@ -102,11 +102,11 @@ In some companies a small amount of users is being served a different version of
 The last phase in the Software development lifecycle is the maintenance phase. This is the phase where maintenance is happening and is sometimes referred to as support. In literature the deployment and the maintenance phase are sometimes combined in one.
 Maintenance is a bit different as it happens after the system is developed and deployed and by monitoring the performance it makes sure that the system continues to perform as per the specification mentioned in the first phase. Some activities in this phase are;
 
-- bug fixing - bugs are reported which where not found during testing
-- upgrades and patches – newer dependencies where vulnerabilities have been fixed need to be patched<br/>
-  **Output**: to fix a bug a change needs to be made, tested and deployed again as per the earlier phases
-  **Who is responsible:** The engineers are usually involved in making the changes, some organizations also have dedicated support engineers or operation teams to handle this phase.
+-   bug fixing - bugs are reported which where not found during testing
+-   upgrades and patches – newer dependencies where vulnerabilities have been fixed need to be patched<br/>
+    **Output**: to fix a bug a change needs to be made, tested and deployed again as per the earlier phases
+    **Who is responsible:** The engineers are usually involved in making the changes, some organizations also have dedicated support engineers or operation teams to handle this phase.
 
 ## References
 
-- [Martin Fowler on Architecture](https://martinfowler.com/architecture/)
+-   [Martin Fowler on Architecture](https://martinfowler.com/architecture/)

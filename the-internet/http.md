@@ -12,14 +12,14 @@ A similar thing happens for script and link tags that load JavasSript and CSS fi
 
 The following problem arises in HTTP communication: Because HTML, CSS, JavaScript, and JSON are ultimately just text files, the server can not automatically determine what to do with it. Therefore the client sends a special _header_ called `Content-Type` in the request. The most common content types are:
 
-- `text/javascrpt`
-- `text/html`
-- `text/stylesheet`
-- `application/json`
+-   `text/javascrpt`
+-   `text/html`
+-   `text/stylesheet`
+-   `application/json`
 
 # Extra reading
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [Easy HTTP](https://www.jmarshall.com/easy/http/)
-- [HTTP Video](https://www.youtube.com/watch?v=eesqK59rhGA)
+-   [Easy HTTP](https://www.jmarshall.com/easy/http/)
+-   [HTTP Video](https://www.youtube.com/watch?v=eesqK59rhGA)

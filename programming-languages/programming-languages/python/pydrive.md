@@ -242,8 +242,8 @@ This function is not for web server application. It creates local web server for
 
 Parameters:
 
-- **host_name** (_str._) – host name of the local web server.
-- **port_numbers** (_list._) – list of port numbers to be tried to used.
+-   **host_name** (_str._) – host name of the local web server.
+-   **port_numbers** (_list._) – list of port numbers to be tried to used.
 
 Returns:
 
@@ -477,8 +477,8 @@ Save content of this file as a local file.
 
 Parameters:
 
-- **filename** (_str_) – name of the file to write to.
-- **mimetype** (_str_) – mimeType of the file.
+-   **filename** (_str_) – name of the file to write to.
+-   **mimetype** (_str_) – mimeType of the file.
 
 Raises:
 

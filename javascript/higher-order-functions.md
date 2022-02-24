@@ -5,15 +5,15 @@ Let's start with a simple, practical definition: a higher order function is any 
 ```js
 // Example 1
 function higherOrderFunction(anotherFunction) {
-  anotherFunction();
-  return;
+    anotherFunction();
+    return;
 }
 
 // Example 2
 function anotherHigherOrderFunction() {
-  return function () {
-    return;
-  };
+    return function () {
+        return;
+    };
 }
 ```
 
@@ -38,7 +38,7 @@ Take a look at the following code snippet to see it in action:
 const numbers = [2, 4, 6, 8, 10];
 
 function addTwo(number) {
-  return number + 2;
+    return number + 2;
 }
 
 const numbersPlusTwo = numbers.map(addTwo);
@@ -55,10 +55,10 @@ const numbers = [2, 4, 6, 8, 10];
 const numbersPlusTwo = [];
 
 for (let i = 0; i < numbers.length; i++) {
-  const number = numbers[i];
-  const addedTwo = number + 2;
+    const number = numbers[i];
+    const addedTwo = number + 2;
 
-  numbersPlusTwo.push(addedTwo);
+    numbersPlusTwo.push(addedTwo);
 }
 
 console.log(numbersPlusTwo);
@@ -72,5 +72,5 @@ When it comes to higher order functions, the es6 function syntax is very useful,
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [JavaScript Higher Order Functions & Arrays](https://www.youtube.com/watch?v=rRgD1yVwIvE)
-- [8 Must Know JavaScript Array Methods](https://www.youtube.com/watch?v=R8rmfD9Y5-c)
+-   [JavaScript Higher Order Functions & Arrays](https://www.youtube.com/watch?v=rRgD1yVwIvE)
+-   [8 Must Know JavaScript Array Methods](https://www.youtube.com/watch?v=R8rmfD9Y5-c)

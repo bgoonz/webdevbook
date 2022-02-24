@@ -32,6 +32,6 @@ The actual process of transforming HTML, CSS and JavaScript into a user-viewable
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [What exactly is the DOM](https://bitsofco.de/what-exactly-is-the-dom/)
-- [JavaScript and the browser](https://eloquentjavascript.net/13_browser.html)
-- [JavaScript DOM Crash Course - Part 1](https://www.youtube.com/watch?v=0ik6X4DJKCc)
+-   [What exactly is the DOM](https://bitsofco.de/what-exactly-is-the-dom/)
+-   [JavaScript and the browser](https://eloquentjavascript.net/13_browser.html)
+-   [JavaScript DOM Crash Course - Part 1](https://www.youtube.com/watch?v=0ik6X4DJKCc)

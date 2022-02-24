@@ -7,20 +7,7 @@ In programming, a loop is meant to be used in case there's a repetitive task tha
 We will use the array of month names given below to illustrate the various types of loop constructs available in JavaScript. In the examples we will print out the names of the individual months using a `console.log` statement.
 
 ```js
-const months = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
-];
+const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 ```
 
 ## while
@@ -33,7 +20,7 @@ The general syntax of a while loop is:
 
 ```js
 while (cond) {
-  // statement block to be repeated
+    // statement block to be repeated
 }
 ```
 
@@ -77,7 +64,7 @@ Its general syntax is:
 
 ```js
 do {
-  // statement block to be repeated
+    // statement block to be repeated
 } while (cond);
 ```
 
@@ -115,7 +102,7 @@ The syntax of the most generic form is as follows:
 
 ```js
 for ([initialization]; [condition]; [final - expression]) {
-  // statement block to be repeated
+    // statement block to be repeated
 }
 ```
 
@@ -147,9 +134,9 @@ This form of the `for` loop is roughly equivalent<sup>1</sup> to the following:
 
 let index = 0; // ← A
 while (index < len) {
-  // ← B
-  console.log(months[index]);
-  index++; // ← C
+    // ← B
+    console.log(months[index]);
+    index++; // ← C
 }
 ```
 
@@ -163,7 +150,7 @@ The `for...of` loop construct is relatively new and very well suited for use wit
 
 ```js
 for (variable of iterable) {
-  // statement block to be repeated
+    // statement block to be repeated
 }
 ```
 
@@ -193,18 +180,18 @@ We will discuss the `for...in` variant in more detail the part of the curriculum
 
 ```js
 const obj = {
-  a: 10,
-  b: "test",
+    a: 10,
+    b: 'test'
 };
 
 // for...in
 for (const key in obj) {
-  console.log(obj[key]);
+    console.log(obj[key]);
 }
 
 // equivalent for...of
 for (const key of Object.keys(obj)) {
-  console.log(obj[key]);
+    console.log(obj[key]);
 }
 ```
 
@@ -218,4 +205,4 @@ The `.forEach()` array method can be used to iterate over all the elements of an
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [JavaScript Loops](https://www.youtube.com/watch?v=s9wW2PpJsmQ)
+-   [JavaScript Loops](https://www.youtube.com/watch?v=s9wW2PpJsmQ)

@@ -39,8 +39,8 @@ To see the list of files and directories in the current directory use `ls` comma
 
 ![](https://cdn-images-1.medium.com/max/800/0*HHzVrK2CtTPwTdYT.gif)Shows all of my files and directories of my Desktop directory.
 
-- To show the contents of a directory pass the directory name to the `ls` command i.e. `ls directory_name`.
-- Some useful `ls` command options:-
+-   To show the contents of a directory pass the directory name to the `ls` command i.e. `ls directory_name`.
+-   Some useful `ls` command options:-
 
 OptionDescriptionls -alist all files including hidden file starting with ‘.’ls -llist with the long formatls -lalist long format including hidden files
 
@@ -104,11 +104,11 @@ You can rename a file by typing `mv old_file_name new_file_name` & also rename a
 
 To do this, we use the `cp` command.
 
-- You can copy a file by entering `cp file_to_copy new_file_name`.
+-   You can copy a file by entering `cp file_to_copy new_file_name`.
 
 ![](https://cdn-images-1.medium.com/max/800/0*kCLVtKN9oKPbHfRF.gif)Copied my hi.txt file content into hello.txt file. For confirmation open your hello.txt file in your text editor.
 
-- You can also copy a directory by adding the `-r` option, like `cp -r directory_to_copy new_directory_name`.
+-   You can also copy a directory by adding the `-r` option, like `cp -r directory_to_copy new_directory_name`.
 
 _The_ `-r` _option for "recursive" means that it will copy all of the files including the files inside of subfolders._
 
@@ -118,11 +118,11 @@ _The_ `-r` _option for "recursive" means that it will copy all of the files incl
 
 To do this, we use the `rm` command.
 
-- To remove a file, you can use the command like `rm file_to_remove`.
+-   To remove a file, you can use the command like `rm file_to_remove`.
 
 ![](https://cdn-images-1.medium.com/max/800/0*ohCmdthd92_HA6Ze.gif)Here I removed my hi.txt file.
 
-- To remove a directory, use the command like `rm -r directory_to_remove`.
+-   To remove a directory, use the command like `rm -r directory_to_remove`.
 
 ![](https://cdn-images-1.medium.com/max/800/0*voDbzwSpw24A2RjQ.gif)I removed my folder-copy directory from my cli-practice directory i.e. current working directory.
 

@@ -12,33 +12,33 @@ The description of a programming language is usually split into the two componen
 
 ### Contents <a href="#mw-toc-heading" id="mw-toc-heading"></a>
 
-- [1Definitions](https://en.wikipedia.org/wiki/Programming_language#Definitions)
-- [2History](https://en.wikipedia.org/wiki/Programming_language#History)
-  - [2.1Early developments](https://en.wikipedia.org/wiki/Programming_language#Early_developments)
-  - [2.2Refinement](https://en.wikipedia.org/wiki/Programming_language#Refinement)
-  - [2.3Consolidation and growth](https://en.wikipedia.org/wiki/Programming_language#Consolidation_and_growth)
-- [3Elements](https://en.wikipedia.org/wiki/Programming_language#Elements)
-  - [3.1Syntax](https://en.wikipedia.org/wiki/Programming_language#Syntax)
-  - [3.2Semantics](https://en.wikipedia.org/wiki/Programming_language#Semantics)
-    - [3.2.1Static semantics](https://en.wikipedia.org/wiki/Programming_language#Static_semantics)
-    - [3.2.2Dynamic semantics](https://en.wikipedia.org/wiki/Programming_language#Dynamic_semantics)
-  - [3.3Type system](https://en.wikipedia.org/wiki/Programming_language#Type_system)
-    - [3.3.1Typed versus untyped languages](https://en.wikipedia.org/wiki/Programming_language#Typed_versus_untyped_languages)
-    - [3.3.2Static versus dynamic typing](https://en.wikipedia.org/wiki/Programming_language#Static_versus_dynamic_typing)
-    - [3.3.3Weak and strong typing](https://en.wikipedia.org/wiki/Programming_language#Weak_and_strong_typing)
-  - [3.4Standard library and run-time system](https://en.wikipedia.org/wiki/Programming_language#Standard_library_and_run-time_system)
-- [4Design and implementation](https://en.wikipedia.org/wiki/Programming_language#Design_and_implementation)
-  - [4.1Specification](https://en.wikipedia.org/wiki/Programming_language#Specification)
-  - [4.2Implementation](https://en.wikipedia.org/wiki/Programming_language#Implementation)
-- [5Proprietary languages](https://en.wikipedia.org/wiki/Programming_language#Proprietary_languages)
-- [6Use](https://en.wikipedia.org/wiki/Programming_language#Use)
-  - [6.1Measuring language usage](https://en.wikipedia.org/wiki/Programming_language#Measuring_language_usage)
-- [7Dialects, flavors and implementations](https://en.wikipedia.org/wiki/Programming_language#Dialects,_flavors_and_implementations)
-- [8Taxonomies](https://en.wikipedia.org/wiki/Programming_language#Taxonomies)
-- [9See also](https://en.wikipedia.org/wiki/Programming_language#See_also)
-- [10References](https://en.wikipedia.org/wiki/Programming_language#References)
-- [11Further reading](https://en.wikipedia.org/wiki/Programming_language#Further_reading)
-- [12External links](https://en.wikipedia.org/wiki/Programming_language#External_links)
+-   [1Definitions](https://en.wikipedia.org/wiki/Programming_language#Definitions)
+-   [2History](https://en.wikipedia.org/wiki/Programming_language#History)
+    -   [2.1Early developments](https://en.wikipedia.org/wiki/Programming_language#Early_developments)
+    -   [2.2Refinement](https://en.wikipedia.org/wiki/Programming_language#Refinement)
+    -   [2.3Consolidation and growth](https://en.wikipedia.org/wiki/Programming_language#Consolidation_and_growth)
+-   [3Elements](https://en.wikipedia.org/wiki/Programming_language#Elements)
+    -   [3.1Syntax](https://en.wikipedia.org/wiki/Programming_language#Syntax)
+    -   [3.2Semantics](https://en.wikipedia.org/wiki/Programming_language#Semantics)
+        -   [3.2.1Static semantics](https://en.wikipedia.org/wiki/Programming_language#Static_semantics)
+        -   [3.2.2Dynamic semantics](https://en.wikipedia.org/wiki/Programming_language#Dynamic_semantics)
+    -   [3.3Type system](https://en.wikipedia.org/wiki/Programming_language#Type_system)
+        -   [3.3.1Typed versus untyped languages](https://en.wikipedia.org/wiki/Programming_language#Typed_versus_untyped_languages)
+        -   [3.3.2Static versus dynamic typing](https://en.wikipedia.org/wiki/Programming_language#Static_versus_dynamic_typing)
+        -   [3.3.3Weak and strong typing](https://en.wikipedia.org/wiki/Programming_language#Weak_and_strong_typing)
+    -   [3.4Standard library and run-time system](https://en.wikipedia.org/wiki/Programming_language#Standard_library_and_run-time_system)
+-   [4Design and implementation](https://en.wikipedia.org/wiki/Programming_language#Design_and_implementation)
+    -   [4.1Specification](https://en.wikipedia.org/wiki/Programming_language#Specification)
+    -   [4.2Implementation](https://en.wikipedia.org/wiki/Programming_language#Implementation)
+-   [5Proprietary languages](https://en.wikipedia.org/wiki/Programming_language#Proprietary_languages)
+-   [6Use](https://en.wikipedia.org/wiki/Programming_language#Use)
+    -   [6.1Measuring language usage](https://en.wikipedia.org/wiki/Programming_language#Measuring_language_usage)
+-   [7Dialects, flavors and implementations](https://en.wikipedia.org/wiki/Programming_language#Dialects,_flavors_and_implementations)
+-   [8Taxonomies](https://en.wikipedia.org/wiki/Programming_language#Taxonomies)
+-   [9See also](https://en.wikipedia.org/wiki/Programming_language#See_also)
+-   [10References](https://en.wikipedia.org/wiki/Programming_language#References)
+-   [11Further reading](https://en.wikipedia.org/wiki/Programming_language#Further_reading)
+-   [12External links](https://en.wikipedia.org/wiki/Programming_language#External_links)
 
 ### Definitions\[[edit](https://en.wikipedia.org/w/index.php?title=Programming_language&action=edit&section=1)]
 
@@ -80,13 +80,13 @@ The increased use of high-level languages introduced a requirement for [low-leve
 
 The period from the 1960s to the late 1970s brought the development of the major language paradigms now in use:
 
-- [APL](<https://en.wikipedia.org/wiki/APL_(programming_language)>) introduced [array programming](https://en.wikipedia.org/wiki/Array_programming) and influenced [functional programming](https://en.wikipedia.org/wiki/Functional_programming).[\[36\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-36)
-- [ALGOL](https://en.wikipedia.org/wiki/ALGOL) refined both structured procedural programming and the discipline of [language specification](https://en.wikipedia.org/wiki/Programming_language_specification); the "Revised Report on the Algorithmic Language [ALGOL 60](https://en.wikipedia.org/wiki/ALGOL_60)" became a model for how later language specifications were written.
-- [Lisp](<https://en.wikipedia.org/wiki/Lisp_(programming_language)>), implemented in 1958, was the first dynamically typed [functional programming](https://en.wikipedia.org/wiki/Functional_programming) language.
-- In the 1960s, [Simula](https://en.wikipedia.org/wiki/Simula) was the first language designed to support [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming); in the mid-1970s, [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk) followed with the first "purely" object-oriented language.
-- [C](<https://en.wikipedia.org/wiki/C_(programming_language)>) was developed between 1969 and 1973 as a system programming language for the [Unix](https://en.wikipedia.org/wiki/Unix) operating system and remains popular.[\[37\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-37)
-- [Prolog](https://en.wikipedia.org/wiki/Prolog), designed in 1972, was the first [logic programming](https://en.wikipedia.org/wiki/Logic_programming) language.
-- In 1978, [ML](<https://en.wikipedia.org/wiki/ML_(programming_language)>) built a polymorphic type system on top of [Lisp](<https://en.wikipedia.org/wiki/Lisp_(programming_language)>), pioneering [statically typed](https://en.wikipedia.org/wiki/Type_system) [functional programming](https://en.wikipedia.org/wiki/Functional_programming) languages.
+-   [APL](<https://en.wikipedia.org/wiki/APL_(programming_language)>) introduced [array programming](https://en.wikipedia.org/wiki/Array_programming) and influenced [functional programming](https://en.wikipedia.org/wiki/Functional_programming).[\[36\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-36)
+-   [ALGOL](https://en.wikipedia.org/wiki/ALGOL) refined both structured procedural programming and the discipline of [language specification](https://en.wikipedia.org/wiki/Programming_language_specification); the "Revised Report on the Algorithmic Language [ALGOL 60](https://en.wikipedia.org/wiki/ALGOL_60)" became a model for how later language specifications were written.
+-   [Lisp](<https://en.wikipedia.org/wiki/Lisp_(programming_language)>), implemented in 1958, was the first dynamically typed [functional programming](https://en.wikipedia.org/wiki/Functional_programming) language.
+-   In the 1960s, [Simula](https://en.wikipedia.org/wiki/Simula) was the first language designed to support [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming); in the mid-1970s, [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk) followed with the first "purely" object-oriented language.
+-   [C](<https://en.wikipedia.org/wiki/C_(programming_language)>) was developed between 1969 and 1973 as a system programming language for the [Unix](https://en.wikipedia.org/wiki/Unix) operating system and remains popular.[\[37\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-37)
+-   [Prolog](https://en.wikipedia.org/wiki/Prolog), designed in 1972, was the first [logic programming](https://en.wikipedia.org/wiki/Logic_programming) language.
+-   In 1978, [ML](<https://en.wikipedia.org/wiki/ML_(programming_language)>) built a polymorphic type system on top of [Lisp](<https://en.wikipedia.org/wiki/Lisp_(programming_language)>), pioneering [statically typed](https://en.wikipedia.org/wiki/Type_system) [functional programming](https://en.wikipedia.org/wiki/Functional_programming) languages.
 
 Each of these languages spawned descendants, and most modern programming languages count at least one of them in their ancestry.
 
@@ -130,11 +130,11 @@ list       ::= '(' expression* ')'
 
 This grammar specifies the following:
 
-- an expression is either an atom or a list;
-- an atom is either a number or a symbol;
-- a number is an unbroken sequence of one or more decimal digits, optionally preceded by a plus or minus sign;
-- a symbol is a letter followed by zero or more of any characters (excluding whitespace); and
-- a list is a matched pair of parentheses, with zero or more expressions inside it.
+-   an expression is either an atom or a list;
+-   an atom is either a number or a symbol;
+-   a number is an unbroken sequence of one or more decimal digits, optionally preceded by a plus or minus sign;
+-   a symbol is a letter followed by zero or more of any characters (excluding whitespace); and
+-   a list is a matched pair of parentheses, with zero or more expressions inside it.
 
 The following are examples of well-formed token sequences in this grammar: `12345`, `()` and `(a b c232 (1))`.
 
@@ -142,8 +142,8 @@ Not all syntactically correct programs are semantically correct. Many syntactica
 
 Using [natural language](https://en.wikipedia.org/wiki/Natural_language) as an example, it may not be possible to assign a meaning to a grammatically correct sentence or the sentence may be false:
 
-- "[Colorless green ideas sleep furiously](https://en.wikipedia.org/wiki/Colorless_green_ideas_sleep_furiously)." is grammatically well-formed but has no generally accepted meaning.
-- "John is a married bachelor." is grammatically [well-formed](https://en.wikipedia.org/wiki/Well-formedness) but expresses a meaning that cannot be true.
+-   "[Colorless green ideas sleep furiously](https://en.wikipedia.org/wiki/Colorless_green_ideas_sleep_furiously)." is grammatically well-formed but has no generally accepted meaning.
+-   "John is a married bachelor." is grammatically [well-formed](https://en.wikipedia.org/wiki/Well-formedness) but expresses a meaning that cannot be true.
 
 The following [C language](<https://en.wikipedia.org/wiki/C_(programming_language)>) fragment is syntactically correct, but performs operations that are not semantically defined (the operation `*p >> 4` has no meaning for a value having a complex type and `p->im` is not defined because the value of `p` is the [null pointer](https://en.wikipedia.org/wiki/Null_pointer)):
 
@@ -218,11 +218,11 @@ Programming languages share properties with natural languages related to their p
 
 Many programming languages have been designed from scratch, altered to meet new needs, and combined with other languages. Many have eventually fallen into disuse. Although there have been attempts to design one "universal" programming language that serves all purposes, all of them have failed to be generally accepted as filling this role.[\[53\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-53) The need for diverse programming languages arises from the diversity of contexts in which languages are used:
 
-- Programs range from tiny scripts written by individual hobbyists to huge systems written by hundreds of [programmers](https://en.wikipedia.org/wiki/Programmer).
-- Programmers range in expertise from novices who need simplicity above all else to experts who may be comfortable with considerable complexity.
-- Programs must balance speed, size, and simplicity on systems ranging from [microcontrollers](https://en.wikipedia.org/wiki/Microcontroller) to [supercomputers](https://en.wikipedia.org/wiki/Supercomputer).
-- Programs may be written once and not change for generations, or they may undergo continual modification.
-- Programmers may simply differ in their tastes: they may be accustomed to discussing problems and expressing them in a particular language.
+-   Programs range from tiny scripts written by individual hobbyists to huge systems written by hundreds of [programmers](https://en.wikipedia.org/wiki/Programmer).
+-   Programmers range in expertise from novices who need simplicity above all else to experts who may be comfortable with considerable complexity.
+-   Programs must balance speed, size, and simplicity on systems ranging from [microcontrollers](https://en.wikipedia.org/wiki/Microcontroller) to [supercomputers](https://en.wikipedia.org/wiki/Supercomputer).
+-   Programs may be written once and not change for generations, or they may undergo continual modification.
+-   Programmers may simply differ in their tastes: they may be accustomed to discussing problems and expressing them in a particular language.
 
 One common trend in the development of programming languages has been to add more ability to solve problems using a higher level of [abstraction](<https://en.wikipedia.org/wiki/Abstraction_(computer_science)>). The earliest programming languages were tied very closely to the underlying hardware of the computer. As new programming languages have developed, features have been added that let programmers express ideas that are more remote from simple translation into underlying hardware instructions. Because programmers are less tied to the complexity of the computer, their programs can do more computing with less effort from the programmer. This lets them write more functionality per time unit.[\[54\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-54)
 
@@ -238,9 +238,9 @@ The specification of a programming language is an artifact that the language [us
 
 A programming language specification can take several forms, including the following:
 
-- An explicit definition of the syntax, static semantics, and execution semantics of the language. While syntax is commonly specified using a formal grammar, semantic definitions may be written in [natural language](https://en.wikipedia.org/wiki/Natural_language) (e.g., as in the [C language](<https://en.wikipedia.org/wiki/C_(programming_language)>)), or a [formal semantics](https://en.wikipedia.org/wiki/Formal_semantics_of_programming_languages) (e.g., as in [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)[\[57\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-57) and [Scheme](<https://en.wikipedia.org/wiki/Scheme_(programming_language)>)[\[58\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-58) specifications).
-- A description of the behavior of a [translator](https://en.wikipedia.org/wiki/Compiler) for the language (e.g., the [C++](https://en.wikipedia.org/wiki/C%2B%2B) and [Fortran](https://en.wikipedia.org/wiki/Fortran) specifications). The syntax and semantics of the language have to be inferred from this description, which may be written in natural or a formal language.
-- A [reference or model implementation](https://en.wikipedia.org/wiki/Reference_implementation), sometimes [written in the language being specified](https://en.wikipedia.org/wiki/Meta-circular_evaluator) (e.g., [Prolog](https://en.wikipedia.org/wiki/Prolog) or [ANSI REXX](https://en.wikipedia.org/wiki/REXX)[\[59\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-59)). The syntax and semantics of the language are explicit in the behavior of the reference implementation.
+-   An explicit definition of the syntax, static semantics, and execution semantics of the language. While syntax is commonly specified using a formal grammar, semantic definitions may be written in [natural language](https://en.wikipedia.org/wiki/Natural_language) (e.g., as in the [C language](<https://en.wikipedia.org/wiki/C_(programming_language)>)), or a [formal semantics](https://en.wikipedia.org/wiki/Formal_semantics_of_programming_languages) (e.g., as in [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)[\[57\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-57) and [Scheme](<https://en.wikipedia.org/wiki/Scheme_(programming_language)>)[\[58\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-58) specifications).
+-   A description of the behavior of a [translator](https://en.wikipedia.org/wiki/Compiler) for the language (e.g., the [C++](https://en.wikipedia.org/wiki/C%2B%2B) and [Fortran](https://en.wikipedia.org/wiki/Fortran) specifications). The syntax and semantics of the language have to be inferred from this description, which may be written in natural or a formal language.
+-   A [reference or model implementation](https://en.wikipedia.org/wiki/Reference_implementation), sometimes [written in the language being specified](https://en.wikipedia.org/wiki/Meta-circular_evaluator) (e.g., [Prolog](https://en.wikipedia.org/wiki/Prolog) or [ANSI REXX](https://en.wikipedia.org/wiki/REXX)[\[59\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-59)). The syntax and semantics of the language are explicit in the behavior of the reference implementation.
 
 #### Implementation\[[edit](https://en.wikipedia.org/w/index.php?title=Programming_language&action=edit&section=18)]
 
@@ -280,10 +280,10 @@ Determining which is the most widely used programming language is difficult sinc
 
 Various methods of measuring language popularity, each subject to a different bias over what is measured, have been proposed:
 
-- counting the number of job advertisements that mention the language[\[70\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-70)
-- the number of books sold that teach or describe the language[\[71\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-71)
-- estimates of the number of existing lines of code written in the language – which may underestimate languages not often found in public searches[\[72\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-72)
-- counts of language references (i.e., to the name of the language) found using a web search engine.
+-   counting the number of job advertisements that mention the language[\[70\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-70)
+-   the number of books sold that teach or describe the language[\[71\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-71)
+-   estimates of the number of existing lines of code written in the language – which may underestimate languages not often found in public searches[\[72\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-72)
+-   counts of language references (i.e., to the name of the language) found using a web search engine.
 
 Combining and averaging information from various internet sites, stackify.com reported the ten most popular programming languages as (in descending order by overall popularity): [Java](<https://en.wikipedia.org/wiki/Java_(programming_language)>), [C](<https://en.wikipedia.org/wiki/C_(programming_language)>), [C++](https://en.wikipedia.org/wiki/C%2B%2B), [Python](<https://en.wikipedia.org/wiki/Python_(programming_language)>), [C#](<https://en.wikipedia.org/wiki/C_Sharp_(programming_language)>), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [VB .NET](https://en.wikipedia.org/wiki/Visual_Basic_.NET), [R](<https://en.wikipedia.org/wiki/R_(programming_language)>), [PHP](https://en.wikipedia.org/wiki/PHP), and [MATLAB](https://en.wikipedia.org/wiki/MATLAB).[\[73\]](https://en.wikipedia.org/wiki/Programming_language#cite_note-73)
 

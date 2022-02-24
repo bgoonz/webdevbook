@@ -116,14 +116,14 @@ const JSX = (
 
 `ReactDOM.render(componentToRender, targetNode)`
 
-- the first argument is the React element or component that you want to render,
-- and the second argument is the DOM node that you want to render the component to.
+-   the first argument is the React element or component that you want to render,
+-   and the second argument is the DOM node that you want to render the component to.
 
 > _ReactDOM.render() must be called after the JSX element declarations, just like how you must declare variables before using them._
 
 > _key difference in JSX is that you can no longer use the word class to define HTML classes._
 
-- — -> This is because class is a reserved word in JavaScript. Instead, JSX uses className
+-   — -> This is because class is a reserved word in JavaScript. Instead, JSX uses className
 
 > _the naming convention for all HTML attributes and event references in JSX become camelCase_
 
@@ -131,8 +131,8 @@ const JSX = (
 
 ### Apply a class of myDiv to the div provided in the JSX code.
 
-- The constant JSX should return a div element.
-- The div should have a class of myDiv.
+-   The constant JSX should return a div element.
+-   The div should have a class of myDiv.
 
 ```
 const JSX = (
@@ -203,7 +203,7 @@ const JSX = (
 
 #### To create a component with a function, you simply write a JavaScript function that returns either JSX or null
 
-- React requires your function name to begin with a capital letter.
+-   React requires your function name to begin with a capital letter.
 
 > _Here’s an example of a stateless functional component that assigns an HTML class in JSX:_
 
@@ -319,7 +319,7 @@ class MyComponent extends React.Component {
 
 > _To compose these components together, you could create an App parent component which renders each of these three components as children. To render a component as a child in a React component, you include the component name written as a custom HTML tag in the JSX._
 
-- For example, in the render method you could write:
+-   For example, in the render method you could write:
 
 ```
 return (
@@ -337,8 +337,8 @@ return (
 
 > _In the code editor, there is a simple functional component called ChildComponent and a class component called ParentComponent. Compose the two together by rendering the ChildComponent within the ParentComponent. Make sure to close the ChildComponent tag with a forward slash._
 
-- Note:**ChildComponent is defined with an ES6 arrow function because this is a very common practice when using React**.
-- However, know that this is just a function.
+-   Note:**ChildComponent is defined with an ES6 arrow function because this is a very common practice when using React**.
+-   However, know that this is just a function.
 
 ```
 const ChildComponent = () => {

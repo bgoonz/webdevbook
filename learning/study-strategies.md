@@ -6,12 +6,12 @@ As the bgoonz course is very demanding, this is critical to get through the prog
 
 ### Index
 
-- [Planning](#planning)
-- [Don’t just read, code it!](#Don-t-just-read--code-it)
-- [Go to the basics](#Go-to-the-basics)
-- [Sleep, Breaks and Exercise](#Sleep--Breaks-and-Exercise)
-- [Distractions](#distractions)
-- [How to become a pro at learning](#How-to-become-a-pro-at-learning)
+-   [Planning](#planning)
+-   [Don’t just read, code it!](#Don-t-just-read--code-it)
+-   [Go to the basics](#Go-to-the-basics)
+-   [Sleep, Breaks and Exercise](#Sleep--Breaks-and-Exercise)
+-   [Distractions](#distractions)
+-   [How to become a pro at learning](#How-to-become-a-pro-at-learning)
 
 ---
 
@@ -21,13 +21,13 @@ The first part of studying should be to make a study plan.
 
 Your homework will consist of various components. You will need to:
 
-- read/watch​ a certain amount of information,
-- apply ​this knowledge in the homework exercises.
+-   read/watch​ a certain amount of information,
+-   apply ​this knowledge in the homework exercises.
 
 Every week consists of the homework of the previous week and the reading material for the following week. For example, let’s say you are preparing for the lecture of JavaScript 1 week 3 on Sunday. This means you will have to do:
 
-- the ​HOMEWORK​ of JavaScript 1 week 2 (The MAKEME.md ​here​)
-- the ​READING​ for JavaScript 1 week 3 (The README.md ​here​)
+-   the ​HOMEWORK​ of JavaScript 1 week 2 (The MAKEME.md ​here​)
+-   the ​READING​ for JavaScript 1 week 3 (The README.md ​here​)
 
 Before you start doing anything, it’s good to ​plan your week ahead.
 Divide the large amounts of tasks into small pieces, and think about how much time you expect spend on each task by having a quick look at it.

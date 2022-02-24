@@ -8,13 +8,13 @@ That's nice and all, but in order to really understand what it is and why we nee
 
 The execution context roughly equates to the 'environment' a function executes in. This consists of the following:
 
-- The variable scopes
-- Function arguments
-- The value of the `this` object (more on that in JavaScript3)
+-   The variable scopes
+-   Function arguments
+-   The value of the `this` object (more on that in JavaScript3)
 
 Checkout the following to learn more about why this is important:
 
-- [What is the Execution Context & Stack in JavaScript?](https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0)
+-   [What is the Execution Context & Stack in JavaScript?](https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0)
 
 ### Why do we need closures?
 
@@ -28,9 +28,9 @@ In this example your password is the data you want to keep locally scoped. Your 
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [The Ultimate Guide to Execution Contexts, Hoisting, Scoping and Closures in JavaScript](https://www.youtube.com/watch?v=Nt-qa_LlUH0)
-- [Understanding Closures](https://www.youtube.com/watch?v=rBBwrBRoOOY)
-- [Master the JavaScript interview: what is a closure](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
-- [I never understood JavaScript closures](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)
-- [Closure in Javascript](https://www.youtube.com/watch?v=71AtaJpJHw0&t=7s)
-- [Closures in JavaScript | Inside a loop, inner function and setTimeoout](https://www.youtube.com/watch?v=-xqJo5VRP4A)
+-   [The Ultimate Guide to Execution Contexts, Hoisting, Scoping and Closures in JavaScript](https://www.youtube.com/watch?v=Nt-qa_LlUH0)
+-   [Understanding Closures](https://www.youtube.com/watch?v=rBBwrBRoOOY)
+-   [Master the JavaScript interview: what is a closure](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
+-   [I never understood JavaScript closures](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)
+-   [Closure in Javascript](https://www.youtube.com/watch?v=71AtaJpJHw0&t=7s)
+-   [Closures in JavaScript | Inside a loop, inner function and setTimeoout](https://www.youtube.com/watch?v=-xqJo5VRP4A)

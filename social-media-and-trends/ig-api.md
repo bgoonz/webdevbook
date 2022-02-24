@@ -43,15 +43,15 @@ word-break: break-word !important;\
 Thank you for choosing to be part of our community atLambda ("**Company**," "**we**," "**us**," or "**our**"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice or our practices with regard to your personal information, please contact us atbryan.guner@gmail.com.\
 This privacy notice describes how we might use your information if you:
 
-- Visit our website at[https://bgoonz-blog.netlify.app/](https://bgoonz-blog.netlify.app)
-- Use our Facebook application —[https://bgoonz-blog.netlify.app/](https://bgoonz-blog.netlify.app)
-- Engage with us in other related ways ― including any sales, marketing, or events
+-   Visit our website at[https://bgoonz-blog.netlify.app/](https://bgoonz-blog.netlify.app)
+-   Use our Facebook application —[https://bgoonz-blog.netlify.app/](https://bgoonz-blog.netlify.app)
+-   Engage with us in other related ways ― including any sales, marketing, or events
 
 In this privacy notice, if we refer to:
 
-- "**Website**," we are referring to any website of ours that references or links to this policy
-- "**App**," we are referring to any application of ours that references or links to this policy, including any listed above
-- "**Services**," we are referring to our Website, App, and other related services, including any sales, marketing, or events
+-   "**Website**," we are referring to any website of ours that references or links to this policy
+-   "**App**," we are referring to any application of ours that references or links to this policy, including any listed above
+-   "**Services**," we are referring to our Website, App, and other related services, including any sales, marketing, or events
 
 The purpose of this privacy notice is to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.\
 **Please read this privacy notice carefully, as it will help you understand what we do with the information that we collect.**\
@@ -69,36 +69,36 @@ _**In Short:**_ _We process your information for purposes based on legitimate bu
 We use personal information collected via ourServices for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations. We indicate the specific processing grounds we rely on next to each purpose listed below.\
 We use the information we collect or receive:
 
-- **To facilitate account creation and logon process.** If you choose to link your account with us to a third-party account (such as your Google or Facebook account), we use the information you allowed us to collect from those third parties to facilitate account creation and logon process for the performance of the contract.
-- **To post testimonials.** We post testimonials on ourServices that may contain personal information. Prior to posting a testimonial, we will obtain your consent to use your name and the content of the testimonial. If you wish to update, or delete your testimonial, please contact us at\_\_\_\_\_\_\_\_\_\_ and be sure to include your name, testimonial location, and contact information.
-- **Request feedback.** We may use your information to request feedback and to contact you about your use of ourServices.
-- **To enable user-to-user communications.** We may use your information in order to enable user-to-user communications with each user's consent.
-- **To manage user accounts.** We may use your information for the purposes of managing our account and keeping it in working order.
-- **To send administrative information to you.** We may use your personal information to send you product, service and new feature information and/or information about changes to our terms, conditions, and policies.
-- **To protect our Services.** We may use your information as part of our efforts to keep ourServices safe and secure (for example, for fraud monitoring and prevention).
-- **To enforce our terms, conditions and policies for business purposes, to comply with legal and regulatory requirements or in connection with our contract.**
-- **To respond to legal requests and prevent harm.** If we receive a subpoena or other legal request, we may need to inspect the data we hold to determine how to respond.
-- **Fulfill and manage your orders.** We may use your information to fulfill and manage your orders, payments, returns, and exchanges made through theServices.
-- **Administer prize draws and competitions.** We may use your information to administer prize draws and competitions when you elect to participate in our competitions.
-- **To deliver and facilitate delivery of services to the user.** We may use your information to provide you with the requested service.
-- **To respond to user inquiries/offer support to users.** We may use your information to respond to your inquiries and solve any potential issues you might have with the use of our Services.
-- **To send you marketing and promotional communications.** We and/or our third-party marketing partners may use the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. For example, when expressing an interest in obtaining information about us or ourServices, subscribing to marketing or otherwise contacting us, we will collect personal information from you. You can opt-out of our marketing emails at any time (see the "WHAT ARE YOUR PRIVACY RIGHTS?" below).
-- **Deliver targeted advertising to you.** We may use your information to develop and display personalized content and advertising (and work with third parties who do so) tailored to your interests and/or location and to measure its effectiveness.
+-   **To facilitate account creation and logon process.** If you choose to link your account with us to a third-party account (such as your Google or Facebook account), we use the information you allowed us to collect from those third parties to facilitate account creation and logon process for the performance of the contract.
+-   **To post testimonials.** We post testimonials on ourServices that may contain personal information. Prior to posting a testimonial, we will obtain your consent to use your name and the content of the testimonial. If you wish to update, or delete your testimonial, please contact us at\_\_\_\_\_\_\_\_\_\_ and be sure to include your name, testimonial location, and contact information.
+-   **Request feedback.** We may use your information to request feedback and to contact you about your use of ourServices.
+-   **To enable user-to-user communications.** We may use your information in order to enable user-to-user communications with each user's consent.
+-   **To manage user accounts.** We may use your information for the purposes of managing our account and keeping it in working order.
+-   **To send administrative information to you.** We may use your personal information to send you product, service and new feature information and/or information about changes to our terms, conditions, and policies.
+-   **To protect our Services.** We may use your information as part of our efforts to keep ourServices safe and secure (for example, for fraud monitoring and prevention).
+-   **To enforce our terms, conditions and policies for business purposes, to comply with legal and regulatory requirements or in connection with our contract.**
+-   **To respond to legal requests and prevent harm.** If we receive a subpoena or other legal request, we may need to inspect the data we hold to determine how to respond.
+-   **Fulfill and manage your orders.** We may use your information to fulfill and manage your orders, payments, returns, and exchanges made through theServices.
+-   **Administer prize draws and competitions.** We may use your information to administer prize draws and competitions when you elect to participate in our competitions.
+-   **To deliver and facilitate delivery of services to the user.** We may use your information to provide you with the requested service.
+-   **To respond to user inquiries/offer support to users.** We may use your information to respond to your inquiries and solve any potential issues you might have with the use of our Services.
+-   **To send you marketing and promotional communications.** We and/or our third-party marketing partners may use the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. For example, when expressing an interest in obtaining information about us or ourServices, subscribing to marketing or otherwise contacting us, we will collect personal information from you. You can opt-out of our marketing emails at any time (see the "WHAT ARE YOUR PRIVACY RIGHTS?" below).
+-   **Deliver targeted advertising to you.** We may use your information to develop and display personalized content and advertising (and work with third parties who do so) tailored to your interests and/or location and to measure its effectiveness.
 
 \
 **3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?**\
 _**In Short:**_ _We only share information with your consent, to comply with laws, to provide you with services, to protect your rights, or to fulfill business obligations._\
 We may process or share your data that we hold based on the following legal basis:
 
-- **Consent:** We may process your data if you have given us specific consent to use your personal information for a specific purpose.
-- **Legitimate Interests:** We may process your data when it is reasonably necessary to achieve our legitimate business interests.
-- **Performance of a Contract:** Where we have entered into a contract with you, we may process your personal information to fulfill the terms of our contract.
-- **Legal Obligations:** We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process, such as in response to a court order or a subpoena (including in response to public authorities to meet national security or law enforcement requirements).
-- **Vital Interests:** We may disclose your information where we believe it is necessary to investigate, prevent, or take action regarding potential violations of our policies, suspected fraud, situations involving potential threats to the safety of any person and illegal activities, or as evidence in litigation in which we are involved.
+-   **Consent:** We may process your data if you have given us specific consent to use your personal information for a specific purpose.
+-   **Legitimate Interests:** We may process your data when it is reasonably necessary to achieve our legitimate business interests.
+-   **Performance of a Contract:** Where we have entered into a contract with you, we may process your personal information to fulfill the terms of our contract.
+-   **Legal Obligations:** We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process, such as in response to a court order or a subpoena (including in response to public authorities to meet national security or law enforcement requirements).
+-   **Vital Interests:** We may disclose your information where we believe it is necessary to investigate, prevent, or take action regarding potential violations of our policies, suspected fraud, situations involving potential threats to the safety of any person and illegal activities, or as evidence in litigation in which we are involved.
 
 More specifically, we may need to process your data or share your personal information in the following situations:
 
-- **Business Transfers.** We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.
+-   **Business Transfers.** We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.
 
 \
 **4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?**\
@@ -147,9 +147,9 @@ We have collected the following categories of personal information in the past t
 \
 We may also collect other personal information outside of these categories instances where you interact with us in-person, online, or by phone or mail in the context of:
 
-- Receiving help through our customer support channels;
-- Participation in customer surveys or contests; and
-- Facilitation in the delivery of our Services and to respond to your inquiries.
+-   Receiving help through our customer support channels;
+-   Participation in customer surveys or contests; and
+-   Facilitation in the delivery of our Services and to respond to your inquiries.
 
 **How do we use and share your personal information?**\
 More information about our data collection and sharing practices can be found in this privacy notice.\
@@ -165,13 +165,13 @@ You can ask for the deletion of your personal information. If you ask us to dele
 Right to be informed - Request to know\
 Depending on the circumstances, you have a right to know:
 
-- whether we collect and use your personal information;
-- the categories of personal information that we collect;
-- the purposes for which the collected personal information is used;
-- whether we sell your personal information to third parties;
-- the categories of personal information that we sold or disclosed for a business purpose;
-- the categories of third parties to whom the personal information was sold or disclosed for a business purpose; and
-- the business or commercial purpose for collecting or selling personal information.
+-   whether we collect and use your personal information;
+-   the categories of personal information that we collect;
+-   the purposes for which the collected personal information is used;
+-   whether we sell your personal information to third parties;
+-   the categories of personal information that we sold or disclosed for a business purpose;
+-   the categories of third parties to whom the personal information was sold or disclosed for a business purpose; and
+-   the business or commercial purpose for collecting or selling personal information.
 
 In accordance with applicable law, we are not obligated to provide or delete consumer information that is de-identified in response to a consumer request or to re-identify individual data to verify a consumer request.\
 Right to Non-Discrimination for the Exercise of a Consumer’s Privacy Rights\
@@ -181,10 +181,10 @@ Upon receiving your request, we will need to verify your identity to determine y
 We will only use personal information provided in your request to verify your identity or authority to make the request. To the extent possible, we will avoid requesting additional information from you for the purposes of verification. If, however, we cannot verify your identity from the information already maintained by us, we may request that you provide additional information for the purposes of verifying your identity, and for security or fraud-prevention purposes. We will delete such additionally provided information as soon as we finish verifying you.\
 Other privacy rights
 
-- you may object to the processing of your personal data
-- you may request correction of your personal data if it is incorrect or no longer relevant, or ask to restrict the processing of the data
-- you can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.
-- you may request to opt-out from future selling of your personal information to third parties. Upon receiving a request to opt-out, we will act upon the request as soon as feasibly possible, but no later than 15 days from the date of the request submission.
+-   you may object to the processing of your personal data
+-   you may request correction of your personal data if it is incorrect or no longer relevant, or ask to restrict the processing of the data
+-   you can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.
+-   you may request to opt-out from future selling of your personal information to third parties. Upon receiving a request to opt-out, we will act upon the request as soon as feasibly possible, but no later than 15 days from the date of the request submission.
 
 To exercise these rights, you can contact usby email atbryan.guner@gmail.com,by calling toll-free at5512545505,by visiting[https://bgoonz-blog.netlify.app/docs/faq/contact](https://bgoonz-blog.netlify.app/docs/faq/contact),or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.\
 **10. DO WE MAKE UPDATES TO THIS NOTICE?**\

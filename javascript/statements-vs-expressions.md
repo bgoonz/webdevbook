@@ -9,7 +9,7 @@ Similarly, a statement in JavaScript should provide a command by itself. JavaScr
 This is a complete statement:
 
 ```js
-let s = "bgoonz";
+let s = 'bgoonz';
 ```
 
 It is a full command: declare a variable `s` and initialize it with `"bgoonz"`. JavaScript doesn't need any other information to know what we want. The statement is terminated with a semicolon.
@@ -28,23 +28,23 @@ So, statements can _contain_ expressions. Can expressions contain statements? No
 
 Here are some examples of expressions. Remember: expressions evaluate into a value, but do not provide a command:
 
-- `sum(a, b)`
-- `a`
-- `a > 4 ? "yes" : "no"`
-- `a + b`
-- `a && b || c`
-- `arr.length`
-- `obj["name"]`
-- `[1, 2, 3]`
-- `arr[1]`
-- `[1]` (this is an array with one element!)
-- `function a() { return 4; }`
+-   `sum(a, b)`
+-   `a`
+-   `a > 4 ? "yes" : "no"`
+-   `a + b`
+-   `a && b || c`
+-   `arr.length`
+-   `obj["name"]`
+-   `[1, 2, 3]`
+-   `arr[1]`
+-   `[1]` (this is an array with one element!)
+-   `function a() { return 4; }`
 
 The last one requires a bit of explanation. If you write:
 
 ```js
 function a() {
-  return 4;
+    return 4;
 }
 ```
 
@@ -52,7 +52,7 @@ by itself, this is a _statement_ (a function declaration statement). However, if
 
 ```js
 let b = function a() {
-  return 4;
+    return 4;
 };
 ```
 
@@ -62,10 +62,10 @@ now it is an expression. This is an exceptional situation where something can be
 
 The following are not expressions:
 
-- `let` -> this is a keyword, see below
-- `let x;` -> this is a statement
-- `+` -> this is only an operator
-- `if (a > 4) { return "yes"; } else { return "no"; }`
+-   `let` -> this is a keyword, see below
+-   `let x;` -> this is a statement
+-   `+` -> this is only an operator
+-   `if (a > 4) { return "yes"; } else { return "no"; }`
 
 `if` is also a statement. However, it is quite a complex statement. It is also referred to as a "construct", just like `for`, `while`, `try`, etc.
 

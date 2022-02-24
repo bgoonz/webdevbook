@@ -37,4 +37,4 @@ Have a look at the following video to see how you can make API calls from node.j
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [What Is an API and Why Should I Use One?](https://medium.com/@TebbaVonMathenstien/what-is-an-api-and-why-should-i-use-one-863c3365726b)
+-   [What Is an API and Why Should I Use One?](https://medium.com/@TebbaVonMathenstien/what-is-an-api-and-why-should-i-use-one-863c3365726b)

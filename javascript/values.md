@@ -8,14 +8,14 @@ let x = 5;
 
 JavaScript supports the following types:
 
-- `string`, e.g. "bgoonz"
-- `number`, e.g. 5, or 10.6
-- `boolean`, e.g. `true` or `false`
-- `array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
-- `object`, e.g. `{name: 'John', age: 24}`, or the special object `null`
-- `function`, e.g. `function () { return 4; }`
-- `symbol`
-- `undefined`
+-   `string`, e.g. "bgoonz"
+-   `number`, e.g. 5, or 10.6
+-   `boolean`, e.g. `true` or `false`
+-   `array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
+-   `object`, e.g. `{name: 'John', age: 24}`, or the special object `null`
+-   `function`, e.g. `function () { return 4; }`
+-   `symbol`
+-   `undefined`
 
 If you declare a variable without specifying its value, then, by default its value is `undefined`.
 
@@ -55,7 +55,7 @@ You can use the `typeof` operator to get the type of a certain variable as you h
 In JavaScript you can assign a series of characters to a variable, you then call this a string. You can use all sorts of characters (text/numbers, spaces or phrases) in strings. By using the `''` you define that something is a string. You can also use `""` to create a string. Both are fine as long as you are consistent (just make a choice on which one you prefer and stick to it).
 
 ```js
-let foo = "42";
+let foo = '42';
 typeof foo; //-> 'string'
 
 let bar = "I'm 99 years old ";
@@ -70,7 +70,7 @@ Strings also have properties, for example `.length` you can use this to find the
 So for example:
 
 ```js
-let baz = "Hello World";
+let baz = 'Hello World';
 baz[0]; //-> "H"
 baz.length; //-> 11
 ```
@@ -80,7 +80,7 @@ baz.length; //-> 11
 String methods are named operations that you can use on string values to create new values. For example, the `toUpperCase` method creates a new string with all uppercase letters.
 
 ```js
-let baz = "Hello World!";
+let baz = 'Hello World!';
 baz.toUpperCase(); // -> 'HELLO WORLD'
 ```
 
@@ -89,10 +89,10 @@ Methods differ from properties (such as `.length`) in that you must always use t
 Some methods need additional information, and you must supply it in the form of one or more _parameters_. For example:
 
 ```js
-let baz = "Hello World!";
+let baz = 'Hello World!';
 baz.slice(3, 8); // -> 'lo Wo'
-baz.startsWith("He"); // -> true
-baz.indexOf("World"); // -> 6
+baz.startsWith('He'); // -> true
+baz.indexOf('World'); // -> 6
 ```
 
 ## Numbers
@@ -116,7 +116,7 @@ When you want to access an element inside an array, you use an "index". This is 
 Given the following code:
 
 ```js
-let arr = ["john", "jane", "jack"];
+let arr = ['john', 'jane', 'jack'];
 console.log(arr[0]);
 ```
 
@@ -125,7 +125,7 @@ The number `0` is the "index of the first element of array `arr`". Conversely, t
 Instead of a number, you can also use a variable to access elements in an array, _as long as this variable is a number_:
 
 ```js
-let arr = ["john", "jane", "jack"];
+let arr = ['john', 'jane', 'jack'];
 let a = 1;
 console.log(arr[a]); // -> jane
 ```
@@ -141,6 +141,6 @@ If you prefer to watch a video, have a look at this:
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [JavaScript Data Types](https://www.tutorialrepublic.com/javascript-tutorial/javascript-data-types.php)
-- [JS Data Types](https://www.w3schools.com/js/js_datatypes.asp)
-- [Variables & Data Types](https://www.youtube.com/watch?v=Hrd3SfCCXZw)
+-   [JavaScript Data Types](https://www.tutorialrepublic.com/javascript-tutorial/javascript-data-types.php)
+-   [JS Data Types](https://www.w3schools.com/js/js_datatypes.asp)
+-   [Variables & Data Types](https://www.youtube.com/watch?v=Hrd3SfCCXZw)

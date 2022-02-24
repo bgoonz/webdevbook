@@ -4,10 +4,10 @@ Many students find it hard to ask questions during the classes and online (throu
 
 In bgoonz there are several ways to ask for help:
 
-- Ask your classmate or a student from another class
-- Ask in Slack (preferably in your classroom channel)
-- Approach a teacher during breaks or through slack in a group
-- Ask HYF staff to connect you to a graduate or teacher for individual sessions
+-   Ask your classmate or a student from another class
+-   Ask in Slack (preferably in your classroom channel)
+-   Approach a teacher during breaks or through slack in a group
+-   Ask HYF staff to connect you to a graduate or teacher for individual sessions
 
 Nevertheless, we often notice students not asking for help is the prime reason for them dropping out of our program.
 
@@ -36,23 +36,23 @@ There are several ways to ask a question when you are not sure how to frame it:
 
 Recap what you understood, and share where you lost the teacher
 
-- “I Understood how it worked until this point, but after that you lost me. Can you explain part X again?”
+-   “I Understood how it worked until this point, but after that you lost me. Can you explain part X again?”
 
 How does X work:
 
-- “How does part x work? I still don’t really understand it.”
+-   “How does part x work? I still don’t really understand it.”
 
 Why do we do X?
 
-- “Why do you use X to solve problem Y?”
+-   “Why do you use X to solve problem Y?”
 
 Check your own understanding
 
-- “Do I understand correctly that X does Y and Z?”
+-   “Do I understand correctly that X does Y and Z?”
 
 Ask for an example:
 
-- “Can you give an example of how X works?”
+-   “Can you give an example of how X works?”
 
 **Reason 3:**
 

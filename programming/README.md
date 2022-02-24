@@ -48,12 +48,12 @@ You will be learning JavaScript, a language that has been made to "talk" to web 
 
 If you would like to know more, have a look at the following links:
 
-- [What are programming languages](https://hackr.io/blog/what-is-programming-language)
-- [14 Programming Languages Explained](https://mikkegoes.com/14-programming-languages-explained/)
+-   [What are programming languages](https://hackr.io/blog/what-is-programming-language)
+-   [14 Programming Languages Explained](https://mikkegoes.com/14-programming-languages-explained/)
 
 # Extra reading
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [coding vs. programming](https://www.educba.com/coding-vs-programming/)
-- [Introduction into programming Playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi)
+-   [coding vs. programming](https://www.educba.com/coding-vs-programming/)
+-   [Introduction into programming Playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi)

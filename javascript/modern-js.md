@@ -6,7 +6,7 @@ Likewise, so has JavaScript evolved. Throughout learning programming you probabl
 
 ```js
 function aFunction() {
-  // Some magnificent code ...
+    // Some magnificent code ...
 }
 ```
 
@@ -36,10 +36,10 @@ One of the first things that were introduced in modern JS were the `let` and `co
 Template strings are easiest to explain with an example. Have a look at the following:
 
 ```js
-const name = "Ayman";
+const name = 'Ayman';
 
 // ES5 string concatenation
-console.log("Hello " + name + ", welcome aboard");
+console.log('Hello ' + name + ', welcome aboard');
 
 // ES6 template strings
 console.log(`Hello ${name}, welcome aboard`);
@@ -48,12 +48,10 @@ console.log(`Hello ${name}, welcome aboard`);
 Note the use of the backtick (\`) instead of the normal quote, that tells the compiler that we want to use a template string. What is even cooler is that inside the `${}` syntax you can even add some expressions. If we combine it with the ternary operator for example:
 
 ```js
-const name = "Rana";
+const name = 'Rana';
 const grade = 8;
 
-console.log(
-  `Hi ${name}, you have ${grade >= 6 ? "passed" : "failed"} your test`
-);
+console.log(`Hi ${name}, you have ${grade >= 6 ? 'passed' : 'failed'} your test`);
 ```
 
 ## Arrow Functions
@@ -65,12 +63,12 @@ It's a little different from regular functions, take a look:
 ```js
 // ES5 Function
 function addNum(num1, num2) {
-  return num1 + num2;
+    return num1 + num2;
 }
 
 // Arrow Function (stored in variable)
 const addNum = (num1, num2) => {
-  return num1 + num2;
+    return num1 + num2;
 };
 ```
 
@@ -81,12 +79,12 @@ If you've done some research, you may come to the following conclusions:
 
 ### Extra reading on arrow functions:
 
-- [JavaScript ES6 Arrow Functions](https://www.youtube.com/watch?v=h33Srr5J9nY)
-- [Let's learn ES6 - Arrow Functions](https://www.youtube.com/watch?v=oTRujqZYhrU)
-- [When (and why) you should use ES6 arrow functions — and when you shouldn’t](https://www.freecodecamp.org/news/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26/)
-- `this`: [tyler mcginnis](https://tylermcginnis.com/arrow-functions/)
-- [youtube search](https://www.youtube.com/results?search_query=arrow+function+binding+this)
-- [dario garcia moya](https://www.codementor.io/@dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc)
+-   [JavaScript ES6 Arrow Functions](https://www.youtube.com/watch?v=h33Srr5J9nY)
+-   [Let's learn ES6 - Arrow Functions](https://www.youtube.com/watch?v=oTRujqZYhrU)
+-   [When (and why) you should use ES6 arrow functions — and when you shouldn’t](https://www.freecodecamp.org/news/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26/)
+-   `this`: [tyler mcginnis](https://tylermcginnis.com/arrow-functions/)
+-   [youtube search](https://www.youtube.com/results?search_query=arrow+function+binding+this)
+-   [dario garcia moya](https://www.codementor.io/@dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc)
 
 ## Spread operator
 
@@ -94,7 +92,7 @@ The spread operator again allows us to write cleaner code as well as introduces 
 
 ```js
 const numbers = [1, 2, 3];
-const string = ["fruit", "vegetable"];
+const string = ['fruit', 'vegetable'];
 
 const combined = [...numbers, ...string];
 console.log(combined); // Will be [1, 2, 3, 'fruit', 'vegetable']
@@ -104,25 +102,23 @@ This means you don't have to create a whole loop over the different arrays to cr
 
 ```js
 const sendCongratulationsMessage = (name) => {
-  console.log(`Congratulations ${name}, you passed the test.  Well done!`);
+    console.log(`Congratulations ${name}, you passed the test.  Well done!`);
 };
 
 const sendConsolidationMessage = (name) => {
-  console.log(
-    `Sorry ${name}, unfortunately you did not pass your test. Let's see what we can do to get you back on track`
-  );
+    console.log(`Sorry ${name}, unfortunately you did not pass your test. Let's see what we can do to get you back on track`);
 };
 
 const sendResultMessage = (grade, ...rest) => {
-  if (grade < 6) {
-    sendConsolidationMessage(...rest);
-  } else {
-    sendCongratulationsMessage(...rest);
-  }
+    if (grade < 6) {
+        sendConsolidationMessage(...rest);
+    } else {
+        sendCongratulationsMessage(...rest);
+    }
 };
 
-sendResultMessage(5, "John");
-sendResultMessage(9, "Deedee");
+sendResultMessage(5, 'John');
+sendResultMessage(9, 'Deedee');
 ```
 
 This way we nicely got the logic of what is a passing grade into one function and could send the rest of the arguments through to the message functions.
@@ -134,12 +130,12 @@ An example where this happens a lot is in React, where you can create a hierarch
 In modern javascript it is also possible to set some default values for functions. Again it is easiest to just look at an example:
 
 ```js
-const greeting = (name, greeting = "Hello") => {
-  console.log(`${greeting} ${name}, welcome aboard!`);
+const greeting = (name, greeting = 'Hello') => {
+    console.log(`${greeting} ${name}, welcome aboard!`);
 };
 
-greeting("Burak");
-greeting("Veronika", "Привет");
+greeting('Burak');
+greeting('Veronika', 'Привет');
 ```
 
 This is a nice and simple way to set some default values without needing to add if statements. Beautiful!
@@ -150,15 +146,13 @@ The destructuring syntax is great to grab values from objects and/or arrays in a
 
 ```js
 const studentResult = {
-  name: "Mahmood",
-  subject: "React",
-  grade: 9,
+    name: 'Mahmood',
+    subject: 'React',
+    grade: 9
 };
 
 const showResult = (name, subject, grade) => {
-  console.log(
-    `Hi ${name}, you have ${grade >= 6 ? "passed" : "failed"} ${subject}`
-  );
+    console.log(`Hi ${name}, you have ${grade >= 6 ? 'passed' : 'failed'} ${subject}`);
 };
 
 // ES5 | We add the ES5 on the variables to keep the code runnable, do not use bad names like that!
@@ -182,12 +176,10 @@ showResult(nameES6, subjectES6, gradeES6);
 That is how you destructure an object. You can do a similar thing with arrays, following is the same example but then with our data in an array:
 
 ```js
-const studentResult = ["Mahmood", "React", 9];
+const studentResult = ['Mahmood', 'React', 9];
 
 const showResult = (name, subject, grade) => {
-  console.log(
-    `Hi ${name}, you have ${grade >= 6 ? "passed" : "failed"} ${subject}`
-  );
+    console.log(`Hi ${name}, you have ${grade >= 6 ? 'passed' : 'failed'} ${subject}`);
 };
 
 // ES5 | We add the ES5 on the variables to keep the code runnable, do not use bad names like that!
@@ -198,7 +190,7 @@ const gradeES5 = studentResult[2];
 showResult(nameES5, subjectES5, gradeES5);
 
 // ES6 | With a bonus default value!
-const [name, subject = "JavaScript", grade] = studentResult;
+const [name, subject = 'JavaScript', grade] = studentResult;
 
 showResult(name, subject, grade);
 ```
@@ -213,9 +205,9 @@ Async/await is syntax to help make callbacks more readable. Here's what async/aw
 
 ```js
 async function fetchData() {
-  const fetchedData = await fetch("https://randomuser.me/api/");
-  const parsedData = await fetchedData.json();
-  return parsedData;
+    const fetchedData = await fetch('https://randomuser.me/api/');
+    const parsedData = await fetchedData.json();
+    return parsedData;
 }
 ```
 
@@ -235,7 +227,7 @@ In the Promise object, we can use the function `catch` to take care of errors. I
 
 ```js
 Promise.catch(function (error) {
-  console.log(error);
+    console.log(error);
 });
 ```
 
@@ -244,34 +236,34 @@ With the `async/await` keywords, we don't get a `catch` function to use. So inst
 ```js
 // This function will run. If anything goes wrong...
 async function fetchData() {
-  try {
-    const fetchedData = await fetch("https://randomuser.me/api/");
-    const parsedData = await fetchedData.json();
-    return parsedData;
-  } catch (err) {
-    // ...the code in this block will execute. The error that has been created will now be inserted into `err`
-    console.log("Oops, something went wrong!", err);
-  }
+    try {
+        const fetchedData = await fetch('https://randomuser.me/api/');
+        const parsedData = await fetchedData.json();
+        return parsedData;
+    } catch (err) {
+        // ...the code in this block will execute. The error that has been created will now be inserted into `err`
+        console.log('Oops, something went wrong!', err);
+    }
 }
 ```
 
 ### Extra reading about Async/await
 
-- [The Evolution of Callbacks, Promises & Async/Await](https://www.youtube.com/watch?v=gB-OmN1egV8)
-- [Async JS Crash Course - Callbacks, Promises, Async/Await](https://www.youtube.com/watch?v=PoRJizFvM7s)
-- [JavaScript Try Catch & Error Handling ES6 Tutorial](https://www.youtube.com/watch?v=ye-aIwGJKNg)
-- [Error handling, "try..catch"](https://javascript.info/try-catch)
+-   [The Evolution of Callbacks, Promises & Async/Await](https://www.youtube.com/watch?v=gB-OmN1egV8)
+-   [Async JS Crash Course - Callbacks, Promises, Async/Await](https://www.youtube.com/watch?v=PoRJizFvM7s)
+-   [JavaScript Try Catch & Error Handling ES6 Tutorial](https://www.youtube.com/watch?v=ye-aIwGJKNg)
+-   [Error handling, "try..catch"](https://javascript.info/try-catch)
 
 # Extra reading
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [Traversy Crash Course](https://www.youtube.com/playlist?list=PLillGF-RfqbZ7s3t6ZInY3NjEOOX7hsBv)
-- [ES6 tutorial](https://www.programiz.com/javascript/ES6)
+-   [Traversy Crash Course](https://www.youtube.com/playlist?list=PLillGF-RfqbZ7s3t6ZInY3NjEOOX7hsBv)
+-   [ES6 tutorial](https://www.programiz.com/javascript/ES6)
 
 If you like to know about the history of how JavaScript evolved, have a look at the following:
 
-- [The History of JavaScript | Why is JavaScript also called ECMAScript?](https://www.youtube.com/watch?v=JpwxjkpZfhY)
-- [The Weird History of JavaScript](https://www.youtube.com/watch?v=Sh6lK57Cuk4)
-- [What Is ES6, ES2015, ES2016, ES2017 & ESNext](https://www.youtube.com/watch?v=9A_jkh2AKR8)
-- [The Future of JavaScript - New Features and Disruptive Trends in 2020](https://www.youtube.com/watch?v=f0DrPLKf6Ro)
+-   [The History of JavaScript | Why is JavaScript also called ECMAScript?](https://www.youtube.com/watch?v=JpwxjkpZfhY)
+-   [The Weird History of JavaScript](https://www.youtube.com/watch?v=Sh6lK57Cuk4)
+-   [What Is ES6, ES2015, ES2016, ES2017 & ESNext](https://www.youtube.com/watch?v=9A_jkh2AKR8)
+-   [The Future of JavaScript - New Features and Disruptive Trends in 2020](https://www.youtube.com/watch?v=f0DrPLKf6Ro)

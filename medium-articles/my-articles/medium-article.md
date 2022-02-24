@@ -22,7 +22,7 @@ Here you can see in just the first frame of my blog site 5 different embedded wi
 
 ![](https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png)### 2.) Upscribe Form:![](https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png)### 3.) Play.ht Medium Article To Voice-Audio Transcription:
 
-- → [Link](https://play.ht)
+-   → [Link](https://play.ht)
 
 #### Play.ht offers the following services:
 
@@ -37,7 +37,7 @@ Here you can see in just the first frame of my blog site 5 different embedded wi
 
 ![](https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png)### 8.) SlideShare:
 
-- [link](https://www.slideshare.net)
+-   [link](https://www.slideshare.net)
 
 ![](https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png)### 9.)Google Forms/Quizzes :![](https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png)### 10.) YouTube Videos:![](https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png)### 11.) 360 Degree Photos from Kuula.com:![](https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png)### 13.) A tweet:
 

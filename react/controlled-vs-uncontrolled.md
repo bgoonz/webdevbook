@@ -12,7 +12,7 @@ In the case of our input on the page the input has its own state and will update
 
 ```js
 const Input = () => {
-  return <input type="text" name="name" />;
+    return <input type="text" name="name" />;
 };
 ```
 
@@ -22,9 +22,9 @@ The component in the above example is what we call an uncontrolled component. It
 
 ```js
 const Input = () => {
-  const inputRef = useRef();
+    const inputRef = useRef();
 
-  return <input ref={inputRef} type="text" name="name" />;
+    return <input ref={inputRef} type="text" name="name" />;
 };
 ```
 
@@ -38,18 +38,18 @@ A controlled component is named as such because its state is controlled by somet
 
 ```js
 const Input = () => {
-  const [name, setName] = useState("");
+    const [name, setName] = useState('');
 
-  return (
-    <input
-      type="text"
-      name="name"
-      value={name}
-      onChange={(event) => {
-        setName(event.target.value);
-      }}
-    />
-  );
+    return (
+        <input
+            type="text"
+            name="name"
+            value={name}
+            onChange={(event) => {
+                setName(event.target.value);
+            }}
+        />
+    );
 };
 ```
 
@@ -67,4 +67,4 @@ If you just can't get enough, here are some extra links that mentors/students ha
 
 Note that the below sources use class component syntax. We do not use that anymore, but the discussion of the React team is very good surrounding it:
 
-- [Official docs](https://reactjs.org/docs/forms.html)
+-   [Official docs](https://reactjs.org/docs/forms.html)

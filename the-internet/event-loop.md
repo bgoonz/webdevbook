@@ -17,13 +17,13 @@ A good video explaining this can be seen below:
 
 The tool used in the video to see it in action can be found here:
 
-- [Loupe](http://latentflip.com/loupe/?code=!!!)
+-   [Loupe](http://latentflip.com/loupe/?code=!!!)
 
 # Extra reading
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [JavaScript Event Loop](https://www.youtube.com/watch?v=XzXIMZMN9k4)
-- [Visualizing the Event Loop](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif)
-- [Understanding Asynchronous JS](https://blog.bitsrc.io/understanding-asynchronous-javascript-the-event-loop-74cd408419ff)
-- [javascript.info/settimeout-setinterval](https://javascript.info/settimeout-setinterval)
+-   [JavaScript Event Loop](https://www.youtube.com/watch?v=XzXIMZMN9k4)
+-   [Visualizing the Event Loop](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif)
+-   [Understanding Asynchronous JS](https://blog.bitsrc.io/understanding-asynchronous-javascript-the-event-loop-74cd408419ff)
+-   [javascript.info/settimeout-setinterval](https://javascript.info/settimeout-setinterval)

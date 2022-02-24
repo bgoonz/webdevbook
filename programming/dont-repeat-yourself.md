@@ -10,49 +10,49 @@ DRY is one of the many principles of programming that often go hand in hand. The
 
 So let's look at it using a practical real world example of some backend code for a server (don't worry if you do not fully understand what the code does yet). Although it does what we want, it doesn't live up to code standards, which is why we call it a quick and dirty solution. Try and spot things that can be improved upon, here are a few pointers on what to look for:
 
-- Is the code easy to read?
-- Is there any repeated code?
-- Is any code that covers a single task gathered together or spread out?
+-   Is the code easy to read?
+-   Is there any repeated code?
+-   Is any code that covers a single task gathered together or spread out?
 
 ```js
 // file: server.js
 function createServer(port) {
-  let state = 10;
-  const server = http.createServer((request, response) => {
-    const url = request.url;
-    if (url === "/state") {
-      response.writeHead(200, { "Content-Type": "application/json" });
-      response.write(JSON.stringify({ state }));
-      response.end();
-    } else if (url === "/add") {
-      state++;
-      response.writeHead(200, { "Content-Type": "application/json" });
-      response.write(JSON.stringify({ state }));
-      response.end();
-    } else if (url === "/subtract") {
-      state--;
-      response.writeHead(200, { "Content-Type": "application/json" });
-      response.write(JSON.stringify({ state }));
-      response.end();
-    } else if (url === "/reset") {
-      state = 10;
-      response.writeHead(200, { "Content-Type": "application/json" });
-      response.write(JSON.stringify({ state }));
-      response.end();
-    } else {
-      response.writeHead(404, { "Content-Type": "application/json" });
-      response.write(JSON.stringify({ error: "Not found" }));
-      response.end();
-    }
-  });
-  return server;
+    let state = 10;
+    const server = http.createServer((request, response) => {
+        const url = request.url;
+        if (url === '/state') {
+            response.writeHead(200, { 'Content-Type': 'application/json' });
+            response.write(JSON.stringify({ state }));
+            response.end();
+        } else if (url === '/add') {
+            state++;
+            response.writeHead(200, { 'Content-Type': 'application/json' });
+            response.write(JSON.stringify({ state }));
+            response.end();
+        } else if (url === '/subtract') {
+            state--;
+            response.writeHead(200, { 'Content-Type': 'application/json' });
+            response.write(JSON.stringify({ state }));
+            response.end();
+        } else if (url === '/reset') {
+            state = 10;
+            response.writeHead(200, { 'Content-Type': 'application/json' });
+            response.write(JSON.stringify({ state }));
+            response.end();
+        } else {
+            response.writeHead(404, { 'Content-Type': 'application/json' });
+            response.write(JSON.stringify({ error: 'Not found' }));
+            response.end();
+        }
+    });
+    return server;
 }
 ```
 
 Arguably the most obvious issue is repeated code, the following block is written four times:
 
 ```js
-response.writeHead(200, { "Content-Type": "application/json" });
+response.writeHead(200, { 'Content-Type': 'application/json' });
 response.write(JSON.stringify({ state }));
 response.end();
 ```
@@ -62,52 +62,52 @@ The next example is refactored to be dry. Take a look at what happened.
 ```js
 // file: server.js
 function createServer(port) {
-  let state = 10;
-  const server = http.createServer((request, response) => {
-    const url = request.url;
-    let message = null;
-    response.writeHead(200, { "Content-Type": "application/json" });
-    if (url === "/state") {
-      // no action here
-    } else if (url === "/add") {
-      state++;
-    } else if (url === "/subtract") {
-      state--;
-    } else if (url === "/reset") {
-      state = 10;
-    } else {
-      response.writeHead(404, { "Content-Type": "application/json" });
-      message = JSON.stringify({ error: "Not found" });
-    }
-    response.write(message ? message : JSON.stringify({ state }));
-    response.end();
-  });
-  return server;
+    let state = 10;
+    const server = http.createServer((request, response) => {
+        const url = request.url;
+        let message = null;
+        response.writeHead(200, { 'Content-Type': 'application/json' });
+        if (url === '/state') {
+            // no action here
+        } else if (url === '/add') {
+            state++;
+        } else if (url === '/subtract') {
+            state--;
+        } else if (url === '/reset') {
+            state = 10;
+        } else {
+            response.writeHead(404, { 'Content-Type': 'application/json' });
+            message = JSON.stringify({ error: 'Not found' });
+        }
+        response.write(message ? message : JSON.stringify({ state }));
+        response.end();
+    });
+    return server;
 }
 ```
 
 As you can see duplicate code is moved to the top or bottom of the if-else chain. While this removes duplicate code we have introduced another issue. Take some time and consider the following questions:
 
-- Is the code easy to read?
-- Is any code that covers a single task gathered together or spread out?
+-   Is the code easy to read?
+-   Is any code that covers a single task gathered together or spread out?
 
 ### <a name="modular">2. Modular code</a>
 
 While the previous example does not contain repeated code it has become considerably harder to read. The most glaring issue is that the code involving the `response` parameter is now spread out: one line is before the if-else chain and the rest is below.
 
 ```js
-response.writeHead(200, { "Content-Type": "application/json" });
-if (url === "/state") {
-  // no action here
-} else if (url === "/add") {
-  state++;
-} else if (url === "/subtract") {
-  state--;
-} else if (url === "/reset") {
-  state = 10;
+response.writeHead(200, { 'Content-Type': 'application/json' });
+if (url === '/state') {
+    // no action here
+} else if (url === '/add') {
+    state++;
+} else if (url === '/subtract') {
+    state--;
+} else if (url === '/reset') {
+    state = 10;
 } else {
-  response.writeHead(404, { "Content-Type": "application/json" });
-  message = JSON.stringify({ error: "Not found" });
+    response.writeHead(404, { 'Content-Type': 'application/json' });
+    message = JSON.stringify({ error: 'Not found' });
 }
 response.write(message ? message : JSON.stringify({ state }));
 response.end();
@@ -117,9 +117,9 @@ These lines of code involving the `response` parameter perform one single task (
 
 ```js
 function respondJSON(response, statusCode, messageObject) {
-  response.writeHead(statusCode, { "Content-Type": "application/json" });
-  response.write(JSON.stringify(messageObject));
-  response.end();
+    response.writeHead(statusCode, { 'Content-Type': 'application/json' });
+    response.write(JSON.stringify(messageObject));
+    response.end();
 }
 ```
 
@@ -129,19 +129,19 @@ Another issue that is perhaps harder to spot is that logic involving the `state`
 // file: state.js
 let state = 10;
 function get() {
-  return { state };
+    return { state };
 }
 function add() {
-  state++;
-  return { state };
+    state++;
+    return { state };
 }
 function subtract() {
-  state--;
-  return { state };
+    state--;
+    return { state };
 }
 function reset() {
-  state = 10;
-  return { state };
+    state = 10;
+    return { state };
 }
 module.exports = { get, add, subtract, reset };
 ```
@@ -157,38 +157,38 @@ Lastly because of the previous steps we can see that the callback function itsel
 
 ```js
 // file: server.js
-const http = require("http");
-const state = require("./state");
+const http = require('http');
+const state = require('./state');
 function createServer(port) {
-  const server = http.createServer((request, response) => {
-    const url = request.url;
-    switch (url) {
-      case "/state":
-        respondJSON(response, 200, state.get());
-        break;
-      case "/add":
-        respondJSON(response, 200, state.add());
-        break;
-      case "/subtract":
-        respondJSON(response, 200, state.subtract());
-        break;
-      case "/reset":
-        respondJSON(response, 200, state.reset());
-        break;
-      default:
-        respondJSON(response, 404, { error: "Not found" });
-        break;
-    }
-  });
-  return server;
+    const server = http.createServer((request, response) => {
+        const url = request.url;
+        switch (url) {
+            case '/state':
+                respondJSON(response, 200, state.get());
+                break;
+            case '/add':
+                respondJSON(response, 200, state.add());
+                break;
+            case '/subtract':
+                respondJSON(response, 200, state.subtract());
+                break;
+            case '/reset':
+                respondJSON(response, 200, state.reset());
+                break;
+            default:
+                respondJSON(response, 404, { error: 'Not found' });
+                break;
+        }
+    });
+    return server;
 }
 function respondJSON(response, statusCode, messageObject) {
-  response.writeHead(statusCode, { "Content-Type": "application/json" });
-  response.write(JSON.stringify(messageObject));
-  response.end();
+    response.writeHead(statusCode, { 'Content-Type': 'application/json' });
+    response.write(JSON.stringify(messageObject));
+    response.end();
 }
 module.exports = {
-  createServer,
+    createServer
 };
 ```
 
@@ -196,4 +196,4 @@ module.exports = {
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [DRY principle cost/benefit](https://thevaluable.dev/dry-principle-cost-benefit-example/)
+-   [DRY principle cost/benefit](https://thevaluable.dev/dry-principle-cost-benefit-example/)

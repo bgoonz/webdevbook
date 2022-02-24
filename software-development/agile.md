@@ -94,17 +94,17 @@ Scrum defines a teams time into sprints of 2-4 weeks. At the start of a sprint, 
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [What is Agile?](https://www.cprime.com/resources/what-is-agile-what-is-scrum/)
-- [Agile Manifesto](https://agilemanifesto.org/principles.html)
-- [Agile Development by Cartoon](https://www.youtube.com/watch?v=Z9QbYZh1YXY&list=PLBUu5aGDLKnbeEx8U-5r436bw6p9wv1rS)
-- [Splitting User Stories](https://www.youtube.com/watch?v=EDT0HMtDwYI)
-- [user story based portfolio example](https://github.com/elewa-student/User-Centered-Development)
+-   [What is Agile?](https://www.cprime.com/resources/what-is-agile-what-is-scrum/)
+-   [Agile Manifesto](https://agilemanifesto.org/principles.html)
+-   [Agile Development by Cartoon](https://www.youtube.com/watch?v=Z9QbYZh1YXY&list=PLBUu5aGDLKnbeEx8U-5r436bw6p9wv1rS)
+-   [Splitting User Stories](https://www.youtube.com/watch?v=EDT0HMtDwYI)
+-   [user story based portfolio example](https://github.com/elewa-student/User-Centered-Development)
 
 ## User Stories
 
-- [Agile Development by Cartoon](https://www.youtube.com/watch?v=Z9QbYZh1YXY&list=PLBUu5aGDLKnbeEx8U-5r436bw6p9wv1rS)
-- [Splitting User Stories](https://www.youtube.com/watch?v=EDT0HMtDwYI)
-- [Duck Duck Search](https://duckduckgo.com/?q=what+are+user+stories&iax=videos)
-- [Example project: Built with Branches](https://github.com/bgoonzbelgium/built-with-branches)
-- [Examples and a Template](https://www.atlassian.com/agile/project-management/user-stories)
-- [Obligatory: WikiPedia](https://en.wikipedia.org/wiki/User_story)
+-   [Agile Development by Cartoon](https://www.youtube.com/watch?v=Z9QbYZh1YXY&list=PLBUu5aGDLKnbeEx8U-5r436bw6p9wv1rS)
+-   [Splitting User Stories](https://www.youtube.com/watch?v=EDT0HMtDwYI)
+-   [Duck Duck Search](https://duckduckgo.com/?q=what+are+user+stories&iax=videos)
+-   [Example project: Built with Branches](https://github.com/bgoonzbelgium/built-with-branches)
+-   [Examples and a Template](https://www.atlassian.com/agile/project-management/user-stories)
+-   [Obligatory: WikiPedia](https://en.wikipedia.org/wiki/User_story)

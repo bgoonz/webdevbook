@@ -22,9 +22,9 @@ The host creates a URL for us that we can use to access our website.
 
 Examples of `static site hosting` platforms are the following:
 
-- [Netlify](https://www.netlify.com/)
-- [Now](https://zeit.co/)
+-   [Netlify](https://www.netlify.com/)
+-   [Now](https://zeit.co/)
 
 To learn more about `static site hosting` and how to do it, study the following:
 
-- [A Step-by-Step Guide: Deploying A Static Site or Single-page App](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/)
+-   [A Step-by-Step Guide: Deploying A Static Site or Single-page App](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/)

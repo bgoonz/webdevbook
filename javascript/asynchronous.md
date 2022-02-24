@@ -42,6 +42,6 @@ This is the utility of `callbacks`: they allow us to introduce asynchronicity in
 
 Study the following resources to learn more about the importance of callbacks:
 
-- [Asynchronous JavaScript](https://www.youtube.com/watch?v=YxWMxJONp7E)
-- [Understanding JavaScript Callbacks](https://www.youtube.com/watch?v=Nau-iEEgEoM)
-- [Callback Functions](https://www.youtube.com/watch?v=QRq2zMHlBz4)
+-   [Asynchronous JavaScript](https://www.youtube.com/watch?v=YxWMxJONp7E)
+-   [Understanding JavaScript Callbacks](https://www.youtube.com/watch?v=Nau-iEEgEoM)
+-   [Callback Functions](https://www.youtube.com/watch?v=QRq2zMHlBz4)

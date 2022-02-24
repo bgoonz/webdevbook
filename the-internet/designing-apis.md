@@ -28,23 +28,23 @@ A `resource` can be any object, real or imaginary. On Instagram for example, a r
 
 REST also enables clients to take actions on those resources. We call these actions `CRUD` operations:
 
-- Creating new resources, such as videos/images/text files, etc.
-- Retrieving those files and reading them.
-- Updating the content of those files.
-- Deleting those files.
+-   Creating new resources, such as videos/images/text files, etc.
+-   Retrieving those files and reading them.
+-   Updating the content of those files.
+-   Deleting those files.
 
 The most important features of REST are:
 
-- An application has a `frontend` (client) and a `backend` (server). This is called [separation of concerns](https://medium.com/machine-words/separation-of-concerns-1d735b703a60): each section has its specific job to do. The frontend deals with presenting data in a user friendly way, the backend deals with all the logic and data manipulation
-- The server is `stateless`, which means that it doesn't store any data about a client session. Simply put, when you refresh the page you won't keep the data you requested before (unless it's saved in the browser or in a file on the server). Whenever a client sends a request to the server, each request from the client to server must contain all of the information necessary to understand the request, and cannot take advantage of any stored context on the server. This makes it possible to handle requests from millions of users.
-- Server responses can be temporarily stored on the client (a browser) using a process called `caching`: storing files like images or webpages in the browser to load the next time you enter a website (instead of getting them from the server, which generally takes longer to do).
-- Client-server communication is done through `Hypertext Transfer Protocol`, which serves as the style (the how) of communication.
+-   An application has a `frontend` (client) and a `backend` (server). This is called [separation of concerns](https://medium.com/machine-words/separation-of-concerns-1d735b703a60): each section has its specific job to do. The frontend deals with presenting data in a user friendly way, the backend deals with all the logic and data manipulation
+-   The server is `stateless`, which means that it doesn't store any data about a client session. Simply put, when you refresh the page you won't keep the data you requested before (unless it's saved in the browser or in a file on the server). Whenever a client sends a request to the server, each request from the client to server must contain all of the information necessary to understand the request, and cannot take advantage of any stored context on the server. This makes it possible to handle requests from millions of users.
+-   Server responses can be temporarily stored on the client (a browser) using a process called `caching`: storing files like images or webpages in the browser to load the next time you enter a website (instead of getting them from the server, which generally takes longer to do).
+-   Client-server communication is done through `Hypertext Transfer Protocol`, which serves as the style (the how) of communication.
 
 It's important to know about REST because it teaches us how web applications are designed and holds us to a standard that makes development and usage predictable. However, don't worry if you don't know what any of this means just yet. It's good to be exposed to it, and understanding will come with experience.
 
 For more research, check the following resource:
 
-- [What is REST: a simple explanation for beginners](https://medium.com/extend/what-is-rest-a-simple-explanation-for-beginners-part-1-introduction-b4a072f8740f)
+-   [What is REST: a simple explanation for beginners](https://medium.com/extend/what-is-rest-a-simple-explanation-for-beginners-part-1-introduction-b4a072f8740f)
 
 ### What is a RESTful API?
 
@@ -72,5 +72,5 @@ The URL in the example consists of a domain `library.edu` and a path `/books`. W
 
 For more information check out the following resources:
 
-- [What is an API? In English, please](https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82)
-- [Examples of REST APIs](https://nordicapis.com/5-examples-of-apis-we-use-in-our-everyday-lives/)
+-   [What is an API? In English, please](https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82)
+-   [Examples of REST APIs](https://nordicapis.com/5-examples-of-apis-we-use-in-our-everyday-lives/)

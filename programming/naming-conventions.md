@@ -55,7 +55,7 @@ This casing is used for class names in css and sometimes for filenames in JavaSc
 
 ```css
 .page-title {
-  color: #ff23be.;
+    color: #ff23be.;
 }
 ```
 
@@ -64,7 +64,7 @@ This casing is used for class names in css and sometimes for filenames in JavaSc
 ```
 
 ```js
-const fileName = "movie-collection.js";
+const fileName = 'movie-collection.js';
 ```
 
 ## Variable names for data
@@ -113,6 +113,6 @@ For a complete list of reserved names, see the MDN page for [Keywords](https://d
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [Naming Conventions in Programming](https://blog.jsecademy.com/naming-conventions-in-programming/)
-- [Naming Conventions language agnostic](https://github.com/kettanaito/naming-cheatsheet)
-- [BEM (CSS convention) cheat sheet](https://9elements.com/bem-cheat-sheet/)
+-   [Naming Conventions in Programming](https://blog.jsecademy.com/naming-conventions-in-programming/)
+-   [Naming Conventions language agnostic](https://github.com/kettanaito/naming-cheatsheet)
+-   [BEM (CSS convention) cheat sheet](https://9elements.com/bem-cheat-sheet/)

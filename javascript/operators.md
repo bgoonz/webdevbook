@@ -10,21 +10,21 @@
 
 ### Equality operators
 
-- Equality `==`
-- Inequality `!=`
-- Identity / strict equality `===` (preferred)
-- Non-identity / strict inequality `!==` (preferred)
+-   Equality `==`
+-   Inequality `!=`
+-   Identity / strict equality `===` (preferred)
+-   Non-identity / strict inequality `!==` (preferred)
 
 How does this work in practice?
 
 ```js
 1 == 1; // -> true
-7 == "7"; // -> true
+7 == '7'; // -> true
 1 != 2; // -> true
 5 === 5; // -> true
-9 === "9"; // -> false
+9 === '9'; // -> false
 3 !== 3; // -> false
-3 !== "3"; // -> true
+3 !== '3'; // -> true
 ```
 
 > why does `7 == '7'` returns true and `9 === '9'` returns false?
@@ -33,10 +33,10 @@ We strongly recommend that you always use the strict form when comparing for equ
 
 ### Relational operators
 
-- Greater than operator `>`
-- Greater than or equal operator `>=`
-- Less than operator `<`
-- Less than or equal operator `<=`
+-   Greater than operator `>`
+-   Greater than or equal operator `>=`
+-   Less than operator `<`
+-   Less than or equal operator `<=`
 
 ```js
 4 > 3; // -> true
@@ -49,12 +49,12 @@ More about [comparison operators](https://developer.mozilla.org/en-US/docs/Web/J
 
 ## Arithmetic operators
 
-- Addition `+`
-- Subtraction `-`
-- Multiplication `*`
-- Division `/`
-- Remainder (sometimes called modulo) `%`
-  <br>Returns the remainder left over after you've shared the left number out into a number of integer portions equal to the right number.
+-   Addition `+`
+-   Subtraction `-`
+-   Multiplication `*`
+-   Division `/`
+-   Remainder (sometimes called modulo) `%`
+    <br>Returns the remainder left over after you've shared the left number out into a number of integer portions equal to the right number.
 
 ```js
 8 + 9; // -> 17, adds two numbers together.
@@ -72,8 +72,8 @@ More about [Arithmetic operators](https://developer.mozilla.org/en-US/docs/Web/J
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=RWms0XG75r4" %}
 
-- AND `&&`
-- OR `||`
+-   AND `&&`
+-   OR `||`
 
 ```js
 true && false; //-> false
@@ -92,7 +92,7 @@ x !== y; // -> true
 
 Logical NOT
 
-- NOT `!`
+-   NOT `!`
 
 ```js
 true === !false;
@@ -139,4 +139,4 @@ Also check out [special characters and their names](names_of_special_characters.
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [Different Types of Operators in JavaScript](https://www.youtube.com/watch?v=FZzyij43A54)
+-   [Different Types of Operators in JavaScript](https://www.youtube.com/watch?v=FZzyij43A54)

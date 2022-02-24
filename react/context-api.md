@@ -12,8 +12,8 @@ Instead of having state passed down to each component separately, we put state i
 
 The following articles explain the concept very well:
 
-- [Context](https://reactjs.org/docs/context.html)
-- [React Context](https://www.robinwieruch.de/react-context)
+-   [Context](https://reactjs.org/docs/context.html)
+-   [React Context](https://www.robinwieruch.de/react-context)
 
 ## How to implement a Context
 
@@ -27,4 +27,4 @@ The end result of this tutorial however does put a lot of the logic of adding an
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- If you've ever come across a tool called [Redux](https://redux.js.org/). This is where the term Reducer comes from and was created before the Context API was introduced. There are still some differences between the two, so redux still has its use.
+-   If you've ever come across a tool called [Redux](https://redux.js.org/). This is where the term Reducer comes from and was created before the Context API was introduced. There are still some differences between the two, so redux still has its use.

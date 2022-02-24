@@ -8,7 +8,7 @@ This is what we call _client-side routing_ and it is mportant to note that clien
 
 Go through the following to learn more about the difference between the standard server-side routing and this client-side routing:
 
-- [Server Side Routing vs Client-Side Routing](https://www.codementor.io/chinemeremnwoga/server-side-routing-vs-client-side-routing-yne57eq9a)
+-   [Server Side Routing vs Client-Side Routing](https://www.codementor.io/chinemeremnwoga/server-side-routing-vs-client-side-routing-yne57eq9a)
 
 ## React-router
 
@@ -32,5 +32,5 @@ The following video explains how this works:
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [Official documentation](https://reactrouter.com/web/guides/quick-start)
-- [v5 tutorial]({https://www.youtube.com/watch?v=Law7wfdg_ls)
+-   [Official documentation](https://reactrouter.com/web/guides/quick-start)
+-   [v5 tutorial]({https://www.youtube.com/watch?v=Law7wfdg_ls)

@@ -60,26 +60,26 @@ That said, Java’s longstanding popularity and varied use mean that its communi
 
 Java backend technologies can be used to achieve a lot of objectives, including these and more:
 
-- (Android) mobile application development
-- Website development
-- Database connectivity
-- Image processing
-- GUI based programs
-- Networking
+-   (Android) mobile application development
+-   Website development
+-   Database connectivity
+-   Image processing
+-   GUI based programs
+-   Networking
 
 **💼 COMPANIES THAT USE JAVA**
 
 There are some [big names among companies](https://stackshare.io/java) that use Java backend technologies, including these:
 
-- Airbnb
-- Uber
-- Pinterest
-- LinkedIn
-- Groupon
-- eBay
-- Evernote
-- FitBit
-- Hubspot
+-   Airbnb
+-   Uber
+-   Pinterest
+-   LinkedIn
+-   Groupon
+-   eBay
+-   Evernote
+-   FitBit
+-   Hubspot
 
 **💵 AVERAGE SALARY FOR JAVA DEVELOPERS**
 
@@ -91,11 +91,11 @@ As of [April 2020](https://www.glassdoor.com/Salaries/java-developer-salary-SRCH
 
 **Course facts:**
 
-- **Course Name:** The Ultimate Java Mastery Series
-- \*\*Platform: \*\*[Code With Mosh](https://learntocodewith.me/go/code-with-mosh/)
-- **Instructed by:** Mosh Hamedani
-- **Price:** $49
-- **Skill level:** Beginner
+-   **Course Name:** The Ultimate Java Mastery Series
+-   \*\*Platform: \*\*[Code With Mosh](https://learntocodewith.me/go/code-with-mosh/)
+-   **Instructed by:** Mosh Hamedani
+-   **Price:** $49
+-   **Skill level:** Beginner
 
 [Discover all the different programming languages you can use for backend development](https://twitter.com/share?text=Discover+all+the+different+programming+languages+you+can+use+for+backend+development&via=learncodewithme&related=learncodewithme&url=https://learntocodewith.me/posts/backend-development/)
 
@@ -113,32 +113,32 @@ Since PHP is dynamically typed, it means you’re able to come up with a variety
 
 PHP is a [great language to learn](https://learntocodewith.me/go/goskills-intro-php/) for those who are just starting out for a number of reasons:
 
-- It’s more forgiving of errors, which means that you’re able to compile and run a program until you reach a problematic part.
-- There is an abundance of resources dedicated to the language as a result of the large community and tool support. The language undergoes updates, so ensure you’re learning from an up-to-date tutorial.
-- The setup is relatively easy compared to a language like Ruby on Rails. You can download [MAMP](https://www.mamp.info/en/) (for Macs) or WAMP ([for Windows](https://sourceforge.net/projects/wampserver/)) and you should be ready to go in 5 minutes.
+-   It’s more forgiving of errors, which means that you’re able to compile and run a program until you reach a problematic part.
+-   There is an abundance of resources dedicated to the language as a result of the large community and tool support. The language undergoes updates, so ensure you’re learning from an up-to-date tutorial.
+-   The setup is relatively easy compared to a language like Ruby on Rails. You can download [MAMP](https://www.mamp.info/en/) (for Macs) or WAMP ([for Windows](https://sourceforge.net/projects/wampserver/)) and you should be ready to go in 5 minutes.
 
 **💡 WHAT YOU CAN DO WITH PHP**
 
 According to the [PHP website](http://php.net/manual/en/intro-whatcando.php), you can:
 
-- Collect form data
-- Generate dynamic page content
-- Send and receive cookies
-- Write command line scripting
-- Write server-side scripting
-- Write desktop applications
+-   Collect form data
+-   Generate dynamic page content
+-   Send and receive cookies
+-   Write command line scripting
+-   Write server-side scripting
+-   Write desktop applications
 
 **💼 COMPANIES THAT USE PHP 💼**
 
 Here are some [companies using PHP](https://stackshare.io/php) in their dev teams:
 
-- Facebook
-- Lyft
-- Mint
-- Hootsuite
-- Viber
-- Buffer
-- DocuSign
+-   Facebook
+-   Lyft
+-   Mint
+-   Hootsuite
+-   Viber
+-   Buffer
+-   DocuSign
 
 **💵 AVERAGE SALARY FOR PHP DEVELOPERS 💵**
 
@@ -150,11 +150,11 @@ As of [April 2020](https://www.glassdoor.com/Salaries/php-developer-salary-SRCH_
 
 **Course facts:**
 
-- **Course Name:** Beginning PHP Track
-- \*\*Platform: \*\*[Team Treehouse](https://learntocodewith.me/go/team-treehouse/)
-- **Instructed by:** Many
-- **Price:** $25/month with a Team Treehouse subscription
-- **Skill level:** Beginner
+-   **Course Name:** Beginning PHP Track
+-   \*\*Platform: \*\*[Team Treehouse](https://learntocodewith.me/go/team-treehouse/)
+-   **Instructed by:** Many
+-   **Price:** $25/month with a Team Treehouse subscription
+-   **Skill level:** Beginner
 
 [Head back to the table of contents »](https://learntocodewith.me/posts/backend-development/#toc)
 
@@ -182,11 +182,11 @@ The drawback of coding with VB is the large amount of memory required to install
 
 **💡 WHAT YOU CAN DO WITH .NET**
 
-- Build desktop applications
-- Create mobile apps
-- Build web applications and games
-- Work with Big Data
-- And more
+-   Build desktop applications
+-   Create mobile apps
+-   Build web applications and games
+-   Work with Big Data
+-   And more
 
 ![Backend programming languages](https://learntocodewith.me/wp-content/uploads/2019/01/programming-language.jpg)
 
@@ -194,10 +194,10 @@ The drawback of coding with VB is the large amount of memory required to install
 
 A few of the [companies using .NET](https://stackshare.io/dot-net) as a programming language:
 
-- Microsoft
-- Starbucks
-- Docplanner
-- Stack Overflow
+-   Microsoft
+-   Starbucks
+-   Docplanner
+-   Stack Overflow
 
 **💵 AVERAGE SALARY FOR .NET DEVELOPERS**
 
@@ -209,11 +209,11 @@ As of [April 2020](https://www.glassdoor.com/Salaries/net-developer-salary-SRCH_
 
 **Course facts:**
 
-- **Course Name:** C# and .NET Core for Beginners
-- \*\*Platform: \*\*[Udemy](https://learntocodewith.me/go/udemy/)
-- **Instructed by:** Pontus Wittenmark
-- **Price:** $114.99
-- **Skill level:** Beginner
+-   **Course Name:** C# and .NET Core for Beginners
+-   \*\*Platform: \*\*[Udemy](https://learntocodewith.me/go/udemy/)
+-   **Instructed by:** Pontus Wittenmark
+-   **Price:** $114.99
+-   **Skill level:** Beginner
 
 Start coding now
 
@@ -231,23 +231,23 @@ Ruby is open source, which means it can be modified and built upon.
 
 **💡 WHAT YOU CAN DO WITH RUBY**
 
-- Automate repetitive tasks
-- Build web applications
-- Build mobile applications and games
-- Create prototypes
-- And more
+-   Automate repetitive tasks
+-   Build web applications
+-   Build mobile applications and games
+-   Create prototypes
+-   And more
 
 **💼 COMPANIES THAT USE RUBY**
 
 Here are some of the [companies using Ruby](https://stackshare.io/ruby) as a backend language:
 
-- Airbnb
-- [Codecademy](https://learntocodewith.me/go/codecademy/)
-- TaskRabbit
-- Kickstarter
-- RapGenius
-- Scribd
-- AngelList
+-   Airbnb
+-   [Codecademy](https://learntocodewith.me/go/codecademy/)
+-   TaskRabbit
+-   Kickstarter
+-   RapGenius
+-   Scribd
+-   AngelList
 
 **💵 AVERAGE SALARY FOR RUBY DEVELOPERS**
 
@@ -259,11 +259,11 @@ As of [April 2020](https://www.glassdoor.com/Salaries/ruby-on-rails-developer-sa
 
 **Course facts:**
 
-- **Course Name:** Become a Web Developer: Learn the Basics and Fundamentals of Ruby!
-- \*\*Platform: \*\*[Mammoth Interactive](https://learntocodewith.me/go/mammoth-interactive/)
-- **Instructed by:** John Bura
-- **Price:** $500
-- **Skill level:** Complete beginners
+-   **Course Name:** Become a Web Developer: Learn the Basics and Fundamentals of Ruby!
+-   \*\*Platform: \*\*[Mammoth Interactive](https://learntocodewith.me/go/mammoth-interactive/)
+-   **Instructed by:** John Bura
+-   **Price:** $500
+-   **Skill level:** Complete beginners
 
 Start coding now
 
@@ -287,22 +287,22 @@ As mentioned above, Ruby and Python share similarities. They are both dynamicall
 
 Some of the most popular uses for Python include:
 
-- Cross-platform [shell scripting](https://searchdatacenter.techtarget.com/definition/shell-script)
-- [Quick automation](https://automatetheboringstuff.com)
-- Simple web development
+-   Cross-platform [shell scripting](https://searchdatacenter.techtarget.com/definition/shell-script)
+-   [Quick automation](https://automatetheboringstuff.com)
+-   Simple web development
 
 **💼 COMPANIES THAT USE PYTHON**
 
 Among the biggest [companies using Python](https://stackshare.io/python) as a programming language are:
 
-- Uber
-- Pinterest
-- Mozilla
-- Spotify
-- Quora
-- Pandora
-- Netflix
-- Asana
+-   Uber
+-   Pinterest
+-   Mozilla
+-   Spotify
+-   Quora
+-   Pandora
+-   Netflix
+-   Asana
 
 **💵 AVERAGE SALARY OF PYTHON DEVELOPERS**
 
@@ -314,11 +314,11 @@ As of [April 2020](https://www.glassdoor.com/Salaries/python-developer-salary-SR
 
 **Course facts:**
 
-- **Course Name:** Complete Python Developer in 2021: Zero to Mastery
-- \*\*Platform: \*\*[Zero To Mastery](https://learntocodewith.me/go/zero-to-mastery/)
-- **Instructed by:** Andrei Neagoie
-- **Price:** $29/month with a Zero to Mastery subscription (or $264/year)
-- **Skill level:** Beginners
+-   **Course Name:** Complete Python Developer in 2021: Zero to Mastery
+-   \*\*Platform: \*\*[Zero To Mastery](https://learntocodewith.me/go/zero-to-mastery/)
+-   **Instructed by:** Andrei Neagoie
+-   **Price:** $29/month with a Zero to Mastery subscription (or $264/year)
+-   **Skill level:** Beginners
 
 [What is backend development and how does it work?](https://twitter.com/share?text=What+is+backend+development+and+how+does+it+work%3F&via=learncodewithme&related=learncodewithme&url=https://learntocodewith.me/posts/backend-development/)
 
@@ -356,11 +356,11 @@ As of [April 2020](https://www.glassdoor.com/Salaries/sql-developer-salary-SRCH_
 
 **Course facts:**
 
-- **Course Name:** Introduction to SQL
-- \*\*Platform: \*\*[Pluralsight](https://learntocodewith.me/go/pluralsight/)
-- **Instructed by:** Jon Flanders
-- **Price:** $29/month with a Pluralsight subscription
-- **Skill level:** Beginners
+-   **Course Name:** Introduction to SQL
+-   \*\*Platform: \*\*[Pluralsight](https://learntocodewith.me/go/pluralsight/)
+-   **Instructed by:** Jon Flanders
+-   **Price:** $29/month with a Pluralsight subscription
+-   **Skill level:** Beginners
 
 [_(Read our full review of Pluralsight here.)_](https://learntocodewith.me/reviews/pluralsight/)
 
@@ -380,24 +380,24 @@ Having said that, the language is ubiquitous, which means the community is large
 
 JavaScript can be used to build many types of sites and software, including:
 
-- Websites
-- Mobile apps
-- Desktop applications
-- Games
-- Web servers
-- Presentations
-- And more
+-   Websites
+-   Mobile apps
+-   Desktop applications
+-   Games
+-   Web servers
+-   Presentations
+-   And more
 
 **💼 COMPANIES THAT USE JAVASCRIPT**
 
 Famous [companies using JavaScript](https://stackshare.io/javascript) include:
 
-- Airbnb
-- [Codecademy](https://learntocodewith.me/go/codecademy/)
-- HotelTonight
-- eBay
-- Square
-- Asana
+-   Airbnb
+-   [Codecademy](https://learntocodewith.me/go/codecademy/)
+-   HotelTonight
+-   eBay
+-   Square
+-   Asana
 
 **💵 AVERAGE SALARY OF JAVASCRIPT DEVELOPERS**
 
@@ -409,11 +409,11 @@ As of [April 2020](https://www.glassdoor.com/Salaries/javascript-developer-salar
 
 **Course facts:**
 
-- **Course Name:** Coding for Cats | Cat-Themed JavaScript Course
-- \*\*Platform: \*\*[Mammoth Interactive](https://learntocodewith.me/go/mammoth-interactive/)
-- **Instructed by:** John Bura
-- **Price:** $99
-- **Skill level:** Beginners
+-   **Course Name:** Coding for Cats | Cat-Themed JavaScript Course
+-   \*\*Platform: \*\*[Mammoth Interactive](https://learntocodewith.me/go/mammoth-interactive/)
+-   **Instructed by:** John Bura
+-   **Price:** $99
+-   **Skill level:** Beginners
 
 **🗺️ LAUNCH SCHOOL’S INTRODUCTION TO PROGRAMMING WITH JAVASCRIPT**
 
@@ -421,10 +421,10 @@ As of [April 2020](https://www.glassdoor.com/Salaries/javascript-developer-salar
 
 **Course facts:**
 
-- **Course Name:** Launch School’s Introduction to Programming with JavaScript
-- \*\*Platform: \*\*[Launch School](https://learntocodewith.me/go/launch-school/)
-- **Price:** $199/month
-- **Skill level:** Beginners
+-   **Course Name:** Launch School’s Introduction to Programming with JavaScript
+-   \*\*Platform: \*\*[Launch School](https://learntocodewith.me/go/launch-school/)
+-   **Price:** $199/month
+-   **Skill level:** Beginners
 
 [Check out this beginner’s guide to backend development](https://twitter.com/share?text=Check+out+this+beginner%27s+guide+to+backend+development&via=learncodewithme&related=learncodewithme&url=https://learntocodewith.me/posts/backend-development/)
 

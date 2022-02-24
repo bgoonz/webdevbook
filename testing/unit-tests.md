@@ -16,6 +16,6 @@ Test driven development as the video says is a tool that can be used to ensure y
 
 In the video all tests are for the happy path, but have a look at the following article that helps you with a checklist of all the cases to test:
 
-- [Error handling and edge cases](https://www.freecodecamp.org/news/a-beginners-guide-to-testing-implement-these-quick-checks-to-test-your-code-d50027ad5eed/)
+-   [Error handling and edge cases](https://www.freecodecamp.org/news/a-beginners-guide-to-testing-implement-these-quick-checks-to-test-your-code-d50027ad5eed/)
 
 By checking all error and edge cases as well you can be sure that any refactoring you do does not break anything, which means your code will stay clean!

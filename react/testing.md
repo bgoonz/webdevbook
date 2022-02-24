@@ -12,9 +12,9 @@ Both have their advantages, although there seems to be a shift towards the user-
 
 Have a look at the documentation of the testing library for React as they explain it way better than we can. Make sure you have read the following links. Don't worry about trying to remember all of the different ways of selecting elements, that will come with experience (plus, that's what the [cheatsheet](https://testing-library.com/docs/react-testing-library/cheatsheet) is for):
 
-- [Introduction](https://testing-library.com/docs/react-testing-library/intro/)
-- [Example](https://testing-library.com/docs/react-testing-library/example-intro)
-- [Tutorial](https://www.robinwieruch.de/react-testing-library)
+-   [Introduction](https://testing-library.com/docs/react-testing-library/intro/)
+-   [Example](https://testing-library.com/docs/react-testing-library/example-intro)
+-   [Tutorial](https://www.robinwieruch.de/react-testing-library)
 
 The main paradigm to focus on with using the testing-library is that you are testing what the user will do rather than testing your component. So when designing your tests, try to think from the user perspective of actions they will do rather than of your component. This means that you will probably not write tests for each of your components, but rather for each user interaction!
 
@@ -22,9 +22,9 @@ Watch out though that you keep the interaction per test as simple as possible. T
 
 The following tutorials come recommended, but they cover a lot of the same things. So find the one that works for you and have a look:
 
-- [Laith Harb - Crash course using TDD](https://www.youtube.com/watch?v=GLSSRtnNY0g)
-- [The Net Ninja testing-library tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ)
-- [PedroTech's guide to testing-library](https://www.youtube.com/watch?v=Vp_76zdHkV8)
+-   [Laith Harb - Crash course using TDD](https://www.youtube.com/watch?v=GLSSRtnNY0g)
+-   [The Net Ninja testing-library tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ)
+-   [PedroTech's guide to testing-library](https://www.youtube.com/watch?v=Vp_76zdHkV8)
 
 ### Enzyme
 
@@ -34,9 +34,9 @@ Sometimes this very specific way of testing makes testing a specific function of
 
 The following tutorials come recommended, but they cover a lot of the same things. When looking for your own, watch out that a lot of the older tutorials use class components! Find the one that works for you and have a look:
 
-- [Bitfumes - TDD with enzyme](https://www.youtube.com/watch?v=-bmdf1oATQo)
-- [Duomly - Quick guide](https://www.youtube.com/watch?v=XNzVMP7Mnxg)
-- [Beginner enzyme course](https://www.youtube.com/watch?v=REfRxzmWDLs)
+-   [Bitfumes - TDD with enzyme](https://www.youtube.com/watch?v=-bmdf1oATQo)
+-   [Duomly - Quick guide](https://www.youtube.com/watch?v=XNzVMP7Mnxg)
+-   [Beginner enzyme course](https://www.youtube.com/watch?v=REfRxzmWDLs)
 
 ## The hard parts
 
@@ -84,8 +84,8 @@ Have a look at the following short video and it will show you exactly how you ca
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [Self Teach Me - From building a component to testing it](https://www.youtube.com/playlist?list=PLrz61zkUHJJGoQcWPykdt4PaoQUD-SMkm)
-- [Enzyme vs React testing library](https://www.youtube.com/watch?v=SyAYO5w-nUI)
-- [React official testing docs](https://reactjs.org/docs/testing.html). Although it gives good information, it is focused on how the testing environment is set up and why. The `create-react-app` command and your employer will have this all set up for you so practically this is extra information. Have a look through if you find this interesting, however!
-- [jest mocking documentation](https://jestjs.io/docs/mock-functions)
+-   [Self Teach Me - From building a component to testing it](https://www.youtube.com/playlist?list=PLrz61zkUHJJGoQcWPykdt4PaoQUD-SMkm)
+-   [Enzyme vs React testing library](https://www.youtube.com/watch?v=SyAYO5w-nUI)
+-   [React official testing docs](https://reactjs.org/docs/testing.html). Although it gives good information, it is focused on how the testing environment is set up and why. The `create-react-app` command and your employer will have this all set up for you so practically this is extra information. Have a look through if you find this interesting, however!
+-   [jest mocking documentation](https://jestjs.io/docs/mock-functions)
 -

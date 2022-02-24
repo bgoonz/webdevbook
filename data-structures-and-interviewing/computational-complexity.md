@@ -6,9 +6,9 @@
 
 In this chapter, you will learn:
 
-- What's the best way to measure your code's performance regardless of what hardware you use.
-- Learn how to use Big O notation to compare algorithms.
-- How to use algorithms analysis to improve your programs speed.
+-   What's the best way to measure your code's performance regardless of what hardware you use.
+-   Learn how to use Big O notation to compare algorithms.
+-   How to use algorithms analysis to improve your programs speed.
 
 Before going deeper into space and time complexity, let's cover the basics real quick.
 
@@ -292,9 +292,9 @@ Big O notation only cares about the "biggest" terms in the time/space complexity
 
 All algorithms have three scenarios:
 
-- Best-case scenario: the most favorable input arrangement where the program will take the least amount of operations to complete. E.g., a sorted array is beneficial for some sorting algorithms.
-- Average-case scenario: this is the most common case. E.g., array items in random order for a sorting algorithm.
-- Worst-case scenario: the inputs are arranged in such a way that causes the program to take the longest to complete. E.g., array items in reversed order for some sorting algorithm will take the longest to run.
+-   Best-case scenario: the most favorable input arrangement where the program will take the least amount of operations to complete. E.g., a sorted array is beneficial for some sorting algorithms.
+-   Average-case scenario: this is the most common case. E.g., array items in random order for a sorting algorithm.
+-   Worst-case scenario: the inputs are arranged in such a way that causes the program to take the longest to complete. E.g., array items in reversed order for some sorting algorithm will take the longest to run.
 
 To sum up:
 

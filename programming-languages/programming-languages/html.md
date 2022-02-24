@@ -20,8 +20,8 @@ It is recommended that you work through [Getting started with the web ](https://
 
 After learning HTML, you can then move on to learning about more advanced topics such as:
 
-- [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS), and how to use it to style HTML (for example alter your text size and fonts used, add borders and drop shadows, layout your page with multiple columns, add animations and other visual effects.)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript), and how to use it to add dynamic functionality to web pages (for example find your location and plot it on a map, make UI elements appear/disappear when you toggle a button, save users' data locally on their computers, and much more.)
+-   [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS), and how to use it to style HTML (for example alter your text size and fonts used, add borders and drop shadows, layout your page with multiple columns, add animations and other visual effects.)
+-   [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript), and how to use it to add dynamic functionality to web pages (for example find your location and plot it on a map, make UI elements appear/disappear when you toggle a button, save users' data locally on their computers, and much more.)
 
 ### [Modules](https://developer.mozilla.org/en-US/docs/Learn/HTML#modules) <a href="#modules" id="modules"></a>
 
@@ -57,9 +57,9 @@ The main entry point for HTML reference documentation on MDN, including detailed
 
 ## What’s in the head? Metadata in HTML
 
-- [Previous](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
-- [Overview: Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
-- [Next](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
+-   [Previous](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+-   [Overview: Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+-   [Next](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
 
 The [head](https://developer.mozilla.org/en-US/docs/Glossary/Head) of an HTML document is the part that is not displayed in the web browser when the page is loaded. It contains information such as the page [`<title>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title), links to [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS) (if you choose to style your HTML content with CSS), links to custom favicons, and other metadata (data about the HTML, such as the author, and important keywords that describe the document.) In this article we'll cover all of the above and more, in order to give you a good basis for working with markup.
 
@@ -103,14 +103,14 @@ In larger pages however, the head can get quite full. Try going to some of your 
 
 We've already seen the [`<title>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title) element in action — this can be used to add a title to the document. This however can get confused with the [`<h1>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements) element, which is used to add a top level heading to your body content — this is also sometimes referred to as the page title. But they are different things!
 
-- The [`<h1>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements) element appears on the page when loaded in the browser — generally this should be used once per page, to mark up the title of your page content (the story title, or news headline, or whatever is appropriate to your usage.)
-- The [`<title>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title) element is metadata that represents the title of the overall HTML document (not the document's content.)
+-   The [`<h1>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements) element appears on the page when loaded in the browser — generally this should be used once per page, to mark up the title of your page content (the story title, or news headline, or whatever is appropriate to your usage.)
+-   The [`<title>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title) element is metadata that represents the title of the overall HTML document (not the document's content.)
 
 #### [Active learning: Inspecting a simple example](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#active_learning_inspecting_a_simple_example) <a href="#active_learning_inspecting_a_simple_example" id="active_learning_inspecting_a_simple_example"></a>
 
 1. To start off this active learning, we'd like you to go to our GitHub repo and download a copy of our [title-example.html page](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/the-html-head/title-example.html). To do this, either
-   1. Copy and paste the code out of the page and into a new text file in your code editor, then save it in a sensible place.
-   2. Press the "Raw" button on the GitHub page, which causes the raw code to appear (possibly in a new browser tab). Next, choose your browser's _File > Save Page As..._ menu and choose a sensible place to save the file.
+    1. Copy and paste the code out of the page and into a new text file in your code editor, then save it in a sensible place.
+    2. Press the "Raw" button on the GitHub page, which causes the raw code to appear (possibly in a new browser tab). Next, choose your browser's _File > Save Page As..._ menu and choose a sensible place to save the file.
 2. Now open the file in your browser. You should see something like this: ![A simple web page with the title set to <title> element, and the <h1> set to <h1> element.](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML/title-example.png)It should now be completely obvious where the `<h1>` content appears, and where the `<title>` content appears!
 3. You should also try opening the code up in your code editor, editing the contents of these elements, then refreshing the page in your browser. Have some fun with it.
 
@@ -156,8 +156,8 @@ Copy to Clipboard
 
 Many `<meta>` elements include `name` and `content` attributes:
 
-- `name` specifies the type of meta element it is; what type of information it contains.
-- `content` specifies the actual meta content.
+-   `name` specifies the type of meta element it is; what type of information it contains.
+-   `content` specifies the actual meta content.
 
 Two such meta elements that are useful to include on your page define the author of the page, and provide a concise description of the page. Let's look at an example:
 
@@ -182,14 +182,14 @@ The description is also used on search engine result pages. Let's go through an 
 2. View the page's source (right-click on the page, choose _View Page Source_ from the context menu.)
 3. Find the description meta tag. It will look something like this (although it may change over time):
 
-   ```
-   <meta name="description" content="The MDN Web Docs site
-     provides information about Open Web technologies
-     including HTML, CSS, and APIs for both Web sites and
-     progressive web apps.">
-   ```
+    ```
+    <meta name="description" content="The MDN Web Docs site
+      provides information about Open Web technologies
+      including HTML, CSS, and APIs for both Web sites and
+      progressive web apps.">
+    ```
 
-   Copy to Clipboard
+    Copy to Clipboard
 
 4. Now search for "MDN Web Docs" in your favorite search engine (We used Google.) You'll notice the description `<meta>` and `<title>` element content used in the search result — definitely worth having! ![A Yahoo search result for "Mozilla Developer Network"](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML/mdn-search-result.png)
 
@@ -236,11 +236,11 @@ A favicon can be added to your page by:
 1. Saving it in the same directory as the site's index page, saved in `.ico` format (most browsers will support favicons in more common formats like `.gif` or `.png`, but using the ICO format will ensure it works as far back as Internet Explorer 6.)
 2. Adding the following line into your HTML's [`<head>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head) block to reference it:
 
-   ```
-   <link rel="icon" href="favicon.ico" type="image/x-icon">
-   ```
+    ```
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    ```
 
-   Copy to Clipboard
+    Copy to Clipboard
 
 Here is an example of a favicon in a bookmarks panel:
 
@@ -273,23 +273,23 @@ Don't worry too much about implementing all these types of icon right now — th
 
 Just about all websites you'll use in the modern day will employ [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS) to make them look cool, and [JavaScript](https://developer.mozilla.org/en-US/docs/Glossary/JavaScript) to power interactive functionality, such as video players, maps, games, and more. These are most commonly applied to a web page using the [`<link>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link) element and the [`<script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) element, respectively.
 
-- The [`<link>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link) element should always go inside the head of your document. This takes two attributes, `rel="stylesheet"`, which indicates that it is the document's stylesheet, and `href`, which contains the path to the stylesheet file:
+-   The [`<link>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link) element should always go inside the head of your document. This takes two attributes, `rel="stylesheet"`, which indicates that it is the document's stylesheet, and `href`, which contains the path to the stylesheet file:
 
-  ```
-  <link rel="stylesheet" href="my-css-file.css">
-  ```
+    ```
+    <link rel="stylesheet" href="my-css-file.css">
+    ```
 
-  Copy to Clipboard
+    Copy to Clipboard
 
-- The [`<script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) element should also go into the head, and should include a `src` attribute containing the path to the JavaScript you want to load, and `defer`, which basically instructs the browser to load the JavaScript after the page has finished parsing the HTML. This is useful as it makes sure that the HTML is all loaded before the JavaScript runs, so that you don't get errors resulting from JavaScript trying to access an HTML element that doesn't exist on the page yet. There are actually a number of ways to handle loading JavaScript on your page, but this is the most foolproof one to use for modern browsers (for others, read [Script loading strategies](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#script_loading_strategies)).
+-   The [`<script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) element should also go into the head, and should include a `src` attribute containing the path to the JavaScript you want to load, and `defer`, which basically instructs the browser to load the JavaScript after the page has finished parsing the HTML. This is useful as it makes sure that the HTML is all loaded before the JavaScript runs, so that you don't get errors resulting from JavaScript trying to access an HTML element that doesn't exist on the page yet. There are actually a number of ways to handle loading JavaScript on your page, but this is the most foolproof one to use for modern browsers (for others, read [Script loading strategies](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#script_loading_strategies)).
 
-  ```
-  <script src="my-js-file.js" defer></script>
-  ```
+    ```
+    <script src="my-js-file.js" defer></script>
+    ```
 
-  Copy to Clipboard
+    Copy to Clipboard
 
-  **Note:** The `<script>` element may look like an empty element, but it's not, and so needs a closing tag. Instead of pointing to an external script file, you can also choose to put your script inside the `<script>` element.
+    **Note:** The `<script>` element may look like an empty element, but it's not, and so needs a closing tag. Instead of pointing to an external script file, you can also choose to put your script inside the `<script>` element.
 
 #### [Active learning: applying CSS and JavaScript to a page](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#active_learning_applying_css_and_javascript_to_a_page) <a href="#active_learning_applying_css_and_javascript_to_a_page" id="active_learning_applying_css_and_javascript_to_a_page"></a>
 
@@ -301,8 +301,8 @@ If done correctly, when you save your HTML and refresh your browser you should b
 
 ![Example showing a page with CSS and JavaScript applied to it. The CSS has made the page go green, whereas the JavaScript has added a dynamic list to the page.](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML/js-and-css.png)
 
-- The JavaScript has added an empty list to the page. Now when you click anywhere outside the list, a dialog box will pop up asking you to enter some text for a new list item. When you press the OK button, a new list item will be added to the list containing the text. When you click on an existing list item, a dialog box will pop up allowing you to change the item's text.
-- The CSS has caused the background to go green, and the text to become bigger. It has also styled some of the content that the JavaScript has added to the page (the red bar with the black border is the styling the CSS has added to the JS-generated list.)
+-   The JavaScript has added an empty list to the page. Now when you click anywhere outside the list, a dialog box will pop up asking you to enter some text for a new list item. When you press the OK button, a new list item will be added to the list containing the text. When you click on an existing list item, a dialog box will pop up allowing you to change the item's text.
+-   The CSS has caused the background to go green, and the text to become bigger. It has also styled some of the content that the JavaScript has added to the page (the red bar with the black border is the styling the CSS has added to the JS-generated list.)
 
 **Note:** If you get stuck in this exercise and can't get the CSS/JS to apply, try checking out our [css-and-js.html](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/the-html-head/css-and-js.html) example page.
 
@@ -390,9 +390,9 @@ Copy to Clipboard
 
 It's really up to you what the elements involved represent, as long as the hierarchy makes sense. You just need to bear in mind a few best practices as you create such structures:
 
-- Preferably, you should use a single `<h1>` per page—this is the top level heading, and all others sit below this in the hierarchy.
-- Make sure you use the headings in the correct order in the hierarchy. Don't use `<h3>` elements to represent subheadings, followed by `<h2>` elements to represent sub-subheadings—that doesn't make sense and will lead to weird results.
-- Of the six heading levels available, you should aim to use no more than three per page, unless you feel it is necessary. Documents with many levels (for example, a deep heading hierarchy) become unwieldy and difficult to navigate. On such occasions, it is advisable to spread the content over multiple pages if possible.
+-   Preferably, you should use a single `<h1>` per page—this is the top level heading, and all others sit below this in the hierarchy.
+-   Make sure you use the headings in the correct order in the hierarchy. Don't use `<h3>` elements to represent subheadings, followed by `<h2>` elements to represent sub-subheadings—that doesn't make sense and will lead to weird results.
+-   Of the six heading levels available, you should aim to use no more than three per page, unless you feel it is necessary. Documents with many levels (for example, a deep heading hierarchy) become unwieldy and difficult to navigate. On such occasions, it is advisable to spread the content over multiple pages if possible.
 
 #### [Why do we need structure?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#why_do_we_need_structure) <a href="#why_do_we_need_structure" id="why_do_we_need_structure"></a>
 
@@ -404,10 +404,10 @@ However, when you open the document in your browser, you'll see that the text ap
 
 This is because there are no elements to give the content structure, so the browser does not know what is a heading and what is a paragraph. Furthermore:
 
-- Users looking at a web page tend to scan quickly to find relevant content, often just reading the headings, to begin with. (We usually [spend a very short time on a web page](https://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/).) If they can't see anything useful within a few seconds, they'll likely get frustrated and go somewhere else.
-- Search engines indexing your page consider the contents of headings as important keywords for influencing the page's search rankings. Without headings, your page will perform poorly in terms of [SEO](https://developer.mozilla.org/en-US/docs/Glossary/SEO) (Search Engine Optimization).
-- Severely visually impaired people often don't read web pages; they listen to them instead. This is done with software called a [screen reader](https://en.wikipedia.org/wiki/Screen_reader). This software provides ways to get fast access to given text content. Among the various techniques used, they provide an outline of the document by reading out the headings, allowing their users to find the information they need quickly. If headings are not available, they will be forced to listen to the whole document read out loud.
-- To style content with [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS), or make it do interesting things with [JavaScript](https://developer.mozilla.org/en-US/docs/Glossary/JavaScript), you need to have elements wrapping the relevant content, so CSS/JavaScript can effectively target it.
+-   Users looking at a web page tend to scan quickly to find relevant content, often just reading the headings, to begin with. (We usually [spend a very short time on a web page](https://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/).) If they can't see anything useful within a few seconds, they'll likely get frustrated and go somewhere else.
+-   Search engines indexing your page consider the contents of headings as important keywords for influencing the page's search rankings. Without headings, your page will perform poorly in terms of [SEO](https://developer.mozilla.org/en-US/docs/Glossary/SEO) (Search Engine Optimization).
+-   Severely visually impaired people often don't read web pages; they listen to them instead. This is done with software called a [screen reader](https://en.wikipedia.org/wiki/Screen_reader). This software provides ways to get fast access to given text content. Among the various techniques used, they provide an outline of the document by reading out the headings, allowing their users to find the information they need quickly. If headings are not available, they will be forced to listen to the whole document read out loud.
+-   To style content with [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS), or make it do interesting things with [JavaScript](https://developer.mozilla.org/en-US/docs/Glossary/JavaScript), you need to have elements wrapping the relevant content, so CSS/JavaScript can effectively target it.
 
 Therefore, we need to give our content structural markup.
 
@@ -620,9 +620,9 @@ HTML5 redefined `<b>`, `<i>`, and `<u>` with new, somewhat confusing, semantic r
 
 Here's the best rule of thumb: It's likely appropriate to use `<b>`, `<i>`, or `<u>` to convey a meaning traditionally conveyed with bold, italics, or underline, provided there is no more suitable element. However, it always remains critical to keep an accessibility mindset. The concept of italics isn't very helpful to people using screen readers, or to people using a writing system other than the Latin alphabet.
 
-- [`<i>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i) is used to convey a meaning traditionally conveyed by italic: foreign words, taxonomic designation, technical terms, a thought...
-- [`<b>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b) is used to convey a meaning traditionally conveyed by bold: key words, product names, lead sentence...
-- [`<u>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u) is used to convey a meaning traditionally conveyed by underline: proper name, misspelling...
+-   [`<i>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i) is used to convey a meaning traditionally conveyed by italic: foreign words, taxonomic designation, technical terms, a thought...
+-   [`<b>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b) is used to convey a meaning traditionally conveyed by bold: key words, product names, lead sentence...
+-   [`<u>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u) is used to convey a meaning traditionally conveyed by underline: proper name, misspelling...
 
 **Note:** People strongly associate underlining with hyperlinks. Therefore, on the web, it's best to underline only links. Use the `<u>` element when it's semantically appropriate, but consider using CSS to change the default underline to something more appropriate on the web. The example below illustrates how it can be done.
 
@@ -720,9 +720,9 @@ I'm creating a link to [the Mozilla homepage](https://www.mozilla.org/en-US/).
 
 Create an HTML document using your local code editor and our [getting started template](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/getting-started/index.html).
 
-- Inside the HTML body, add one or more paragraphs or other types of content you already know about.
-- Change some of the content into links.
-- Include title attributes.
+-   Inside the HTML body, add one or more paragraphs or other types of content you already know about.
+-   Change some of the content into links.
+-   Include title attributes.
 
 #### [Block level links](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#block_level_links) <a href="#block_level_links" id="block_level_links"></a>
 
@@ -752,30 +752,30 @@ The **root** of this directory structure is called `creating-hyperlinks`. When w
 
 There are also two directories inside our root — `pdfs` and `projects`. These each have a single file inside them — a PDF (`project-brief.pdf`) and an `index.html` file, respectively. Note that you can have two `index.html` files in one project, as long as they're in different filesystem locations. The second `index.html` would perhaps be the main landing page for project-related information.
 
-- **Same directory**: If you wanted to include a hyperlink inside `index.html` (the top level `index.html`) pointing to `contacts.html`, you would specify the filename that you want to link to, because it's in the same directory as the current file. The URL you would use is `contacts.html`:
+-   **Same directory**: If you wanted to include a hyperlink inside `index.html` (the top level `index.html`) pointing to `contacts.html`, you would specify the filename that you want to link to, because it's in the same directory as the current file. The URL you would use is `contacts.html`:
 
-  ```
-  <p>Want to contact a specific staff member?
-  Find details on our <a href="contacts.html">contacts page</a>.</p>
-  ```
+    ```
+    <p>Want to contact a specific staff member?
+    Find details on our <a href="contacts.html">contacts page</a>.</p>
+    ```
 
-  Copy to Clipboard
+    Copy to Clipboard
 
-- **Moving down into subdirectories**: If you wanted to include a hyperlink inside `index.html` (the top level `index.html`) pointing to `projects/index.html`, you would need to go down into the `projects` directory before indicating the file you want to link to. This is done by specifying the directory's name, then a forward slash, then the name of the file. The URL you would use is `projects/index.html`:
+-   **Moving down into subdirectories**: If you wanted to include a hyperlink inside `index.html` (the top level `index.html`) pointing to `projects/index.html`, you would need to go down into the `projects` directory before indicating the file you want to link to. This is done by specifying the directory's name, then a forward slash, then the name of the file. The URL you would use is `projects/index.html`:
 
-  ```
-  <p>Visit my <a href="projects/index.html">project homepage</a>.</p>
-  ```
+    ```
+    <p>Visit my <a href="projects/index.html">project homepage</a>.</p>
+    ```
 
-  Copy to Clipboard
+    Copy to Clipboard
 
-- **Moving back up into parent directories**: If you wanted to include a hyperlink inside `projects/index.html` pointing to `pdfs/project-brief.pdf`, you'd have to go up a directory level, then back down into the `pdf` directory. To go up a directory, use two dots — `..` — so the URL you would use is `../pdfs/project-brief.pdf`:
+-   **Moving back up into parent directories**: If you wanted to include a hyperlink inside `projects/index.html` pointing to `pdfs/project-brief.pdf`, you'd have to go up a directory level, then back down into the `pdf` directory. To go up a directory, use two dots — `..` — so the URL you would use is `../pdfs/project-brief.pdf`:
 
-  ```
-  <p>A link to my <a href="../pdfs/project-brief.pdf">project brief</a>.</p>
-  ```
+    ```
+    <p>A link to my <a href="../pdfs/project-brief.pdf">project brief</a>.</p>
+    ```
 
-  Copy to Clipboard
+    Copy to Clipboard
 
 **Note:** You can combine multiple instances of these features into complex URLs, if needed, for example: `../../../complex/path/to/my/file.html`.
 
@@ -827,9 +827,9 @@ There are some best practices to follow when writing links. Let's look at these 
 
 It's easy to throw links up on your page. That's not enough. We need to make our links _accessible_ to all readers, regardless of their current context and which tools they prefer. For example:
 
-- Screenreader users like jumping around from link to link on the page, and reading links out of context.
-- Search engines use link text to index target files, so it is a good idea to include keywords in your link text to effectively describe what is being linked to.
-- Visual readers skim over the page rather than reading every word, and their eyes will be drawn to page features that stand out, like links. They will find descriptive link text useful.
+-   Screenreader users like jumping around from link to link on the page, and reading links out of context.
+-   Search engines use link text to index target files, so it is a good idea to include keywords in your link text to effectively describe what is being linked to.
+-   Visual readers skim over the page rather than reading every word, and their eyes will be drawn to page features that stand out, like links. They will find descriptive link text useful.
 
 Let's look at a specific example:
 
@@ -856,10 +856,10 @@ Copy to Clipboard
 
 Other tips:
 
-- Don't repeat the URL as part of the link text — URLs look ugly, and sound even uglier when a screen reader reads them out letter by letter.
-- Don't say "link" or "links to" in the link text — it's just noise. Screen readers tell people there's a link. Visual users will also know there's a link, because links are generally styled in a different color and underlined (this convention generally shouldn't be broken, as users are used to it).
-- Keep your link text as short as possible — this is helpful because screen readers need to interpret the entire link text.
-- Minimize instances where multiple copies of the same text are linked to different places. This can cause problems for screen reader users, if there's a list of links out of context that are labeled "click here", "click here", "click here".
+-   Don't repeat the URL as part of the link text — URLs look ugly, and sound even uglier when a screen reader reads them out letter by letter.
+-   Don't say "link" or "links to" in the link text — it's just noise. Screen readers tell people there's a link. Visual users will also know there's a link, because links are generally styled in a different color and underlined (this convention generally shouldn't be broken, as users are used to it).
+-   Keep your link text as short as possible — this is helpful because screen readers need to interpret the entire link text.
+-   Minimize instances where multiple copies of the same text are linked to different places. This can cause problems for screen reader users, if there's a list of links out of context that are labeled "click here", "click here", "click here".
 
 #### [Linking to non-HTML resources — leave clear signposts](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#linking_to_non-html_resources_%E2%80%94_leave_clear_signposts) <a href="#linking_to_non-html_resources_-_leave_clear_signposts" id="linking_to_non-html_resources_-_leave_clear_signposts"></a>
 
@@ -867,8 +867,8 @@ When linking to a resource that will be downloaded (like a PDF or Word document)
 
 For example:
 
-- If you're on a low bandwidth connection, click a link, and then a multiple megabyte download starts unexpectedly.
-- If you don't have the Flash player installed, click a link, and then suddenly get taken to a page that requires Flash.
+-   If you're on a low bandwidth connection, click a link, and then a multiple megabyte download starts unexpectedly.
+-   If you don't have the Flash player installed, click a link, and then suddenly get taken to a page that requires Flash.
 
 Let's look at some examples, to see what kind of text can be used here:
 
@@ -907,10 +907,10 @@ For this exercise, we'd like you to link some pages together with a navigation m
 
 You'll need to make local copies of the following four pages, all in the same directory. For a complete file list, see the [navigation-menu-start](https://github.com/mdn/learning-area/tree/master/html/introduction-to-html/navigation-menu-start) directory:
 
-- [index.html](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/navigation-menu-start/index.html)
-- [projects.html](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/navigation-menu-start/projects.html)
-- [pictures.html](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/navigation-menu-start/pictures.html)
-- [social.html](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/navigation-menu-start/social.html)
+-   [index.html](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/navigation-menu-start/index.html)
+-   [projects.html](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/navigation-menu-start/projects.html)
+-   [pictures.html](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/navigation-menu-start/pictures.html)
+-   [social.html](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/navigation-menu-start/social.html)
 
 You should:
 
@@ -959,11 +959,11 @@ Copy to Clipboard
 
 Here are a few other sample `mailto` URLs:
 
-- [mailto:](mailto:)
-- [mailto:nowhere@mozilla.org](mailto:nowhere@mozilla.org)
-- [mailto:nowhere@mozilla.org,nobody@mozilla.org](mailto:nowhere@mozilla.org,nobody@mozilla.org)
-- [mailto:nowhere@mozilla.org?cc=nobody@mozilla.org](mailto:nowhere@mozilla.org?cc=nobody@mozilla.org)
-- [mailto:nowhere@mozilla.org?cc=nobody@mozilla.org\&subject=This%20is%20the%20subject](mailto:nowhere@mozilla.org?cc=nobody@mozilla.org&subject=This%20is%20the%20subject)
+-   [mailto:](mailto:)
+-   [mailto:nowhere@mozilla.org](mailto:nowhere@mozilla.org)
+-   [mailto:nowhere@mozilla.org,nobody@mozilla.org](mailto:nowhere@mozilla.org,nobody@mozilla.org)
+-   [mailto:nowhere@mozilla.org?cc=nobody@mozilla.org](mailto:nowhere@mozilla.org?cc=nobody@mozilla.org)
+-   [mailto:nowhere@mozilla.org?cc=nobody@mozilla.org\&subject=This%20is%20the%20subject](mailto:nowhere@mozilla.org?cc=nobody@mozilla.org&subject=This%20is%20the%20subject)
 
 ### [Test your skills!](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#test_your_skills!) <a href="#test_your_skills" id="test_your_skills"></a>
 
@@ -1110,8 +1110,8 @@ Time for another active learning example! In this example we'd like you to:
 
 The citation sources you need are:
 
-- http://www.brainyquote.com/quotes/authors/c/confucius.html for the Confucius quote
-- http://example.com/affirmationsforpositivethinking for "The Need To Eliminate Negative Self Talk".
+-   http://www.brainyquote.com/quotes/authors/c/confucius.html for the Confucius quote
+-   http://example.com/affirmationsforpositivethinking for "The Need To Eliminate Negative Self Talk".
 
 If you make a mistake, you can always reset it using the _Reset_ button. If you get really stuck, press the _Show solution_ button to see the answer.
 
@@ -1201,11 +1201,11 @@ The output of this code looks like so:
 
 There are a number of elements available for marking up computer code using HTML:
 
-- [`<code>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code): For marking up generic pieces of computer code.
-- [`<pre>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre): For retaining whitespace (generally code blocks) — if you use indentation or excess whitespace inside your text, browsers will ignore it and you will not see it on your rendered page. If you wrap the text in `<pre></pre>` tags however, your whitespace will be rendered identically to how you see it in your text editor.
-- [`<var>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var): For specifically marking up variable names.
-- [`<kbd>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd): For marking up keyboard (and other types of) input entered into the computer.
-- [`<samp>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp): For marking up the output of a computer program.
+-   [`<code>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code): For marking up generic pieces of computer code.
+-   [`<pre>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre): For retaining whitespace (generally code blocks) — if you use indentation or excess whitespace inside your text, browsers will ignore it and you will not see it on your rendered page. If you wrap the text in `<pre></pre>` tags however, your whitespace will be rendered identically to how you see it in your text editor.
+-   [`<var>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var): For specifically marking up variable names.
+-   [`<kbd>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd): For marking up keyboard (and other types of) input entered into the computer.
+-   [`<samp>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp): For marking up the output of a computer program.
 
 Let's look at a few examples. You should try having a play with these (try grabbing a copy of our [other-semantics.html](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/advanced-text-formatting/other-semantics.html) sample file):
 

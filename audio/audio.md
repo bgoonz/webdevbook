@@ -223,16 +223,16 @@ Tracing the exact origins of the Fourier transform is tricky. Some related proce
 
 The discrete Fourier transform functionality in SciPy lives in the \`scipy.fftpack module. Among other things, it provides the following DFT-related functionality:
 
-- `fft`, `fft2`, `fftn`: Compute the discrete Fourier transform using the Fast Fourier Transform algorithm in 1, 2, or `n` dimensions.
-- `ifft`, `ifft2`, `ifftn`: Compute the inverse of the DFT
-- `dct`, `idct`, `dst`, `idst`: Compute the cosine and sine transforms, and their inverses.
-- `fftshift`, `ifftshift`: Shift the zero-frequency component to the center of the spectrum and back, respectively (more about that soon).
-- `fftfreq`: Return the discrete Fourier transform sample frequencies.
-- `rfft`: Compute the DFT of a real sequence, exploiting the symmetry of the resulting spectrum for increased performance. Also used by `fft` internally when applicable.
+-   `fft`, `fft2`, `fftn`: Compute the discrete Fourier transform using the Fast Fourier Transform algorithm in 1, 2, or `n` dimensions.
+-   `ifft`, `ifft2`, `ifftn`: Compute the inverse of the DFT
+-   `dct`, `idct`, `dst`, `idst`: Compute the cosine and sine transforms, and their inverses.
+-   `fftshift`, `ifftshift`: Shift the zero-frequency component to the center of the spectrum and back, respectively (more about that soon).
+-   `fftfreq`: Return the discrete Fourier transform sample frequencies.
+-   `rfft`: Compute the DFT of a real sequence, exploiting the symmetry of the resulting spectrum for increased performance. Also used by `fft` internally when applicable.
 
 This is complemented by the following functions in NumPy:
 
-- `np.hanning`, `np.hamming`, `np.bartlett`, `np.blackman`, `np.kaiser`: Tapered windowing functions.
+-   `np.hanning`, `np.hamming`, `np.bartlett`, `np.blackman`, `np.kaiser`: Tapered windowing functions.
 
 It is also used to perform fast convolutions of large inputs by `scipy.signal.fftconvolve`.
 
@@ -544,9 +544,9 @@ We are particularly interested in the first, since that gives us some indication
 
 To summarize, we should note that:
 
-- The data that reaches the computer consists of $N$ samples sampled (from the multiplied, filtered signal) at a sample frequency of $f\_{s}$.
-- The **amplitude** of the returned signal varies depending on the **strength of the reflection** (i.e., is a property of the target object and the distance between the target and the radar).
-- The **frequency measured** is an indication of the **distance** of the target object from the radar.
+-   The data that reaches the computer consists of $N$ samples sampled (from the multiplied, filtered signal) at a sample frequency of $f\_{s}$.
+-   The **amplitude** of the returned signal varies depending on the **strength of the reflection** (i.e., is a property of the target object and the distance between the target and the radar).
+-   The **frequency measured** is an indication of the **distance** of the target object from the radar.
 
 ![The frequency relationships in an FMCW radar with
  linear frequency modulation](https://bgoonz-blog.netlify.app/docs/audio/figures/FMCW_waveform.png)
@@ -649,15 +649,15 @@ v_actual = v_actual * (2.5 / 8192)
 
 Since `.npz`-files can store multiple variables, we have to select the one we want: `data['scan']`. That returns a _structured NumPy array_ with the following fields:
 
-- **time** : unsigned 64-bit (8 byte) integer (`np.uint64`)
-- **size** : unsigned 32-bit (4 byte) integer (`np.uint32`)
-- **position**
-  - **az** : 32-bit float (`np.float32`)
-  - **el** : 32-bit float (`np.float32`)
-  - **region_type** : unsigned 8-bit (1 byte) integer (`np.uint8`)
-  - **region_ID** : unsigned 16-bit (2 byte) integer (`np.uint16`)
-  - **gain** : unsigned 8-bit (1 byte) integer (`np.uin8`)
-  - **samples** : 2048 unsigned 16-bit (2 byte) integers (`np.uint16`)
+-   **time** : unsigned 64-bit (8 byte) integer (`np.uint64`)
+-   **size** : unsigned 32-bit (4 byte) integer (`np.uint32`)
+-   **position**
+    -   **az** : 32-bit float (`np.float32`)
+    -   **el** : 32-bit float (`np.float32`)
+    -   **region_type** : unsigned 8-bit (1 byte) integer (`np.uint8`)
+    -   **region_ID** : unsigned 16-bit (2 byte) integer (`np.uint16`)
+    -   **gain** : unsigned 8-bit (1 byte) integer (`np.uin8`)
+    -   **samples** : 2048 unsigned 16-bit (2 byte) integers (`np.uint16`)
 
 While it is true that NumPy arrays are _homogeneous_ (i.e., all the elements inside are the same), it does not mean that those elements cannot be compound elements, as is the case here.
 
@@ -929,21 +929,21 @@ The examples above show just one of the uses of the FFT in radar. There are many
 
 On the Fourier transform:
 
-- A. Papoulis, _The Fourier Integral and Its Applications_, McGraw-Hill, 1960.
-- Ronald A. Bracewell, _The Fourier Transform and Its Applications_, McGraw-Hill, 1986.
+-   A. Papoulis, _The Fourier Integral and Its Applications_, McGraw-Hill, 1960.
+-   Ronald A. Bracewell, _The Fourier Transform and Its Applications_, McGraw-Hill, 1986.
 
 On radar signal processing:
 
-- Mark A. Richards, _Principles of Modern Radar: Basic Principles_, SciTech, 2010
-- Mark A. Richards, _Fundamentals of Radar Signal Processing_, McGraw-Hill, 2014.
+-   Mark A. Richards, _Principles of Modern Radar: Basic Principles_, SciTech, 2010
+-   Mark A. Richards, _Fundamentals of Radar Signal Processing_, McGraw-Hill, 2014.
 
 **Exercise:** The FFT is often used to speed up image convolution (convolution is the application of a moving filter mask). Convolve an image with `np.ones((5, 5))`, using a) numpy's `np.convolve` and b) `np.fft.fft2`. Confirm that the results are identical.
 
 Hints:
 
-- The convolution of `x` and `y` is equivalent to `ifft2(X * Y)`, where `X` and `Y` are the FFTs of x and y respectively.
-- In order to multiply `X` and `Y`, they have to be the same size. Use `np.pad` to extend `x` and `y` with zeros (toward the right and bottom) _before_ taking their FFT.
-- You may see some edge effects. These can be removed by increasing the padding size, so that both `x` and `y` have dimensions `shape(x) + shape(y) - 1`.
+-   The convolution of `x` and `y` is equivalent to `ifft2(X * Y)`, where `X` and `Y` are the FFTs of x and y respectively.
+-   In order to multiply `X` and `Y`, they have to be the same size. Use `np.pad` to extend `x` and `y` with zeros (toward the right and bottom) _before_ taking their FFT.
+-   You may see some edge effects. These can be removed by increasing the padding size, so that both `x` and `y` have dimensions `shape(x) + shape(y) - 1`.
 
 **Solution:**
 
@@ -1226,19 +1226,19 @@ where 𝑑 is the Euclidean distance. Then, the overall path cost can be calcula
 
 The warping path is found using a dynamic programming approach to align two sequences. Going through all possible paths is "combinatorically explosive" \[1]. Therefore, for efficiency purposes, it's important to limit the number of possible warping paths, and hence the following constraints are outlined:
 
-- Boundary Condition: This constraint ensures that the warping path begins with the start points of both signals and terminates with their endpoints.
+-   Boundary Condition: This constraint ensures that the warping path begins with the start points of both signals and terminates with their endpoints.
 
 ![](https://miro.medium.com/max/60/1*SHsmQu2TqpaDyIArn2snzg.png?q=20)
 
 ![](https://miro.medium.com/max/452/1*SHsmQu2TqpaDyIArn2snzg.png)
 
-- Monotonicity condition: This constraint preserves the time-order of points (not going back in time).
+-   Monotonicity condition: This constraint preserves the time-order of points (not going back in time).
 
 ![](https://miro.medium.com/max/60/1*RNg2VENGaWoyvGrvyeg61A.png?q=20)
 
 ![](https://miro.medium.com/max/311/1*RNg2VENGaWoyvGrvyeg61A.png)
 
-- Continuity (step size) condition: This constraint limits the path transitions to adjacent points in time (not jumping in time).
+-   Continuity (step size) condition: This constraint limits the path transitions to adjacent points in time (not jumping in time).
 
 ![](https://miro.medium.com/max/60/1*lU99pFyomdPeaHuR26bDyA.png?q=20)
 
@@ -1246,19 +1246,19 @@ The warping path is found using a dynamic programming approach to align two sequ
 
 In addition to the above three constraints, there are other less frequent conditions for an allowable warping path:
 
-- Warping window condition: Allowable points can be restricted to fall within a given warping window of width 𝜔 (a positive integer).
+-   Warping window condition: Allowable points can be restricted to fall within a given warping window of width 𝜔 (a positive integer).
 
 ![](https://miro.medium.com/max/60/1*9apgwkXeU3gOHLudFsIosA.png?q=20)
 
 ![](https://miro.medium.com/max/168/1*9apgwkXeU3gOHLudFsIosA.png)
 
-- Slope condition: The warping path can be constrained by restricting the slope, and consequently avoiding extreme movements in one direction.
+-   Slope condition: The warping path can be constrained by restricting the slope, and consequently avoiding extreme movements in one direction.
 
 An acceptable warping path has combinations of chess king moves that are:
 
-- Horizontal moves: (𝑖, 𝑗) → (𝑖, 𝑗+1)
-- Vertical moves: (𝑖, 𝑗) → (𝑖+1, 𝑗)
-- Diagonal moves: (𝑖, 𝑗) → (𝑖+1, 𝑗+1)
+-   Horizontal moves: (𝑖, 𝑗) → (𝑖, 𝑗+1)
+-   Vertical moves: (𝑖, 𝑗) → (𝑖+1, 𝑗)
+-   Diagonal moves: (𝑖, 𝑗) → (𝑖+1, 𝑗+1)
 
 ## Implementation
 
@@ -1441,10 +1441,10 @@ DTW overcomes the issue by developing a one-to-many match so that the troughs an
 
 In general, DTW is a method that calculates an optimal match between two given sequences (e.g. time series) with certain restriction and rules(comes from wiki):
 
-- Every index from the first sequence must be matched with one or more indices from the other sequence and vice versa
-- The first index from the first sequence must be matched with the first index from the other sequence (but it does not have to be its only match)
-- The last index from the first sequence must be matched with the last index from the other sequence (but it does not have to be its only match)
-- The mapping of the indices from the first sequence to indices from the other sequence must be monotonically increasing, and vice versa, i.e. if `j > i` are indices from the first sequence, then there must not be two indices `l > k` in the other sequence, such that index `i` is matched with index `l` and index `j` is matched with index `k` , and vice versa
+-   Every index from the first sequence must be matched with one or more indices from the other sequence and vice versa
+-   The first index from the first sequence must be matched with the first index from the other sequence (but it does not have to be its only match)
+-   The last index from the first sequence must be matched with the last index from the other sequence (but it does not have to be its only match)
+-   The mapping of the indices from the first sequence to indices from the other sequence must be monotonically increasing, and vice versa, i.e. if `j > i` are indices from the first sequence, then there must not be two indices `l > k` in the other sequence, such that index `i` is matched with index `l` and index `j` is matched with index `k` , and vice versa
 
 The optimal match is denoted by the match that satisfies all the restrictions and the rules and that has the minimal cost, where the cost is computed as the sum of absolute differences, for each matched pair of indices, between their values.
 

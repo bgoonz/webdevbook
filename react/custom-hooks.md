@@ -22,8 +22,8 @@ One of the main benefits of using the React hooks (like `useState`, `useEffect`,
 
 > Study the following to learn more about it:
 
-- [Building your own hooks](https://reactjs.org/docs/hooks-custom.html)
-- [Building Custom React Hooks](https://medium.com/prototyped/building-custom-react-hooks-f6aad8567825)
+-   [Building your own hooks](https://reactjs.org/docs/hooks-custom.html)
+-   [Building Custom React Hooks](https://medium.com/prototyped/building-custom-react-hooks-f6aad8567825)
 
 ## useFetch as an example
 
@@ -43,4 +43,4 @@ Like anything in development, once someone has found a solution to a common prob
 
 > Check the following resources out to learn more about these custom hooks others have made for you to use:
 
-- [usehooks.com](https://usehooks.com/)
+-   [usehooks.com](https://usehooks.com/)

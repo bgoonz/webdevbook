@@ -1,6 +1,6 @@
 # ES6
 
-- [Traversy Crash Course](https://www.youtube.com/playlist?list=PLillGF-RfqbZ7s3t6ZInY3NjEOOX7hsBv)
+-   [Traversy Crash Course](https://www.youtube.com/playlist?list=PLillGF-RfqbZ7s3t6ZInY3NjEOOX7hsBv)
 
 ## Arrow Functions
 
@@ -11,12 +11,12 @@ It's a little different from regular functions, take a look:
 ```js
 // ES5 Function
 function addNum(num1, num2) {
-  return num1 + num2;
+    return num1 + num2;
 }
 
 // Arrow Function (stored in variable)
 const addNum = (num1, num2) => {
-  return num1 + num2;
+    return num1 + num2;
 };
 ```
 
@@ -27,9 +27,9 @@ If you've done some research, you may come to the following conclusions:
 
 ### Extra reading on arrow functions:
 
-- [JavaScript ES6 Arrow Functions](https://www.youtube.com/watch?v=h33Srr5J9nY)
-- [Let's learn ES6 - Arrow Functions](https://www.youtube.com/watch?v=oTRujqZYhrU)
-- [When (and why) you should use ES6 arrow functions — and when you shouldn’t](https://www.freecodecamp.org/news/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26/)
-- `this`: [tyler mcginnis](https://tylermcginnis.com/arrow-functions/)
-- [youtube search](https://www.youtube.com/results?search_query=arrow+function+binding+this)
-- [dario garcia moya](https://www.codementor.io/@dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc)
+-   [JavaScript ES6 Arrow Functions](https://www.youtube.com/watch?v=h33Srr5J9nY)
+-   [Let's learn ES6 - Arrow Functions](https://www.youtube.com/watch?v=oTRujqZYhrU)
+-   [When (and why) you should use ES6 arrow functions — and when you shouldn’t](https://www.freecodecamp.org/news/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26/)
+-   `this`: [tyler mcginnis](https://tylermcginnis.com/arrow-functions/)
+-   [youtube search](https://www.youtube.com/results?search_query=arrow+function+binding+this)
+-   [dario garcia moya](https://www.codementor.io/@dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc)

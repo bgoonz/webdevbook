@@ -40,12 +40,12 @@ REST (Representational State Transfer) is an architecture style for designing ne
 
 REST is defined by 6 architectural constraints:
 
-- **Uniform interface**: Individual resources are identified with URLs. The resources in the database are in a different form than the data returned to the client, and the client can modify the resources if given permission. Messages communicated between the client and server are self-descriptive and include enough information to process the request. When a developer is familiar with one of your APIs, they should be able to follow a similar approach for your other APIs.
-- **Client-server**: The client and the server are decoupled, allowing them to evolve separately without any dependence on one another.
-- **Stateless**: Information from requests not stored on the server. Each and every request is treated individually, with no dependece on prior requests. The client is responsible for managing the state of the application rather than the server, meaning that each request must contain the necessary information to fulfill the request, including authorization details.
-- **Cacheable**: Caching should be applied to resources when applicable to improve application performance. Responses must define themselves as cacheable (or not) to prevent the client from sending extraneous data in response to subsequent requests.
-- **Layered system**: The client cannot tell whether it is connected directly to the end system or to some intermediary. This helps to enforce security and enables scalability via load balancing.
-- **Code on demand**: An optional constraint which allows the server to return executable code.
+-   **Uniform interface**: Individual resources are identified with URLs. The resources in the database are in a different form than the data returned to the client, and the client can modify the resources if given permission. Messages communicated between the client and server are self-descriptive and include enough information to process the request. When a developer is familiar with one of your APIs, they should be able to follow a similar approach for your other APIs.
+-   **Client-server**: The client and the server are decoupled, allowing them to evolve separately without any dependence on one another.
+-   **Stateless**: Information from requests not stored on the server. Each and every request is treated individually, with no dependece on prior requests. The client is responsible for managing the state of the application rather than the server, meaning that each request must contain the necessary information to fulfill the request, including authorization details.
+-   **Cacheable**: Caching should be applied to resources when applicable to improve application performance. Responses must define themselves as cacheable (or not) to prevent the client from sending extraneous data in response to subsequent requests.
+-   **Layered system**: The client cannot tell whether it is connected directly to the end system or to some intermediary. This helps to enforce security and enables scalability via load balancing.
+-   **Code on demand**: An optional constraint which allows the server to return executable code.
 
 In practice, RESTful routes enable a simple-to-understand API for accessing and modifying data using HTTP methods - `GET`, `POST`, `PUT`, `DELETE`, and `PATCH`. For example, if we wished to retrieve all of the products on an online store for a given category, we would make a GET request to an endpoint that looks something like:
 
@@ -142,11 +142,11 @@ JSON (JavaScript Object Notation) is a self describing, data interchange format 
 
 The syntax of JSON is very simple to follow:
 
-- Data is in name/value pairs
-- Data is separated by commas
-- Curly braces hold objects
-- Square brackets hold arrays
-- String values must be written with double quotes
+-   Data is in name/value pairs
+-   Data is separated by commas
+-   Curly braces hold objects
+-   Square brackets hold arrays
+-   String values must be written with double quotes
 
 Let's take a look at an example of a JSON object:
 

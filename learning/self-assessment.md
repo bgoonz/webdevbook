@@ -4,16 +4,16 @@ Learning to assess your own knowledge and performance are indispensable skills f
 
 Accurately assessing your own understanding is an inherently challenging task (we're naturally pretty bad at judging ourselves). This is only made more difficult by two main factors:
 
-- You're brand new to this, you don't even know what you don't know yet! So how can you be expected to assess yourself?
-- Programming is very complicated. Knowing where you stand is challenging when there are so many different directions you can go, and all paths are tightly inter-related.
+-   You're brand new to this, you don't even know what you don't know yet! So how can you be expected to assess yourself?
+-   Programming is very complicated. Knowing where you stand is challenging when there are so many different directions you can go, and all paths are tightly inter-related.
 
 You can't expect perfect results, but even trying to self-assess will improve your learning by leaps and bounds. You'll learn to notice when you don't understand something, how to identify & isolate that concept, and how to design exercises for yourself to reinforce your weaknesses.
 
 ### Index
 
-- [Learning Objectives](#learning-objectives)
-- [Specifications](#specifications)
-- [Resources](#resources)
+-   [Learning Objectives](#learning-objectives)
+-   [Specifications](#specifications)
+-   [Resources](#resources)
 
 ---
 
@@ -45,11 +45,11 @@ Each item in the list is more challenging than the last so don't expect to be ab
 
 ## Resources
 
-- [Great intro video](https://www.youtube.com/watch?v=_ZoIPXJ8XRQ)
-- [Intro: Future Learn](https://www.futurelearn.com/courses/learning-teaching-university/0/steps/26410)
-- [Intro: Hooked on Thinking](http://www.pamhook.com/mediawiki/images/b/b2/SOLO_Taxonomy%2C_Scratch_and_Angles_in_Geometry.pdf)
+-   [Great intro video](https://www.youtube.com/watch?v=_ZoIPXJ8XRQ)
+-   [Intro: Future Learn](https://www.futurelearn.com/courses/learning-teaching-university/0/steps/26410)
+-   [Intro: Hooked on Thinking](http://www.pamhook.com/mediawiki/images/b/b2/SOLO_Taxonomy%2C_Scratch_and_Angles_in_Geometry.pdf)
 
-- [Self-assessment template](http://pamhook.com/mediawiki/images/e/ee/SOLO_Functioning_Knowledge_Rubric_Template.pdf)
-- [Example self-assessment for loops](http://pamhook.com/mediawiki/images/1/10/HookED_Writing_Code_Rubric.pdf)
+-   [Self-assessment template](http://pamhook.com/mediawiki/images/e/ee/SOLO_Functioning_Knowledge_Rubric_Template.pdf)
+-   [Example self-assessment for loops](http://pamhook.com/mediawiki/images/1/10/HookED_Writing_Code_Rubric.pdf)
 
 [TOP](#self-assessment)

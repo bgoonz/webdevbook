@@ -12,8 +12,8 @@ A guide to commands in Python from what you know in JavaScript
 
 #### Basics <a href="#b0f3" id="b0f3"></a>
 
-- **PEP8** : Python Enhancement Proposals, style-guide for Python.
-- `print` is the equivalent of `console.log`.
+-   **PEP8** : Python Enhancement Proposals, style-guide for Python.
+-   `print` is the equivalent of `console.log`.
 
 > ‘print() == console.log()’
 
@@ -27,7 +27,7 @@ def foo():    """    The foo function does many amazing things that you    shoul
 
 #### Numbers <a href="#e708" id="e708"></a>
 
-- Python has three types of numbers:
+-   Python has three types of numbers:
 
 1. **Integer**
 2. **Positive and Negative Counting Numbers.**
@@ -66,7 +66,7 @@ T_his is because the letter i is common place as the de facto index for any and 
 print(7j) # => 7j print(5.1+7.7j)) # => 5.1+7.7j print(complex(3, 5)) # => 3+5j print(complex(17)) # => 17+0j print(complex()) # => 0j
 ```
 
-- **Type Casting** : The process of converting one number to another.
+-   **Type Casting** : The process of converting one number to another.
 
 ```
 # Using Floatprint(17)               # => 17print(float(17))        # => 17.0
@@ -82,19 +82,19 @@ print(7j) # => 7j print(5.1+7.7j)) # => 5.1+7.7j print(complex(3, 5)) # => 3+5j 
 
 **The arithmetic operators are the same between JS and Python, with two additions:**
 
-- _“\*\*” : Double asterisk for exponent._
-- _“//” : Integer Division._
-- **There are no spaces between math operations in Python.**
-- **Integer Division gives the other part of the number from Module; it is a way to do round down numbers replacing `Math.floor()` in JS.**
-- **There are no `++` and `--` in Python, the only shorthand operators are:**
+-   _“\*\*” : Double asterisk for exponent._
+-   _“//” : Integer Division._
+-   **There are no spaces between math operations in Python.**
+-   **Integer Division gives the other part of the number from Module; it is a way to do round down numbers replacing `Math.floor()` in JS.**
+-   **There are no `++` and `--` in Python, the only shorthand operators are:**
 
 ![](https://cdn-images-1.medium.com/max/600/0*Ez_1PZ93N4FfvkRr.png)
 
 #### Strings <a href="#f25c" id="f25c"></a>
 
-- Python uses both single and double quotes.
-- You can escape strings like so `'Jodi asked, "What\'s up, Sam?"'`
-- Multiline strings use triple quotes.
+-   Python uses both single and double quotes.
+-   You can escape strings like so `'Jodi asked, "What\'s up, Sam?"'`
+-   Multiline strings use triple quotes.
 
 ```
 print('''My instructions are very long so to make themmore readable in the code I am putting them onmore than one line. I can even include "quotes"of any kind because they won't get confused withthe end of the string!''')
@@ -118,7 +118,7 @@ print(“Spaghetti”[-1]) # => i
 print(“Spaghetti”[-4]) # => e
 ```
 
-- Python let’s you use ranges
+-   Python let’s you use ranges
 
 You can think of this as roughly equivalent to the slice method called on a JavaScript object or string… _(mind you that in JS … strings are wrapped in an object (under the hood)… upon which the string methods are actually called. As a immutable privative type **by textbook definition**, a string literal could not hope to invoke most of it’s methods without violating the state it was bound to on initialization if it were not for this bit of syntactic sugar.)_
 
@@ -126,7 +126,7 @@ You can think of this as roughly equivalent to the slice method called on a Java
 print(“Spaghetti”[1:4]) # => pag print(“Spaghetti”[4:-1]) # => hett print(“Spaghetti”[4:4]) # => (empty string)
 ```
 
-- The end range is exclusive just like `slice` in JS.
+-   The end range is exclusive just like `slice` in JS.
 
 ```
 # Shortcut to get from the beginning of a string to a certain index.print("Spaghetti"[:4])  # => Spagprint("Spaghetti"[:-1])    # => Spaghett
@@ -136,50 +136,50 @@ print(“Spaghetti”[1:4]) # => pag print(“Spaghetti”[4:-1]) # => hett prin
 # Shortcut to get from a certain index to the end of a string.print("Spaghetti"[1:])  # => paghettiprint("Spaghetti"[-4:])    # => etti
 ```
 
-- The `index` string function is the equiv. of `indexOf()` in JS
+-   The `index` string function is the equiv. of `indexOf()` in JS
 
 ```
 print("Spaghetti".index("h"))    # => 4print("Spaghetti".index("t"))    # => 6
 ```
 
-- The `count` function finds out how many times a substring appears in a string… pretty nifty for a hard coded feature of the language.
+-   The `count` function finds out how many times a substring appears in a string… pretty nifty for a hard coded feature of the language.
 
 ```
 print("Spaghetti".count("h"))    # => 1print("Spaghetti".count("t"))    # => 2print("Spaghetti".count("s"))    # => 0print('''We choose to go to the moon in this decade and do the other things,not because they are easy, but because they are hard, because that goal willserve to organize and measure the best of our energies and skills, because thatchallenge is one that we are willing to accept, one we are unwilling topostpone, and one which we intend to win, and the others, too.'''.count('the '))                # => 4
 ```
 
-- **You can use `+` to concatenate strings, just like in JS.**
-- **You can also use “\*” to repeat strings or multiply strings.**
-- **Use the `format()` function to use placeholders in a string to input values later on.**
+-   **You can use `+` to concatenate strings, just like in JS.**
+-   **You can also use “\*” to repeat strings or multiply strings.**
+-   **Use the `format()` function to use placeholders in a string to input values later on.**
 
 ```
 first_name = "Billy"last_name = "Bob"print('Your name is {0} {1}'.format(first_name, last_name))  # => Your name is Billy Bob
 ```
 
-- _Shorthand way to use format function is:_\
-  `print(f'Your name is {first_name} {last_name}')`
+-   _Shorthand way to use format function is:_\
+    `print(f'Your name is {first_name} {last_name}')`
 
 **Some useful string methods.**
 
-- **Note that in JS `join` is used on an Array, in Python it is used on String.**
+-   **Note that in JS `join` is used on an Array, in Python it is used on String.**
 
 ![](https://cdn-images-1.medium.com/max/800/0*eE3E5H0AoqkhqK1z.png)
 
-- There are also many handy testing methods.
+-   There are also many handy testing methods.
 
 ![](https://cdn-images-1.medium.com/max/800/0*Q0CMqFd4PozLDFPB.png)
 
 #### Variables and Expressions <a href="#920e" id="920e"></a>
 
-- **Duck-Typing** : Programming Style which avoids checking an object’s type to figure out what it can do.
-- Duck Typing is the fundamental approach of Python.
-- Assignment of a value automatically declares a variable.
+-   **Duck-Typing** : Programming Style which avoids checking an object’s type to figure out what it can do.
+-   Duck Typing is the fundamental approach of Python.
+-   Assignment of a value automatically declares a variable.
 
 ```
 a = 7b = 'Marbles'print(a)         # => 7print(b)         # => Marbles
 ```
 
-- _**You can chain variable assignments to give multiple var names the same value.**_
+-   _**You can chain variable assignments to give multiple var names the same value.**_
 
 **Use with caution as this is highly unreadable**
 
@@ -193,16 +193,16 @@ count = max = min = 0print(count)           # => 0print(max)             # => 0p
 a = 17print(a)         # => 17a = 'seventeen'print(a)         # => seventeen
 ```
 
-- _`NaN` does not exist in Python, but you can 'create' it like so:_\
-  _**`print(float("nan"))`**_
-- _Python replaces `null` with `none`._
-- _**`none`\*\***\*\*\*\*\*\*\*\*\*\*\*\* is an object\*\* and can be directly assigned to a variable._
+-   _`NaN` does not exist in Python, but you can 'create' it like so:_\
+    _**`print(float("nan"))`**_
+-   _Python replaces `null` with `none`._
+-   _**`none`\*\***\*\*\*\*\*\*\*\*\*\*\*\* is an object\*\* and can be directly assigned to a variable._
 
 > Using none is a convenient way to check to see why an action may not be operating correctly in your program.
 
 #### Boolean Data Type <a href="#6f4e" id="6f4e"></a>
 
-- One of the biggest benefits of Python is that it reads more like English than JS does.
+-   One of the biggest benefits of Python is that it reads more like English than JS does.
 
 ![](https://cdn-images-1.medium.com/max/800/0*HQpndNhm1Z_xSoHb.png)
 
@@ -218,17 +218,17 @@ a = 17print(a)         # => 17a = 'seventeen'print(a)         # => seventeen
 # Logical NOTprint(not True)             # => Falseprint(not False and True)   # => Trueprint(not True or False)    # => False
 ```
 
-- By default, Python considers an object to be true UNLESS it is one of the following:
-- Constant `None` or `False`
-- Zero of any numeric type.
-- Empty Sequence or Collection.
-- `True` and `False` must be capitalized
+-   By default, Python considers an object to be true UNLESS it is one of the following:
+-   Constant `None` or `False`
+-   Zero of any numeric type.
+-   Empty Sequence or Collection.
+-   `True` and `False` must be capitalized
 
 #### Comparison Operators <a href="#586f" id="586f"></a>
 
-- Python uses all the same equality operators as JS.
-- In Python, equality operators are processed from left to right.
-- Logical operators are processed in this order:
+-   Python uses all the same equality operators as JS.
+-   In Python, equality operators are processed from left to right.
+-   Logical operators are processed in this order:
 
 1. **NOT**
 2. **AND**
@@ -254,7 +254,7 @@ print ("2" == '2')    # => Trueprint ("2" is '2')    # => True
 # There is a distinction between the number types.print (2 == 2.0)    # => Trueprint (2 is 2.0)    # => False
 ```
 
-- In the Python community it is better to use `is` and `is not` over `==` or `!=`
+-   In the Python community it is better to use `is` and `is not` over `==` or `!=`
 
 #### If Statements <a href="#a959" id="a959"></a>
 
@@ -278,13 +278,13 @@ if name == 'Monica':    print('Hi, Monica.')elif age < 12:    print('You are not
 spam = 0while spam < 5:  print('Hello, world.')  spam = spam + 1
 ```
 
-- `Break` statement also exists in Python.
+-   `Break` statement also exists in Python.
 
 ```
 spam = 0while True:  print('Hello, world.')  spam = spam + 1  if spam >= 5:    break
 ```
 
-- As are `continue` statements
+-   As are `continue` statements
 
 ```
 spam = 0while True:  print('Hello, world.')  spam = spam + 1  if spam < 5:    continue  break
@@ -292,7 +292,7 @@ spam = 0while True:  print('Hello, world.')  spam = spam + 1  if spam < 5:    co
 
 #### Try/Except Statements <a href="#fb57" id="fb57"></a>
 
-- Python equivalent to `try/catch`
+-   Python equivalent to `try/catch`
 
 ```
 a = 321try:    print(len(a))except:    print('Silently handle error here')
@@ -310,25 +310,25 @@ a = '321'try:    print(len(a))except:    print('Silently handle error here')
     # Optionally include a correction to the issue    a = str(a)    print(len(a))
 ```
 
-- You can name an error to give the output more specificity.
+-   You can name an error to give the output more specificity.
 
 ```
 a = 100b = 0try:    c = a / bexcept ZeroDivisionError:    c = Noneprint(c)
 ```
 
-- You can also use the `pass` commmand to by pass a certain error.
+-   You can also use the `pass` commmand to by pass a certain error.
 
 ```
 a = 100b = 0try:    print(a / b)except ZeroDivisionError:    pass
 ```
 
-- The `pass` method won't allow you to bypass every single error so you can chain an exception series like so:
+-   The `pass` method won't allow you to bypass every single error so you can chain an exception series like so:
 
 ```
 a = 100# b = "5"try:    print(a / b)except ZeroDivisionError:    passexcept (TypeError, NameError):    print("ERROR!")
 ```
 
-- You can use an `else` statement to end a chain of `except` statements.
+-   You can use an `else` statement to end a chain of `except` statements.
 
 ```
 # tuple of file namesfiles = ('one.txt', 'two.txt', 'three.txt')
@@ -338,13 +338,13 @@ a = 100# b = "5"try:    print(a / b)except ZeroDivisionError:    passexcept (Typ
 # simple loopfor filename in files:    try:        # open the file in read mode        f = open(filename, 'r')    except OSError:        # handle the case where file does not exist or permission is denied        print('cannot open file', filename)    else:        # do stuff with the file object (f)        print(filename, 'opened successfully')        print('found', len(f.readlines()), 'lines')        f.close()
 ```
 
-- `finally` is used at the end to clean up all actions under any circumstance.
+-   `finally` is used at the end to clean up all actions under any circumstance.
 
 ```
 def divide(x, y):    try:        result = x / y    except ZeroDivisionError:        print("Cannot divide by zero")    else:        print("Result is", result)    finally:        print("Finally...")
 ```
 
-- Using duck typing to check to see if some value is able to use a certain method.
+-   Using duck typing to check to see if some value is able to use a certain method.
 
 ```
 # Try a number - nothing will print outa = 321if hasattr(a, '__len__'):    print(len(a))
@@ -356,7 +356,7 @@ def divide(x, y):    try:        result = x / y    except ZeroDivisionError:    
 
 #### Pass <a href="#e485" id="e485"></a>
 
-- Pass Keyword is required to write the JS equivalent of :
+-   Pass Keyword is required to write the JS equivalent of :
 
 ```
 if (true) {}
@@ -376,13 +376,13 @@ while True:  pass
 
 #### Functions <a href="#2623" id="2623"></a>
 
-- **Function definition includes:**
-- **The `def` keyword**
-- **The name of the function**
-- **A list of parameters enclosed in parentheses.**
-- **A colon at the end of the line.**
-- **One tab indentation for the code to run.**
-- **You can use default parameters just like in JS**
+-   **Function definition includes:**
+-   **The `def` keyword**
+-   **The name of the function**
+-   **A list of parameters enclosed in parentheses.**
+-   **A colon at the end of the line.**
+-   **One tab indentation for the code to run.**
+-   **You can use default parameters just like in JS**
 
 ```
 def greeting(name, saying="Hello"):    print(saying, name)
@@ -402,7 +402,7 @@ greeting("Barry", "Hey")# Hey Barry
 # THIS IS BAD CODE AND WILL NOT RUNdef increment(delta=1, value):    return delta + value
 ```
 
-- _You can specify arguments by name without destructuring in Python._
+-   _You can specify arguments by name without destructuring in Python._
 
 ```
 def greeting(name, saying="Hello"):    print(saying, name)
@@ -412,7 +412,7 @@ def greeting(name, saying="Hello"):    print(saying, name)
 # name has no default value, so just provide the value# saying has a default value, so use a keyword argumentgreeting("Monica", saying="Hi")
 ```
 
-- The `lambda` keyword is used to create anonymous functions and are supposed to be `one-liners`.
+-   The `lambda` keyword is used to create anonymous functions and are supposed to be `one-liners`.
 
 `toUpper = lambda s: s.upper()`
 

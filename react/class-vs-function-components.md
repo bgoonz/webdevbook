@@ -16,20 +16,20 @@ An example of what a class component looks like is as follows:
 
 ```js
 class Example extends React.Component {
-  state = {
-    exampleMessage: "This message is for the example",
-  };
+    state = {
+        exampleMessage: 'This message is for the example'
+    };
 
-  render() {
-    return <div>{this.state.exampleMessage}</div>;
-  }
+    render() {
+        return <div>{this.state.exampleMessage}</div>;
+    }
 }
 ```
 
 As this way of building components is not recommended anymore we will not go into more detail and it is not needed to fully understand what that piece of code does. If you are interested (or encounter a class component and need to figure out what it does) have a look at the following links. But we do not expect you to write these components during the course:
 
-- [Official React documentation](https://reactjs.org/docs/react-component.html)
-- [CodeYourFuture lesson](https://syllabus.codeyourfuture.io/react/class-components/lesson)
+-   [Official React documentation](https://reactjs.org/docs/react-component.html)
+-   [CodeYourFuture lesson](https://syllabus.codeyourfuture.io/react/class-components/lesson)
 
 ## Function components
 
@@ -37,9 +37,9 @@ Function components are named that way because they are basically functions that
 
 ```js
 const Example = () => {
-  const [exampleMessage] = useState("This message is for the example");
+    const [exampleMessage] = useState('This message is for the example');
 
-  return <div>{exampleMessage}</div>;
+    return <div>{exampleMessage}</div>;
 };
 ```
 
@@ -57,13 +57,13 @@ The following video is a guide for someone converting a full application to func
 
 The following links should help you when you encounter a class component and need to convert it:
 
-- [Official migration docs](https://reactjs.org/docs/hooks-faq.html#from-classes-to-hooks)
-- [Refactor to React Hooks, Not Classes](https://rangle.io/blog/refactor-to-react-hooks-not-classes/)
-- [React Class Components are dead? (Hint: maybe)](https://itnext.io/react-class-components-are-dead-hint-not-yet-1d0a151173b8)
-- [Migrating to react hooks](https://dev.to/subdeveloper/migrating-from-class-components-to-react-hooks-4lp3)
+-   [Official migration docs](https://reactjs.org/docs/hooks-faq.html#from-classes-to-hooks)
+-   [Refactor to React Hooks, Not Classes](https://rangle.io/blog/refactor-to-react-hooks-not-classes/)
+-   [React Class Components are dead? (Hint: maybe)](https://itnext.io/react-class-components-are-dead-hint-not-yet-1d0a151173b8)
+-   [Migrating to react hooks](https://dev.to/subdeveloper/migrating-from-class-components-to-react-hooks-4lp3)
 
 # Extra reading
 
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
-- [Introduction of hooks by the React team](https://reactjs.org/docs/hooks-intro.html)
+-   [Introduction of hooks by the React team](https://reactjs.org/docs/hooks-intro.html)

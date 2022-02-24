@@ -1018,9 +1018,9 @@ The basic syntax of the jQuery `animate()` method can be given with:$(selector).
 
 The parameters of the `animate()` method have the following meanings:
 
-- The required properties parameter defines the [CSS properties](https://www.tutorialrepublic.com/css-reference/css3-properties.php) to be animated.
-- The optional duration parameter specifies how long the animation will run. Durations can be specified either using one of the predefined string `'slow'` or `'fast'`, or in a number of milliseconds; higher values indicate slower animations.
-- The optional [callback](https://www.tutorialrepublic.com/jquery-tutorial/jquery-callback.php) parameter is a function to call once the animation is complete.
+-   The required properties parameter defines the [CSS properties](https://www.tutorialrepublic.com/css-reference/css3-properties.php) to be animated.
+-   The optional duration parameter specifies how long the animation will run. Durations can be specified either using one of the predefined string `'slow'` or `'fast'`, or in a number of milliseconds; higher values indicate slower animations.
+-   The optional [callback](https://www.tutorialrepublic.com/jquery-tutorial/jquery-callback.php) parameter is a function to call once the animation is complete.
 
 Here's a simple example of the jQuery `animate()` method that animates an image from its original position to the right by 300 pixels on click of the button.
 

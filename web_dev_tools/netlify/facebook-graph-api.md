@@ -6,16 +6,16 @@ The [Graph API Explorer tool](https://developers.facebook.com/tools/explorer) al
 
 ### Common Uses <a href="#common-uses" id="common-uses"></a>
 
-- Test API queries with your Live app's settings, including approved [login permissions](https://developers.facebook.com/docs/apps/review/login-permissions), [features](https://developers.facebook.com/docs/apps/review/feature), and settings for any added products such as Facebook Login.
-- Test API queries with your Developer Mode app's settings using any [login permissions](https://developers.facebook.com/docs/apps/review/login-permissions) and [features](https://developers.facebook.com/docs/apps/review/feature) on test users or test data.
-- Quickly generate access tokens.
-- Get code samples of the queries you have run.
-- Generate debug information to include in support requests.
+-   Test API queries with your Live app's settings, including approved [login permissions](https://developers.facebook.com/docs/apps/review/login-permissions), [features](https://developers.facebook.com/docs/apps/review/feature), and settings for any added products such as Facebook Login.
+-   Test API queries with your Developer Mode app's settings using any [login permissions](https://developers.facebook.com/docs/apps/review/login-permissions) and [features](https://developers.facebook.com/docs/apps/review/feature) on test users or test data.
+-   Quickly generate access tokens.
+-   Get code samples of the queries you have run.
+-   Generate debug information to include in support requests.
 
 ### Requirements <a href="#requirements" id="requirements"></a>
 
-- A [Facebook Developer Account](https://developers.facebook.com/apps).
-- An app for which you have a role, such as an [admin, developer, or tester role](https://developers.facebook.com/docs/apps#roles).
+-   A [Facebook Developer Account](https://developers.facebook.com/apps).
+-   An app for which you have a role, such as an [admin, developer, or tester role](https://developers.facebook.com/docs/apps#roles).
 
 ### Components <a href="#components" id="components"></a>
 

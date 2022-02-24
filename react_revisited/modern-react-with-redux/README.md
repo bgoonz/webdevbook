@@ -102,17 +102,17 @@ See [the "Learn Modern Redux" show notes page](https://www.learnwithjason.dev/le
 
 #### Additional Tutorials[​](https://redux.js.org/introduction/getting-started#additional-tutorials) <a href="#additional-tutorials" id="additional-tutorials"></a>
 
-- The Redux repository contains several example projects demonstrating various aspects of how to use Redux. Almost all examples have a corresponding CodeSandbox sandbox. This is an interactive version of the code that you can play with online. See the complete list of examples in the [**Examples page**](https://redux.js.org/introduction/examples).
-- Redux creator Dan Abramov's \*\*free \*\*[**"Getting Started with Redux" video series**](https://app.egghead.io/playlists/fundamentals-of-redux-course-from-dan-abramov-bd5cc867) and [**Building React Applications with Idiomatic Redux**](https://egghead.io/courses/building-react-applications-with-idiomatic-redux) video courses on Egghead.io
-- Redux maintainer Mark Erikson's [**"Redux Fundamentals" conference talk**](https://blog.isquaredsoftware.com/2018/03/presentation-reactathon-redux-fundamentals/) and [**"Redux Fundamentals" workshop slides**](https://blog.isquaredsoftware.com/2018/06/redux-fundamentals-workshop-slides/)
-- Dave Ceddia's post [**A Complete React Redux Tutorial for Beginners**](https://daveceddia.com/redux-tutorial/)
+-   The Redux repository contains several example projects demonstrating various aspects of how to use Redux. Almost all examples have a corresponding CodeSandbox sandbox. This is an interactive version of the code that you can play with online. See the complete list of examples in the [**Examples page**](https://redux.js.org/introduction/examples).
+-   Redux creator Dan Abramov's \*\*free \*\*[**"Getting Started with Redux" video series**](https://app.egghead.io/playlists/fundamentals-of-redux-course-from-dan-abramov-bd5cc867) and [**Building React Applications with Idiomatic Redux**](https://egghead.io/courses/building-react-applications-with-idiomatic-redux) video courses on Egghead.io
+-   Redux maintainer Mark Erikson's [**"Redux Fundamentals" conference talk**](https://blog.isquaredsoftware.com/2018/03/presentation-reactathon-redux-fundamentals/) and [**"Redux Fundamentals" workshop slides**](https://blog.isquaredsoftware.com/2018/06/redux-fundamentals-workshop-slides/)
+-   Dave Ceddia's post [**A Complete React Redux Tutorial for Beginners**](https://daveceddia.com/redux-tutorial/)
 
 #### Other Resources[​](https://redux.js.org/introduction/getting-started#other-resources) <a href="#other-resources" id="other-resources"></a>
 
-- The [**Redux FAQ**](https://redux.js.org/faq) answers many common questions about how to use Redux, and the [**"Using Redux" docs section**](https://redux.js.org/usage/index) has information on handling derived data, testing, structuring reducer logic, and reducing boilerplate.
-- Redux maintainer Mark Erikson's [**"Practical Redux" tutorial series**](https://blog.isquaredsoftware.com/series/practical-redux/) demonstrates real-world intermediate and advanced techniques for working with React and Redux (also available as [**an interactive course on Educative.io**](https://www.educative.io/collection/5687753853370368/5707702298738688)).
-- The [**React/Redux links list**](https://github.com/markerikson/react-redux-links) has categorized articles on working with [reducers and selectors](https://github.com/markerikson/react-redux-links/blob/master/redux-reducers-selectors.md), [managing side effects](https://github.com/markerikson/react-redux-links/blob/master/redux-side-effects.md), [Redux architecture and best practices](https://github.com/markerikson/react-redux-links/blob/master/redux-architecture.md), and more.
-- Our community has created thousands of Redux-related libraries, addons, and tools. The [**"Ecosystem" docs page**](https://redux.js.org/introduction/ecosystem) lists our recommendations, and there's a complete listing available in the [**Redux addons catalog**](https://github.com/markerikson/redux-ecosystem-links).
+-   The [**Redux FAQ**](https://redux.js.org/faq) answers many common questions about how to use Redux, and the [**"Using Redux" docs section**](https://redux.js.org/usage/index) has information on handling derived data, testing, structuring reducer logic, and reducing boilerplate.
+-   Redux maintainer Mark Erikson's [**"Practical Redux" tutorial series**](https://blog.isquaredsoftware.com/series/practical-redux/) demonstrates real-world intermediate and advanced techniques for working with React and Redux (also available as [**an interactive course on Educative.io**](https://www.educative.io/collection/5687753853370368/5707702298738688)).
+-   The [**React/Redux links list**](https://github.com/markerikson/react-redux-links) has categorized articles on working with [reducers and selectors](https://github.com/markerikson/react-redux-links/blob/master/redux-reducers-selectors.md), [managing side effects](https://github.com/markerikson/react-redux-links/blob/master/redux-side-effects.md), [Redux architecture and best practices](https://github.com/markerikson/react-redux-links/blob/master/redux-architecture.md), and more.
+-   Our community has created thousands of Redux-related libraries, addons, and tools. The [**"Ecosystem" docs page**](https://redux.js.org/introduction/ecosystem) lists our recommendations, and there's a complete listing available in the [**Redux addons catalog**](https://github.com/markerikson/redux-ecosystem-links).
 
 ### Help and Discussion[​](https://redux.js.org/introduction/getting-started#help-and-discussion) <a href="#help-and-discussion" id="help-and-discussion"></a>
 
@@ -128,14 +128,14 @@ Redux is a valuable tool for organizing your state, but you should also consider
 
 Here are some suggestions on when it makes sense to use Redux:
 
-- You have reasonable amounts of data changing over time
-- You need a single source of truth for your state
-- You find that keeping all your state in a top-level component is no longer sufficient
+-   You have reasonable amounts of data changing over time
+-   You need a single source of truth for your state
+-   You find that keeping all your state in a top-level component is no longer sufficient
 
 > **For more thoughts on how Redux is meant to be used, see:**
 >
-> - [**Redux FAQ: When should I use Redux?**](https://redux.js.org/faq/general#when-should-i-use-redux)
-> - [**You Might Not Need Redux**](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367)
-> - [**The Tao of Redux, Part 1 - Implementation and Intent**](https://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-1/)
-> - [**The Tao of Redux, Part 2 - Practice and Philosophy**](https://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-2/)
-> - [**Redux FAQ**](https://redux.js.org/faq)
+> -   [**Redux FAQ: When should I use Redux?**](https://redux.js.org/faq/general#when-should-i-use-redux)
+> -   [**You Might Not Need Redux**](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367)
+> -   [**The Tao of Redux, Part 1 - Implementation and Intent**](https://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-1/)
+> -   [**The Tao of Redux, Part 2 - Practice and Philosophy**](https://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-2/)
+> -   [**Redux FAQ**](https://redux.js.org/faq)
