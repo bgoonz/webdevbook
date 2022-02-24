@@ -2,6 +2,14 @@
 
 * [Home](README.md)
 * [Navigation](navigation/README.md)
+* [📚 Web Dev Notes](web-dev-notes/README.md)
+  * [Git](web-dev-notes/git/README.md)
+    * [Graphical User Interface Clients](web-dev-notes/git/graphical-user-interface-clients.md)
+    * [Because Windows](web-dev-notes/git/because-windows.md)
+    * [workflows](web-dev-notes/git/workflows.md)
+    * [workflows](web-dev-notes/git/workflows-1.md)
+    * [GitHub](web-dev-notes/git/github.md)
+    * [GitKraken](web-dev-notes/git/gitkraken.md)
 
 ## Tools
 
