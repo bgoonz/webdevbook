@@ -2,7 +2,7 @@
 
 Most people study inefficiently. This is mostly because they never really learned how to study the right way, even after years of university in some cases! In this chapter we will show you some of the most important strategies to learn in a way that is much more time efficient.
 
-As the HackYourFuture course is very demanding, this is critical to get through the program successfully. In fact, many successful experts that require focus and concentration for their craft (scientists, programmers, writers, artists, craftsmen, etc.) share one thing in common: they are very serious about ​how ​they learn. This chapter will give you a short introduction into how you can study most effectively.
+As the bgoonz course is very demanding, this is critical to get through the program successfully. In fact, many successful experts that require focus and concentration for their craft (scientists, programmers, writers, artists, craftsmen, etc.) share one thing in common: they are very serious about ​how ​they learn. This chapter will give you a short introduction into how you can study most effectively.
 
 ### Index
 
@@ -42,7 +42,7 @@ Let’s take the example of JavaScript 1 week 3.
 
 Before starting the homework it is essential to first have a look at the concepts discussed in the previous week(s) before moving forward.
 
-You can do this by asking your teacher to record on Sunday their lessons and share it on Slack. You can also check videos of HackYourFuture Amsterdam posted​ online on Youtube.
+You can do this by asking your teacher to record on Sunday their lessons and share it on Slack. You can also check videos of bgoonz Amsterdam posted​ online on Youtube.
 
 It is advised to watch some parts of the lecture again and practice with the examples/exercises provided in class. Change the values, variables and other aspects of the code to improve your understanding of the practical use of these concepts. In addition to the videos, you can go through the reading material of the previous week. Again, the idea is that you practice the concepts by putting them into code.
 
@@ -122,7 +122,7 @@ The goal whilst studying should be to reach a state of ‘flow’. Flow can be d
 
 To reach this level of optimal concentration and create a state of flow, distractions should be shut out as much as possible. The two most common enemies are described below.
 
-[Here you can find a presentation](https://github.com/HackYourFutureBelgium/hack-the-talks/blob/master/How_to_increase_focus%26productivity.pdf) on **'How to increase focus & productivity'** one of our coaches shared with us during a HackTheTalk, the inspirational talks we organize on Sunday Mornings.
+[Here you can find a presentation](https://github.com/bgoonzBelgium/hack-the-talks/blob/master/How_to_increase_focus%26productivity.pdf) on **'How to increase focus & productivity'** one of our coaches shared with us during a HackTheTalk, the inspirational talks we organize on Sunday Mornings.
 
 ### Challenge number 1: Social Media & Phone
 

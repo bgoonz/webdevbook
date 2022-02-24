@@ -8,7 +8,7 @@ let x = 5;
 
 JavaScript supports the following types:
 
-- `string`, e.g. "HackYourFuture"
+- `string`, e.g. "bgoonz"
 - `number`, e.g. 5, or 10.6
 - `boolean`, e.g. `true` or `false`
 - `array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`

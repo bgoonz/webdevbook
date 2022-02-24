@@ -12,7 +12,7 @@ Computers can't understand human readable programming languages such as JavaScri
 
 Node.js is more than just the V8 JavaScript engine. It's also a **library with many built-in modules** that can perform **asynchronous I/O operations** to [prevent JavaScript code from blocking](https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/). When Node.js needs to perform an I/O operation, such as reading from the network, accessing a database or the filesystem, instead of blocking the thread and wasting CPU cycles waiting, Node.js will resume operations when a response comes back. This is accomplished through the [event loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/).
 
-Which application on your computer also has a JavaScript runtime? [Answer](https://study.hackyourfuture.net/#/the-internet/browser.md)
+Which application on your computer also has a JavaScript runtime? [Answer](https://study.bgoonz.net/#/the-internet/browser.md)
 
 ## <a name="what-can-node-do">What can Node.js do?</a>
 

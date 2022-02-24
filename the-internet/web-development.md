@@ -1,6 +1,6 @@
 # What is web development?
 
-In HackYourFuture we focus on `web programmming` (also known as `web development`): writing code that creates websites and web applications. Look at the following video to learn about what you'll be doing:
+In bgoonz we focus on `web programmming` (also known as `web development`): writing code that creates websites and web applications. Look at the following video to learn about what you'll be doing:
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=GEfuOMzRgXo" %}
 
@@ -39,7 +39,7 @@ The following video explains this:
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=4sP7fp3cp24" %}
 
-Our own Uday, former HackYourFuture student and now successful web developer also made a video about this:
+Our own Uday, former bgoonz student and now successful web developer also made a video about this:
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=IH1GGUMdRak" %}
 

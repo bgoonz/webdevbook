@@ -9,10 +9,10 @@ Similarly, a statement in JavaScript should provide a command by itself. JavaScr
 This is a complete statement:
 
 ```js
-let s = "HackYourFuture";
+let s = "bgoonz";
 ```
 
-It is a full command: declare a variable `s` and initialize it with `"HackYourFuture"`. JavaScript doesn't need any other information to know what we want. The statement is terminated with a semicolon.
+It is a full command: declare a variable `s` and initialize it with `"bgoonz"`. JavaScript doesn't need any other information to know what we want. The statement is terminated with a semicolon.
 
 However, this is not a complete statement:
 

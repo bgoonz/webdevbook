@@ -19,8 +19,8 @@
 ### types & values
 
 - [variables & primitive types](https://www.youtube.com/watch?v=pHt_tKYUgbo&list=PLzV58Zm8FuBJFfQN5il3ujx6FDAY8Ds3u&index=2) (Guo video)
-- [values](https://github.com/HackYourFutureBelgium/fundamentals/blob/master/fundamentals/values.md)
-- [operators](https://github.com/HackYourFutureBelgium/fundamentals/blob/master/fundamentals/operators.md) & [values](https://github.com/HackYourFutureBelgium/fundamentals/blob/master/fundamentals/values.md)
+- [values](https://github.com/bgoonzBelgium/fundamentals/blob/master/fundamentals/values.md)
+- [operators](https://github.com/bgoonzBelgium/fundamentals/blob/master/fundamentals/operators.md) & [values](https://github.com/bgoonzBelgium/fundamentals/blob/master/fundamentals/values.md)
 - javascript.info
   - [types](https://javascript.info/types)
   - [type conversions](https://javascript.info/type-conversions)
@@ -55,7 +55,7 @@
 - arrays: [getting started](https://javascript.info/array)
 - arrays: [pop/push, shift/unshift](https://javascript.info/array#methods-pop-push-shift-unshift)
 - arrays: [native methods](https://javascript.info/array-methods)
-- arrays: [mutating vs. non-mutating methods](https://github.com/HackYourFutureBelgium/array-methods)
+- arrays: [mutating vs. non-mutating methods](https://github.com/bgoonzBelgium/array-methods)
 - objects: [getting started](https://javascript.info/object)
 - objects: [literals & properties](https://javascript.info/object#literals-and-properties)
 - objects: [dots vs. brackets](https://github.com/janke-learning/dots-vs-brackets)
@@ -80,7 +80,7 @@
 
 ### conditionals
 
-- [hyf: conditionals](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/conditional_execution.md)
+- [hyf: conditionals](https://github.com/bgoonz/fundamentals/blob/master/fundamentals/conditional_execution.md)
 - javascript.info
   - [type conversions](https://javascript.info/type-conversions)
   - [comparisons](https://javascript.info/comparison)

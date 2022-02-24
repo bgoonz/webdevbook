@@ -7,7 +7,7 @@
 - [GitHub CheatSheet](https://github.com/tiimgreen/github-cheat-sheet)
 - [Creating a GitHub Pagess web site](https://www.youtube.com/watch?v=BA_c3bGQXlQ)
 - [GitHub for Collaboration](https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/)
-- [group practice exercises](https://github.com/HackYourFutureBelgium/git-github-practice)
+- [group practice exercises](https://github.com/bgoonzBelgium/git-github-practice)
 - [How to Update a Fork in Github](https://rick.cogley.info/post/update-your-forked-repository-directly-on-github/)
 - [Git how to update local repository and keep my changes](https://stackoverflow.com/questions/43205981/git-how-to-update-local-repository-and-keep-my-changes)
 - [Updating a feature branch](https://gist.github.com/santisbon/a1a60db1fb8eecd1beeacd986ae5d3ca)

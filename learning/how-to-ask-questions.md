@@ -2,7 +2,7 @@
 
 Many students find it hard to ask questions during the classes and online (through Slack or otherwise). However, to become a good programmer means you dare to ask questions, lots of questions. In fact, some companies even have a rule on this: If you are stuck, you have ​one hour t​o solve the problem. If you cannot, you ​have to ask for help.
 
-In HackYourFuture there are several ways to ask for help:
+In bgoonz there are several ways to ask for help:
 
 - Ask your classmate or a student from another class
 - Ask in Slack (preferably in your classroom channel)
@@ -11,7 +11,7 @@ In HackYourFuture there are several ways to ask for help:
 
 Nevertheless, we often notice students not asking for help is the prime reason for them dropping out of our program.
 
-Let’s take a classic example we often encounter in HackYourFuture:
+Let’s take a classic example we often encounter in bgoonz:
 
 During class the teacher explains a concept. At some point the students do not understand what the teacher is trying to explain. One or two students ask questions. However, these students already understand most of the concepts and are therefore comfortable to ask questions to improve their knowledge. Yet, most classmates remain silent and do not ask any questions, even though they can hardly keep up with the teacher. What are the reasons? Below we discuss 3 reasons and some suggestions on how to ask questions anyway.
 

@@ -1,6 +1,6 @@
 # Hypertext Transfer Protocol - HTTP
 
-If you've ever typed in a URL you might've seen the letters HTTP at the beginning of it, i.e. `http://www.hackyourfuture.net`. It stands for **Hypertext Transfer Protocol** and it is the main way of sending requests and receiving data/responses on the internet.
+If you've ever typed in a URL you might've seen the letters HTTP at the beginning of it, i.e. `http://www.bgoonz.net`. It stands for **Hypertext Transfer Protocol** and it is the main way of sending requests and receiving data/responses on the internet.
 
 Let's see what happens when you type in a url in your browser. First, the browser sends an HTTP request to the server. The server sends back an HTTP response that contains html code that describes how the page needs to look like.
 
