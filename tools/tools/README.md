@@ -1,5 +1,13 @@
 # Tools
 
+
+
+
+
+
+
+{% embed url="https://pythontutor.com/visualize" %}
+
 {% embed url="https://codesandbox.io/s/random-list-forked-448ws" %}
 
 {% content-ref url="heroku.md" %}
