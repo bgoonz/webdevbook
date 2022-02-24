@@ -1210,7 +1210,7 @@ A warping path 𝑊 maps the elements of 𝑋 and 𝑌 to minimize the _distance
 
 ### Warping Path and DTW distance
 
-The Optimal path to (𝑖_𝑘, 𝑗_𝑘) can be computed by:
+The Optimal path to (𝑖*𝑘, 𝑗*𝑘) can be computed by:
 
 ![](https://miro.medium.com/max/60/1*8hJEJWuxrccwCMuUG_aPbQ.png?q=20)
 
