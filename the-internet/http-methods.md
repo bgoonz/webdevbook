@@ -14,4 +14,3 @@ Have a look at the following videos that explain the client-server interactions:
 {% hyf-youtube src="https://www.youtube.com/watch?v=eesqK59rhGA" %}
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=RsQ1tFLwldY" %}
-

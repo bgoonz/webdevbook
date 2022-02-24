@@ -44,9 +44,11 @@ Our own Uday, former HackYourFuture student and now successful web developer als
 {% hyf-youtube src="https://www.youtube.com/watch?v=IH1GGUMdRak" %}
 
 If you want some extra information, have a look at the following link:
+
 - [Website vs. Web Application](https://www.seguetech.com/website-vs-web-application-whats-the-difference/)
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [Being a Web Developer](https://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-web-development)

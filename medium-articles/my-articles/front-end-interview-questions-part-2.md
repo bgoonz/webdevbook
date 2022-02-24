@@ -2,7 +2,7 @@
 
 These will focus more on vocabulary and concepts than the application driven approach in my last post!
 
-***
+---
 
 #### [CODEX](http://medium.com/codex)
 
@@ -10,18 +10,18 @@ These will focus more on vocabulary and concepts than the application driven app
 
 #### These will focus more on vocabulary and concepts than the application-driven approach in my last post!
 
-![](https://cdn-images-1.medium.com/max/1200/0\*D3yQI42gBkYpnLXY.jpg)
+![](https://cdn-images-1.medium.com/max/1200/0*D3yQI42gBkYpnLXY.jpg)
 
 ### Here’s part one for reference:
 
 [**The Web Developer’s Technical Interview**\
 \_Questions….Answers… and links to the missing pieces.\_bryanguner.medium.com](https://bryanguner.medium.com/the-web-developers-technical-interview-e347d7db3822)
 
-* **­­­­If you were to describe semantic HTML to the next cohort of students, what would you say?**
+- **­­­­If you were to describe semantic HTML to the next cohort of students, what would you say?**
 
 Semantic HTML is markup that conveys meaning, not appearance, to search engines to make everything easier to identify.
 
-* **Name two big differences between display: block; and display: inline;.**
+- **Name two big differences between display: block; and display: inline;.**
 
 block starts on a new line and takes up the full width of the content.\
 inline starts on the same line as previous content, in line with other content, and takes up only the space needed for the content.
@@ -81,23 +81,23 @@ It is code identified elsewhere that we can use later; gives the ability to put 
 
 Super ties the parent to the child.
 
-* **What is the DOM?**
+- **What is the DOM?**
 
 Document object model, the ‘window’ or container that holds all the page’s elements
 
-* **What is an event?**
+- **What is an event?**
 
 An event is something happening on or to the page, like a mouse click, doubleclick, key up/down, pointer out of element/over element, things like this. There are tons of “events” that javascript can detect.
 
-* **What is an event listener?**
+- **What is an event listener?**
 
 Javascript command that ‘listens’ for an event to happen on the page to a given element and then runs a function when that event happens
 
-* **Why would we convert a NodeList into an Array?**
+- **Why would we convert a NodeList into an Array?**
 
 A NodeList isn’t a real array, so it won’t have access to array methods such as slice or map.
 
-* **What is a component?**
+- **What is a component?**
 
 Reusable pieces of code to display info in a consistent repeatable way
 
@@ -262,7 +262,7 @@ Header, payload, signature
 ### Or Checkout my personal Resource Site:
 
 [**Web-Dev-Hub**\
-\_preview of the Web-Dev-Hub\_best-celery-b2d7c.netlify.app](https://best-celery-b2d7c.netlify.app)
+\_preview of the Web-Dev-Hub_best-celery-b2d7c.netlify.app](https://best-celery-b2d7c.netlify.app)
 
 By [Bryan Guner](https://medium.com/@bryanguner) on [March 19, 2021](https://medium.com/p/86ddc0e91443).
 

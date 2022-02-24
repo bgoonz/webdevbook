@@ -18,6 +18,7 @@ The following problem arises in HTTP communication: Because HTML, CSS, JavaScrip
 - `application/json`
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [Easy HTTP](https://www.jmarshall.com/easy/http/)

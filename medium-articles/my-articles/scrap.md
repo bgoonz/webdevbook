@@ -14,7 +14,7 @@
 
 **Projects**
 
-**Gatsby-Gr\*\*\*\*aphQL-Blog**[Live Site ](https://bgoonz-blog.netlify.app)[GitHub](https://github.com/bgoonz/BGOONZ\_BLOG\_2.0)
+**Gatsby-Gr\*\*\*\*aphQL-Blog**[Live Site ](https://bgoonz-blog.netlify.app)[GitHub](https://github.com/bgoonz/BGOONZ_BLOG_2.0)
 
 _JavaScript, React / Gatsby | GraphQL | SCSS | Lodash | Jamstack | Facebook Comments API | jQuery_
 
@@ -78,14 +78,14 @@ _\*\*A \*\*_[_**website**_](https://potluck-landing.netlify.app/style-guide/)_\*
 
 **Education**
 
-[**Lambda School**](https://www.credly.com/badges/bd145ba3-0f09-42fc-8d1f-a3bc4e0a46b4/public\_url)**, \_Full Stack Web Development**\_\*\* \*\*\*\* May 2020 - Nov 2021\*\*
+[**Lambda School**](https://www.credly.com/badges/bd145ba3-0f09-42fc-8d1f-a3bc4e0a46b4/public_url)**, \_Full Stack Web Development**\_\*\* \*\*\*\* May 2020 - Nov 2021\*\*
 
 \[!\[Logo
 
-Description automatically generated with medium confidence]\(file:///C:/Users/bryan/AppData/Local/Temp/msohtmlclip1/01/clip\_image014.png)]\(https://lambdaschool.com/courses/full-stack-web-development#curriculum)Six-month immersive software development course with a focus on full stack web development. Over 2000 hours of work invested including class time, homework, and projects.
+Description automatically generated with medium confidence]\(file:///C:/Users/bryan/AppData/Local/Temp/msohtmlclip1/01/clip_image014.png)]\(https://lambdaschool.com/courses/full-stack-web-development#curriculum)Six-month immersive software development course with a focus on full stack web development. Over 2000 hours of work invested including class time, homework, and projects.
 
 **B.S.** [**Electrical Engineering**](https://electrical-computerengineering.tcnj.edu)**, TCNJ, Ewing NJ 2014 -- 2019**
 
 \[!\[Logo
 
-Description automatically generated]\(file:///C:/Users/bryan/AppData/Local/Temp/msohtmlclip1/01/clip\_image016.png)]\(https://github.com/bgoonz/random-static-html-page-deploy/blob/master/ElectricalEngineeringCurriculum.pdf)Knowledge of circuit boards, processors, chips, electronic equipment, and computer hardware and software, including applications and programming.
+Description automatically generated]\(file:///C:/Users/bryan/AppData/Local/Temp/msohtmlclip1/01/clip_image016.png)]\(https://github.com/bgoonz/random-static-html-page-deploy/blob/master/ElectricalEngineeringCurriculum.pdf)Knowledge of circuit boards, processors, chips, electronic equipment, and computer hardware and software, including applications and programming.

@@ -25,13 +25,15 @@ Output `Name: John Doe`
 You can find more examples in the documentation [here](https://handlebarsjs.com/).
 
 ## Let's get practical: Handlebars and express
-A commonly used combination in node is using handlebars together with Express, we will use a special package called [express-handlebars]((https://www.npmjs.com/package/express-handlebars)). This package lets handlebars interact directly with the Express request handler and render content directly to the response object. You can find a basic example [here](https://www.npmjs.com/package/express-handlebars#basic-usage).
+
+A commonly used combination in node is using handlebars together with Express, we will use a special package called [express-handlebars](<(https://www.npmjs.com/package/express-handlebars)>). This package lets handlebars interact directly with the Express request handler and render content directly to the response object. You can find a basic example [here](https://www.npmjs.com/package/express-handlebars#basic-usage).
 
 The following tutorial shows how this works:
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=1srD3Mdvf50" %}
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [Overview of JavaScript Templating Engines](https://strongloop.com/strongblog/compare-javascript-templates-jade-mustache-dust/)

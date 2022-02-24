@@ -2,7 +2,8 @@
 
 Many people think programming is just about the code, 0’s and 1’s, about frameworks, technical stuff, or complicated words that just confuse us.
 
-However, to be a good programmer ​__the most important thing is to be good at problem solving__. ​We program computers because we have:
+However, to be a good programmer ​**the most important thing is to be good at problem solving**. ​We program computers because we have:
+
 1. A problem/need
 2. We want to use the computer to help us solve that problem / need
 
@@ -35,22 +36,24 @@ Now try out some of the techniques you have found. Often it works well to first 
 Often your code does not do what you want it to do. There is only one reason why this is the case: ​Your logic is not sound​.
 
 In the end the computer only executes on instructions that are written in a way it understands. Generally, there can be 2 reasons for your code not doing what you want:
+
 1. The computer throws an error.
 2. Your code returns an incorrect value that doesn’t solve your problem
 
 Whenever this happens, you can do the following:
-* In case 1, make sure that you carefully read the error message, as it often
-gives you a good hint where the problem lies within your code. This should be
-the first thing to look for when something went wrong.
-* Check for syntax errors. Use JsLint for this (an extension for VSCode that
-helps you find syntax errors). Most of your mistakes will be simple
-spelling/syntax mistakes.
-* Use the debugger to understand what steps the computer goes through when
-interpreting your code, and find where it goes wrong. Try to explain each part
-of the code to yourself of what it does exactly.
-* Formulate your problem in clear terms to google and search for solutions
-* Ask people in your class/teacher or take a break and look back at your
-problem with fresh eyes.
+
+- In case 1, make sure that you carefully read the error message, as it often
+  gives you a good hint where the problem lies within your code. This should be
+  the first thing to look for when something went wrong.
+- Check for syntax errors. Use JsLint for this (an extension for VSCode that
+  helps you find syntax errors). Most of your mistakes will be simple
+  spelling/syntax mistakes.
+- Use the debugger to understand what steps the computer goes through when
+  interpreting your code, and find where it goes wrong. Try to explain each part
+  of the code to yourself of what it does exactly.
+- Formulate your problem in clear terms to google and search for solutions
+- Ask people in your class/teacher or take a break and look back at your
+  problem with fresh eyes.
 
 ### 6. Reflect
 
@@ -61,12 +64,13 @@ Most people tend to skip this step. “Why do I need to do this? I have already 
 Reflection also includes ​refactoring​. Refactoring is the process of rewriting your existing solution into better looking, better functional, readable code. Often times you will find that you have solved a problem, but that doesn’t necessarily mean that you have solved it in the best possible way, or that you completely understand all the concepts you have used.
 
 In summary, reflection includes the following steps:
-* how could I rewrite this code for simplicity and better readability (refactoring)
-* what concepts in your code you don’t understand yet 100% (even though it
-works), and study them.
-* what you can learn from other solutions (by looking at other solutions of the
-same problem)?
-* what would you do differently next time?
+
+- how could I rewrite this code for simplicity and better readability (refactoring)
+- what concepts in your code you don’t understand yet 100% (even though it
+  works), and study them.
+- what you can learn from other solutions (by looking at other solutions of the
+  same problem)?
+- what would you do differently next time?
 
 [TOP](#how-to-study-programming)
 
@@ -89,6 +93,7 @@ However, let’s try to make this a bit more specific. We have to write a progra
 ### Divide (2)
 
 We now know what we want to do in a general sense, but can we divide our problems in a few different problems? Yes, we can:
+
 1. Declare a variable named ​fruits w​ith the fruits mentioned in the example
 1. Define an empty function named ​TakeOutRottenFruit
 1. Inside the empty function write instructions that take out the strings containing the word “rotten”.
@@ -104,11 +109,14 @@ After some more googling, we find out that includes() is a function that allows 
 ### Experiment (4)
 
 This leads us to write the following code:
+
 ```js
 const fruits = ["apple", "rottenBanana", "mango"];
 
 function takeOutRottenFruit(arrayOfFruits) {
-  const goodFruitsArray = arrayOfFruits.filter(fruit => fruit.include("rotten"));
+  const goodFruitsArray = arrayOfFruits.filter((fruit) =>
+    fruit.include("rotten")
+  );
   return goodFruitsArray;
 }
 
@@ -124,13 +132,15 @@ Probably we have made a small typo. Let’s google the include function. When we
 When we run the following code, it does not give any errors anymore.
 However, I do notice that only ​rottenBanana ​is selected and displayed.
 
-Hmmm, what to do? Let’s go back to the basics. I remember that in my JavaScript Module I learned something about ​operators.​ Indeed, I find that you can use the ​```!``` operator​ to return what is not ​true​ (everything that does ​not​ contain the word rotten). Let me try to add the ​```!``` operator.
+Hmmm, what to do? Let’s go back to the basics. I remember that in my JavaScript Module I learned something about ​operators.​ Indeed, I find that you can use the ​`!` operator​ to return what is not ​true​ (everything that does ​not​ contain the word rotten). Let me try to add the ​`!` operator.
 
 ```js
 const fruits = ["apple", "rottenBanana", "mango"];
 
 function takeOutRottenFruit(arrayOfFruits) {
-  const goodFruitsArray = arrayOfFruits.filter(fruit => !fruit.includes("rotten"));
+  const goodFruitsArray = arrayOfFruits.filter(
+    (fruit) => !fruit.includes("rotten")
+  );
   return goodFruitsArray;
 }
 
@@ -145,7 +155,7 @@ Reflecting over the code a couple of ideas cross our minds. The `goodFruitsArray
 
 ```js
 function takeOutRottenFruit(arrayOfFruits) {
-  return arrayOfFruits.filter(fruit => !fruit.includes("rotten"));
+  return arrayOfFruits.filter((fruit) => !fruit.includes("rotten"));
 }
 ```
 
@@ -153,8 +163,8 @@ We also use some modern JavaScript syntax in the filter and includes functions, 
 
 ```js
 const takeOutRottenFruit = (arrayOfFruits) => {
-  return arrayOfFruits.filter(fruit => !fruit.includes("rotten"));
-}
+  return arrayOfFruits.filter((fruit) => !fruit.includes("rotten"));
+};
 ```
 
 Finally we think of the fact if we will understand what this function does in 6 months or if we need a comment of some kind. In the end we decide that the function is simple enough and we named the function and parameters well so it is self explanatory. No comment needed.
@@ -162,8 +172,8 @@ Finally we think of the fact if we will understand what this function does in 6 
 ---
 
 # Extra Reading
+
 - [How to THINK like a programmer](https://www.youtube.com/watch?v=NNazO2tMHno)
 - [Problem-Solving for Developers](https://www.youtube.com/watch?v=UFc-RPbq8kg)
 - [Lessons in problem solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/)
 - [Computational thinking](https://www.youtube.com/watch?v=qbnTZCj0ugI)
-

@@ -28,7 +28,7 @@ Heroku’s robust app runtime environment and powerful cloud data services work 
 
 **Pioneers of cloud data services**
 
-Heroku launched the [world’s first database-as-a-service in Heroku Postgres in 2011](https://blog.heroku.com/heroku\_postgres\_launches) (we started running it internally in 2007) and the [first production-grade Kafka-as-a-service in 2016](https://blog.heroku.com/kafka-on-heroku-generally-available). We continue to innovate with new features, better integrations, and best-in-cloud developer experiences.
+Heroku launched the [world’s first database-as-a-service in Heroku Postgres in 2011](https://blog.heroku.com/heroku_postgres_launches) (we started running it internally in 2007) and the [first production-grade Kafka-as-a-service in 2016](https://blog.heroku.com/kafka-on-heroku-generally-available). We continue to innovate with new features, better integrations, and best-in-cloud developer experiences.
 
 **Most popular open-source projects**
 

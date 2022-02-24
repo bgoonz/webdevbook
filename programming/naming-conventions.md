@@ -5,7 +5,7 @@
 In programming you will need to come up with appropriate names for your variables, functions and function parameters.
 
 > _The most important consideration in naming a variable is that the name fully and accurately describes the entity the variable represents. An effective technique for coming up with a good name is to state in words what the variable represents. Often that statement itself is the best variable name. It’s easy to read because it doesn’t contain cryptic abbreviations, and it’s unambiguous. Because it’s a full description of the
-entity, it won’t be confused with something else. And it’s easy to remember because the name is similar to the concept._
+> entity, it won’t be confused with something else. And it’s easy to remember because the name is similar to the concept._
 
 > Source: [Code Complete 2, Steve McConnell](https://www.amazon.de/Code-Complete-Practical-Construction-Costruction/dp/0735619670)
 
@@ -31,7 +31,7 @@ let myFavouriteMovies;
 
 ### PascalCase
 
-This casing is restricted in JavaScript to class names and constructor functions. This style of casing was customary in the Pascal programming language. 
+This casing is restricted in JavaScript to class names and constructor functions. This style of casing was customary in the Pascal programming language.
 
 Example:
 
@@ -54,8 +54,8 @@ const MAX_AGE = 60;
 This casing is used for class names in css and sometimes for filenames in JavaScript.
 
 ```css
-.page-title { 
-  color: #ff23be.
+.page-title {
+  color: #ff23be.;
 }
 ```
 
@@ -64,9 +64,8 @@ This casing is used for class names in css and sometimes for filenames in JavaSc
 ```
 
 ```js
-const fileName = 'movie-collection.js';
+const fileName = "movie-collection.js";
 ```
-
 
 ## Variable names for data
 
@@ -106,11 +105,12 @@ class Movie {
 
 ## Reserved keywords
 
-Certain names are reserved by JavaScript for its own use. You cannot use the names for your variable. For example, you can't name a variable `if`. 
+Certain names are reserved by JavaScript for its own use. You cannot use the names for your variable. For example, you can't name a variable `if`.
 
-For a complete list of reserved names, see the MDN page for [Keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords). 
+For a complete list of reserved names, see the MDN page for [Keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords).
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [Naming Conventions in Programming](https://blog.jsecademy.com/naming-conventions-in-programming/)

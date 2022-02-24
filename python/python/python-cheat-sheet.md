@@ -487,8 +487,8 @@ def hello(name):
 
 When creating a function using the def statement, you can specify what the return value should be with a return statement. A return statement consists of the following:
 
-* The return keyword.
-* The value or expression that the function should return.
+- The return keyword.
+- The value or expression that the function should return.
 
 ```python
 import random
@@ -543,10 +543,10 @@ print('cats', 'dogs', 'mice', sep=',')
 
 #### Local and Global Scope
 
-* Code in the global scope cannot use any local variables.
-* However, a local scope can access global variables.
-* Code in a function's local scope cannot use variables in any other local scope.
-* You can use the same name for different variables if they are in different scopes. That is, there can be a local variable named spam and a global variable also named spam.
+- Code in the global scope cannot use any local variables.
+- However, a local scope can access global variables.
+- Code in a function's local scope cannot use variables in any other local scope.
+- You can use the same name for different variables if they are in different scopes. That is, there can be a local variable named spam and a global variable also named spam.
 
 #### The global Statement
 
@@ -1163,7 +1163,7 @@ s2 = {2, 3, 4}
 s1.difference(s2)  # or 's1 - s2'
 ```
 
-#### set symetric\_difference
+#### set symetric_difference
 
 `symetric_difference` or `^` will return all the elements that are not common between them.
 
@@ -1265,7 +1265,7 @@ for each in result:
    print(each)
 ```
 
-#### combinations\_with\_replacement
+#### combinations_with_replacement
 
 Just like combinations(), but allows individual elements to be repeated more than once.
 
@@ -1552,7 +1552,7 @@ for each in beta_colors:
    print(each)
 ```
 
-#### zip\_longest
+#### zip_longest
 
 Makes an iterator that aggregates elements from each of the iterables. If the iterables are of uneven length, missing values are filled-in with fillvalue. Iteration continues until the longest iterable is exhausted.
 
@@ -1788,11 +1788,11 @@ spam.isupper()
 
 #### The isX String Methods
 
-* **isalpha()** returns True if the string consists only of letters and is not blank.
-* **isalnum()** returns True if the string consists only of lettersand numbers and is not blank.
-* **isdecimal()** returns True if the string consists only ofnumeric characters and is not blank.
-* **isspace()** returns True if the string consists only of spaces,tabs, and new-lines and is not blank.
-* **istitle()** returns True if the string consists only of wordsthat begin with an uppercase letter followed by onlylowercase letters.
+- **isalpha()** returns True if the string consists only of letters and is not blank.
+- **isalnum()** returns True if the string consists only of lettersand numbers and is not blank.
+- **isdecimal()** returns True if the string consists only ofnumeric characters and is not blank.
+- **isspace()** returns True if the string consists only of spaces,tabs, and new-lines and is not blank.
+- **istitle()** returns True if the string consists only of wordsthat begin with an uppercase letter followed by onlylowercase letters.
 
 #### The startswith and endswith String Methods
 
@@ -2196,8 +2196,8 @@ phone_num_regex.findall('Cell: 415-555-9999 Work: 212-555-0000')
 
 To summarize what the findall() method returns, remember the following:
 
-* When called on a regex with no groups, such as \d-\d\d\d-\d\d\d\d, the method findall() returns a list of ng matches, such as \['415-555-9999', '212-555-0000'].
-* When called on a regex that has groups, such as (\d\d\d)-d\d)-(\d\ d\d\d), the method findall() returns a list of es of strings (one string for each group), such as \[('415', ', '9999'), ('212', '555', '0000')].
+- When called on a regex with no groups, such as \d-\d\d\d-\d\d\d\d, the method findall() returns a list of ng matches, such as \['415-555-9999', '212-555-0000'].
+- When called on a regex that has groups, such as (\d\d\d)-d\d)-(\d\ d\d\d), the method findall() returns a list of es of strings (one string for each group), such as \[('415', ', '9999'), ('212', '555', '0000')].
 
 #### Making Your Own Character Classes
 
@@ -2219,9 +2219,9 @@ consonant_regex.findall('Robocop eats baby food. BABY FOOD.')
 
 #### The Caret and Dollar Sign Characters
 
-* You can also use the caret symbol (^) at the start of a regex to indicate that a match must occur at the beginning of the searched text.
-* Likewise, you can put a dollar sign ($) at the end of the regex to indicate the string must end with this regex pattern.
-* And you can use the ^ and $ together to indicate that the entire string must match the regex—that is, it's not enough for a match to be made on some subset of the string.
+- You can also use the caret symbol (^) at the start of a regex to indicate that a match must occur at the beginning of the searched text.
+- Likewise, you can put a dollar sign ($) at the end of the regex to indicate the string must end with this regex pattern.
+- And you can use the ^ and $ together to indicate that the entire string must match the regex—that is, it's not enough for a match to be made on some subset of the string.
 
 The r'^Hello' regular expression string matches strings that begin with 'Hello':
 
@@ -2496,8 +2496,8 @@ And all is good :)
 
 There are two ways to specify a file path.
 
-* An absolute path, which always begins with the root folder
-* A relative path, which is relative to the program's current working directory
+- An absolute path, which always begins with the root folder
+- A relative path, which is relative to the program's current working directory
 
 There are also the dot (.) and dot-dot (..) folders. These are not real folders but special names that can be used in a path. A single period (“dot”) for a folder name is shorthand for “this directory.” Two periods (“dot-dot”) means “the parent folder.”
 
@@ -2797,9 +2797,9 @@ shutil.move('C:\\bacon.txt', 'C:\\eggs')
 
 #### Permanently Deleting Files and Folders
 
-* Calling os.unlink(path) or Path.unlink() will delete the file at path.
-* Calling os.rmdir(path) or Path.rmdir() will delete the folder at path. This folder must be empty of any files or folders.
-* Calling shutil.rmtree(path) will remove the folder at path, and all files and folders it contains will also be deleted.
+- Calling os.unlink(path) or Path.unlink() will delete the file at path.
+- Calling os.rmdir(path) or Path.rmdir() will delete the folder at path. This folder must be empty of any files or folders.
+- Calling shutil.rmtree(path) will remove the folder at path, and all files and folders it contains will also be deleted.
 
 #### Safe Deletes with the send2trash Module
 
@@ -2997,8 +2997,8 @@ Compared to JSON, YAML allows a much better humain maintainance and gives abilit
 
 There are two main librairies allowing to access to YAML files:
 
-* [PyYaml](https://pypi.python.org/pypi/PyYAML)
-* [Ruamel.yaml](https://pypi.python.org/pypi/ruamel.yaml)
+- [PyYaml](https://pypi.python.org/pypi/PyYAML)
+- [Ruamel.yaml](https://pypi.python.org/pypi/ruamel.yaml)
 
 Install them using `pip install` in your virtual environment.
 
@@ -3038,9 +3038,9 @@ conf1 = anyconfig.load("/path/to/foo/conf.d/a.yml")
 
 Exceptions are raised with a raise statement. In code, a raise statement consists of the following:
 
-* The raise keyword
-* A call to the Exception() function
-* A string with a helpful error message passed to the Exception() function
+- The raise keyword
+- A call to the Exception() function
+- A string with a helpful error message passed to the Exception() function
 
 ```python
 raise Exception('This is the error message.')
@@ -3073,7 +3073,7 @@ for sym, w, h in (('*', 4, 4), ('O', 20, 5), ('x', 1, 3), ('ZZ', 3, 3)):
 
 #### Getting the Traceback as a String
 
-The traceback is displayed by Python whenever a raised exception goes unhandled. But can also obtain it as a string by calling traceback.format\_exc(). This function is useful if you want the information from an exception's traceback but also want an except statement to gracefully handle the exception. You will need to import Python's traceback module before calling this function.
+The traceback is displayed by Python whenever a raised exception goes unhandled. But can also obtain it as a string by calling traceback.format_exc(). This function is useful if you want the information from an exception's traceback but also want an except statement to gracefully handle the exception. You will need to import Python's traceback module before calling this function.
 
 ```python
 import traceback
@@ -3098,10 +3098,10 @@ Exception: This is the error message.
 
 An assertion is a sanity check to make sure your code isn't doing something obviously wrong. These sanity checks are performed by assert statements. If the sanity check fails, then an AssertionError exception is raised. In code, an assert statement consists of the following:
 
-* The assert keyword
-* A condition (that is, an expression that evaluates to True or False)
-* A comma
-* A string to display when the condition is False
+- The assert keyword
+- A condition (that is, an expression that evaluates to True or False)
+- A comma
+- A string to display when the condition is False
 
 ```python
 pod_bay_door_status = 'open'
@@ -3434,7 +3434,7 @@ python setup.py install
 
 and module will install itself.
 
-Our initial setup.py will also include information about the license and will re-use the README.txt file for the long\_description field. This will look like:
+Our initial setup.py will also include information about the license and will re-use the README.txt file for the long_description field. This will look like:
 
 ```python
 from distutils.core import setup
@@ -3523,13 +3523,13 @@ class WithoutExplicitTypes:
    value: Any = 42
 ```
 
-***
+---
 
-***
+---
 
-***
+---
 
-***
+---
 
 ## PART 2:
 
@@ -3707,21 +3707,21 @@ print("Hello, World", end="!") # => Hello, World!
 
 ## Simple way to get input data from console
 
-input\_string\_var = input("Enter some data: ") # Returns the data as a string
+input_string_var = input("Enter some data: ") # Returns the data as a string
 
-## Note: In earlier versions of Python, input() method was named as raw\_input()
+## Note: In earlier versions of Python, input() method was named as raw_input()
 
 ## There are no declarations, only assignments.
 
-## Convention is to use lower\_case\_with\_underscores
+## Convention is to use lower_case_with_underscores
 
-some\_var = 5 some\_var # => 5
+some_var = 5 some_var # => 5
 
 ## Accessing a previously unassigned variable is an exception.
 
 ## See Control Flow to learn more about exception handling.
 
-some\_unknown\_var # Raises a NameError
+some_unknown_var # Raises a NameError
 
 ## if can be used as an expression
 
@@ -3735,7 +3735,7 @@ li = \[]
 
 ## You can start with a prefilled list
 
-other\_li = \[4, 5, 6]
+other_li = \[4, 5, 6]
 
 ## Add stuff to the end of a list with append
 
@@ -3795,13 +3795,13 @@ li.index(2) # => 1 li.index(4) # Raises a ValueError as 4 is not in the list
 
 ## You can add lists
 
-## Note: values for li and for other\_li are not modified.
+## Note: values for li and for other_li are not modified.
 
-li + other\_li # => \[1, 2, 3, 4, 5, 6]
+li + other_li # => \[1, 2, 3, 4, 5, 6]
 
 ## Concatenate lists with "extend()"
 
-li.extend(other\_li) # Now li is \[1, 2, 3, 4, 5, 6]
+li.extend(other_li) # Now li is \[1, 2, 3, 4, 5, 6]
 
 ## Check for existence in a list with "in"
 
@@ -3845,11 +3845,11 @@ e, d = d, e # d is now 5 and e is now 4
 
 ## Dictionaries store mappings from keys to values
 
-empty\_dict = {}
+empty_dict = {}
 
 ## Here is a prefilled dictionary
 
-filled\_dict = {"one": 1, "two": 2, "three": 3}
+filled_dict = {"one": 1, "two": 2, "three": 3}
 
 ## Note keys for dictionaries have to be immutable types. This is to ensure that
 
@@ -3857,11 +3857,11 @@ filled\_dict = {"one": 1, "two": 2, "three": 3}
 
 ## Immutable types include ints, floats, strings, tuples.
 
-invalid\_dict = {\[1,2,3]: "123"} # => Raises a TypeError: unhashable type: 'list' valid\_dict = {(1,2,3):\[1,2,3]} # Values can be of any type, however.
+invalid_dict = {\[1,2,3]: "123"} # => Raises a TypeError: unhashable type: 'list' valid_dict = {(1,2,3):\[1,2,3]} # Values can be of any type, however.
 
 ## Look up values with \[]
 
-filled\_dict\["one"] # => 1
+filled_dict\["one"] # => 1
 
 ## Get all keys as an iterable with "keys()". We need to wrap the call in list()
 
@@ -3873,7 +3873,7 @@ filled\_dict\["one"] # => 1
 
 ## items maintain the order at which they are inserted into the dictionary.
 
-list(filled\_dict.keys()) # => \["three", "two", "one"] in Python <3.7 list(filled\_dict.keys()) # => \["one", "two", "three"] in Python 3.7+
+list(filled_dict.keys()) # => \["three", "two", "one"] in Python <3.7 list(filled_dict.keys()) # => \["one", "two", "three"] in Python 3.7+
 
 ## Get all values as an iterable with "values()". Once again we need to wrap it
 
@@ -3881,35 +3881,35 @@ list(filled\_dict.keys()) # => \["three", "two", "one"] in Python <3.7 list(fill
 
 ## ordering.
 
-list(filled\_dict.values()) # => \[3, 2, 1] in Python <3.7 list(filled\_dict.values()) # => \[1, 2, 3] in Python 3.7+
+list(filled_dict.values()) # => \[3, 2, 1] in Python <3.7 list(filled_dict.values()) # => \[1, 2, 3] in Python 3.7+
 
 ## Check for existence of keys in a dictionary with "in"
 
-"one" in filled\_dict # => True 1 in filled\_dict # => False
+"one" in filled_dict # => True 1 in filled_dict # => False
 
 ## Looking up a non-existing key is a KeyError
 
-filled\_dict\["four"] # KeyError
+filled_dict\["four"] # KeyError
 
 ## Use "get()" method to avoid the KeyError
 
-filled\_dict.get("one") # => 1 filled\_dict.get("four") # => None
+filled_dict.get("one") # => 1 filled_dict.get("four") # => None
 
 ## The get method supports a default argument when the value is missing
 
-filled\_dict.get("one", 4) # => 1 filled\_dict.get("four", 4) # => 4
+filled_dict.get("one", 4) # => 1 filled_dict.get("four", 4) # => 4
 
 ## "setdefault()" inserts into a dictionary only if the given key isn't present
 
-filled\_dict.setdefault("five", 5) # filled\_dict\["five"] is set to 5 filled\_dict.setdefault("five", 6) # filled\_dict\["five"] is still 5
+filled_dict.setdefault("five", 5) # filled_dict\["five"] is set to 5 filled_dict.setdefault("five", 6) # filled_dict\["five"] is still 5
 
 ## Adding to a dictionary
 
-filled\_dict.update({"four":4}) # => {"one": 1, "two": 2, "three": 3, "four": 4} filled\_dict\["four"] = 4 # another way to add to dict
+filled_dict.update({"four":4}) # => {"one": 1, "two": 2, "three": 3, "four": 4} filled_dict\["four"] = 4 # another way to add to dict
 
 ## Remove keys from a dictionary with del
 
-del filled\_dict\["one"] # Removes the key "one" from filled dict
+del filled_dict\["one"] # Removes the key "one" from filled dict
 
 ## From Python 3.5 you can also use the additional unpacking options
 
@@ -3917,31 +3917,31 @@ del filled\_dict\["one"] # Removes the key "one" from filled dict
 
 ## Sets store ... well sets
 
-empty\_set = set()
+empty_set = set()
 
 ## Initialize a set with a bunch of values. Yeah, it looks a bit like a dict. Sorry.
 
-some\_set = {1, 1, 2, 2, 3, 4} # some\_set is now {1, 2, 3, 4}
+some_set = {1, 1, 2, 2, 3, 4} # some_set is now {1, 2, 3, 4}
 
 ## Similar to keys of a dictionary, elements of a set have to be immutable.
 
-invalid\_set = {\[1], 1} # => Raises a TypeError: unhashable type: 'list' valid\_set = {(1,), 1}
+invalid_set = {\[1], 1} # => Raises a TypeError: unhashable type: 'list' valid_set = {(1,), 1}
 
 ## Add one more item to the set
 
-filled\_set = some\_set filled\_set.add(5) # filled\_set is now {1, 2, 3, 4, 5}
+filled_set = some_set filled_set.add(5) # filled_set is now {1, 2, 3, 4, 5}
 
 ## Sets do not have duplicate elements
 
-filled\_set.add(5) # it remains as before {1, 2, 3, 4, 5}
+filled_set.add(5) # it remains as before {1, 2, 3, 4, 5}
 
 ## Do set intersection with &
 
-other\_set = {3, 4, 5, 6} filled\_set & other\_set # => {3, 4, 5}
+other_set = {3, 4, 5, 6} filled_set & other_set # => {3, 4, 5}
 
 ## Do set union with |
 
-filled\_set | other\_set # => {1, 2, 3, 4, 5, 6}
+filled_set | other_set # => {1, 2, 3, 4, 5, 6}
 
 ## Do set difference with -
 
@@ -3961,7 +3961,7 @@ filled\_set | other\_set # => {1, 2, 3, 4, 5, 6}
 
 ## Check for existence in a set with in
 
-2 in filled\_set # => True 10 in filled\_set # => False
+2 in filled_set # => True 10 in filled_set # => False
 
 \####################################################
 
@@ -3971,15 +3971,15 @@ filled\_set | other\_set # => {1, 2, 3, 4, 5, 6}
 
 ## Let's just make a variable
 
-some\_var = 5
+some_var = 5
 
 ## Here is an if statement. Indentation is significant in Python!
 
 ## Convention is to use four spaces, not tabs.
 
-## This prints "some\_var is smaller than 10"
+## This prints "some_var is smaller than 10"
 
-if some\_var > 10: print("some\_var is totally bigger than 10.") elif some\_var < 10: # This elif clause is optional. print("some\_var is smaller than 10.") else: # This is optional too. print("some\_var is indeed 10.")
+if some_var > 10: print("some_var is totally bigger than 10.") elif some_var < 10: # This elif clause is optional. print("some_var is smaller than 10.") else: # This is optional too. print("some_var is indeed 10.")
 
 """ For loops iterate over lists prints: dog is a mammal cat is a mammal mouse is a mammal """ for animal in \["dog", "cat", "mouse"]: # You can use format() to interpolate formatted strings print("{} is a mammal".format(animal))
 
@@ -4023,41 +4023,41 @@ with open('myfile2.txt', "r+") as file: contents = json.load(file) # reads a jso
 
 ## The object returned by the range function, is an iterable.
 
-filled\_dict = {"one": 1, "two": 2, "three": 3} our\_iterable = filled\_dict.keys() print(our\_iterable) # => dict\_keys(\['one', 'two', 'three']). This is an object that implements our Iterable interface.
+filled_dict = {"one": 1, "two": 2, "three": 3} our_iterable = filled_dict.keys() print(our_iterable) # => dict_keys(\['one', 'two', 'three']). This is an object that implements our Iterable interface.
 
 ## We can loop over it.
 
-for i in our\_iterable: print(i) # Prints one, two, three
+for i in our_iterable: print(i) # Prints one, two, three
 
 ## However we cannot address elements by index.
 
-our\_iterable\[1] # Raises a TypeError
+our_iterable\[1] # Raises a TypeError
 
 ## An iterable is an object that knows how to create an iterator.
 
-our\_iterator = iter(our\_iterable)
+our_iterator = iter(our_iterable)
 
 ## Our iterator is an object that can remember the state as we traverse through it.
 
 ## We get the next object with "next()".
 
-next(our\_iterator) # => "one"
+next(our_iterator) # => "one"
 
 ## It maintains state as we iterate.
 
-next(our\_iterator) # => "two" next(our\_iterator) # => "three"
+next(our_iterator) # => "two" next(our_iterator) # => "three"
 
 ## After the iterator has returned all of its data, it raises a StopIteration exception
 
-next(our\_iterator) # Raises StopIteration
+next(our_iterator) # Raises StopIteration
 
 ## We can also loop over it, in fact, "for" does this implicitly!
 
-our\_iterator = iter(our\_iterable) for i in our\_iterator: print(i) # Prints one, two, three
+our_iterator = iter(our_iterable) for i in our_iterator: print(i) # Prints one, two, three
 
 ## You can grab all the elements of an iterable or iterator by calling list() on it.
 
-list(our\_iterable) # => Returns \["one", "two", "three"] list(our\_iterator) # => Returns \[] because state is saved
+list(our_iterable) # => Returns \["one", "two", "three"] list(our_iterator) # => Returns \[] because state is saved
 
 \####################################################
 
@@ -4089,21 +4089,21 @@ varargs(1, 2, 3) # => (1, 2, 3)
 
 ## keyword arguments, as well
 
-def keyword\_args(\*\*kwargs): return kwargs
+def keyword_args(\*\*kwargs): return kwargs
 
 ## Let's call it to see what happens
 
-keyword\_args(big="foot", loch="ness") # => {"big": "foot", "loch": "ness"}
+keyword_args(big="foot", loch="ness") # => {"big": "foot", "loch": "ness"}
 
 ## You can do both at once, if you like
 
-def all\_the\_args(\*args, \*\*kwargs): print(args) print(kwargs) """ all\_the\_args(1, 2, a=3, b=4) prints: (1, 2) {"a": 3, "b": 4} """
+def all_the_args(\*args, \*\*kwargs): print(args) print(kwargs) """ all_the_args(1, 2, a=3, b=4) prints: (1, 2) {"a": 3, "b": 4} """
 
 ## When calling functions, you can do the opposite of args/kwargs!
 
 ## Use \* to expand tuples and use \*\* to expand kwargs.
 
-args = (1, 2, 3, 4) kwargs = {"a": 3, "b": 4} all\_the\_args(\*args) # equivalent to all\_the\_args(1, 2, 3, 4) all\_the\_args(\*\*kwargs) # equivalent to all\_the\_args(a=3, b=4) all\_the\_args(\*args, \*\*kwargs) # equivalent to all\_the\_args(1, 2, 3, 4, a=3, b=4)
+args = (1, 2, 3, 4) kwargs = {"a": 3, "b": 4} all_the_args(\*args) # equivalent to all_the_args(1, 2, 3, 4) all_the_args(\*\*kwargs) # equivalent to all_the_args(a=3, b=4) all_the_args(\*args, \*\*kwargs) # equivalent to all_the_args(1, 2, 3, 4, a=3, b=4)
 
 ## Returning multiple values (with tuple assignments)
 
@@ -4117,17 +4117,17 @@ x = 1 y = 2 x, y = swap(x, y) # => x = 2, y = 1
 
 x = 5
 
-def set\_x(num): # Local var x not the same as global variable x x = num # => 43 print(x) # => 43
+def set_x(num): # Local var x not the same as global variable x x = num # => 43 print(x) # => 43
 
-def set\_global\_x(num): global x print(x) # => 5 x = num # global var x is now set to 6 print(x) # => 6
+def set_global_x(num): global x print(x) # => 5 x = num # global var x is now set to 6 print(x) # => 6
 
-set\_x(43) set\_global\_x(6)
+set_x(43) set_global_x(6)
 
 ## Python has first class functions
 
-def create\_adder(x): def adder(y): return x + y return adder
+def create_adder(x): def adder(y): return x + y return adder
 
-add\_10 = create\_adder(10) add\_10(3) # => 13
+add_10 = create_adder(10) add_10(3) # => 13
 
 ## There are also anonymous functions
 
@@ -4135,7 +4135,7 @@ add\_10 = create\_adder(10) add\_10(3) # => 13
 
 ## There are built-in higher order functions
 
-list(map(add\_10, \[1, 2, 3])) # => \[11, 12, 13] list(map(max, \[1, 2, 3], \[4, 2, 1])) # => \[4, 2, 3]
+list(map(add_10, \[1, 2, 3])) # => \[11, 12, 13] list(map(max, \[1, 2, 3], \[4, 2, 1])) # => \[4, 2, 3]
 
 list(filter(lambda x: x > 5, \[3, 4, 5, 6, 7])) # => \[6, 7]
 
@@ -4143,7 +4143,7 @@ list(filter(lambda x: x > 5, \[3, 4, 5, 6, 7])) # => \[6, 7]
 
 ## List comprehension stores the output as a list which can itself be a nested list
 
-\[add\_10(i) for i in \[1, 2, 3]] # => \[11, 12, 13] \[x for x in \[3, 4, 5, 6, 7] if x > 5] # => \[6, 7]
+\[add_10(i) for i in \[1, 2, 3]] # => \[11, 12, 13] \[x for x in \[3, 4, 5, 6, 7] if x > 5] # => \[6, 7]
 
 ## You can construct set and dict comprehensions as well.
 
@@ -4494,7 +4494,7 @@ print('Can I fly? ' + str(sup.fly)) # => Can I fly? False
 
 ## Generators help you make lazy code.
 
-def double\_numbers(iterable): for i in iterable: yield i + i
+def double_numbers(iterable): for i in iterable: yield i + i
 
 ## Generators are memory-efficient because they only load the data needed to
 
@@ -4504,7 +4504,7 @@ def double\_numbers(iterable): for i in iterable: yield i + i
 
 ## NOTE: `range` replaces `xrange` in Python 3.
 
-for i in double\_numbers(range(1, 900000000)): # `range` is a generator. print(i) if i >= 30: break
+for i in double_numbers(range(1, 900000000)): # `range` is a generator. print(i) if i >= 30: break
 
 ## Just as you can create a list comprehension, you can create generator
 
@@ -4514,22 +4514,22 @@ values = (-x for x in \[1,2,3,4,5]) for x in values: print(x) # prints -1 -2 -3 
 
 ## You can also cast a generator comprehension directly to a list.
 
-values = (-x for x in \[1,2,3,4,5]) gen\_to\_list = list(values) print(gen\_to\_list) # => \[-1, -2, -3, -4, -5]
+values = (-x for x in \[1,2,3,4,5]) gen_to_list = list(values) print(gen_to_list) # => \[-1, -2, -3, -4, -5]
 
 ## Decorators
 
-## In this example `beg` wraps `say`. If say\_please is True then it
+## In this example `beg` wraps `say`. If say_please is True then it
 
 ## will change the returned message.
 
 from functools import wraps
 
-def beg(target\_function): @wraps(target\_function) def wrapper(\*args, \*\*kwargs): msg, say\_please = target\_function(\*args, \*\*kwargs) if say\_please: return "{} {}".format(msg, "Please! I am poor :(") return msg
+def beg(target_function): @wraps(target_function) def wrapper(\*args, \*\*kwargs): msg, say_please = target_function(\*args, \*\*kwargs) if say_please: return "{} {}".format(msg, "Please! I am poor :(") return msg
 
 ```
 return wrapper
 ```
 
-@beg def say(say\_please=False): msg = "Can you buy me a beer?" return msg, say\_please
+@beg def say(say_please=False): msg = "Can you buy me a beer?" return msg, say_please
 
-print(say()) # Can you buy me a beer? print(say(say\_please=True)) # Can you buy me a beer? Please! I am poor :(
+print(say()) # Can you buy me a beer? print(say(say_please=True)) # Can you buy me a beer? Please! I am poor :(

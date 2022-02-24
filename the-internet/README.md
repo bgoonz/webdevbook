@@ -11,6 +11,7 @@ As web developers we do need to dive a little deeper though as we are going to b
 ---
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [Foundations of the Web](https://shawnr.gitbooks.io/foundations-of-the-web/)
@@ -18,9 +19,8 @@ If you just can't get enough, here are some extra links that mentors/students ha
 - [Khan Academy's Intro](https://www.khanacademy.org/computing/computer-science/internet-intro) X (https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet)
 - [The Odin Project's intro](https://www.theodinproject.com/courses/web-development-101/lessons/how-does-the-web-work)
 - [Time-Lapse Maps of the Internet](https://www.vox.com/a/internet-maps)
-- [internet for webdevs](https://www.youtube.com/watch?v=e4S8zfLdLgQ).  And there's a part two.
+- [internet for webdevs](https://www.youtube.com/watch?v=e4S8zfLdLgQ). And there's a part two.
 - [OSI model](http://www.webopedia.com/quick_ref/OSI_Layers.asp)
 - Good videos: [part 1](https://www.youtube.com/watch?v=e4S8zfLdLgQ), [part 2](https://www.youtube.com/watch?v=FTAPjr7vgxE)
 - <a href="https://www.youtube.com/watch?v=7_LPdttKXPc" target="_blank">How the Internet Works in 5 Minutes</a>
 - <a href="https://www.youtube.com/watch?v=WjDrMKZWCt0" target="_blank">How Web Browsers Work</a>
-

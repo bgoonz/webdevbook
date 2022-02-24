@@ -1,4 +1,5 @@
 # Test framework
+
 When testing code, we want to separate the test code from the functional code as we don't want to push the test code to the user. This can be done manually, but generally once you start writing a project you will also add a test framework to it to handle all your testing needs. This includes:
 
 - Automatically detecting test files and running them using one command
@@ -22,31 +23,31 @@ It is important to note that just because your code is run during your tests doe
  * Determine if the first date is before the last date
  */
 const isBefore = (firstDate, secondDate) => {
-    if (firstDate.getTime() <= secondDate.getTime()) {
-        return true;
-    } else {
-        return false;
-    }
-}
+  if (firstDate.getTime() <= secondDate.getTime()) {
+    return true;
+  } else {
+    return false;
+  }
+};
 ```
 
 We could have the following tests for it (written in Jest syntax):
 
 ```js
-describe('isBefore', () => {
-    it('should return true if the first date is before the second date', () => {
-        const firstDate = new Date('20200202');
-        const secondDate = new Date('20211202');
+describe("isBefore", () => {
+  it("should return true if the first date is before the second date", () => {
+    const firstDate = new Date("20200202");
+    const secondDate = new Date("20211202");
 
-        expect(isBefore(firstDate, secondDate)).toBe(true);
-    });
+    expect(isBefore(firstDate, secondDate)).toBe(true);
+  });
 
-    it('should return false if the first date is after the second date', () => {
-        const firstDate = new Date('20200202');
-        const secondDate = new Date('20211202');
+  it("should return false if the first date is after the second date", () => {
+    const firstDate = new Date("20200202");
+    const secondDate = new Date("20211202");
 
-        expect(isBefore(secondDate, firstDate)).toBe(false);
-    });
+    expect(isBefore(secondDate, firstDate)).toBe(false);
+  });
 });
 ```
 
@@ -59,6 +60,7 @@ Have a look at the following article that explains the situation very well:
 - [Should you aim for 100% test coverage](https://blog.ndepend.com/aim-100-percent-test-coverage/)
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [Brad Traversy's guide to Unit testing frameworks](https://www.youtube.com/watch?v=7r4xVDI2vho)

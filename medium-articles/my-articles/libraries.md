@@ -2,20 +2,20 @@
 
 My Awesome JavaScript List Part 2
 
-***
+---
 
 ### JavaScript Frameworks & Libraries
 
 #### My Awesome JavaScript List Part 2
 
-![](https://cdn-images-1.medium.com/max/800/0\*9riCKLCPutYxPEtE)#### Here’s the rest of my stash!
+![](https://cdn-images-1.medium.com/max/800/0*9riCKLCPutYxPEtE)#### Here’s the rest of my stash!
 
 _**…well… not really… here’s the rest of my stash:**_
 
 [**bgoonz/Cumulative-Resource-List**\
 \_List of useful cheats heets Inspired by @sindresorhus awesome and improved by these amazing contributors . If you see a…\_github.com](https://github.com/bgoonz/Cumulative-Resource-List/tree/master/README-s)
 
-***
+---
 
 ### Web Development frameworks
 
@@ -113,7 +113,7 @@ _**…well… not really… here’s the rest of my stash:**_
 
 > · ​[Lumino](https://github.com/jupyterlab/lumino) — Library for building interactive web applications.
 
-***
+---
 
 > Animation
 
@@ -141,7 +141,7 @@ _**…well… not really… here’s the rest of my stash:**_
 
 > · ​[flubber](https://github.com/veltman/flubber) — Tools for smoother shape animations.
 
-***
+---
 
 > ‌
 
@@ -151,7 +151,7 @@ _**…well… not really… here’s the rest of my stash:**_
 
 > · ​[qoa](https://github.com/klaussinani/qoa) — Minimal interactive command-line prompts.
 
-***
+---
 
 > Test
 
@@ -169,7 +169,7 @@ _**…well… not really… here’s the rest of my stash:**_
 
 > · ​[Vest](https://github.com/ealush/vest) — Declarative Validation Testing.
 
-***
+---
 
 > ‌
 
@@ -199,7 +199,7 @@ _**…well… not really… here’s the rest of my stash:**_
 
 > · ​[wana](https://github.com/alloc/wana) — Easy observable state for React.
 
-> · ​[Recoil](https://github.com/facebookexperimental/Recoil) — Experimental set of utilities for state management with React. ([Web](https://recoiljs.org)) ([Video](https://www.youtube.com/watch?v=fb3cOMFkEzs)) ([Reddit](https://www.reddit.com/r/reactjs/comments/gjpbjc/facebook\_has\_open\_sourced\_an\_experimental\_state/)) ([Rewriting from scratch](https://bennetthardwick.com/blog/recoil-js-clone-from-scratch-in-100-lines/)) ([Recoilize — Recoil developer tool](https://github.com/open-source-labs/Recoilize))
+> · ​[Recoil](https://github.com/facebookexperimental/Recoil) — Experimental set of utilities for state management with React. ([Web](https://recoiljs.org)) ([Video](https://www.youtube.com/watch?v=fb3cOMFkEzs)) ([Reddit](https://www.reddit.com/r/reactjs/comments/gjpbjc/facebook_has_open_sourced_an_experimental_state/)) ([Rewriting from scratch](https://bennetthardwick.com/blog/recoil-js-clone-from-scratch-in-100-lines/)) ([Recoilize — Recoil developer tool](https://github.com/open-source-labs/Recoilize))
 
 > · ​[State Designer](https://github.com/steveruizok/state-designer) — JavaScript and TypeScript library for managing the state of a user interface.
 
@@ -209,7 +209,7 @@ _**…well… not really… here’s the rest of my stash:**_
 
 > · ​[Statery](https://github.com/hmans/statery) — Surprise-Free State Management. Designed for React with functional components.
 
-***
+---
 
 > ‌
 
@@ -219,7 +219,7 @@ _**…well… not really… here’s the rest of my stash:**_
 
 > · ​[NodeJS Instagram private API client](https://github.com/dilame/instagram-private-api)​
 
-***
+---
 
 > ‌
 
@@ -235,7 +235,7 @@ _**…well… not really… here’s the rest of my stash:**_
 
 > · ​[Connect PG Simple](https://github.com/voxpelli/node-connect-pg-simple) — Simple, minimal PostgreSQL session store for Express/Connect.
 
-***
+---
 
 > ‌
 
@@ -805,7 +805,7 @@ _**…well… not really… here’s the rest of my stash:**_
 
 > [react-tabguard](https://github.com/avocode/react-tabguard) — React Tabguard.
 
-***
+---
 
 > MISC
 
@@ -1111,7 +1111,7 @@ _**…well… not really… here’s the rest of my stash:**_
 
 > · ​[Xterm.js](https://github.com/xtermjs/xterm.js) — Terminal for the web.
 
-> · ​[Change Case](https://github.com/blakeembrey/change-case) — Convert strings between camelCase, PascalCase, Capital Case, snake\_case and more.
+> · ​[Change Case](https://github.com/blakeembrey/change-case) — Convert strings between camelCase, PascalCase, Capital Case, snake_case and more.
 
 > · ​[ChronoGraph](https://github.com/bryntum/chronograph) — Reactive, graph-based, computation engine.
 
@@ -1145,7 +1145,7 @@ _**…well… not really… here’s the rest of my stash:**_
 
 > · ​[Regenerate](https://github.com/mathiasbynens/regenerate) — Generate JavaScript-compatible regular expressions based on a given set of Unicode symbols or code points.
 
-> · ​[Crank.js](https://github.com/bikeshaving/crank) — Write JSX-driven components with functions, promises and generators. ([Article](https://crank.js.org/blog/introducing-crank)) ([Reddit](https://www.reddit.com/r/reactjs/comments/g2u135/crankjs\_introducting\_crank/)) ([HN](https://news.ycombinator.com/item?id=22903967))
+> · ​[Crank.js](https://github.com/bikeshaving/crank) — Write JSX-driven components with functions, promises and generators. ([Article](https://crank.js.org/blog/introducing-crank)) ([Reddit](https://www.reddit.com/r/reactjs/comments/g2u135/crankjs_introducting_crank/)) ([HN](https://news.ycombinator.com/item?id=22903967))
 
 > · ​[redaxios](https://github.com/developit/redaxios) — Axios API, as an 800 byte Fetch wrapper.
 
@@ -1353,7 +1353,7 @@ _**…well… not really… here’s the rest of my stash:**_
 
 > · ​[jsii](https://github.com/aws/jsii) — Allows code in any language to naturally interact with JavaScript classes.
 
-> · ​[proxy-memoize](https://github.com/dai-shi/proxy-memoize) — Intuitive magical memoization library with Proxy and WeakMap. ([Tweet](https://twitter.com/dai\_shi/status/1321089602623557639))
+> · ​[proxy-memoize](https://github.com/dai-shi/proxy-memoize) — Intuitive magical memoization library with Proxy and WeakMap. ([Tweet](https://twitter.com/dai_shi/status/1321089602623557639))
 
 > · ​[CosmJS](https://github.com/cosmos/cosmjs) — Modular library consisting of multiple packages to power web experiences.
 
@@ -1521,7 +1521,7 @@ _**…well… not really… here’s the rest of my stash:**_
 
 > · ​[Sparse Octree](https://github.com/vanruesc/sparse-octree) — Sparse, pointer-based octree data structure.
 
-> · ​[Signature Pad](https://github.com/szimek/signature\_pad) — JavaScript library for drawing smooth signatures.
+> · ​[Signature Pad](https://github.com/szimek/signature_pad) — JavaScript library for drawing smooth signatures.
 
 > · ​[dom-to-image-retina](https://github.com/egoist/dom-to-image-retina) — dom-to-image but generates high-resolution images.
 
@@ -1569,7 +1569,7 @@ _**…well… not really… here’s the rest of my stash:**_
 
 **· ​**[**Awesome WebAudio**](https://github.com/notthetup/awesome-webaudio)**​**
 
-**· ​**[**Awesome XState**](https://github.com/darrylhebbes/awesome\_xstate)**​**
+**· ​**[**Awesome XState**](https://github.com/darrylhebbes/awesome_xstate)**​**
 
 **· ​**[**Moiva.io**](https://moiva.io)\*\* — Measure and compare JavaScript libraries side by side.\*\*
 
@@ -1586,7 +1586,7 @@ If you found this guide helpful feel free to checkout my GitHub/gists where I ho
 Or checkout my personal resource site:
 
 [**Web-Dev-Resource-Hub**\
-\_Edit description\_web-dev-resource-hub.netlify.app](https://web-dev-resource-hub.netlify.app)
+\_Edit description_web-dev-resource-hub.netlify.app](https://web-dev-resource-hub.netlify.app)
 
 By [Bryan Guner](https://medium.com/@bryanguner) on [March 18, 2021](https://medium.com/p/35931e187a35).
 

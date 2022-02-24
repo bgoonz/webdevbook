@@ -15,19 +15,19 @@ If you follow this workflow you will take a small but confident step forward wit
 
    ```js
    // passes no tests)
-   const numberOrType = value => {};
+   const numberOrType = (value) => {};
 
-   console.log('it should return numbers without changing them');
-   console.assert(numberOrType(14) === 14, '14 -> 14');
-   console.assert(numberOrType(0.0) === 0.0, '0.0 -> 0.0');
-   console.assert(numberOrType(-12) === -12, '-12 -> -12');
+   console.log("it should return numbers without changing them");
+   console.assert(numberOrType(14) === 14, "14 -> 14");
+   console.assert(numberOrType(0.0) === 0.0, "0.0 -> 0.0");
+   console.assert(numberOrType(-12) === -12, "-12 -> -12");
 
-   console.log('it should return the type of all other values');
-   console.assert(numberOrType('asdf') === 'string', '"asdf" -> "string"');
-   console.assert(numberOrType(false) === 'boolean', 'false -> "boolean"');
-   console.assert(numberOrType(null) === 'object', 'null -> "object"');
+   console.log("it should return the type of all other values");
+   console.assert(numberOrType("asdf") === "string", '"asdf" -> "string"');
+   console.assert(numberOrType(false) === "boolean", 'false -> "boolean"');
+   console.assert(numberOrType(null) === "object", 'null -> "object"');
    console.assert(
-     numberOrType(undefined) === 'undefined',
+     numberOrType(undefined) === "undefined",
      'undefined -> "undefined"'
    );
    ```
@@ -36,7 +36,7 @@ If you follow this workflow you will take a small but confident step forward wit
 
    ```js
    // passes the numbers tests
-   const numberOrType = value => {
+   const numberOrType = (value) => {
      if (value > 0) {
        return 14;
      } else if (value < 0) {
@@ -46,16 +46,16 @@ If you follow this workflow you will take a small but confident step forward wit
      }
    };
 
-   console.log('it should return numbers without changing them');
-   console.assert(numberOrType(14) === 14, '14 -> 14');
-   console.assert(numberOrType(0.0) === 0.0, '0.0 -> 0.0');
+   console.log("it should return numbers without changing them");
+   console.assert(numberOrType(14) === 14, "14 -> 14");
+   console.assert(numberOrType(0.0) === 0.0, "0.0 -> 0.0");
 
-   console.log('it should return the type of all other values');
-   console.assert(numberOrType('asdf') === 'string', '"asdf" -> "string"');
-   console.assert(numberOrType(false) === 'boolean', 'false -> "boolean"');
-   console.assert(numberOrType(null) === 'object', 'null -> "object"');
+   console.log("it should return the type of all other values");
+   console.assert(numberOrType("asdf") === "string", '"asdf" -> "string"');
+   console.assert(numberOrType(false) === "boolean", 'false -> "boolean"');
+   console.assert(numberOrType(null) === "object", 'null -> "object"');
    console.assert(
-     numberOrType(undefined) === 'undefined',
+     numberOrType(undefined) === "undefined",
      'undefined -> "undefined"'
    );
    ```
@@ -64,22 +64,22 @@ If you follow this workflow you will take a small but confident step forward wit
 
    ```js
    // passes the same tests (with better code)
-   const numberOrType = value => {
-     if (typeof value === 'number') {
+   const numberOrType = (value) => {
+     if (typeof value === "number") {
        return value;
      }
    };
 
-   console.log('it should return numbers without changing them');
-   console.assert(numberOrType(14) === 14, '14 -> 14');
-   console.assert(numberOrType(0.0) === 0.0, '0.0 -> 0.0');
+   console.log("it should return numbers without changing them");
+   console.assert(numberOrType(14) === 14, "14 -> 14");
+   console.assert(numberOrType(0.0) === 0.0, "0.0 -> 0.0");
 
-   console.log('it should return the type of all other values');
-   console.assert(numberOrType('asdf') === 'string', '"asdf" -> "string"');
-   console.assert(numberOrType(false) === 'boolean', 'false -> "boolean"');
-   console.assert(numberOrType(null) === 'object', 'null -> "object"');
+   console.log("it should return the type of all other values");
+   console.assert(numberOrType("asdf") === "string", '"asdf" -> "string"');
+   console.assert(numberOrType(false) === "boolean", 'false -> "boolean"');
+   console.assert(numberOrType(null) === "object", 'null -> "object"');
    console.assert(
-     numberOrType(undefined) === 'undefined',
+     numberOrType(undefined) === "undefined",
      'undefined -> "undefined"'
    );
    ```
@@ -88,32 +88,32 @@ If you follow this workflow you will take a small but confident step forward wit
 
    ```js
    // pass the non-number tests
-   const numberOrType = value => {
-     if (typeof value === 'number') {
+   const numberOrType = (value) => {
+     if (typeof value === "number") {
        return value;
      }
 
-     if (value === 'asdf') {
-       return 'string';
-     } else if (typeof value === 'boolean') {
-       return 'boolean';
+     if (value === "asdf") {
+       return "string";
+     } else if (typeof value === "boolean") {
+       return "boolean";
      } else if (value === null) {
-       return 'object';
+       return "object";
      } else {
-       return 'undefined';
+       return "undefined";
      }
    };
 
-   console.log('it should return numbers without changing them');
-   console.assert(numberOrType(14) === 14, '14 -> 14');
-   console.assert(numberOrType(0.0) === 0.0, '0.0 -> 0.0');
+   console.log("it should return numbers without changing them");
+   console.assert(numberOrType(14) === 14, "14 -> 14");
+   console.assert(numberOrType(0.0) === 0.0, "0.0 -> 0.0");
 
-   console.log('it should return the type of all other values');
-   console.assert(numberOrType('asdf') === 'string', '"asdf" -> "string"');
-   console.assert(numberOrType(false) === 'boolean', 'false -> "boolean"');
-   console.assert(numberOrType(null) === 'object', 'null -> "object"');
+   console.log("it should return the type of all other values");
+   console.assert(numberOrType("asdf") === "string", '"asdf" -> "string"');
+   console.assert(numberOrType(false) === "boolean", 'false -> "boolean"');
+   console.assert(numberOrType(null) === "object", 'null -> "object"');
    console.assert(
-     numberOrType(undefined) === 'undefined',
+     numberOrType(undefined) === "undefined",
      'undefined -> "undefined"'
    );
    ```
@@ -122,24 +122,24 @@ If you follow this workflow you will take a small but confident step forward wit
 
    ```js
    // pass the non-number tests
-   const numberOrType = value => {
-     if (typeof value === 'number') {
+   const numberOrType = (value) => {
+     if (typeof value === "number") {
        return value;
      } else {
        return typeof value;
      }
    };
 
-   console.log('it should return numbers without changing them');
-   console.assert(numberOrType(14) === 14, '14 -> 14');
-   console.assert(numberOrType(0.0) === 0.0, '0.0 -> 0.0');
+   console.log("it should return numbers without changing them");
+   console.assert(numberOrType(14) === 14, "14 -> 14");
+   console.assert(numberOrType(0.0) === 0.0, "0.0 -> 0.0");
 
-   console.log('it should return the type of all other values');
-   console.assert(numberOrType('asdf') === 'string', '"asdf" -> "string"');
-   console.assert(numberOrType(false) === 'boolean', 'false -> "boolean"');
-   console.assert(numberOrType(null) === 'object', 'null -> "object"');
+   console.log("it should return the type of all other values");
+   console.assert(numberOrType("asdf") === "string", '"asdf" -> "string"');
+   console.assert(numberOrType(false) === "boolean", 'false -> "boolean"');
+   console.assert(numberOrType(null) === "object", 'null -> "object"');
    console.assert(
-     numberOrType(undefined) === 'undefined',
+     numberOrType(undefined) === "undefined",
      'undefined -> "undefined"'
    );
    ```

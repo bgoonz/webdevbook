@@ -17,12 +17,12 @@ description: >-
 
 #### KEY TAKEAWAYS <a href="#mntl-sc-block-callout-heading_1-0" id="mntl-sc-block-callout-heading_1-0"></a>
 
-* Blockchain is a specific type of database.
-* It differs from a typical database in the way it stores information; blockchains store data in blocks that are then chained together.
-* As new data comes in it is entered into a fresh block. Once the block is filled with data it is chained onto the previous block, which makes the data chained together in chronological order.
-* Different types of information can be stored on a blockchain but the most common use so far has been as a ledger for transactions.
-* In Bitcoin’s case, blockchain is used in a decentralized way so that no single person or group has control—rather, all users collectively retain control.
-* Decentralized blockchains are immutable, which means that the data entered is irreversible. For Bitcoin, this means that transactions are permanently recorded and viewable to anyone.
+- Blockchain is a specific type of database.
+- It differs from a typical database in the way it stores information; blockchains store data in blocks that are then chained together.
+- As new data comes in it is entered into a fresh block. Once the block is filled with data it is chained onto the previous block, which makes the data chained together in chronological order.
+- Different types of information can be stored on a blockchain but the most common use so far has been as a ledger for transactions.
+- In Bitcoin’s case, blockchain is used in a decentralized way so that no single person or group has control—rather, all users collectively retain control.
+- Decentralized blockchains are immutable, which means that the data entered is irreversible. For Bitcoin, this means that transactions are permanently recorded and viewable to anyone.
 
 ### What is Blockchain? <a href="#mntl-sc-block_1-0-4" id="mntl-sc-block_1-0-4"></a>
 
@@ -44,11 +44,11 @@ A database structures its data into tables whereas a blockchain, like its name i
 
 #### Transaction Process <a href="#mntl-sc-block_1-0-20" id="mntl-sc-block_1-0-20"></a>
 
-![Blockchain](https://www.investopedia.com/thmb/JaW9yOVEwzy3l5SnSU57FHJW82s=/5855x3984/filters:no\_upscale\(\):max\_bytes\(150000\):strip\_icc\(\):format\(webp\)/dotdash\_Final\_Blockchain\_Sep\_2020-01-60f31a638c4944abbcfde92e1a408a30.jpg)
+![Blockchain](<https://www.investopedia.com/thmb/JaW9yOVEwzy3l5SnSU57FHJW82s=/5855x3984/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/dotdash_Final_Blockchain_Sep_2020-01-60f31a638c4944abbcfde92e1a408a30.jpg>)
 
 #### Attributes of Cryptocurrency <a href="#mntl-sc-block_1-0-22" id="mntl-sc-block_1-0-22"></a>
 
-![Blockchain](https://www.investopedia.com/thmb/elQiV0XoMlmPYs-nLG2SrnL9Utk=/5855x2693/filters:no\_upscale\(\):max\_bytes\(150000\):strip\_icc\(\):format\(webp\)/dotdash\_Final\_Blockchain\_Sep\_2020-02-d8258ab814a34756bf51f1f95c78dc63.jpg)
+![Blockchain](<https://www.investopedia.com/thmb/elQiV0XoMlmPYs-nLG2SrnL9Utk=/5855x2693/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/dotdash_Final_Blockchain_Sep_2020-02-d8258ab814a34756bf51f1f95c78dc63.jpg>)
 
 ### Decentralization <a href="#mntl-sc-block_1-0-24" id="mntl-sc-block_1-0-24"></a>
 
@@ -158,19 +158,19 @@ As mentioned, blockchain could be used to facilitate a modern voting system. Vot
 
 For all of its complexity, blockchain’s potential as a decentralized form of record-keeping is almost without limit. From greater user privacy and heightened security to lower processing fees and fewer errors, blockchain technology may very well see applications beyond those outlined above. But there are also some disadvantages.Pros
 
-* Improved accuracy by removing human involvement in verification
-* Cost reductions by eliminating third-party verification
-* Decentralization makes it harder to tamper with
-* Transactions are secure, private, and efficient
-* Transparent technology
-* Provides a banking alternative and way to secure personal information for citizens of countries with unstable or underdeveloped governments
+- Improved accuracy by removing human involvement in verification
+- Cost reductions by eliminating third-party verification
+- Decentralization makes it harder to tamper with
+- Transactions are secure, private, and efficient
+- Transparent technology
+- Provides a banking alternative and way to secure personal information for citizens of countries with unstable or underdeveloped governments
 
 Cons
 
-* Significant technology cost associated with mining bitcoin
-* Low transactions per second
-* History of use in illicit activities
-* Regulation
+- Significant technology cost associated with mining bitcoin
+- Low transactions per second
+- History of use in illicit activities
+- Regulation
 
 Here are the selling points of blockchain for businesses on the market today in more detail.
 
@@ -250,7 +250,7 @@ First proposed as a research project in 1991,7﻿ blockchain is comfortably sett
 
 With many practical applications for the technology already being implemented and explored, blockchain is finally making a name for itself at age twenty-seven, in no small part because of bitcoin and cryptocurrency. As a buzzword on the tongue of every investor in the nation, blockchain stands to make business and government operations more accurate, efficient, secure, and cheap with fewer middlemen.
 
-As we prepare to head into the third decade of blockchain, it’s no longer a question of "if" legacy companies will catch on to the technology—it's a question of "when."SPONSOREDBitcoin is an Investment, Too.Did you know [BTC beat the 2020 returns](https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssn8g0fN-PFxkUb7n5UajQX86GlGqRM4HIKxyMQgE0eVL4hhLzz0t5WlkfM5kpcbxpP\_KCU144yiuzwAbETn5SRKItpUJsnkH7C632n0L8LsDa9A7rNhUUArfT4w6IzzIH9yb2rkyO-NEiBHRhMino5TycHN8d1-xKmPOsuxPhXXZiP5bRD6NuwEPBryFBvonZqYzXKjrU0JAwnkIeYMGe9g3JRjRa8KNOsKUVERRVD4DhLRHqrGYP2uj-10UnLDVhTBv8Pwpb8nPD5C8K0WYeRiBVD1AHNWtf\_IIcdcgSQbV2fuvkzTP4PQ\_Eh618uJrCcB6vbb6l3PnWIjgjtgwLMsm8FtA\&sig=Cg0ArKJSzKeO2jpMni4nEAE\&fbs\_aeid=\[gw\_fbsaeid]\&urlfix=1\&adurl=https://ad.doubleclick.net/ddm/clk/503674036;310776828;l) of gold and the S\&P 500? And there’s a slew of altcoins making similarly exciting moves in the market. You can [find them on eToro,](https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssn8g0fN-PFxkUb7n5UajQX86GlGqRM4HIKxyMQgE0eVL4hhLzz0t5WlkfM5kpcbxpP\_KCU144yiuzwAbETn5SRKItpUJsnkH7C632n0L8LsDa9A7rNhUUArfT4w6IzzIH9yb2rkyO-NEiBHRhMino5TycHN8d1-xKmPOsuxPhXXZiP5bRD6NuwEPBryFBvonZqYzXKjrU0JAwnkIeYMGe9g3JRjRa8KNOsKUVERRVD4DhLRHqrGYP2uj-10UnLDVhTBv8Pwpb8nPD5C8K0WYeRiBVD1AHNWtf\_IIcdcgSQbV2fuvkzTP4PQ\_Eh618uJrCcB6vbb6l3PnWIjgjtgwLMsm8FtA\&sig=Cg0ArKJSzKeO2jpMni4nEAE\&fbs\_aeid=\[gw\_fbsaeid]\&urlfix=1\&adurl=https://ad.doubleclick.net/ddm/clk/503674036;310776828;l) the world’s leading social trading platform. For a limited time, [if you make $500 in trades, eToro will give $50!](https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssn8g0fN-PFxkUb7n5UajQX86GlGqRM4HIKxyMQgE0eVL4hhLzz0t5WlkfM5kpcbxpP\_KCU144yiuzwAbETn5SRKItpUJsnkH7C632n0L8LsDa9A7rNhUUArfT4w6IzzIH9yb2rkyO-NEiBHRhMino5TycHN8d1-xKmPOsuxPhXXZiP5bRD6NuwEPBryFBvonZqYzXKjrU0JAwnkIeYMGe9g3JRjRa8KNOsKUVERRVD4DhLRHqrGYP2uj-10UnLDVhTBv8Pwpb8nPD5C8K0WYeRiBVD1AHNWtf\_IIcdcgSQbV2fuvkzTP4PQ\_Eh618uJrCcB6vbb6l3PnWIjgjtgwLMsm8FtA\&sig=Cg0ArKJSzKeO2jpMni4nEAE\&fbs\_aeid=\[gw\_fbsaeid]\&urlfix=1\&adurl=https://ad.doubleclick.net/ddm/clk/503674036;310776828;l) So, get into the crypto game and [start investing on eToro today.](https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssn8g0fN-PFxkUb7n5UajQX86GlGqRM4HIKxyMQgE0eVL4hhLzz0t5WlkfM5kpcbxpP\_KCU144yiuzwAbETn5SRKItpUJsnkH7C632n0L8LsDa9A7rNhUUArfT4w6IzzIH9yb2rkyO-NEiBHRhMino5TycHN8d1-xKmPOsuxPhXXZiP5bRD6NuwEPBryFBvonZqYzXKjrU0JAwnkIeYMGe9g3JRjRa8KNOsKUVERRVD4DhLRHqrGYP2uj-10UnLDVhTBv8Pwpb8nPD5C8K0WYeRiBVD1AHNWtf\_IIcdcgSQbV2fuvkzTP4PQ\_Eh618uJrCcB6vbb6l3PnWIjgjtgwLMsm8FtA\&sig=Cg0ArKJSzKeO2jpMni4nEAE\&fbs\_aeid=\[gw\_fbsaeid]\&urlfix=1\&adurl=https://ad.doubleclick.net/ddm/clk/503674036;310776828;l)
+As we prepare to head into the third decade of blockchain, it’s no longer a question of "if" legacy companies will catch on to the technology—it's a question of "when."SPONSOREDBitcoin is an Investment, Too.Did you know [BTC beat the 2020 returns](https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssn8g0fN-PFxkUb7n5UajQX86GlGqRM4HIKxyMQgE0eVL4hhLzz0t5WlkfM5kpcbxpP_KCU144yiuzwAbETn5SRKItpUJsnkH7C632n0L8LsDa9A7rNhUUArfT4w6IzzIH9yb2rkyO-NEiBHRhMino5TycHN8d1-xKmPOsuxPhXXZiP5bRD6NuwEPBryFBvonZqYzXKjrU0JAwnkIeYMGe9g3JRjRa8KNOsKUVERRVD4DhLRHqrGYP2uj-10UnLDVhTBv8Pwpb8nPD5C8K0WYeRiBVD1AHNWtf_IIcdcgSQbV2fuvkzTP4PQ_Eh618uJrCcB6vbb6l3PnWIjgjtgwLMsm8FtA&sig=Cg0ArKJSzKeO2jpMni4nEAE&fbs_aeid=[gw_fbsaeid]&urlfix=1&adurl=https://ad.doubleclick.net/ddm/clk/503674036;310776828;l) of gold and the S\&P 500? And there’s a slew of altcoins making similarly exciting moves in the market. You can [find them on eToro,](https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssn8g0fN-PFxkUb7n5UajQX86GlGqRM4HIKxyMQgE0eVL4hhLzz0t5WlkfM5kpcbxpP_KCU144yiuzwAbETn5SRKItpUJsnkH7C632n0L8LsDa9A7rNhUUArfT4w6IzzIH9yb2rkyO-NEiBHRhMino5TycHN8d1-xKmPOsuxPhXXZiP5bRD6NuwEPBryFBvonZqYzXKjrU0JAwnkIeYMGe9g3JRjRa8KNOsKUVERRVD4DhLRHqrGYP2uj-10UnLDVhTBv8Pwpb8nPD5C8K0WYeRiBVD1AHNWtf_IIcdcgSQbV2fuvkzTP4PQ_Eh618uJrCcB6vbb6l3PnWIjgjtgwLMsm8FtA&sig=Cg0ArKJSzKeO2jpMni4nEAE&fbs_aeid=[gw_fbsaeid]&urlfix=1&adurl=https://ad.doubleclick.net/ddm/clk/503674036;310776828;l) the world’s leading social trading platform. For a limited time, [if you make $500 in trades, eToro will give $50!](https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssn8g0fN-PFxkUb7n5UajQX86GlGqRM4HIKxyMQgE0eVL4hhLzz0t5WlkfM5kpcbxpP_KCU144yiuzwAbETn5SRKItpUJsnkH7C632n0L8LsDa9A7rNhUUArfT4w6IzzIH9yb2rkyO-NEiBHRhMino5TycHN8d1-xKmPOsuxPhXXZiP5bRD6NuwEPBryFBvonZqYzXKjrU0JAwnkIeYMGe9g3JRjRa8KNOsKUVERRVD4DhLRHqrGYP2uj-10UnLDVhTBv8Pwpb8nPD5C8K0WYeRiBVD1AHNWtf_IIcdcgSQbV2fuvkzTP4PQ_Eh618uJrCcB6vbb6l3PnWIjgjtgwLMsm8FtA&sig=Cg0ArKJSzKeO2jpMni4nEAE&fbs_aeid=[gw_fbsaeid]&urlfix=1&adurl=https://ad.doubleclick.net/ddm/clk/503674036;310776828;l) So, get into the crypto game and [start investing on eToro today.](https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssn8g0fN-PFxkUb7n5UajQX86GlGqRM4HIKxyMQgE0eVL4hhLzz0t5WlkfM5kpcbxpP_KCU144yiuzwAbETn5SRKItpUJsnkH7C632n0L8LsDa9A7rNhUUArfT4w6IzzIH9yb2rkyO-NEiBHRhMino5TycHN8d1-xKmPOsuxPhXXZiP5bRD6NuwEPBryFBvonZqYzXKjrU0JAwnkIeYMGe9g3JRjRa8KNOsKUVERRVD4DhLRHqrGYP2uj-10UnLDVhTBv8Pwpb8nPD5C8K0WYeRiBVD1AHNWtf_IIcdcgSQbV2fuvkzTP4PQ_Eh618uJrCcB6vbb6l3PnWIjgjtgwLMsm8FtA&sig=Cg0ArKJSzKeO2jpMni4nEAE&fbs_aeid=[gw_fbsaeid]&urlfix=1&adurl=https://ad.doubleclick.net/ddm/clk/503674036;310776828;l)
 
 ### A New Direction for Advertising <a href="#mntl-sc-block_1-0-2" id="mntl-sc-block_1-0-2"></a>
 
@@ -288,7 +288,7 @@ Although the blockchain was created to support [Bitcoin](https://bitcoin.org/bit
 
 > A blockchain is a **ledger** of **facts**, replicated across several computers assembled in a peer-to-peer network. Facts can be anything from monetary transactions to content signature. Members of the network are anonymous individuals called **nodes**. All communication inside the network takes advantage of cryptography to securely identify the sender and the receiver. When a node wants to add a fact to the ledger, a consensus forms in the network to determine where this fact should appear in the ledger; this consensus is called a **block**.
 
-[![The Thinker, by Rodin](https://marmelab.com/images/blog/The\_Thinker\_Musee\_Rodin.jpg)](https://commons.wikimedia.org/wiki/File:The\_Thinker\_Musee\_Rodin.jpg)
+[![The Thinker, by Rodin](https://marmelab.com/images/blog/The_Thinker_Musee_Rodin.jpg)](https://commons.wikimedia.org/wiki/File:The_Thinker_Musee_Rodin.jpg)
 
 I don't know about you, but after reading these definitions, I still had troubles figuring out what this is all about. Let's get a bit deeper.
 
@@ -300,23 +300,23 @@ P2P networks, like other distributed systems, have to solve a very difficult com
 
 > Take for instance the **double spend problem**: Alice has 10, and she sends twice 10 to Bob and Charlie. Who will have the 10$ eventually? To answer this question, the best way is to **order** the facts. If two incompatible facts arrive in the network, the first one to be recorded wins.
 
-![double spend](https://marmelab.com/images/blog/double\_spend.png)
+![double spend](https://marmelab.com/images/blog/double_spend.png)
 
 In a P2P network, two facts sent roughly at the same time may arrive in different orders in distant nodes. Then how can the entire network agree on the first fact? To guarantee integrity over a P2P network, you need a way to make everyone agree on the ordering of facts. You need a **consensus system**.
 
-Consensus algorithms for distributed systems are a [very active research field](https://en.wikipedia.org/wiki/Consensus\_\(computer\_science\)). You may have heard of Paxos or Raft algorithms. The blockchain implements another algorithm, the **proof-of-work** consensus, using blocks.
+Consensus algorithms for distributed systems are a [very active research field](<https://en.wikipedia.org/wiki/Consensus_(computer_science)>). You may have heard of Paxos or Raft algorithms. The blockchain implements another algorithm, the **proof-of-work** consensus, using blocks.
 
 ### Blocks <a href="#blocks" id="blocks"></a>
 
 Blocks are a smart trick to order facts in a network of non-trusted peers. The idea is simple: facts are grouped in _blocks_, and there is only a single chain of blocks, replicated in the entire network. Each block references the previous one. So if fact F is in block 21, and fact E is in block 22, then fact E is considered by the entire network to be posterior to fact F. Before being added to a block, facts are _pending_, i.e. unconfirmed.
 
-![How blocks group facts](https://marmelab.com/images/blog/blocks\_facts.png)
+![How blocks group facts](https://marmelab.com/images/blog/blocks_facts.png)
 
 ### Mining <a href="#mining" id="mining"></a>
 
 Some nodes in the chain create a new local block with pending facts. They compete to see if their local block is going to become the next block in the chain for the entire network, by rolling dice. If a node makes a double six, then it earns the ability to publish their local block, and all facts in this block become confirmed. This block is sent to all other nodes in the network. All nodes check that the block is correct, add it to their copy of the chain, and try to build a new block with new pending facts.
 
-![Rolling dice](https://marmelab.com/images/blog/rolling\_dice.png)
+![Rolling dice](https://marmelab.com/images/blog/rolling_dice.png)
 
 But nodes don't just roll a couple dice. Blockchain challenges imply rolling a huge number of dice. Finding the random key to validate a block is **very unlikely**, by design. This prevents fraud, and makes the network safe (unless a malicious user owns more than half of the nodes in the network). As a consequence, new blocks gets published to the chain at a fixed time interval. In Bitcoin, blocks are published every 10 minutes on average.
 
@@ -339,9 +339,9 @@ The process of looking for blocks is called _mining_. This is because, just like
 
 Every second, each miner node in a blockchain tests thousands of random strings to try and form a new block. So running a miner in the blockchain pumps a huge amount of computer resources (storage and CPU). That's why **you must pay to store facts** in a blockchain. Reading facts, on the other hand, is free: you just need to run your own node, and you'll recuperate the entire history of facts issued by all the other nodes. So to summarize:
 
-* Reading data is free
-* Adding facts costs a small fee
-* Mining a block brings in the money of all the fees of the facts included in the block
+- Reading data is free
+- Adding facts costs a small fee
+- Mining a block brings in the money of all the fees of the facts included in the block
 
 We're not talking about real money here. In fact, each blockchain has its own (crypto-)currency. It's called Bitcoin (**BTC**) in the Bitcoin network, Ether (**ETH**) on the Ethereum network, etc. To make a payment in the Bitcoin network, you must pay a small fee in Bitcoins - just like you would pay a fee to a bank. But then, where do the first coins come from?[![A pile of Bitcoins](https://marmelab.com/images/blog/bitcoin.jpg)](https://www.linkedin.com/pulse/20141106071134-811619-value-of-bitcoins-why-bitcoins-may-become-the-gold-of-the-21st-century-and-beyond)
 
@@ -355,16 +355,16 @@ So far we've mostly mentioned facts storage, but a blockchain can also **execute
 
 Other blockchains allow for more sophisticated contracts. In Ethereum for instance, each contract carries a **mini-database**, and exposes methods to modify the data. As contracts are replicated across all nodes, so are their database. Each time a user calls a method on the contract and therefore updates the underlying data, this command is replicated and replayed by the entire network. This allows for a distributed consensus on the execution of a promise.
 
-This idea of pre-programed conditions, interfaced with the real world, and broadcasted to everyone, is called a [**smart contract**](https://en.wikipedia.org/wiki/Smart\_contract). A contract is a promise that signing parties agree to make legally-enforceable. A smart contract is the same, except with the word "technically-" instead of "legally-". This removes the need for a judge, or any authority acknowledged by both parties.[![Public hearings of the Court presided over by H.E. Judge Rosalyn Higgins (February/March 2006)](https://marmelab.com/images/blog/judges.jpg)](https://commons.wikimedia.org/wiki/File:ICJ-CJI\_hearing\_1.jpg)
+This idea of pre-programed conditions, interfaced with the real world, and broadcasted to everyone, is called a [**smart contract**](https://en.wikipedia.org/wiki/Smart_contract). A contract is a promise that signing parties agree to make legally-enforceable. A smart contract is the same, except with the word "technically-" instead of "legally-". This removes the need for a judge, or any authority acknowledged by both parties.[![Public hearings of the Court presided over by H.E. Judge Rosalyn Higgins (February/March 2006)](https://marmelab.com/images/blog/judges.jpg)](https://commons.wikimedia.org/wiki/File:ICJ-CJI_hearing_1.jpg)
 
 > Imagine that you want to rent your house for a week and 1,000, with a 50% upfront payment. You and the loaner sign a contract, probably written by a lawyer. You also need a bank to receive the payment. At the beginning of the week, you ask for a5,000 deposit; the loaner writes a check for it. At the end of the week, the loaner refuses to pay the remaining 50%. You also realize that they broke a window, and that the deposit check refers to an empty account. You'll need a lawyer to help you enforce the rental contract in a court.
 >
 > Smart contracts in a blockchain allow you to get rid of the bank, the lawyer, and the court. Just write a program that defines how much money should be transferred in response to certain conditions:
 >
-> * two weeks before beginning of rental: transfer $500 from loaner to owner
-> * cancellation by the owner: transfer $500 from owner to loaner
-> * end of the rental period: transfer $500 from loaner to owner
-> * proof of physical degradation after the rental period: transfer $5,000 from loaner to owner
+> - two weeks before beginning of rental: transfer $500 from loaner to owner
+> - cancellation by the owner: transfer $500 from owner to loaner
+> - end of the rental period: transfer $500 from loaner to owner
+> - proof of physical degradation after the rental period: transfer $5,000 from loaner to owner
 >
 > Upload this smart contract to the blockchain, and you're all set. At the time defined in the contract, the money transfers will occur. And if the owner can bring a predefined proof of physical degradation, they get the $5,000 automatically (without any need for a deposit).
 
@@ -410,14 +410,14 @@ YouTube might track you and we would rather have your consent before loading thi
 
 These smart people have seen a huge potential in the blockchain. It concerns disintermediation. The blockchain can potentially replace all the intermediaries required to build trust. Let's see a few example applications, most of which are just proof-of-concepts for now:
 
-* [Monegraph](https://monegraph.com) lets authors claim their work, and set their rules (and fares) for use
-* [La Zooz](http://www.lazooz.net) is a decentralized Uber. Share your car, find a seat, without Uber taking a fee.
-* [Augur](https://augur.net) is an online bookmaker. Bet on outcomes, and get paid.
-* [Storj.io](https://storj.io) is a peer-to-peer storage system. Rent your unused disk space, or find ultra cheap online storage.
-* [Muse](http://museblockchain.com) is a distributed, open, and transparent database tailored for the music industry
-* [Ripple](https://ripple.com) enables low cost cross-border payments for banks
+- [Monegraph](https://monegraph.com) lets authors claim their work, and set their rules (and fares) for use
+- [La Zooz](http://www.lazooz.net) is a decentralized Uber. Share your car, find a seat, without Uber taking a fee.
+- [Augur](https://augur.net) is an online bookmaker. Bet on outcomes, and get paid.
+- [Storj.io](https://storj.io) is a peer-to-peer storage system. Rent your unused disk space, or find ultra cheap online storage.
+- [Muse](http://museblockchain.com) is a distributed, open, and transparent database tailored for the music industry
+- [Ripple](https://ripple.com) enables low cost cross-border payments for banks
 
-![Blockchain use cases](https://marmelab.com/images/blog/blockchain\_infographic.png)
+![Blockchain use cases](https://marmelab.com/images/blog/blockchain_infographic.png)
 
 Many **successful businesses on the Internet today are intermediaries**. Think about Google for a minute: Google managed to become the intermediary between you and the entire Internet. Think about Amazon: they became the intermediary between sellers and buyers for any type of good. That's why a technology that allows to remove intermediaries can potentially **disrupt the entire Internet**.
 
@@ -427,16 +427,16 @@ Will it benefit to end users, who won't need third parties to exchange goods and
 
 The technology behind the blockchain uses advanced cryptography, custom network protocols, and performance optimizations. This is all too sophisticated to be redeveloped each time a project needs a blockchain. Fortunately, aside of Bitcoin, there are several open-source blockchain implementations. Here are the most advanced:
 
-* [Ethereum](https://www.ethereum.org): an open-source blockchain platform by the Ethereum Foundation
-* [Hyperledger](https://www.hyperledger.org): another open-source implementation, this time by the Linux Foundation. The first proposal was [published very recently](https://github.com/hyperledger/fabric).
-* [Eris Industries](https://erisindustries.com): Tools helping to manipulate Ethereum, Bitcoin or totally independent blockchains, mostly to build private networks. Their [tutorials](https://docs.erisindustries.com/tutorials/getting-started/) and [explainers](https://docs.erisindustries.com/explainers/) are a great starting point for an overview of the blockchain technology.
+- [Ethereum](https://www.ethereum.org): an open-source blockchain platform by the Ethereum Foundation
+- [Hyperledger](https://www.hyperledger.org): another open-source implementation, this time by the Linux Foundation. The first proposal was [published very recently](https://github.com/hyperledger/fabric).
+- [Eris Industries](https://erisindustries.com): Tools helping to manipulate Ethereum, Bitcoin or totally independent blockchains, mostly to build private networks. Their [tutorials](https://docs.erisindustries.com/tutorials/getting-started/) and [explainers](https://docs.erisindustries.com/explainers/) are a great starting point for an overview of the blockchain technology.
 
 [![Ethereum](https://marmelab.com/images/blog/ethereum.png)](https://www.ethereum.org)
 
 The maturity of these implementations varies a lot. If you have to build an application now, we'd advise:
 
-* Eris for a closed Blockchain, or to discover and play with the technology
-* Ethereum for a shared Blockchain
+- Eris for a closed Blockchain, or to discover and play with the technology
+- Ethereum for a shared Blockchain
 
 Also, Bitcoin isn't a good choice to build an application upon. It was designed for money transactions and nothing else, although you can program pseudo-smart contracts (but you have to love [assembly](https://en.bitcoin.it/wiki/Contract)). The network currently [suffers a serious growth crisis](https://medium.com/@octskyward/the-resolution-of-the-Bitcoin-experiment-dabb30201f7), transactions wait in line for up to one hour to get inserted in a block. Miners often select transactions with the highest fees, so money transfers in Bitcoin become more expensive than they are in a Bank. The developer community is at war, and the speculation on the cryptocurrency makes the face value move too much.
 
@@ -446,23 +446,23 @@ How big are blockchains today? Let's see some numbers.
 
 Bitcoin:
 
-* Block time: 10 minutes
-* Number of bitcoins earned for each mined block: 25
-* [Number of blocks mined](https://blockchain.info): over 400,000
-* [Number of transactions per block](https://blockchain.info/en/charts/n-transactions-per-block): over 1,200
-* [Number of nodes in the network](https://bitnodes.21.co): \~7000
-* [Bitcoin value](http://www.coindesk.com/price/): $420
-* [Most of the computing power is said to be concentrated in China](https://medium.com/@octskyward/the-resolution-of-the-bitcoin-experiment-dabb30201f7#.by0blzsmz)
+- Block time: 10 minutes
+- Number of bitcoins earned for each mined block: 25
+- [Number of blocks mined](https://blockchain.info): over 400,000
+- [Number of transactions per block](https://blockchain.info/en/charts/n-transactions-per-block): over 1,200
+- [Number of nodes in the network](https://bitnodes.21.co): \~7000
+- [Bitcoin value](http://www.coindesk.com/price/): $420
+- [Most of the computing power is said to be concentrated in China](https://medium.com/@octskyward/the-resolution-of-the-bitcoin-experiment-dabb30201f7#.by0blzsmz)
 
 Ethereum:
 
-* Block time: 10 seconds
-* Number of Ether earned for each mined block: 5
-* [Number of blocks mined](https://ethstats.net): more than 1,400,000
-* [Number of transactions per day](https://stats.etherchain.org/dashboard/db/transactions?theme=light): over 30,000
-* [Number of nodes in the network](https://www.ethernodes.org/network/1): over 6,000
-* [Ether value](https://www.etherchain.org): around $10, but it varies a lot.
-* [Most of the computing power is said to be concentrated by a miner pool called "Dwarfpool"](https://www.etherchain.org/statistics/miners)
+- Block time: 10 seconds
+- Number of Ether earned for each mined block: 5
+- [Number of blocks mined](https://ethstats.net): more than 1,400,000
+- [Number of transactions per day](https://stats.etherchain.org/dashboard/db/transactions?theme=light): over 30,000
+- [Number of nodes in the network](https://www.ethernodes.org/network/1): over 6,000
+- [Ether value](https://www.etherchain.org): around $10, but it varies a lot.
+- [Most of the computing power is said to be concentrated by a miner pool called "Dwarfpool"](https://www.etherchain.org/statistics/miners)
 
 ![Ethereum stats](https://marmelab.com/images/blog/ethstats.png)
 

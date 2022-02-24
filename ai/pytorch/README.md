@@ -32,7 +32,7 @@ Familiarize yourself with PyTorch concepts and modules. Learn how to load data, 
 
 Bite-size, ready-to-deploy PyTorch code examples.
 
-[Explore Recipes](https://pytorch.org/tutorials/recipes/recipes\_index.html)
+[Explore Recipes](https://pytorch.org/tutorials/recipes/recipes_index.html)
 
 #### Examples of PyTorch
 
@@ -62,7 +62,7 @@ We’ve added a new feature to tutorials that allows users to open the notebook 
 
 In this example, we’ll demonstrate how to change the notebook in Colab to work with the Chatbot Tutorial. To do this, you’ll first need to be logged into Google Drive. (For a full description of how to access data in Colab, you can view their example notebook [here](https://colab.research.google.com/notebooks/io.ipynb#scrollTo=XDg9OBaYqRMd).)
 
-To get started open the [Chatbot Tutorial](https://pytorch.org/tutorials/beginner/chatbot\_tutorial.html) in your browser.
+To get started open the [Chatbot Tutorial](https://pytorch.org/tutorials/beginner/chatbot_tutorial.html) in your browser.
 
 At the top of the page click **Run in Google Colab**.
 
@@ -76,20 +76,20 @@ To fix this, we’ll copy the required file into our Google Drive account.
 2. In Google Drive, make a folder named **data**, with a subfolder named **cornell**.
 3. Visit the Cornell Movie Dialogs Corpus and download the ZIP file.
 4. Unzip the file on your local machine.
-5. Copy the files **movie\_lines.txt** and **movie\_conversations.txt** to the **data/cornell** folder that you created in Google Drive.
+5. Copy the files **movie_lines.txt** and **movie_conversations.txt** to the **data/cornell** folder that you created in Google Drive.
 
 Now we’ll need to edit the file in\_ \_Colab to point to the file on Google Drive.
 
-In Colab, add the following to top of the code section over the line that begins _corpus\_name_:
+In Colab, add the following to top of the code section over the line that begins _corpus_name_:
 
 from google.colab import drive drive.mount('/content/gdrive')
 
 Change the two lines that follow:
 
-1. Change the **corpus\_name** value to **“cornell”**.
+1. Change the **corpus_name** value to **“cornell”**.
 2. Change the line that begins with **corpus** to this:
 
-corpus = os.path.join("/content/gdrive/My Drive/data", corpus\_name)
+corpus = os.path.join("/content/gdrive/My Drive/data", corpus_name)
 
 We’re now pointing to the file we uploaded to Drive.
 
@@ -103,7 +103,7 @@ We’ve added a new feature to tutorials that allows users to open the notebook 
 
 In this example, we’ll demonstrate how to change the notebook in Colab to work with the Chatbot Tutorial. To do this, you’ll first need to be logged into Google Drive. (For a full description of how to access data in Colab, you can view their example notebook [here](https://colab.research.google.com/notebooks/io.ipynb#scrollTo=XDg9OBaYqRMd).)
 
-To get started open the [Chatbot Tutorial](https://pytorch.org/tutorials/beginner/chatbot\_tutorial.html) in your browser.
+To get started open the [Chatbot Tutorial](https://pytorch.org/tutorials/beginner/chatbot_tutorial.html) in your browser.
 
 At the top of the page click **Run in Google Colab**.
 
@@ -117,20 +117,20 @@ To fix this, we’ll copy the required file into our Google Drive account.
 2. In Google Drive, make a folder named **data**, with a subfolder named **cornell**.
 3. Visit the Cornell Movie Dialogs Corpus and download the ZIP file.
 4. Unzip the file on your local machine.
-5. Copy the files **movie\_lines.txt** and **movie\_conversations.txt** to the **data/cornell** folder that you created in Google Drive.
+5. Copy the files **movie_lines.txt** and **movie_conversations.txt** to the **data/cornell** folder that you created in Google Drive.
 
 Now we’ll need to edit the file in\_ \_Colab to point to the file on Google Drive.
 
-In Colab, add the following to top of the code section over the line that begins _corpus\_name_:
+In Colab, add the following to top of the code section over the line that begins _corpus_name_:
 
 from google.colab import drive drive.mount('/content/gdrive')
 
 Change the two lines that follow:
 
-1. Change the **corpus\_name** value to **“cornell”**.
+1. Change the **corpus_name** value to **“cornell”**.
 2. Change the line that begins with **corpus** to this:
 
-corpus = os.path.join("/content/gdrive/My Drive/data", corpus\_name)
+corpus = os.path.join("/content/gdrive/My Drive/data", corpus_name)
 
 We’re now pointing to the file we uploaded to Drive.
 
@@ -142,7 +142,7 @@ Hopefully this example will give you a good starting point for running some of t
 
 Note
 
-Click [here](https://pytorch.org/tutorials/beginner/audio\_feature\_extractions\_tutorial.html#sphx-glr-download-beginner-audio-feature-extractions-tutorial-py) to download the full example code
+Click [here](https://pytorch.org/tutorials/beginner/audio_feature_extractions_tutorial.html#sphx-glr-download-beginner-audio-feature-extractions-tutorial-py) to download the full example code
 
 `torchaudio` implements feature extractions commonly used in the audio domain. They are available in `torchaudio.functional` and `torchaudio.transforms`.
 
@@ -172,76 +172,76 @@ import os import requests
 
 import librosa import matplotlib.pyplot as plt from IPython.display import Audio, display
 
-\_SAMPLE\_DIR = "\_sample\_data"
+\_SAMPLE_DIR = "\_sample_data"
 
-SAMPLE\_WAV\_SPEECH\_URL = "https://pytorch-tutorial-assets.s3.amazonaws.com/VOiCES\_devkit/source-16k/train/sp0307/Lab41-SRI-VOiCES-src-sp0307-ch127535-sg0042.wav" SAMPLE\_WAV\_SPEECH\_PATH = os.path.join(\_SAMPLE\_DIR, "speech.wav")
+SAMPLE_WAV_SPEECH_URL = "https://pytorch-tutorial-assets.s3.amazonaws.com/VOiCES\_devkit/source-16k/train/sp0307/Lab41-SRI-VOiCES-src-sp0307-ch127535-sg0042.wav" SAMPLE_WAV_SPEECH_PATH = os.path.join(\_SAMPLE_DIR, "speech.wav")
 
-os.makedirs(\_SAMPLE\_DIR, exist\_ok=True)
+os.makedirs(\_SAMPLE_DIR, exist_ok=True)
 
-def \_fetch\_data(): uri = \[ (SAMPLE\_WAV\_SPEECH\_URL, SAMPLE\_WAV\_SPEECH\_PATH), ] for url, path in uri: with open(path, 'wb') as file\_: file\_.write(requests.get(url).content)
+def \_fetch_data(): uri = \[ (SAMPLE_WAV_SPEECH_URL, SAMPLE_WAV_SPEECH_PATH), ] for url, path in uri: with open(path, 'wb') as file\_: file\_.write(requests.get(url).content)
 
-\_fetch\_data()
+\_fetch_data()
 
-def \_get\_sample(path, resample=None): effects = \[ \["remix", "1"] ] if resample: effects.extend(\[ \["lowpass", f"{resample // 2}"], \["rate", f'{resample}'], ]) return torchaudio.sox\_effects.apply\_effects\_file(path, effects=effects)
+def \_get_sample(path, resample=None): effects = \[ \["remix", "1"] ] if resample: effects.extend(\[ \["lowpass", f"{resample // 2}"], \["rate", f'{resample}'], ]) return torchaudio.sox_effects.apply_effects_file(path, effects=effects)
 
-def get\_speech\_sample(\*, resample=None): return \_get\_sample(SAMPLE\_WAV\_SPEECH\_PATH, resample=resample)
+def get_speech_sample(\*, resample=None): return \_get_sample(SAMPLE_WAV_SPEECH_PATH, resample=resample)
 
-def print\_stats(waveform, sample\_rate=None, src=None): if src: print("-" \* 10) print("Source:", src) print("-" \* 10) if sample\_rate: print("Sample Rate:", sample\_rate) print("Shape:", tuple(waveform.shape)) print("Dtype:", waveform.dtype) print(f" - Max: {waveform.max().item():6.3f}") print(f" - Min: {waveform.min().item():6.3f}") print(f" - Mean: {waveform.mean().item():6.3f}") print(f" - Std Dev: {waveform.std().item():6.3f}") print() print(waveform) print()
+def print_stats(waveform, sample_rate=None, src=None): if src: print("-" \* 10) print("Source:", src) print("-" \* 10) if sample_rate: print("Sample Rate:", sample_rate) print("Shape:", tuple(waveform.shape)) print("Dtype:", waveform.dtype) print(f" - Max: {waveform.max().item():6.3f}") print(f" - Min: {waveform.min().item():6.3f}") print(f" - Mean: {waveform.mean().item():6.3f}") print(f" - Std Dev: {waveform.std().item():6.3f}") print() print(waveform) print()
 
-def plot\_spectrogram(spec, title=None, ylabel='freq\_bin', aspect='auto', xmax=None): fig, axs = plt.subplots(1, 1) axs.set\_title(title or 'Spectrogram (db)') axs.set\_ylabel(ylabel) axs.set\_xlabel('frame') im = axs.imshow(librosa.power\_to\_db(spec), origin='lower', aspect=aspect) if xmax: axs.set\_xlim((0, xmax)) fig.colorbar(im, ax=axs) plt.show(block=False)
+def plot_spectrogram(spec, title=None, ylabel='freq_bin', aspect='auto', xmax=None): fig, axs = plt.subplots(1, 1) axs.set_title(title or 'Spectrogram (db)') axs.set_ylabel(ylabel) axs.set_xlabel('frame') im = axs.imshow(librosa.power_to_db(spec), origin='lower', aspect=aspect) if xmax: axs.set_xlim((0, xmax)) fig.colorbar(im, ax=axs) plt.show(block=False)
 
-def plot\_waveform(waveform, sample\_rate, title="Waveform", xlim=None, ylim=None): waveform = waveform.numpy()
+def plot_waveform(waveform, sample_rate, title="Waveform", xlim=None, ylim=None): waveform = waveform.numpy()
 
-num\_channels, num\_frames = waveform.shape time\_axis = torch.arange(0, num\_frames) / sample\_rate
+num_channels, num_frames = waveform.shape time_axis = torch.arange(0, num_frames) / sample_rate
 
-figure, axes = plt.subplots(num\_channels, 1) if num\_channels == 1: axes = \[axes] for c in range(num\_channels): axes\[c].plot(time\_axis, waveform\[c], linewidth=1) axes\[c].grid(True) if num\_channels > 1: axes\[c].set\_ylabel(f'Channel {c+1}') if xlim: axes\[c].set\_xlim(xlim) if ylim: axes\[c].set\_ylim(ylim) figure.suptitle(title) plt.show(block=False)
+figure, axes = plt.subplots(num_channels, 1) if num_channels == 1: axes = \[axes] for c in range(num_channels): axes\[c].plot(time_axis, waveform\[c], linewidth=1) axes\[c].grid(True) if num_channels > 1: axes\[c].set_ylabel(f'Channel {c+1}') if xlim: axes\[c].set_xlim(xlim) if ylim: axes\[c].set_ylim(ylim) figure.suptitle(title) plt.show(block=False)
 
-def play\_audio(waveform, sample\_rate): waveform = waveform.numpy()
+def play_audio(waveform, sample_rate): waveform = waveform.numpy()
 
-num\_channels, num\_frames = waveform.shape if num\_channels == 1: display(Audio(waveform\[0], rate=sample\_rate)) elif num\_channels == 2: display(Audio((waveform\[0], waveform\[1]), rate=sample\_rate)) else: raise ValueError("Waveform with more than 2 channels are not supported.")
+num_channels, num_frames = waveform.shape if num_channels == 1: display(Audio(waveform\[0], rate=sample_rate)) elif num_channels == 2: display(Audio((waveform\[0], waveform\[1]), rate=sample_rate)) else: raise ValueError("Waveform with more than 2 channels are not supported.")
 
-def plot\_mel\_fbank(fbank, title=None): fig, axs = plt.subplots(1, 1) axs.set\_title(title or 'Filter bank') axs.imshow(fbank, aspect='auto') axs.set\_ylabel('frequency bin') axs.set\_xlabel('mel bin') plt.show(block=False)
+def plot_mel_fbank(fbank, title=None): fig, axs = plt.subplots(1, 1) axs.set_title(title or 'Filter bank') axs.imshow(fbank, aspect='auto') axs.set_ylabel('frequency bin') axs.set_xlabel('mel bin') plt.show(block=False)
 
-def plot\_pitch(waveform, sample\_rate, pitch): figure, axis = plt.subplots(1, 1) axis.set\_title("Pitch Feature") axis.grid(True)
+def plot_pitch(waveform, sample_rate, pitch): figure, axis = plt.subplots(1, 1) axis.set_title("Pitch Feature") axis.grid(True)
 
-end\_time = waveform.shape\[1] / sample\_rate time\_axis = torch.linspace(0, end\_time, waveform.shape\[1]) axis.plot(time\_axis, waveform\[0], linewidth=1, color='gray', alpha=0.3)
+end_time = waveform.shape\[1] / sample_rate time_axis = torch.linspace(0, end_time, waveform.shape\[1]) axis.plot(time_axis, waveform\[0], linewidth=1, color='gray', alpha=0.3)
 
-axis2 = axis.twinx() time\_axis = torch.linspace(0, end\_time, pitch.shape\[1]) ln2 = axis2.plot( time\_axis, pitch\[0], linewidth=2, label='Pitch', color='green')
+axis2 = axis.twinx() time_axis = torch.linspace(0, end_time, pitch.shape\[1]) ln2 = axis2.plot( time_axis, pitch\[0], linewidth=2, label='Pitch', color='green')
 
 axis2.legend(loc=0) plt.show(block=False)
 
-def plot\_kaldi\_pitch(waveform, sample\_rate, pitch, nfcc): figure, axis = plt.subplots(1, 1) axis.set\_title("Kaldi Pitch Feature") axis.grid(True)
+def plot_kaldi_pitch(waveform, sample_rate, pitch, nfcc): figure, axis = plt.subplots(1, 1) axis.set_title("Kaldi Pitch Feature") axis.grid(True)
 
-end\_time = waveform.shape\[1] / sample\_rate time\_axis = torch.linspace(0, end\_time, waveform.shape\[1]) axis.plot(time\_axis, waveform\[0], linewidth=1, color='gray', alpha=0.3)
+end_time = waveform.shape\[1] / sample_rate time_axis = torch.linspace(0, end_time, waveform.shape\[1]) axis.plot(time_axis, waveform\[0], linewidth=1, color='gray', alpha=0.3)
 
-time\_axis = torch.linspace(0, end\_time, pitch.shape\[1]) ln1 = axis.plot(time\_axis, pitch\[0], linewidth=2, label='Pitch', color='green') axis.set\_ylim((-1.3, 1.3))
+time_axis = torch.linspace(0, end_time, pitch.shape\[1]) ln1 = axis.plot(time_axis, pitch\[0], linewidth=2, label='Pitch', color='green') axis.set_ylim((-1.3, 1.3))
 
-axis2 = axis.twinx() time\_axis = torch.linspace(0, end\_time, nfcc.shape\[1]) ln2 = axis2.plot( time\_axis, nfcc\[0], linewidth=2, label='NFCC', color='blue', linestyle='--')
+axis2 = axis.twinx() time_axis = torch.linspace(0, end_time, nfcc.shape\[1]) ln2 = axis2.plot( time_axis, nfcc\[0], linewidth=2, label='NFCC', color='blue', linestyle='--')
 
-lns = ln1 + ln2 labels = \[l.get\_label() for l in lns] axis.legend(lns, labels, loc=0) plt.show(block=False)
+lns = ln1 + ln2 labels = \[l.get_label() for l in lns] axis.legend(lns, labels, loc=0) plt.show(block=False)
 
 ### Spectrogram
 
 To get the frequency make-up of an audio signal as it varies with time, you can use `Spectrogram`.
 
-waveform, sample\_rate = get\_speech\_sample()
+waveform, sample_rate = get_speech_sample()
 
-n\_fft = 1024 win\_length = None hop\_length = 512
+n_fft = 1024 win_length = None hop_length = 512
 
-\# define transformation spectrogram = T.Spectrogram( n\_fft=n\_fft, win\_length=win\_length, hop\_length=hop\_length, center=True, pad\_mode="reflect", power=2.0, ) # Perform transformation spec = spectrogram(waveform)
+\# define transformation spectrogram = T.Spectrogram( n_fft=n_fft, win_length=win_length, hop_length=hop_length, center=True, pad_mode="reflect", power=2.0, ) # Perform transformation spec = spectrogram(waveform)
 
-print\_stats(spec) plot\_spectrogram(spec\[0], title='torchaudio')
+print_stats(spec) plot_spectrogram(spec\[0], title='torchaudio')
 
-![../\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_001.png](https://pytorch.org/tutorials/\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_001.png)
+![../_images/sphx_glr_audio_feature_extractions_tutorial_001.png](https://pytorch.org/tutorials/_images/sphx_glr_audio_feature_extractions_tutorial_001.png)
 
 Out:
 
 Shape: (1, 513, 107) Dtype: torch.float32
 
-* Max: 4000.533
-* Min: 0.000
-* Mean: 5.726
-* Std Dev: 70.301
+- Max: 4000.533
+- Min: 0.000
+- Mean: 5.726
+- Std Dev: 70.301
 
 tensor(\[\[\[7.8743e+00, 4.4462e+00, 5.6781e-01, ..., 2.7694e+01, 8.9546e+00, 4.1289e+00], \[7.1094e+00, 3.2595e+00, 7.3520e-01, ..., 1.7141e+01, 4.4812e+00, 8.0840e-01], \[3.8374e+00, 8.2490e-01, 3.0779e-01, ..., 1.8502e+00, 1.1777e-01, 1.2369e-01], ..., \[3.4708e-07, 1.0604e-05, 1.2395e-05, ..., 7.4090e-06, 8.2063e-07, 1.0176e-05], \[4.7173e-05, 4.4329e-07, 3.9444e-05, ..., 3.0622e-05, 3.9735e-07, 8.1572e-06], \[1.3221e-04, 1.6440e-05, 7.2536e-05, ..., 5.4662e-05, 1.1663e-05, 2.5758e-06]]])
 
@@ -249,15 +249,15 @@ tensor(\[\[\[7.8743e+00, 4.4462e+00, 5.6781e-01, ..., 2.7694e+01, 8.9546e+00, 4.
 
 To recover a waveform from a spectrogram, you can use `GriffinLim`.
 
-torch.random.manual\_seed(0) waveform, sample\_rate = get\_speech\_sample() plot\_waveform(waveform, sample\_rate, title="Original") play\_audio(waveform, sample\_rate)
+torch.random.manual_seed(0) waveform, sample_rate = get_speech_sample() plot_waveform(waveform, sample_rate, title="Original") play_audio(waveform, sample_rate)
 
-n\_fft = 1024 win\_length = None hop\_length = 512
+n_fft = 1024 win_length = None hop_length = 512
 
-spec = T.Spectrogram( n\_fft=n\_fft, win\_length=win\_length, hop\_length=hop\_length, )(waveform)
+spec = T.Spectrogram( n_fft=n_fft, win_length=win_length, hop_length=hop_length, )(waveform)
 
-griffin\_lim = T.GriffinLim( n\_fft=n\_fft, win\_length=win\_length, hop\_length=hop\_length, ) waveform = griffin\_lim(spec)
+griffin_lim = T.GriffinLim( n_fft=n_fft, win_length=win_length, hop_length=hop_length, ) waveform = griffin_lim(spec)
 
-plot\_waveform(waveform, sample\_rate, title="Reconstructed") play\_audio(waveform, sample\_rate)
+plot_waveform(waveform, sample_rate, title="Reconstructed") play_audio(waveform, sample_rate)
 
 Out:
 
@@ -269,23 +269,23 @@ Out:
 
 Since this function does not require input audio/features, there is no equivalent transform in `torchaudio.transforms`.
 
-n\_fft = 256 n\_mels = 64 sample\_rate = 6000
+n_fft = 256 n_mels = 64 sample_rate = 6000
 
-mel\_filters = F.create\_fb\_matrix( int(n\_fft // 2 + 1), n\_mels=n\_mels, f\_min=0., f\_max=sample\_rate/2., sample\_rate=sample\_rate, norm='slaney' ) plot\_mel\_fbank(mel\_filters, "Mel Filter Bank - torchaudio")
+mel_filters = F.create_fb_matrix( int(n_fft // 2 + 1), n_mels=n_mels, f_min=0., f_max=sample_rate/2., sample_rate=sample_rate, norm='slaney' ) plot_mel_fbank(mel_filters, "Mel Filter Bank - torchaudio")
 
-![../\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_004.png](https://pytorch.org/tutorials/\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_004.png)
+![../_images/sphx_glr_audio_feature_extractions_tutorial_004.png](https://pytorch.org/tutorials/_images/sphx_glr_audio_feature_extractions_tutorial_004.png)
 
 #### Comparison against librosa
 
 For reference, here is the equivalent way to get the mel filter bank with `librosa`.
 
-mel\_filters\_librosa = librosa.filters.mel( sample\_rate, n\_fft, n\_mels=n\_mels, fmin=0., fmax=sample\_rate/2., norm='slaney', htk=True, ).T
+mel_filters_librosa = librosa.filters.mel( sample_rate, n_fft, n_mels=n_mels, fmin=0., fmax=sample_rate/2., norm='slaney', htk=True, ).T
 
-plot\_mel\_fbank(mel\_filters\_librosa, "Mel Filter Bank - librosa")
+plot_mel_fbank(mel_filters_librosa, "Mel Filter Bank - librosa")
 
-mse = torch.square(mel\_filters - mel\_filters\_librosa).mean().item() print('Mean Square Difference: ', mse)
+mse = torch.square(mel_filters - mel_filters_librosa).mean().item() print('Mean Square Difference: ', mse)
 
-![../\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_005.png](https://pytorch.org/tutorials/\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_005.png)
+![../_images/sphx_glr_audio_feature_extractions_tutorial_005.png](https://pytorch.org/tutorials/_images/sphx_glr_audio_feature_extractions_tutorial_005.png)
 
 Out:
 
@@ -295,25 +295,25 @@ Mean Square Difference: 3.795462323290159e-17
 
 Generating a mel-scale spectrogram involves generating a spectrogram and performing mel-scale conversion. In `torchaudio`, `MelSpectrogram` provides this functionality.
 
-waveform, sample\_rate = get\_speech\_sample()
+waveform, sample_rate = get_speech_sample()
 
-n\_fft = 1024 win\_length = None hop\_length = 512 n\_mels = 128
+n_fft = 1024 win_length = None hop_length = 512 n_mels = 128
 
-mel\_spectrogram = T.MelSpectrogram( sample\_rate=sample\_rate, n\_fft=n\_fft, win\_length=win\_length, hop\_length=hop\_length, center=True, pad\_mode="reflect", power=2.0, norm='slaney', onesided=True, n\_mels=n\_mels, mel\_scale="htk", )
+mel_spectrogram = T.MelSpectrogram( sample_rate=sample_rate, n_fft=n_fft, win_length=win_length, hop_length=hop_length, center=True, pad_mode="reflect", power=2.0, norm='slaney', onesided=True, n_mels=n_mels, mel_scale="htk", )
 
-melspec = mel\_spectrogram(waveform) plot\_spectrogram( melspec\[0], title="MelSpectrogram - torchaudio", ylabel='mel freq')
+melspec = mel_spectrogram(waveform) plot_spectrogram( melspec\[0], title="MelSpectrogram - torchaudio", ylabel='mel freq')
 
-![../\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_006.png](https://pytorch.org/tutorials/\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_006.png)
+![../_images/sphx_glr_audio_feature_extractions_tutorial_006.png](https://pytorch.org/tutorials/_images/sphx_glr_audio_feature_extractions_tutorial_006.png)
 
 #### Comparison against librosa
 
 For reference, here is the equivalent means of generating mel-scale spectrograms with `librosa`.
 
-melspec\_librosa = librosa.feature.melspectrogram( waveform.numpy()\[0], sr=sample\_rate, n\_fft=n\_fft, hop\_length=hop\_length, win\_length=win\_length, center=True, pad\_mode="reflect", power=2.0, n\_mels=n\_mels, norm='slaney', htk=True, ) plot\_spectrogram( melspec\_librosa, title="MelSpectrogram - librosa", ylabel='mel freq')
+melspec_librosa = librosa.feature.melspectrogram( waveform.numpy()\[0], sr=sample_rate, n_fft=n_fft, hop_length=hop_length, win_length=win_length, center=True, pad_mode="reflect", power=2.0, n_mels=n_mels, norm='slaney', htk=True, ) plot_spectrogram( melspec_librosa, title="MelSpectrogram - librosa", ylabel='mel freq')
 
-mse = torch.square(melspec - melspec\_librosa).mean().item() print('Mean Square Difference: ', mse)
+mse = torch.square(melspec - melspec_librosa).mean().item() print('Mean Square Difference: ', mse)
 
-![../\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_007.png](https://pytorch.org/tutorials/\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_007.png)
+![../_images/sphx_glr_audio_feature_extractions_tutorial_007.png](https://pytorch.org/tutorials/_images/sphx_glr_audio_feature_extractions_tutorial_007.png)
 
 Out:
 
@@ -321,29 +321,29 @@ Mean Square Difference: 1.17573561997375e-10
 
 ### MFCC
 
-waveform, sample\_rate = get\_speech\_sample()
+waveform, sample_rate = get_speech_sample()
 
-n\_fft = 2048 win\_length = None hop\_length = 512 n\_mels = 256 n\_mfcc = 256
+n_fft = 2048 win_length = None hop_length = 512 n_mels = 256 n_mfcc = 256
 
-mfcc\_transform = T.MFCC( sample\_rate=sample\_rate, n\_mfcc=n\_mfcc, melkwargs={ 'n\_fft': n\_fft, 'n\_mels': n\_mels, 'hop\_length': hop\_length, 'mel\_scale': 'htk', } )
+mfcc_transform = T.MFCC( sample_rate=sample_rate, n_mfcc=n_mfcc, melkwargs={ 'n_fft': n_fft, 'n_mels': n_mels, 'hop_length': hop_length, 'mel_scale': 'htk', } )
 
-mfcc = mfcc\_transform(waveform)
+mfcc = mfcc_transform(waveform)
 
-plot\_spectrogram(mfcc\[0])
+plot_spectrogram(mfcc\[0])
 
-![../\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_008.png](https://pytorch.org/tutorials/\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_008.png)
+![../_images/sphx_glr_audio_feature_extractions_tutorial_008.png](https://pytorch.org/tutorials/_images/sphx_glr_audio_feature_extractions_tutorial_008.png)
 
 #### Comparing against librosa
 
-melspec = librosa.feature.melspectrogram( y=waveform.numpy()\[0], sr=sample\_rate, n\_fft=n\_fft, win\_length=win\_length, hop\_length=hop\_length, n\_mels=n\_mels, htk=True, norm=None)
+melspec = librosa.feature.melspectrogram( y=waveform.numpy()\[0], sr=sample_rate, n_fft=n_fft, win_length=win_length, hop_length=hop_length, n_mels=n_mels, htk=True, norm=None)
 
-mfcc\_librosa = librosa.feature.mfcc( S=librosa.core.spectrum.power\_to\_db(melspec), n\_mfcc=n\_mfcc, dct\_type=2, norm='ortho')
+mfcc_librosa = librosa.feature.mfcc( S=librosa.core.spectrum.power_to_db(melspec), n_mfcc=n_mfcc, dct_type=2, norm='ortho')
 
-plot\_spectrogram(mfcc\_librosa)
+plot_spectrogram(mfcc_librosa)
 
-mse = torch.square(mfcc - mfcc\_librosa).mean().item() print('Mean Square Difference: ', mse)
+mse = torch.square(mfcc - mfcc_librosa).mean().item() print('Mean Square Difference: ', mse)
 
-![../\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_009.png](https://pytorch.org/tutorials/\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_009.png)
+![../_images/sphx_glr_audio_feature_extractions_tutorial_009.png](https://pytorch.org/tutorials/_images/sphx_glr_audio_feature_extractions_tutorial_009.png)
 
 Out:
 
@@ -351,11 +351,11 @@ Mean Square Difference: 4.258112085153698e-08
 
 ### Pitch
 
-waveform, sample\_rate = get\_speech\_sample()
+waveform, sample_rate = get_speech_sample()
 
-pitch = F.detect\_pitch\_frequency(waveform, sample\_rate) plot\_pitch(waveform, sample\_rate, pitch) play\_audio(waveform, sample\_rate)
+pitch = F.detect_pitch_frequency(waveform, sample_rate) plot_pitch(waveform, sample_rate, pitch) play_audio(waveform, sample_rate)
 
-![../\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_010.png](https://pytorch.org/tutorials/\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_010.png)
+![../_images/sphx_glr_audio_feature_extractions_tutorial_010.png](https://pytorch.org/tutorials/_images/sphx_glr_audio_feature_extractions_tutorial_010.png)
 
 Out:
 
@@ -369,15 +369,15 @@ Kaldi Pitch feature \[1] is a pitch detection mechanism tuned for automatic spee
 
     Ghahremani, B. BabaAli, D. Povey, K. Riedhammer, J. Trmal and S. Khudanpur
 
-    2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Florence, 2014, pp. 2494-2498, doi: 10.1109/ICASSP.2014.6854049. \[[abstract](https://ieeexplore.ieee.org/document/6854049)], \[[paper](https://danielpovey.com/files/2014\_icassp\_pitch.pdf)]
+    2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Florence, 2014, pp. 2494-2498, doi: 10.1109/ICASSP.2014.6854049. \[[abstract](https://ieeexplore.ieee.org/document/6854049)], \[[paper](https://danielpovey.com/files/2014_icassp_pitch.pdf)]
 
-waveform, sample\_rate = get\_speech\_sample(resample=16000)
+waveform, sample_rate = get_speech_sample(resample=16000)
 
-pitch\_feature = F.compute\_kaldi\_pitch(waveform, sample\_rate) pitch, nfcc = pitch\_feature\[..., 0], pitch\_feature\[..., 1]
+pitch_feature = F.compute_kaldi_pitch(waveform, sample_rate) pitch, nfcc = pitch_feature\[..., 0], pitch_feature\[..., 1]
 
-plot\_kaldi\_pitch(waveform, sample\_rate, pitch, nfcc) play\_audio(waveform, sample\_rate)
+plot_kaldi_pitch(waveform, sample_rate, pitch, nfcc) play_audio(waveform, sample_rate)
 
-![../\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_011.png](https://pytorch.org/tutorials/\_images/sphx\_glr\_audio\_feature\_extractions\_tutorial\_011.png)
+![../_images/sphx_glr_audio_feature_extractions_tutorial_011.png](https://pytorch.org/tutorials/_images/sphx_glr_audio_feature_extractions_tutorial_011.png)
 
 Out:
 

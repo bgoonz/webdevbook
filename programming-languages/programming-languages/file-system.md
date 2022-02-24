@@ -137,7 +137,7 @@ file_metadata = {
   'name': 'Sample file',
   'mimeType': 'text/plain'
 }
-media = MediaFileUpload('/tmp/to_upload.txt', 
+media = MediaFileUpload('/tmp/to_upload.txt',
                         mimetype='text/plain',
                         resumable=True)
 created = drive_service.files().create(body=file_metadata,
@@ -281,7 +281,7 @@ print('https://console.cloud.google.com/storage/browser?project=' + project_id)
 """Finally, we'll download the file we just uploaded in the example above. It's as simple as reversing the order in the `gsutil cp` command."""
 
 !gsutil cp gs://{bucket_name}/to_upload.txt /tmp/gsutil_download.txt
-  
+
 # Print the result to make sure the transfer worked.
 !cat /tmp/gsutil_download.txt
 
@@ -322,11 +322,11 @@ print('Done')
 
 from googleapiclient.http import MediaFileUpload
 
-media = MediaFileUpload('/tmp/to_upload.txt', 
+media = MediaFileUpload('/tmp/to_upload.txt',
                         mimetype='text/plain',
                         resumable=True)
 
-request = gcs_service.objects().insert(bucket=bucket_name, 
+request = gcs_service.objects().insert(bucket=bucket_name,
                                        name='to_upload.txt',
                                        media_body=media)
 

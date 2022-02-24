@@ -15,6 +15,7 @@ The video below also explains it well:
 {% hyf-youtube src="https://www.youtube.com/watch?v=L5BlpPU_muY" %}
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [Client-Server Model & Structure of a Web Application](https://medium.freecodecamp.org/how-the-web-works-part-ii-client-server-model-the-structure-of-a-web-application-735b4b6d76e3)

@@ -9,7 +9,6 @@
 1. pass the tests
 1. factor your code back in (directly or as a dependency)
 
-
 ## Pre-Bugging
 
 writing extra tests and asserts for parts you're not sure of

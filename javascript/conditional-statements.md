@@ -34,18 +34,19 @@ Sometimes the condition is very small and having the whole if/else structure wou
 const age = 43;
 
 if (age > 18) {
-  console.log('Yes you may vote');
+  console.log("Yes you may vote");
 } else {
-  console.log('You may not vote yet');
+  console.log("You may not vote yet");
 }
 
 // Ternary way
-console.log(age > 18 ? 'Yes you may vote' : 'You may not vote yet');
+console.log(age > 18 ? "Yes you may vote" : "You may not vote yet");
 ```
 
 Whenever you are deciding which way to use, only think about the readability of the code. In terms of the compiler these things are exactly the same.
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [More about the Control flow](https://dev.to/mugas/control-flow-in-javascript-246l)

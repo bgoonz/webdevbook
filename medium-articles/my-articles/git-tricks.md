@@ -2,7 +2,7 @@
 
 Refs
 
-***
+---
 
 ### Awesome GitHub Commands Reference Sheet (Quick Reference)
 
@@ -31,7 +31,7 @@ HEAD~5      # 5 commits before head
 
 # delete remote branch
   git push origin :$branchname
-  
+
 # go back to previous branch
   git checkout -
 ```
@@ -41,7 +41,7 @@ HEAD~5      # 5 commits before head
 ```
 # Rebase your changes on top of the remote master
   git pull --rebase upstream master
-  
+
 # Squash multiple commits into one for a cleaner git log
 # (on the following screen change the word pick to either 'f' or 's')
   git rebase -i $commit_ref
@@ -195,7 +195,7 @@ HEAD~5      # 5 commits before head
 
 # delete remote branch
   git push origin :$branchname
-  
+
 # go back to previous branch
   git checkout -
 ```
@@ -205,7 +205,7 @@ HEAD~5      # 5 commits before head
 ```
 # Rebase your changes on top of the remote master
   git pull --rebase upstream master
-  
+
 # Squash multiple commits into one for a cleaner git log
 # (on the following screen change the word pick to either 'f' or 's')
   git rebase -i $commit_ref
@@ -331,7 +331,7 @@ git config set commit.gpgsign true                # Sign commits by default
 git commit -m "Implement feature Y" --no-gpg-sign # Do not sign
 ```
 
-![](https://cdn-images-1.medium.com/max/800/1\*yyaUC-O43Gs1qAVkdHrMdw.png)#### If you found this guide helpful feel free to checkout my github/gists where I host similar content:
+![](https://cdn-images-1.medium.com/max/800/1*yyaUC-O43Gs1qAVkdHrMdw.png)#### If you found this guide helpful feel free to checkout my github/gists where I host similar content:
 
 [bgoonz’s gists · GitHub](https://gist.github.com/bgoonz)
 
@@ -341,7 +341,7 @@ git commit -m "Implement feature Y" --no-gpg-sign # Do not sign
 Or Checkout my personal Resource Site:
 
 [**a/A-Student-Resources**\
-\_Edit description\_goofy-euclid-1cd736.netlify.app](https://goofy-euclid-1cd736.netlify.app)
+\_Edit description_goofy-euclid-1cd736.netlify.app](https://goofy-euclid-1cd736.netlify.app)
 
 By [Bryan Guner](https://medium.com/@bryanguner) on [March 6, 2021](https://medium.com/p/57e8d0292285).
 

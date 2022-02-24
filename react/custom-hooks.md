@@ -16,6 +16,7 @@ Study the following to learn more about it:
 - [Building Custom React Hooks](https://medium.com/prototyped/building-custom-react-hooks-f6aad8567825)
 
 ## useFetch as an example
+
 For example, if your app does a lot of fetching, you may want to introduce a custom hook as follows:
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=k0WnY0Hqe5c" %}

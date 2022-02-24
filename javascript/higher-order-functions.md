@@ -1,4 +1,5 @@
 # Higher Order Functions
+
 Let's start with a simple, practical definition: a higher order function is any function that can take another function as an argument or returns a function.
 
 ```js
@@ -68,6 +69,7 @@ Can you see why the array function is the better way to go?
 When it comes to higher order functions, the es6 function syntax is very useful, have a look at them in the es6 section [here](./es6.md)
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [JavaScript Higher Order Functions & Arrays](https://www.youtube.com/watch?v=rRgD1yVwIvE)

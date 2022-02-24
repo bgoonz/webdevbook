@@ -51,13 +51,13 @@ A HTTP Request has to be made using a special method. The browser gives us two o
 const xhr = new XMLHttpRequest();
 
 // 2. Configure it: GET-request for the URL /article/.../load
-xhr.open('GET', '/article/xmlhttprequest/example/load');
+xhr.open("GET", "/article/xmlhttprequest/example/load");
 
 // 3. Send the request over the network
 xhr.send();
 
 // 4. This will be called after the response is received
-xhr.onload = function() {
+xhr.onload = function () {
   if (xhr.status != 200) {
     // analyze HTTP status of the response
     alert(`Error ${xhr.status}: ${xhr.statusText}`); // e.g. 404: Not Found
@@ -67,7 +67,7 @@ xhr.onload = function() {
   }
 };
 
-xhr.onprogress = function(event) {
+xhr.onprogress = function (event) {
   if (event.lengthComputable) {
     alert(`Received ${event.loaded} of ${event.total} bytes`);
   } else {
@@ -75,8 +75,8 @@ xhr.onprogress = function(event) {
   }
 };
 
-xhr.onerror = function() {
-  alert('Request failed');
+xhr.onerror = function () {
+  alert("Request failed");
 };
 ```
 
@@ -90,6 +90,7 @@ For further study of how to make HTTP Requests, check out the following resource
 - [Making HTTP Requests in JavaScript](https://www.kirupa.com/html5/making_http_requests_js.htm)
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [APIs Are Like User Interfaces - Just With Different Users in Mind](https://www.programmableweb.com/news/apis-are-user-interfaces-just-different-users-mind/analysis/2015/12/03)

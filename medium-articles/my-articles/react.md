@@ -6,7 +6,7 @@
 
 #### For more resources visit:
 
-[bgoonz/React\_Notes\_V3A JavaScript library for building user interfaces React makes it painless to create interactive UIs. Design simple…github.com](https://github.com/bgoonz/React\_Notes\_V3)
+[bgoonz/React_Notes_V3A JavaScript library for building user interfaces React makes it painless to create interactive UIs. Design simple…github.com](https://github.com/bgoonz/React_Notes_V3)
 
 [Use this appendix to get any prerequisite concepts and terminology under your belt:](https://gist.github.com/bgoonz/e07d9e7917ae9e98807358d1e7cc4a67)
 
@@ -14,11 +14,12 @@ Here I will walk through a demo…. skip down below for more fundamental example
 
 ### Learn Redux:
 
-***
+---
 
 ### ALL CODE:
 
 ```jsx
+
 ```
 
 ### React Cheat Sheet: <a href="#8738" id="8738"></a>

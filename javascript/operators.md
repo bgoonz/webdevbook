@@ -4,27 +4,27 @@
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=Opl-KwCBxRg" %}
 
->Note the two different uses of the equals sign:  
->A single equals sign (=) is used to assign a value to a variable.  
-A triple equals sign (===) is used to compare two values (see Equality Operators).
+> Note the two different uses of the equals sign:  
+> A single equals sign (=) is used to assign a value to a variable.  
+> A triple equals sign (===) is used to compare two values (see Equality Operators).
 
 ### Equality operators
 
-* Equality `==`
-* Inequality `!=`
-* Identity / strict equality `===` (preferred)
-* Non-identity / strict inequality `!==` (preferred)
+- Equality `==`
+- Inequality `!=`
+- Identity / strict equality `===` (preferred)
+- Non-identity / strict inequality `!==` (preferred)
 
 How does this work in practice?
 
 ```js
-1 == 1 // -> true
-7 == '7' // -> true
-1 != 2  // -> true
-5 === 5  // -> true
-9 === '9'  // -> false
-3 !== 3 // -> false
-3 !== '3' // -> true
+1 == 1; // -> true
+7 == "7"; // -> true
+1 != 2; // -> true
+5 === 5; // -> true
+9 === "9"; // -> false
+3 !== 3; // -> false
+3 !== "3"; // -> true
 ```
 
 > why does `7 == '7'` returns true and `9 === '9'` returns false?
@@ -33,35 +33,35 @@ We strongly recommend that you always use the strict form when comparing for equ
 
 ### Relational operators
 
-* Greater than operator `>`
-* Greater than or equal operator `>=`
-* Less than operator `<`
-* Less than or equal operator `<=`
+- Greater than operator `>`
+- Greater than or equal operator `>=`
+- Less than operator `<`
+- Less than or equal operator `<=`
 
 ```js
-4 > 3   // -> true
-3 >= 3  // -> true
-13 < 12 // -> false
-3 <= 4   // -> true
+4 > 3; // -> true
+3 >= 3; // -> true
+13 < 12; // -> false
+3 <= 4; // -> true
 ```
 
 More about [comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 
 ## Arithmetic operators
 
-* Addition `+`
-* Subtraction `-`
-* Multiplication `*`
-* Division `/`
-* Remainder (sometimes called modulo) `%`
-<br>Returns the remainder left over after you've shared the left number out into a number of integer portions equal to the right number.
+- Addition `+`
+- Subtraction `-`
+- Multiplication `*`
+- Division `/`
+- Remainder (sometimes called modulo) `%`
+  <br>Returns the remainder left over after you've shared the left number out into a number of integer portions equal to the right number.
 
 ```js
-8 + 9 // -> 17, adds two numbers together.
-20 - 12 // -> 8, subtracts the right number from the left.
-3 * 4 // -> 12, multiplies two numbers together.
-10 / 5 // -> 2, divides the left number by the right.
-8 % 3 /// -> 2, as three goes into 8 twice, leaving 2 left over.
+8 + 9; // -> 17, adds two numbers together.
+20 - 12; // -> 8, subtracts the right number from the left.
+3 * 4; // -> 12, multiplies two numbers together.
+10 / 5; // -> 2, divides the left number by the right.
+8 % 3; /// -> 2, as three goes into 8 twice, leaving 2 left over.
 ```
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=qjzgz7bEEXM" %}
@@ -72,30 +72,31 @@ More about [Arithmetic operators](https://developer.mozilla.org/en-US/docs/Web/J
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=RWms0XG75r4" %}
 
-* AND `&&`
-* OR `||`
+- AND `&&`
+- OR `||`
 
 ```js
-true && false //-> false
-false && true //-> false
-false || true //-> true
-true || false //-> true
+true && false; //-> false
+false && true; //-> false
+false || true; //-> true
+true || false; //-> true
 ```
 
 Given that x = 6 and y = 3
+
 ```js
-x < 10 && y > 1 // -> true
-x === 5 || y === 5 // -> false
-x !== y // -> true
+x < 10 && y > 1; // -> true
+x === 5 || y === 5; // -> false
+x !== y; // -> true
 ```
 
 Logical NOT
 
-* NOT `!`
+- NOT `!`
 
 ```js
-true === !false
-false === !true
+true === !false;
+false === !true;
 ```
 
 More about [logical operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
@@ -105,8 +106,8 @@ More about [logical operators](https://developer.mozilla.org/en-US/docs/Web/Java
 To get the type of a value assigned to a variable, use the following code:
 
 ```js
-let bar = 42; 
-typeof bar    //-> 'number' 
+let bar = 42;
+typeof bar; //-> 'number'
 typeof typeof bar; //->  'string'
 ```
 
@@ -121,21 +122,21 @@ x += 1;
 x = x + 1;
 ```
 
-|Operator|  Example| Same As|
-|:------:|:--------:|:-------:|
-|`=` |  `x = y` |  `x = y`|
-|`+=`|  `x += y` |  `x = x + y`|
-|`-=`|  `x -= y` |  `x = x - y`|
-|`*=`|  `x *= y` |  `x = x * y`|
-|`/=`|  `x /= y` |  `x = x / y`|
-|`%=`|  `x %= y` |  `x = x % y`|
+| Operator | Example  |   Same As   |
+| :------: | :------: | :---------: |
+|   `=`    | `x = y`  |   `x = y`   |
+|   `+=`   | `x += y` | `x = x + y` |
+|   `-=`   | `x -= y` | `x = x - y` |
+|   `*=`   | `x *= y` | `x = x * y` |
+|   `/=`   | `x /= y` | `x = x / y` |
+|   `%=`   | `x %= y` | `x = x % y` |
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=LFubbHSfekM" %}
 
 Also check out [special characters and their names](names_of_special_characters.md)
 
-
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [Different Types of Operators in JavaScript](https://www.youtube.com/watch?v=FZzyij43A54)

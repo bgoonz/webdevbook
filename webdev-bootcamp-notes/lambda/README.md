@@ -1,3 +1,3 @@
 # 🏫 Lambda
 
-![](../../.gitbook/assets/chrome\_HGLcwVmXUe.png)
+![](../../.gitbook/assets/chrome_HGLcwVmXUe.png)

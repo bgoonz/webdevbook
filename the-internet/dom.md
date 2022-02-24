@@ -1,6 +1,6 @@
 # What is the Document-Object Model (DOM)?
 
-Every browser uses the Document-Object Model to build up a website. In this arcticle we will go over what this is and why it is used. First we will need to introduce the connection with JavaScript and the browser. 
+Every browser uses the Document-Object Model to build up a website. In this arcticle we will go over what this is and why it is used. First we will need to introduce the connection with JavaScript and the browser.
 
 ### JavaScript and the browser
 
@@ -29,6 +29,7 @@ JavaScript is made accessible to the DOM by embedding it into an HTML file. You 
 The actual process of transforming HTML, CSS and JavaScript into a user-viewable version of a webpage is called **the Critical Rendering Path**. There is a great explanation about this that we cannot improve on [here](https://bitsofco.de/understanding-the-critical-rendering-path/)
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [What exactly is the DOM](https://bitsofco.de/what-exactly-is-the-dom/)

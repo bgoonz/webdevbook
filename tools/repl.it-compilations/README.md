@@ -1,10 +1,6 @@
 # REPL.IT Compilations
 
-
-
 {% embed url="https://replit.com/@bgoonz/flasktemplate" %}
-
-
 
 {% embed url="https://replit.com/@bgoonz/chess-2" %}
 

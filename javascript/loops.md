@@ -8,18 +8,18 @@ We will use the array of month names given below to illustrate the various types
 
 ```js
 const months = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December',
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
 ];
 ```
 
@@ -69,7 +69,7 @@ More info on MDN: [while](https://developer.mozilla.org/en-US/docs/Web/JavaScrip
 
 ## do...while
 
-This is a variation of the while loop discussed above. 
+This is a variation of the while loop discussed above.
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=RmJc1ZROpeU" %}
 
@@ -194,7 +194,7 @@ We will discuss the `for...in` variant in more detail the part of the curriculum
 ```js
 const obj = {
   a: 10,
-  b: 'test',
+  b: "test",
 };
 
 // for...in
@@ -215,6 +215,7 @@ More info on MDN: [for...in](https://developer.mozilla.org/en-US/docs/Web/JavaSc
 The `.forEach()` array method can be used to iterate over all the elements of an array in functional away. This is explained in detail in the fundamental on array methods: [Array.forEach()](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/map_filter.md#arrayforeach). Many programmers prefer this functional way over traditional loops when working with arrays.
 
 # Extra Reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [JavaScript Loops](https://www.youtube.com/watch?v=s9wW2PpJsmQ)

@@ -4,7 +4,7 @@ In this page we introduce [Node.js](https://nodejs.org/en/about/), what it does 
 
 ## <a name="what-is-node">What is Node.js?</a>
 
-Node.js is a **JavaScript runtime**  in which JavaScript code is executed.
+Node.js is a **JavaScript runtime** in which JavaScript code is executed.
 
 Computers can't understand human readable programming languages such as JavaScript by themselves. They need a program to translate these high level languages into machine language which can then be executed. Node.js uses the **V8 JavaScript engine** to **translate JavaScript into machine code** which is then executed on your computer.
 
@@ -15,6 +15,7 @@ Node.js is more than just the V8 JavaScript engine. It's also a **library with m
 Which application on your computer also has a JavaScript runtime? [Answer](https://study.hackyourfuture.net/#/the-internet/browser.md)
 
 ## <a name="what-can-node-do">What can Node.js do?</a>
+
 As mentioned above you already have a JavaScript runtime on your computer. So what can Node.js do that your browser can't?
 
 Browsers are designed to display **web applications** that users can interact with. These web applications run on your own personal device and are often referred to as the **front-end**: they are about what a user can see and interact with, much like a store front.
@@ -33,11 +34,12 @@ There are plenty of different types of server software available which use a wid
 
 It uses JavaScript, it's as simple as that. JavaScript is one of the most popular programming languages because it is used in web browsers and the web is everywhere. Many (aspirant) web developers such as yourselves are familiar with JavaScript so why not use it in the back-end as well instead of learning a new language?
 
-Another good reason is that Node.js handles I/O such as file access and network connections very well. It uses an **event-driven**, **[non-blocking I/O](https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/)** model that makes it lightweight and efficient.  This is accomplished through the **[event loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)**:
+Another good reason is that Node.js handles I/O such as file access and network connections very well. It uses an **event-driven**, **[non-blocking I/O](https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/)** model that makes it lightweight and efficient. This is accomplished through the **[event loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)**:
 
 ![Node.js Event Loop](https://user-images.githubusercontent.com/1400753/29651102-37272546-88e2-11e7-91fd-ea8e257a4df6.png)
 
 ## npm
+
 The concept of splitting up code into reusable pieces is called **modularization** and the reusable pieces **modules** (sometimes called _packages_ or _libraries_). The whole modularization in Node.js is performed with the help of a small tool called _Node Package Manager_ (or _npm_ for short), which is the largest ecosystem of open source libraries in the world. The official website for the npm can be found here: [npmjs.org](https://www.npmjs.org)
 
 Many functionalities that you might need such as utility functions, process management or interacting with a database have already been made. They are published as packages on npm and you can import them in your project to get started. Don't reinvent the wheel.
@@ -45,41 +47,42 @@ Many functionalities that you might need such as utility functions, process mana
 Have a look at the following guide if you have never used npm before: [An Absolute Beginner's Guide to Using npm](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [Introduction into Node.js](https://codeburst.io/the-only-nodejs-introduction-youll-ever-need-d969a47ef219)
 
-
 ## Node.js Tutorials
 
-These tutorials will introduce you to a bunch of new features in Node that you haven't seen in the Browser.  While you're following these tutorials, it's important to remember that at it's core Node.js is still JavaScript.  Everything you've learned so far (except for the DOM & `fetch` :) is still true!  The Event Loop, Classes, Closure, Arrays, Objects, Variables, `this.`, it's all still the same.
+These tutorials will introduce you to a bunch of new features in Node that you haven't seen in the Browser. While you're following these tutorials, it's important to remember that at it's core Node.js is still JavaScript. Everything you've learned so far (except for the DOM & `fetch` :) is still true! The Event Loop, Classes, Closure, Arrays, Objects, Variables, `this.`, it's all still the same.
 
-The tutorials below will introduce to what's new and what's special about Node.  But don't forget to take some time and solve a few of the JavaScript Exercises above to get used to working with plain, vanilla JS in the terminal.
+The tutorials below will introduce to what's new and what's special about Node. But don't forget to take some time and solve a few of the JavaScript Exercises above to get used to working with plain, vanilla JS in the terminal.
 
-* [Traversy: Node for Absolute Beginners](https://www.youtube.com/watch?v=U8XF6AFGqlc)
-* [Traversy: Node.js Crash Course](https://www.youtube.com/watch?v=fBNz5xF-Kx4)
-* [Mosh: Node.js in 1 Hour](https://www.youtube.com/watch?v=TlB_eWDSMt4)
-* [Net Ninja](https://www.youtube.com/watch?v=w-7RQ46RgxU&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp&index=1)
-
+- [Traversy: Node for Absolute Beginners](https://www.youtube.com/watch?v=U8XF6AFGqlc)
+- [Traversy: Node.js Crash Course](https://www.youtube.com/watch?v=fBNz5xF-Kx4)
+- [Mosh: Node.js in 1 Hour](https://www.youtube.com/watch?v=TlB_eWDSMt4)
+- [Net Ninja](https://www.youtube.com/watch?v=w-7RQ46RgxU&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp&index=1)
 
 ## In-Depth
 
-* [The inside of the inside of Node.js](http://docs.libuv.org/en/v1.x/guide/introduction.html)
+- [The inside of the inside of Node.js](http://docs.libuv.org/en/v1.x/guide/introduction.html)
 
 # Useful links
 
 ## <a name="introduction">Introduction to Node.js</a>
-* [Introduction to Node.js (Video, ~5 minutes)](https://www.youtube.com/watch?v=w-7RQ46RgxU&index=1&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp)
-* [The V8 Engine (Video, ~5 minutes)](https://www.youtube.com/watch?v=86tgU7UaJmU&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp&index=3)
-* [Node.js Guides](https://nodejs.org/en/docs/guides/)
-* [Introduction to Node.js (Reading, ~10 minutes)](https://nodejs.dev/introduction-to-nodejs) - plus much more!
-* [What is Node.js? What can you do with it? Why should you use it? (Reading, ~10 minutes)](https://medium.com/@paynoattn/what-is-nodejs-what-can-you-do-with-it-why-should-you-use-it-8c8d6df32d6d#.qvbp8g4dq)
-* [Node.js Event Loop (Video, ~15 minutes)](https://youtu.be/PNa9OMajw9w)
-* [Try the event loop yourself (Loupe)](http://latentflip.com/loupe)
-* [Node.js examples to study](https://github.com/tertiarycourses/NodeJSTraining)
-* <a href='https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-arguments/'>NodeJS: argsv</a>
+
+- [Introduction to Node.js (Video, ~5 minutes)](https://www.youtube.com/watch?v=w-7RQ46RgxU&index=1&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp)
+- [The V8 Engine (Video, ~5 minutes)](https://www.youtube.com/watch?v=86tgU7UaJmU&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp&index=3)
+- [Node.js Guides](https://nodejs.org/en/docs/guides/)
+- [Introduction to Node.js (Reading, ~10 minutes)](https://nodejs.dev/introduction-to-nodejs) - plus much more!
+- [What is Node.js? What can you do with it? Why should you use it? (Reading, ~10 minutes)](https://medium.com/@paynoattn/what-is-nodejs-what-can-you-do-with-it-why-should-you-use-it-8c8d6df32d6d#.qvbp8g4dq)
+- [Node.js Event Loop (Video, ~15 minutes)](https://youtu.be/PNa9OMajw9w)
+- [Try the event loop yourself (Loupe)](http://latentflip.com/loupe)
+- [Node.js examples to study](https://github.com/tertiarycourses/NodeJSTraining)
+- <a href='https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-arguments/'>NodeJS: argsv</a>
 
 ## <a name="getting-started">Getting started with Node.js</a>
-* [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web)
-* [Official Node.js Documentation](https://nodejs.org/docs/latest-v10.x/api/documentation.html)
-* [Node.js Documentation with Search function](https://devdocs.io/node~10_lts/)
+
+- [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web)
+- [Official Node.js Documentation](https://nodejs.org/docs/latest-v10.x/api/documentation.html)
+- [Node.js Documentation with Search function](https://devdocs.io/node~10_lts/)

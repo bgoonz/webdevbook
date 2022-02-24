@@ -50,18 +50,18 @@ If you prefer Wilgert guiding you through this information have a look here:
 
 When writing `function sum(a, b)`, `a` and `b` are the "parameters" of the function. We say that this function has two parameters. (Sometimes, you'll see the word "arity": this function has "arity" 2, but that is something you don't have to use for now.)
 
-Now, when *calling* function sum, e.g. `let s = sum(4, 5);`, we say that the numbers `4` and `5` are the "arguments" of the function. Arguments are "passed" to the function: "we pass `4` and `5` to the function `sum`".
+Now, when _calling_ function sum, e.g. `let s = sum(4, 5);`, we say that the numbers `4` and `5` are the "arguments" of the function. Arguments are "passed" to the function: "we pass `4` and `5` to the function `sum`".
 
 So remember the difference between the word "parameter" and "argument". Many people confuse them, and that's not a big problem, but understanding the difference is always nice:
 
-* A parameter is the name you want to give to the variable that is available inside of the function.
-* An argument is the actual value you want to assign to the parameters when you call the function.
+- A parameter is the name you want to give to the variable that is available inside of the function.
+- An argument is the actual value you want to assign to the parameters when you call the function.
 
 A function that "has two parameters" is also said to "take/accept two arguments". But, sometimes you'll hear people say: "the function has two arguments" or "the function takes two parameters". While formally incorrect, you'll know what they mean.
 
 ## Calling a function on something
 
-In JavaScript, you can call functions *on* something. By this, we mean that you use the dot to call the function. For instance, when we say "call method `trim` on string `s`", we mean:
+In JavaScript, you can call functions _on_ something. By this, we mean that you use the dot to call the function. For instance, when we say "call method `trim` on string `s`", we mean:
 
 ```js
 let s = " this is a string  ";
@@ -75,7 +75,9 @@ s.trim(); // -> "this is a string"
 However, there are functions that you don't call on anything:
 
 ```js
-function sum(a, b) { return a + b; }
+function sum(a, b) {
+  return a + b;
+}
 sum(4, 5); // -> 9
 ```
 
@@ -128,6 +130,7 @@ Again, Wilgert is here to talk you through this as well:
 {% hyf-youtube src="https://www.youtube.com/watch?v=xe4Ffuu4x4s" %}
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [Introduction to Functions](https://www.youtube.com/watch?v=4LklwbSP--4)

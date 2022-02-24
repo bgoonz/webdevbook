@@ -5,16 +5,16 @@ Now as we've learned, JavaScript as a language evolves continually. But so do br
 One of those features added to browsers is an upgraded version of the XHR object. It's called the `Fetch API` and it's the modern way to making HTTP Requests. It incorporates Promises, making it easier to handle your server responses. Here's a basic example:
 
 ```js
-fetch('https://pokeapi.co/api/v2/pokemon')
-  .then(response => {
+fetch("https://pokeapi.co/api/v2/pokemon")
+  .then((response) => {
     return response.json();
   })
-  .then(data => {
-    console.log('Pokemon data', data);
+  .then((data) => {
+    console.log("Pokemon data", data);
     return data;
   })
-  .catch(error => {
-    console.log('err', error);
+  .catch((error) => {
+    console.log("err", error);
   });
 ```
 
@@ -25,11 +25,13 @@ When your JavaScript file is loaded into the DOM, it automatically will have acc
 > Keep in mind that `fetch` only works on newer browser versions. To figure out which browsers can use fetch, check [this](https://caniuse.com/#feat=fetch) out.
 
 # Practice
+
 If you want a little more practice as well as a recap of what the fetch API brings you then have a look at the following.
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=jiJJ2V8K1ik" %}
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [Fetch API Introduction](https://www.youtube.com/watch?v=Oive66jrwBs)

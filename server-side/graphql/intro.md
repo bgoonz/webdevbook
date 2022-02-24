@@ -12,7 +12,7 @@ Although you might not realize it, you likely make use of graphs on a daily basi
 
 Let's take a look at a simple graph which might represent users and follows on Twitter:
 
-![simple-graph](https://s3-us-west-1.amazonaws.com/appacademy-open-assets/graphql/d1/directed\_graph.png)
+![simple-graph](https://s3-us-west-1.amazonaws.com/appacademy-open-assets/graphql/d1/directed_graph.png)
 
 The set of nodes in this graph is `N = {F, A, N, B, D}`. The set of edges is `E = {FN, NF, FA, AB, BF, BD, DA, NB}`. The graph represented here is called a _directed graph_ because each edge has a direction associated with it. This makes sense for an application like Twitter since, although user F follows user A, it does not necessarily mean that user A follows user F. This is different from an application like Facebook, where connected users are ‘friends’ of each other. In this case, the graph would be undirected and the edges would be drawn without arrows.
 
@@ -40,12 +40,12 @@ REST (Representational State Transfer) is an architecture style for designing ne
 
 REST is defined by 6 architectural constraints:
 
-* **Uniform interface**: Individual resources are identified with URLs. The resources in the database are in a different form than the data returned to the client, and the client can modify the resources if given permission. Messages communicated between the client and server are self-descriptive and include enough information to process the request. When a developer is familiar with one of your APIs, they should be able to follow a similar approach for your other APIs.
-* **Client-server**: The client and the server are decoupled, allowing them to evolve separately without any dependence on one another.
-* **Stateless**: Information from requests not stored on the server. Each and every request is treated individually, with no dependece on prior requests. The client is responsible for managing the state of the application rather than the server, meaning that each request must contain the necessary information to fulfill the request, including authorization details.
-* **Cacheable**: Caching should be applied to resources when applicable to improve application performance. Responses must define themselves as cacheable (or not) to prevent the client from sending extraneous data in response to subsequent requests.
-* **Layered system**: The client cannot tell whether it is connected directly to the end system or to some intermediary. This helps to enforce security and enables scalability via load balancing.
-* **Code on demand**: An optional constraint which allows the server to return executable code.
+- **Uniform interface**: Individual resources are identified with URLs. The resources in the database are in a different form than the data returned to the client, and the client can modify the resources if given permission. Messages communicated between the client and server are self-descriptive and include enough information to process the request. When a developer is familiar with one of your APIs, they should be able to follow a similar approach for your other APIs.
+- **Client-server**: The client and the server are decoupled, allowing them to evolve separately without any dependence on one another.
+- **Stateless**: Information from requests not stored on the server. Each and every request is treated individually, with no dependece on prior requests. The client is responsible for managing the state of the application rather than the server, meaning that each request must contain the necessary information to fulfill the request, including authorization details.
+- **Cacheable**: Caching should be applied to resources when applicable to improve application performance. Responses must define themselves as cacheable (or not) to prevent the client from sending extraneous data in response to subsequent requests.
+- **Layered system**: The client cannot tell whether it is connected directly to the end system or to some intermediary. This helps to enforce security and enables scalability via load balancing.
+- **Code on demand**: An optional constraint which allows the server to return executable code.
 
 In practice, RESTful routes enable a simple-to-understand API for accessing and modifying data using HTTP methods - `GET`, `POST`, `PUT`, `DELETE`, and `PATCH`. For example, if we wished to retrieve all of the products on an online store for a given category, we would make a GET request to an endpoint that looks something like:
 
@@ -142,11 +142,11 @@ JSON (JavaScript Object Notation) is a self describing, data interchange format 
 
 The syntax of JSON is very simple to follow:
 
-* Data is in name/value pairs
-* Data is separated by commas
-* Curly braces hold objects
-* Square brackets hold arrays
-* String values must be written with double quotes
+- Data is in name/value pairs
+- Data is separated by commas
+- Curly braces hold objects
+- Square brackets hold arrays
+- String values must be written with double quotes
 
 Let's take a look at an example of a JSON object:
 
@@ -230,15 +230,15 @@ When we open Graphiql in the browser, we see two panels. We write queries in the
 
 When we configure a GraphQL application, we define our data in 'types,' with each type representing a singular resource on the server. Graphiql knows this schema and provides us with error highlighting and prompts. If we try to query for a variable which is not present on the current type, the variable will be underlined in red. Hovering over the variable will also display an error message.
 
-![graphiql-error](https://assets.aaonline.io/graphql/d1/graphiql\_2.png)
+![graphiql-error](https://assets.aaonline.io/graphql/d1/graphiql_2.png)
 
 If we hover over any valid variable, a modal appears which displays the related types for that variable.
 
-![graphiql-modal](https://assets.aaonline.io/graphql/d1/graphiql\_3.png)
+![graphiql-modal](https://assets.aaonline.io/graphql/d1/graphiql_3.png)
 
 If we select the related type, the schema will appear in a new Document Explorer panel. We can click nested types to navigate through the schema of our application. We can also open this explorer with the 'Docs' button and navigate starting at the top level of the schema.
 
-![graphiql-explorer](https://assets.aaonline.io/graphql/d1/graphiql\_4.png)
+![graphiql-explorer](https://assets.aaonline.io/graphql/d1/graphiql_4.png)
 
 We can use the navigation buttons to prettify our query or view the history of our recent queries. The history will persist even if we have to close and restart our server.
 

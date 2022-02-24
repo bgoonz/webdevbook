@@ -2,7 +2,7 @@
 
 When creating APIs it is important to test if they work as intended. The easiest way to do this is to send a request and check the API's response.
 
-Normally, you would send a request using the browser or the command line. But there's a tool we can use that's made especially for these testing purposes: 
+Normally, you would send a request using the browser or the command line. But there's a tool we can use that's made especially for these testing purposes:
 
 {% hyf-youtube src="https://www.youtube.com/watch?v=i1jU-kivApg" %}
 

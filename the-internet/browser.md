@@ -34,6 +34,7 @@ When you do your styling, especially, it's important to know if a certain browse
 Generally speaking, you want to support as many browsers (and browser versions) with your code as possible.
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [Dealing with Cross Browser Compatibility](https://www.youtube.com/watch?v=9tEixRJ3GeI)

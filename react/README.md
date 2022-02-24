@@ -51,6 +51,7 @@ Essentially, a component is a custom HTML element that we define ourselves. One 
 The main thing to remember is that Components should follow the Single Responsibility Principle as much as possible. So each component should only have 1 responsibility.
 
 ### HTML in JS: JSX
+
 One of the things React introduces that is extremely powerful is JSX, a way to define HTML style code in JavaScript.
 
 Take a look at this code:
@@ -72,6 +73,7 @@ Learn more about `JSX` here:
 - [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
 
 ### DOM management
+
 When you want to write single page applications in vanilla JS you will notice that DOM management can be a headache. The reason is that you have to write the code that takes the DOM from the place it is now to where you want it to be.
 
 React takes this management away from you. This means you just need to define how the DOM should look now (using your components and JSX) and React will do the rest! Awesome!

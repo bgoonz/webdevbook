@@ -2,7 +2,7 @@
 
 This installment is going to be the least technically demanding thus far however these questions are a more realistic reflection on what a…
 
-***
+---
 
 #### [CODEX](http://medium.com/codex)
 
@@ -10,7 +10,7 @@ This installment is going to be the least technically demanding thus far however
 
 #### **This installment is going to be the least technically demanding thus far however these questions are a more realistic reflection on what a junior developer could be asked by a company with reasonable hiring practices…**
 
-![](https://cdn-images-1.medium.com/max/800/1\*dTDrkYZJYhASUP2TTknAgA.png)\*\*… Speaking of which … stay tuned till the end of the article or skip down to it for a list of web development companies with reportedly fair hiring practices!\*\*
+![](https://cdn-images-1.medium.com/max/800/1*dTDrkYZJYhASUP2TTknAgA.png)\*\*… Speaking of which … stay tuned till the end of the article or skip down to it for a list of web development companies with reportedly fair hiring practices!\*\*
 
 #### Here’s parts one and two; they’re both much more technical in nature than this one!
 
@@ -20,7 +20,7 @@ This installment is going to be the least technically demanding thus far however
 [**Front End Interview Questions Part 2**\
 \_These will focus more on vocabulary and concepts than the application driven approach in my last post!\_medium.com](https://medium.com/codex/front-end-interview-questions-part-2-86ddc0e91443)
 
-***
+---
 
 ### 👋🏻 Behavioral & Cultural Interview Questions
 
@@ -32,9 +32,9 @@ This installment is going to be the least technically demanding thus far however
 
 > \_**⚫**\_So how can you give a good answer without oversharing? To help you structure your answer, we’ll give you a rough guideline: start with a short introduction, talk about the present, recount the past, and mention your future goals.
 
-![](https://cdn-images-1.medium.com/max/800/0\*E6ldmJAPG95McXVB)
+![](https://cdn-images-1.medium.com/max/800/0*E6ldmJAPG95McXVB)
 
-***
+---
 
 ### What are some side projects you’re currently working on?
 
@@ -120,7 +120,7 @@ D\_**escribe one or two instances where you had several projects running simulta
 
 > \_**⚫**\_You admire the company’s culture. Here are some specific examples:
 
-***
+---
 
 ### Commitment to the company
 
@@ -202,7 +202,7 @@ Professional growth opportunities
 
 > _**⚫**_“What are you salary expectations?” can be a daunting question. If talking about money wasn’t uncomfortable enough already, most job seekers worry that proposing the “wrong number” would cost them the job — or land them a job offer with a disappointing salary. Not great.
 
-***
+---
 
 ### Follow up ?????
 
@@ -226,9 +226,9 @@ Professional growth opportunities
 
 ⮕**One sentence about how you’re excited you are to contribute in a specific way**
 
-![](https://cdn-images-1.medium.com/max/800/0\*tZNLWVUGmj2tJK3j.jpg)
+![](https://cdn-images-1.medium.com/max/800/0*tZNLWVUGmj2tJK3j.jpg)
 
-***
+---
 
 ### _**Technical interview :**_
 
@@ -315,7 +315,7 @@ R\_**emember to keep positive because the interviewers are always looking for co
 
 > _**⚫Some questions to think about to help you structure your answer, and nail your response:**_
 
-***
+---
 
 ### What to avoid
 
@@ -329,7 +329,7 @@ R\_**emember to keep positive because the interviewers are always looking for co
 
 > _**⚫**_**Keep in mind that your interviewer is not only trying to get a glimpse of your past, but to gain an understanding of how you might react to challenges should they hire you. Therefore, when you’re choosing your scenario, try to pick one that may be applicable in your new work setting as well.**
 
-***
+---
 
 ### NOW; Here’s some for you guys to answer in the comments!
 
@@ -345,7 +345,7 @@ R\_**emember to keep positive because the interviewers are always looking for co
 
 #### 13. What information would the data be transformed into? Was it for development, business, or customer decision-making?
 
-***
+---
 
 ### If you found this guide helpful feel free to checkout my GitHub/gists where I host similar content:
 
@@ -358,7 +358,7 @@ R\_**emember to keep positive because the interviewers are always looking for co
 ### Or Checkout my personal Resource Site:
 
 [**Web-Dev-Resource-Hub**\
-\_Edit description\_web-dev-resource-hub.netlify.app](https://web-dev-resource-hub.netlify.app)
+\_Edit description_web-dev-resource-hub.netlify.app](https://web-dev-resource-hub.netlify.app)
 
 By [Bryan Guner](https://medium.com/@bryanguner) on [March 21, 2021](https://medium.com/p/826ae81a9107).
 

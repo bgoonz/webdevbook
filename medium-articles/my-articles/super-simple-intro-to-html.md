@@ -2,13 +2,13 @@
 
 What is HTML, CSS & JS and why do we need all three?
 
-***
+---
 
 ### Super Simple Intro To HTML
 
 #### What is HTML, CSS & JS and why do we need all three?
 
-![](https://cdn-images-1.medium.com/max/800/0\*KxF-AuqgX7UklUa4.png)HTML stands for “Hypertext Markup Language”. Basically, HTML is the structure for the website, words, bullet points, data tables, etc. CSS stands for “Cascading Style Sheets” which means it’s the “Style” it’s how to make your website look professional, and look visually appealing. JS is how to make your website actually \\\*\\\*work\\\*\\\*.
+![](https://cdn-images-1.medium.com/max/800/0*KxF-AuqgX7UklUa4.png)HTML stands for “Hypertext Markup Language”. Basically, HTML is the structure for the website, words, bullet points, data tables, etc. CSS stands for “Cascading Style Sheets” which means it’s the “Style” it’s how to make your website look professional, and look visually appealing. JS is how to make your website actually \\\*\\\*work\\\*\\\*.
 
 For example, if you created something like YouTube and one of the options you can watch videos, you used HTML for the title, you used CSS for the color/s, and you have to make it actually work! So when you click on it it will run the video. This is an example of the three programming languages working in unison to form an experience you’re already familiar with if you’re reading this…
 
@@ -60,13 +60,13 @@ If you’ve been working in VSCode, you’ve probably seen Emmet syntax highligh
 html:5
 ```
 
-![](https://cdn-images-1.medium.com/max/800/0\*oDrxfgtO2WE9\_Z6d.png)Emmet Abbreviation for different HTML boilerplates.
+![](https://cdn-images-1.medium.com/max/800/0*oDrxfgtO2WE9_Z6d.png)Emmet Abbreviation for different HTML boilerplates.
 
 **When you see the auto complete as pictured above you can hit tab to auto fill the boilerplate html document.**
 
 That one small shortcut autogenerates all this metadata and head and body tags:
 
-![](https://cdn-images-1.medium.com/max/800/0\*LgiaI-W7QB4mtifR.png)#### Here’s some slightly more advanced boilerplate for you to use as a starting point in your projects.
+![](https://cdn-images-1.medium.com/max/800/0*LgiaI-W7QB4mtifR.png)#### Here’s some slightly more advanced boilerplate for you to use as a starting point in your projects.
 
 ### HTML Language
 
@@ -82,7 +82,7 @@ There are generally two types of tags in HTML:
 > i.e.
 
 ```
-<hr> 
+<hr>
 <p> The tag above me is a horizontal line that doesn't need a closing tag </p>
 ```
 
@@ -99,9 +99,9 @@ The three block level tags every HTML document needs to contain are **\<html>**,
 2. The **\<head>\</head>** tag holds meta information such as the page’s title and charset.
 3. Finally, the **\<body>\</body>** tag encloses all the content that appears on the page.
 
-* Paragraphs are enclosed by _**\<p>\</p>**_, while blockquotes use the _**\<blockquote>\</blockquote>**_ tag.
-* Divisions are bigger content sections that typically contain several paragraphs, images, sometimes blockquotes, and other smaller elements. We can mark them up using the _**\<div>\</div>**_ tag. A div element can contain another div tag inside it as well.
-* You may also use _**\<ol>\</ol>**_ tags for ordered lists and _**\<ul>\</ul>**_ for unordered ones. Individual list items must be enclosed by the _**\<li>\</li>**_ tag. For example, this is how a basic unordered list looks like in HTML:
+- Paragraphs are enclosed by _**\<p>\</p>**_, while blockquotes use the _**\<blockquote>\</blockquote>**_ tag.
+- Divisions are bigger content sections that typically contain several paragraphs, images, sometimes blockquotes, and other smaller elements. We can mark them up using the _**\<div>\</div>**_ tag. A div element can contain another div tag inside it as well.
+- You may also use _**\<ol>\</ol>**_ tags for ordered lists and _**\<ul>\</ul>**_ for unordered ones. Individual list items must be enclosed by the _**\<li>\</li>**_ tag. For example, this is how a basic unordered list looks like in HTML:
 
 1. **\<ul>**
 2. **\<li>List item 1\</li>**
@@ -113,14 +113,14 @@ The three block level tags every HTML document needs to contain are **\<html>**,
 
 An HTML Document is mainly divided into two parts:
 
-* **HEAD**: This contains the information about the HTML document. For Example, Title of the page, version of HTML, Meta-Data etc.
+- **HEAD**: This contains the information about the HTML document. For Example, Title of the page, version of HTML, Meta-Data etc.
 
 HTML TAG Specifies an html document. The HTML element (or HTML root element) represents the root of an HTML document. All other elements must be descendants of this element. Since the element is the first in a document, it is called the root element.
 
 Although this tag can be implied, or not required, with HTML, it is required to be opened and closed in XHTML.
 
-* Divisions are bigger content sections that typically contain several paragraphs, images, sometimes blockquotes, and other smaller elements. We can mark them up using the _**\<div>\</div>**_ tag. A div element can contain another div tag inside it as well.
-* You may also use _**\<ol>\</ol>**_ tags for ordered lists and _**\<ul>\</ul>**_ for unordered ones. Individual list items must be enclosed by the _**\<li>\</li>**_ tag. For example, this is how a basic unordered list looks like in HTML:
+- Divisions are bigger content sections that typically contain several paragraphs, images, sometimes blockquotes, and other smaller elements. We can mark them up using the _**\<div>\</div>**_ tag. A div element can contain another div tag inside it as well.
+- You may also use _**\<ol>\</ol>**_ tags for ordered lists and _**\<ul>\</ul>**_ for unordered ones. Individual list items must be enclosed by the _**\<li>\</li>**_ tag. For example, this is how a basic unordered list looks like in HTML:
 
 1. **\<ul>**
 2. **\<li>List item 1\</li>**
@@ -134,7 +134,7 @@ Many inline tags are used to format text. For example, a **\<strong>\</strong>**
 
 Hyperlinks are also inline elements that require _**\<a>\</a>**_ tags and **href** attributes to indicate the link’s destination:
 
-1. **\<a** **href=**”https://example.com/"**>Click me!\</a>**
+1. **\<a** **href=**”https://example.com/"**>Click me!\</a>\*\*
 
 Images are inline elements too. You can add one using _**\<img>**_ without any closing tag. But you will also need to use the _**src**_ attribute to specify the image path, for example:
 
@@ -156,11 +156,11 @@ _**\<!DOCTYPE html>**_
 
 #### Here is some boilerplate html you can use as a starting point:!!Every Webpage must contain this code.!!
 
-***
+---
 
 ### **\<!DOCTYPE html>**
 
-***
+---
 
 Below is the complete explanation of each of the tags used in the above piece of HTML code:
 
@@ -206,7 +206,7 @@ _6 types from largest(h1) to smallest (h6)_
 
 As such \<title>This is the title\</title> it is always found between \<head> tags and not in the body of the page where all the content that gets rendered on the page is contained.
 
-![](https://cdn-images-1.medium.com/max/800/0\*CSqPk3mD0fR-oOAb)### Here’s a handy Cheat Sheet:![](https://cdn-images-1.medium.com/max/800/0\*c9Vyer\_N97InJsUB.png)Below I am going to Include a gist that contains html code that uses pretty much every tag I could think of off the top of my head…
+![](https://cdn-images-1.medium.com/max/800/0*CSqPk3mD0fR-oOAb)### Here’s a handy Cheat Sheet:![](https://cdn-images-1.medium.com/max/800/0*c9Vyer_N97InJsUB.png)Below I am going to Include a gist that contains html code that uses pretty much every tag I could think of off the top of my head…
 
 If it’s not included here I promise you it’s seldom used by most webpages.
 
@@ -214,7 +214,7 @@ Below that I will embed an image of the webpage that it renders too….
 
 that super small text at the bottom is actually one giant button:
 
-![](https://cdn-images-1.medium.com/max/2560/1\*gdM-6smOEc2ChCI\_8\_Ql\_g.png)
+![](https://cdn-images-1.medium.com/max/2560/1*gdM-6smOEc2ChCI_8_Ql_g.png)
 
 ### If you found this guide helpful feel free to checkout my GitHub/gists where I host similar content:
 
@@ -227,7 +227,7 @@ that super small text at the bottom is actually one giant button:
 ### Or Checkout my personal Resource Site:
 
 [**Web-Dev-Hub**\
-\_Edit description\_web-dev-resource-hub.netlify.app](https://web-dev-resource-hub.netlify.app)
+\_Edit description_web-dev-resource-hub.netlify.app](https://web-dev-resource-hub.netlify.app)
 
 By [Bryan Guner](https://medium.com/@bryanguner) on [March 13, 2021](https://medium.com/p/651d695f9bc).
 

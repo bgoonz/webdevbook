@@ -2,15 +2,15 @@
 
 https://github.com/igorbarinov/awesome-bitcoin
 
-***
+---
 
 ### Here’s the expanded list:
 
-***
+---
 
-![](https://cdn-images-1.medium.com/max/800/0\*W5ornP061IYuqINU)
+![](https://cdn-images-1.medium.com/max/800/0*W5ornP061IYuqINU)
 
-***
+---
 
 [**GitHub - sindresorhus/awesome-nodejs: Delightful Node.js packages and resources**\
 \_zap: Delightful Node.js packages and resources. Contribute to sindresorhus/awesome-nodejs development by creating an…\_github.com](https://github.com/sindresorhus/awesome-nodejs)
@@ -349,7 +349,7 @@ https://github.com/igorbarinov/awesome-bitcoin
 \_A curated list of awesome AutoHotkey libraries, library distributions, scripts, tools and resources. Inspired by the…\_github.com](https://github.com/ahkscript/awesome-AutoHotkey)
 
 [**GitHub - J2TEAM/awesome-AutoIt: A curated list of awesome UDFs, example scripts, tools and useful…**\
-\_A curated list of awesome UDFs, example scripts, tools and useful resources for AutoIt. Created by Juno\_okyo. Inspired…\_github.com](https://github.com/J2TeaM/awesome-AutoIt)
+\_A curated list of awesome UDFs, example scripts, tools and useful resources for AutoIt. Created by Juno_okyo. Inspired…\_github.com](https://github.com/J2TeaM/awesome-AutoIt)
 
 [**GitHub - veelenga/awesome-crystal: A collection of awesome Crystal libraries, tools, frameworks and…**\
 \_gem: A collection of awesome Crystal libraries, tools, frameworks and software - GitHub - veelenga/awesome-crystal: A…\_github.com](https://github.com/veelenga/awesome-crystal)
@@ -571,7 +571,7 @@ https://github.com/igorbarinov/awesome-bitcoin
 \_Resources on Progressive Enhancement. From concept and strategies to feature detection & testing methods. Complete with…\_github.com](https://github.com/jbmoelker/progressive-enhancement-resources)
 
 [**GitHub - unicodeveloper/awesome-nextjs: A curated list of awesome resources : books, videos…**\
-\_notebook\_with\_decorative\_cover: A curated list of awesome resources : books, videos, articles about using…\_github.com](https://github.com/unicodeveloper/awesome-nextjs)
+\_notebook_with_decorative_cover: A curated list of awesome resources : books, videos, articles about using…\_github.com](https://github.com/unicodeveloper/awesome-nextjs)
 
 [**GitHub - web-padawan/awesome-lit: A curated list of awesome lit-html resources.**\
 \_A curated list of awesome Lit resources. Lit - a simple library for building fast, lightweight web components. At its…\_github.com](https://github.com/web-padawan/awesome-lit-html)
@@ -904,7 +904,7 @@ https://github.com/igorbarinov/awesome-bitcoin
 \_🎨 A curated list of delightful VS Code packages and resources. - GitHub - viatsko/awesome-vscode: 🎨 A curated list of…\_github.com](https://github.com/viatsko/awesome-vscode)
 
 [**GitHub - ellisonleao/magictools: A list of Game Development resources to make magic happen.**\
-\_video\_game: A list of Game Development resources to make magic happen. - GitHub - ellisonleao/magictools: A…\_github.com](https://github.com/ellisonleao/magictools)
+\_video_game: A list of Game Development resources to make magic happen. - GitHub - ellisonleao/magictools: A…\_github.com](https://github.com/ellisonleao/magictools)
 
 [**GitHub - hzoo/awesome-gametalks: A curated list of gaming talks (development, design, etc)**\
 \_2005\] Heart of a Gamer: Satoru Iwata (Nintendo) On my business card, I am a corporate president. In my mind, I am a…\_github.com](https://github.com/hzoo/awesome-gametalks)
@@ -913,7 +913,7 @@ https://github.com/igorbarinov/awesome-bitcoin
 \_A curated list of free/libre plugins, scripts and add-ons for Godot - GitHub - godotengine/awesome-godot: A curated…\_github.com](https://github.com/godotengine/awesome-godot)
 
 [**GitHub - leereilly/games: A list of popular/awesome video games, add-ons, maps, etc. hosted on…**\
-\_video\_game: A list of popular/awesome video games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any…\_github.com](https://github.com/leereilly/games)
+\_video_game: A list of popular/awesome video games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any…\_github.com](https://github.com/leereilly/games)
 
 [**GitHub - RyanNielson/awesome-unity: A curated list of awesome Unity assets, resources, and more.**\
 \_A categorized community-driven collection of high-quality awesome Unity assets, projects, and resources. Free assets…\_github.com](https://github.com/RyanNielson/awesome-unity)
@@ -1102,7 +1102,7 @@ https://github.com/igorbarinov/awesome-bitcoin
 \_Curated list of fonts and everything. Contribute to brabadu/awesome-fonts development by creating an account on GitHub.\_github.com](https://github.com/brabadu/awesome-fonts)
 
 [**GitHub - chrissimpkins/codeface: Typefaces for source code beautification**\
-\_Each typeface directory in the repository now includes a vertical metrics table ( vertical\_metrics.txt). Combine the…\_github.com](https://github.com/chrissimpkins/codeface)
+\_Each typeface directory in the repository now includes a vertical metrics table ( vertical_metrics.txt). Combine the…\_github.com](https://github.com/chrissimpkins/codeface)
 
 [**GitHub - neutraltone/awesome-stock-resources: A collection of links for free stock photography…**\
 \_A curated list of awesome stock photography, video and illustration websites. I try my best to maintain this repository…\_github.com](https://github.com/neutraltone/awesome-stock-resources)
@@ -1114,7 +1114,7 @@ https://github.com/igorbarinov/awesome-bitcoin
 \_A categorized collection of awesome music libraries, tools, frameworks and software. Contributions and suggestions are…\_github.com](https://github.com/ciconia/awesome-music)
 
 [**GitHub - 44bits/awesome-opensource-documents: A curated list of awesome open source or open source…**\
-\_blue\_book: A curated list of awesome open source or open source licensed documents, guides, books. - GitHub …\_github.com](https://github.com/44bits/awesome-opensource-documents)
+\_blue_book: A curated list of awesome open source or open source licensed documents, guides, books. - GitHub …\_github.com](https://github.com/44bits/awesome-opensource-documents)
 
 [**GitHub - willianjusten/awesome-audio-visualization: A curated list about Audio Visualization.**\
 \_Music visualization, a feature found in electronic music visualizers and media player software, generates animated…\_github.com](https://github.com/willianjusten/awesome-audio-visualization)
@@ -1480,7 +1480,7 @@ GeoJSON utilities that will make your life easier.github.com](https://github.com
 \_Guides for programmers who want to be awesome. The intent of this repository is to collect and distribute links to…\_github.com](https://github.com/NARKOZ/guides)
 
 [**GitHub — kilimchoi/engineering-blogs: A curated list of engineering blogs**\
-\_You can find an opml file to import rss feeds here: engineering\_blogs.opml Contributions welcome! Read the contribution…\_github.com](https://github.com/kilimchoi/engineering-blogs)
+\_You can find an opml file to import rss feeds here: engineering_blogs.opml Contributions welcome! Read the contribution…\_github.com](https://github.com/kilimchoi/engineering-blogs)
 
 [**GitHub — awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web…**\
 \_A list of Free Software network services and web applications which can be hosted on your own servers — GitHub …\_github.com](https://github.com/awesome-selfhosted/awesome-selfhosted)
@@ -1489,7 +1489,7 @@ GeoJSON utilities that will make your life easier.github.com](https://github.com
 \_A curated list of awesome production grade free and open source software organized by category. This list is for…\_github.com](https://github.com/DataDaoDe/awesome-foss-apps)
 
 [**GitHub — alferov/awesome-gulp: A curated list of awesome gulp resources, plugins, and boilerplates…**\
-\_tropical\_drink: A curated list of awesome gulp resources, plugins, and boilerplates for a better development workflow…\_github.com](https://github.com/alferov/awesome-gulp)
+\_tropical_drink: A curated list of awesome gulp resources, plugins, and boilerplates for a better development workflow…\_github.com](https://github.com/alferov/awesome-gulp)
 
 [**GitHub — sindresorhus/amas: Awesome & Marvelous Amas**\
 \_AMA → Ask Me Anything Ask these people anything! Pascal Hartig — Polyglot. Engineer at Twitter. Contributor to Yeoman…\_github.com](https://github.com/sindresorhus/amas)
@@ -1635,7 +1635,7 @@ GeoJSON utilities that will make your life easier.github.com](https://github.com
 \_Curated list of awesome open source healthcare software, libraries, tools and resources. Each link has been vetted to…\_github.com](https://github.com/kakoni/awesome-healthcare)
 
 [**GitHub — DavidLambauer/awesome-magento2: Curated list of awesome Magento 2 Extensions, Resources…**\
-\_A curated list of awesome Magento 2 Extensions & Resources ru\_RU 🇷🇺 — Russian Language Package. de\_DE 🇩🇪 — German…\_github.com](https://github.com/DavidLambauer/awesome-magento2)
+\_A curated list of awesome Magento 2 Extensions & Resources ru_RU 🇷🇺 — Russian Language Package. de_DE 🇩🇪 — German…\_github.com](https://github.com/DavidLambauer/awesome-magento2)
 
 [**GitHub — xiaohanyu/awesome-tikz: A curated list of awesome TikZ documentations, libraries and…**\
 \_TikZ is a wonderful awesome graph drawing package for TeX/LaTeX/ConTeXt. Unlike other TeX packages, TikZ itself is…\_github.com](https://github.com/xiaohanyu/awesome-tikz)
@@ -1794,7 +1794,7 @@ GeoJSON utilities that will make your life easier.github.com](https://github.com
 \_GitHub is where people build software. More than 65 million people use GitHub to discover, fork, and contribute to over…\_github.com](https://github.com/topics/awesome)
 
 [**Awesome Indexed**\
-\_Edit description\_awesome-indexed.mathew-davies.co.uk](https://awesome-indexed.mathew-davies.co.uk)
+\_Edit description_awesome-indexed.mathew-davies.co.uk](https://awesome-indexed.mathew-davies.co.uk)
 
 [**Awesome Search**\
 \_Makes you find what you want in awesome lists more quickly. awesome lists can be found by AwesomeSearch now. There are…\_awesomelists.top](https://awesomelists.top)
@@ -1815,7 +1815,7 @@ GeoJSON utilities that will make your life easier.github.com](https://github.com
 
 #### My take on the classic github resource curation trend.
 
-![](https://cdn-images-1.medium.com/max/800/0\*s1q75XKFMZeU1jfe)
+![](https://cdn-images-1.medium.com/max/800/0*s1q75XKFMZeU1jfe)
 
 By [Bryan Guner](https://medium.com/@bryanguner) on [August 30, 2021](https://medium.com/p/f1bbcd632fd0).
 

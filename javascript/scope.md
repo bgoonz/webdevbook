@@ -36,10 +36,11 @@ A unique local scope gets created whenever a function is declared. The variables
 
 ```js
 function createLocalScope() {
-  const localVariable = 'this variable can only be accessed within this function';
+  const localVariable =
+    "this variable can only be accessed within this function";
   console.log(localVariable);
 
-  const localOnlyHere = 'This variable can only be accessed here, nowhere else';
+  const localOnlyHere = "This variable can only be accessed here, nowhere else";
 }
 
 function createAnotherLocalScope() {
@@ -56,7 +57,7 @@ createAnotherLocalScope();
 However, variables declared within the global scope can be accessed anywhere! Actually, that's the very purpose of global scope. In the context of functions this means that you don't have to pass it as an argument, but that you can directly refer to it within the function.
 
 ```js
-const globalVariable = 'This variable can be accessed wherever in the code';
+const globalVariable = "This variable can be accessed wherever in the code";
 
 function accessGlobalVariable() {
   console.log(globalVariable);
@@ -71,9 +72,10 @@ The second type of local scope is called **block scope**. A block, generally spe
 
 In the ES6 syntax, which is now the standard in the software development world, we prefer to declare variables using `const` and `let`. This is because the keywords are more descriptive and restrictive. This makes them easier to work with.
 
-In relation to scope both also behave differently: they are block scoped. This means that they can *not* be accessed from outside a `{ }`.
+In relation to scope both also behave differently: they are block scoped. This means that they can _not_ be accessed from outside a `{ }`.
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [Variable Scope & Context](https://www.youtube.com/watch?v=WPcW83BMT3Y)

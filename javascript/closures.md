@@ -25,6 +25,7 @@ Closures are commonly used to give objects data privacy. We don't want certain d
 In this example your password is the data you want to keep locally scoped. Your act of logging in is the inner function. The outer function could be your act of being on the computer, where your password is stored in a file somewhere.
 
 # Extra reading
+
 If you just can't get enough, here are some extra links that mentors/students have found useful concerning this topic:
 
 - [The Ultimate Guide to Execution Contexts, Hoisting, Scoping and Closures in JavaScript](https://www.youtube.com/watch?v=Nt-qa_LlUH0)

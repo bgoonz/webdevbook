@@ -75,7 +75,7 @@ Alternatively, you can specify a custom config file using a link tag:
 
 To see working configuration examples, you can [start from a template](https://www.netlifycms.org/docs/start-with-a-template) or check out the [CMS demo site](https://cms-demo.netlify.com). (No login required: click the login button and the CMS will open.) You can refer to the demo [configuration code](https://github.com/netlify/netlify-cms/blob/master/dev-test/config.yml) to see how each option was configured.
 
-You can find details about all configuration options below. Note that [YAML syntax](https://en.wikipedia.org/wiki/YAML#Basic\_components) allows lists and objects to be written in block or inline style, and the code samples below include a mix of both.
+You can find details about all configuration options below. Note that [YAML syntax](https://en.wikipedia.org/wiki/YAML#Basic_components) allows lists and objects to be written in block or inline style, and the code samples below include a mix of both.
 
 ### Backend <a href="#backend" id="backend"></a>
 
@@ -237,11 +237,11 @@ For modifying the actual data in a slug, see the per-collection option below.
 
 `slug` accepts multiple options:
 
-* `encoding`
-  * `unicode` (default): Sanitize filenames (slugs) according to [RFC3987](https://tools.ietf.org/html/rfc3987) and the [WHATWG URL spec](https://url.spec.whatwg.org). This spec allows non-ASCII (or non-Latin) characters to exist in URLs.
-  * `ascii`: Sanitize filenames (slugs) according to [RFC3986](https://tools.ietf.org/html/rfc3986). The only allowed characters are (0-9, a-z, A-Z, `_`, `-`, `~`).
-* `clean_accents`: Set to `true` to remove diacritics from slug characters before sanitizing. This is often helpful when using `ascii` encoding.
-* `sanitize_replacement`: The replacement string used to substitute unsafe characters, defaults to `-`.
+- `encoding`
+  - `unicode` (default): Sanitize filenames (slugs) according to [RFC3987](https://tools.ietf.org/html/rfc3987) and the [WHATWG URL spec](https://url.spec.whatwg.org). This spec allows non-ASCII (or non-Latin) characters to exist in URLs.
+  - `ascii`: Sanitize filenames (slugs) according to [RFC3986](https://tools.ietf.org/html/rfc3986). The only allowed characters are (0-9, a-z, A-Z, `_`, `-`, `~`).
+- `clean_accents`: Set to `true` to remove diacritics from slug characters before sanitizing. This is often helpful when using `ascii` encoding.
+- `sanitize_replacement`: The replacement string used to substitute unsafe characters, defaults to `-`.
 
 **Example**
 
@@ -260,29 +260,29 @@ The `collections` setting is the heart of your Netlify CMS configuration, as it 
 
 `collections` accepts a list of collection objects, each with the following options:
 
-* `name` (required): unique identifier for the collection, used as the key when referenced in other contexts (like the [relation widget](https://www.netlifycms.org/docs/widgets/#relation))
-* `identifier_field`: see detailed description below
-* `label`: label for the collection in the editor UI; defaults to the value of `name`
-* `label_singular`: singular label for certain elements in the editor; defaults to the value of `label`
-* `description`: optional text, displayed below the label when viewing a collection
-* `files` or `folder` (requires one of these): specifies the collection type and location; details in [Collection Types](https://www.netlifycms.org/docs/collection-types)
-* `filter`: optional filter for `folder` collections; details in [Collection Types](https://www.netlifycms.org/docs/collection-types)
-* `create`: for `folder` collections only; `true` allows users to create new items in the collection; defaults to `false`
-* `publish`: for `publish_mode: editorial_workflow` only; `false` hides UI publishing controls for a collection; defaults to `true`
-* `hide`: `true` hides a collection in the CMS UI; defaults to `false`. Useful when using the relation widget to hide referenced collections.
-* `delete`: `false` prevents users from deleting items in a collection; defaults to `true`
-* `extension`: see detailed description below
-* `format`: see detailed description below
-* `frontmatter_delimiter`: see detailed description under `format`
-* `slug`: see detailed description below
-* `preview_path`: see detailed description below
-* `preview_path_date_field`: see detailed description below
-* `fields` (required): see detailed description below
-* `editor`: see detailed description below
-* `summary`: see detailed description below
-* `sortable_fields`: see detailed description below
-* `view_filters`: see detailed description below
-* `view_groups`: see detailed description below
+- `name` (required): unique identifier for the collection, used as the key when referenced in other contexts (like the [relation widget](https://www.netlifycms.org/docs/widgets/#relation))
+- `identifier_field`: see detailed description below
+- `label`: label for the collection in the editor UI; defaults to the value of `name`
+- `label_singular`: singular label for certain elements in the editor; defaults to the value of `label`
+- `description`: optional text, displayed below the label when viewing a collection
+- `files` or `folder` (requires one of these): specifies the collection type and location; details in [Collection Types](https://www.netlifycms.org/docs/collection-types)
+- `filter`: optional filter for `folder` collections; details in [Collection Types](https://www.netlifycms.org/docs/collection-types)
+- `create`: for `folder` collections only; `true` allows users to create new items in the collection; defaults to `false`
+- `publish`: for `publish_mode: editorial_workflow` only; `false` hides UI publishing controls for a collection; defaults to `true`
+- `hide`: `true` hides a collection in the CMS UI; defaults to `false`. Useful when using the relation widget to hide referenced collections.
+- `delete`: `false` prevents users from deleting items in a collection; defaults to `true`
+- `extension`: see detailed description below
+- `format`: see detailed description below
+- `frontmatter_delimiter`: see detailed description under `format`
+- `slug`: see detailed description below
+- `preview_path`: see detailed description below
+- `preview_path_date_field`: see detailed description below
+- `fields` (required): see detailed description below
+- `editor`: see detailed description below
+- `summary`: see detailed description below
+- `sortable_fields`: see detailed description below
+- `view_filters`: see detailed description below
+- `view_groups`: see detailed description below
 
 The last few options require more detailed information.
 
@@ -308,13 +308,13 @@ You may also specify a custom `extension` not included in the list above, as lon
 
 `format` determines how collection files are parsed and saved. It will be inferred if the `extension` field or existing collection file extensions match one of the supported extensions above. It accepts the following values:
 
-* `yml` or `yaml`: parses and saves files as YAML-formatted data files; saves with `yml` extension by default
-* `toml`: parses and saves files as TOML-formatted data files; saves with `toml` extension by default
-* `json`: parses and saves files as JSON-formatted data files; saves with `json` extension by default
-* `frontmatter`: parses files and saves files with data frontmatter followed by an unparsed body text (edited using a `body` field); saves with `md` extension by default; default for collections that can't be inferred. Collections with `frontmatter` format (either inferred or explicitly set) can parse files with frontmatter in YAML, TOML, or JSON format. However, they will be saved with YAML frontmatter.
-* `yaml-frontmatter`: same as the `frontmatter` format above, except frontmatter will be both parsed and saved only as YAML, followed by unparsed body text. The default delimiter for this option is `---`.
-* `toml-frontmatter`: same as the `frontmatter` format above, except frontmatter will be both parsed and saved only as TOML, followed by unparsed body text. The default delimiter for this option is `+++`.
-* `json-frontmatter`: same as the `frontmatter` format above, except frontmatter will be both parsed and saved as JSON, followed by unparsed body text. The default delimiter for this option is `{` `}`.
+- `yml` or `yaml`: parses and saves files as YAML-formatted data files; saves with `yml` extension by default
+- `toml`: parses and saves files as TOML-formatted data files; saves with `toml` extension by default
+- `json`: parses and saves files as JSON-formatted data files; saves with `json` extension by default
+- `frontmatter`: parses files and saves files with data frontmatter followed by an unparsed body text (edited using a `body` field); saves with `md` extension by default; default for collections that can't be inferred. Collections with `frontmatter` format (either inferred or explicitly set) can parse files with frontmatter in YAML, TOML, or JSON format. However, they will be saved with YAML frontmatter.
+- `yaml-frontmatter`: same as the `frontmatter` format above, except frontmatter will be both parsed and saved only as YAML, followed by unparsed body text. The default delimiter for this option is `---`.
+- `toml-frontmatter`: same as the `frontmatter` format above, except frontmatter will be both parsed and saved only as TOML, followed by unparsed body text. The default delimiter for this option is `+++`.
+- `json-frontmatter`: same as the `frontmatter` format above, except frontmatter will be both parsed and saved as JSON, followed by unparsed body text. The default delimiter for this option is `{` `}`.
 
 #### `frontmatter_delimiter` <a href="#frontmatter_delimiter" id="frontmatter_delimiter"></a>
 
@@ -322,20 +322,20 @@ If you have an explicit frontmatter format declared, this option allows you to s
 
 #### `slug` <a href="#slug" id="slug"></a>
 
-For folder collections where users can create new items, the `slug` option specifies a template for generating new filenames based on a file's creation date and `title` field. (This means that all collections with `create: true` must have a `title` field (a different field can be used via [`identifier_field`](https://www.netlifycms.org/docs/configuration-options/#identifier\_field)).
+For folder collections where users can create new items, the `slug` option specifies a template for generating new filenames based on a file's creation date and `title` field. (This means that all collections with `create: true` must have a `title` field (a different field can be used via [`identifier_field`](https://www.netlifycms.org/docs/configuration-options/#identifier_field)).
 
 The slug template can also reference a field value by name, eg. `{{title}}`. If a field name conflicts with a built in template tag name - for example, if you have a field named `slug`, and would like to reference that field via `{{slug}}`, you can do so by adding the explicit `fields.` prefix, eg. `{{fields.slug}}`.
 
 **Available template tags:**
 
-* Any field can be referenced by wrapping the field name in double curly braces, eg. `{{author}}`
-* `{{slug}}`: a url-safe version of the `title` field (or identifier field) for the file
-* `{{year}}`: 4-digit year of the file creation date
-* `{{month}}`: 2-digit month of the file creation date
-* `{{day}}`: 2-digit day of the month of the file creation date
-* `{{hour}}`: 2-digit hour of the file creation date
-* `{{minute}}`: 2-digit minute of the file creation date
-* `{{second}}`: 2-digit second of the file creation date
+- Any field can be referenced by wrapping the field name in double curly braces, eg. `{{author}}`
+- `{{slug}}`: a url-safe version of the `title` field (or identifier field) for the file
+- `{{year}}`: 4-digit year of the file creation date
+- `{{month}}`: 2-digit month of the file creation date
+- `{{day}}`: 2-digit day of the month of the file creation date
+- `{{hour}}`: 2-digit hour of the file creation date
+- `{{minute}}`: 2-digit minute of the file creation date
+- `{{second}}`: 2-digit second of the file creation date
 
 **Example:**
 
@@ -363,11 +363,11 @@ A string representing the path where content in this collection can be found on 
 
 Template tags are the same as those for [slug](https://www.netlifycms.org/docs/configuration-options/#slug), with the following exceptions:
 
-* `{{slug}}` is the entire slug for the current entry (not just the url-safe identifier, as is the case with [`slug` configuration](https://www.netlifycms.org/docs/configuration-options/#slug))
-* The date based template tags, such as `{{year}}` and `{{month}}`, are pulled from a date field in your entry, and may require additional configuration - see [`preview_path_date_field`](https://www.netlifycms.org/docs/configuration-options/#preview\_path\_date\_field) for details. If a date template tag is used and no date can be found, `preview_path` will be ignored.
-* `{{dirname}}` The path to the file's parent directory, relative to the collection's `folder`.
-* `{{filename}}` The file name without the extension part.
-* `{{extension}}` The file extension.
+- `{{slug}}` is the entire slug for the current entry (not just the url-safe identifier, as is the case with [`slug` configuration](https://www.netlifycms.org/docs/configuration-options/#slug))
+- The date based template tags, such as `{{year}}` and `{{month}}`, are pulled from a date field in your entry, and may require additional configuration - see [`preview_path_date_field`](https://www.netlifycms.org/docs/configuration-options/#preview_path_date_field) for details. If a date template tag is used and no date can be found, `preview_path` will be ignored.
+- `{{dirname}}` The path to the file's parent directory, relative to the collection's `folder`.
+- `{{filename}}` The file name without the extension part.
+- `{{extension}}` The file extension.
 
 **Examples:**
 
@@ -401,13 +401,13 @@ The `fields` option maps editor UI widgets to field-value pairs in the saved fil
 
 `fields` accepts a list of collection objects, each with the following options:
 
-* `name` (required): unique identifier for the field, used as the key when referenced in other contexts (like the [relation widget](https://www.netlifycms.org/docs/widgets/#relation))
-* `label`: label for the field in the editor UI; defaults to the value of `name`
-* `widget`: defines editor UI and inputs and file field data types; details in [Widgets](https://www.netlifycms.org/docs/widgets)
-* `default`: specify a default value for a field; available for most widget types (see [Widgets](https://www.netlifycms.org/docs/widgets) for details on each widget type). Please note that field default value only works for folder collection type.
-* `required`: specify as `false` to make a field optional; defaults to `true`
-* `pattern`: add field validation by specifying a list with a regex pattern and an error message; more extensive validation can be achieved with [custom widgets](https://www.netlifycms.org/docs/custom-widgets/#advanced-field-validation)
-* `comment`: optional comment to add before the field (only supported for `yaml`)
+- `name` (required): unique identifier for the field, used as the key when referenced in other contexts (like the [relation widget](https://www.netlifycms.org/docs/widgets/#relation))
+- `label`: label for the field in the editor UI; defaults to the value of `name`
+- `widget`: defines editor UI and inputs and file field data types; details in [Widgets](https://www.netlifycms.org/docs/widgets)
+- `default`: specify a default value for a field; available for most widget types (see [Widgets](https://www.netlifycms.org/docs/widgets) for details on each widget type). Please note that field default value only works for folder collection type.
+- `required`: specify as `false` to make a field optional; defaults to `true`
+- `pattern`: add field validation by specifying a list with a regex pattern and an error message; more extensive validation can be achieved with [custom widgets](https://www.netlifycms.org/docs/custom-widgets/#advanced-field-validation)
+- `comment`: optional comment to add before the field (only supported for `yaml`)
 
 In files with frontmatter, one field should be named `body`. This special field represents the section of the document (usually markdown) that comes after the frontmatter.
 
@@ -429,7 +429,7 @@ fields:
 
 This setting changes options for the editor view of a collection or a file inside a files collection. It has one option so far:
 
-* `preview`: set to `false` to disable the preview pane for this collection or file; defaults to `true`
+- `preview`: set to `false` to disable the preview pane for this collection or file; defaults to `true`
 
 **Example:**
 
@@ -448,11 +448,11 @@ This setting allows the customization of the collection list view. Similar to th
 
 Template tags are the same as those for [slug](https://www.netlifycms.org/docs/configuration-options/#slug), with the following additions:
 
-* `{{dirname}}` The path to the file's parent directory, relative to the collection's `folder`.
-* `{{filename}}` The file name without the extension part.
-* `{{extension}}` The file extension.
-* `{{commit_date}}` The file commit date on supported backends (git based backends).
-* `{{commit_author}}` The file author date on supported backends (git based backends).
+- `{{dirname}}` The path to the file's parent directory, relative to the collection's `folder`.
+- `{{filename}}` The file name without the extension part.
+- `{{extension}}` The file extension.
+- `{{commit_date}}` The file commit date on supported backends (git based backends).
+- `{{commit_author}}` The file author date on supported backends (git based backends).
 
 **Example**
 

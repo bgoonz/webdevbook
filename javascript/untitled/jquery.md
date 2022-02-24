@@ -18,7 +18,7 @@ For example, the following jQuery code will select and highlight an element havi
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=id-selector)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=id-selector)
 
 ```
 <script>
@@ -39,7 +39,7 @@ For example, the following jQuery code will select and highlight the elements ha
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=class-selector)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=class-selector)
 
 ```
 <script>
@@ -58,7 +58,7 @@ For example, the following jQuery code will select and highlight all the paragra
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=element-selector)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=element-selector)
 
 ```
 <script>
@@ -77,7 +77,7 @@ For example, the following jQuery code will select and highlight all the text in
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=attribute-selector)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=attribute-selector)
 
 ```
 <script>
@@ -96,7 +96,7 @@ For instance, you can combine the class selector with an element selector to fin
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=compound-selector)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=compound-selector)
 
 ```
 <script>
@@ -128,7 +128,7 @@ In addition to the [CSS defined selectors](https://www.tutorialrepublic.com/css-
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=custom-selector)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=custom-selector)
 
 ```
 <script>
@@ -159,7 +159,7 @@ $(document).ready(function(){
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=simple-jquery-powered-web-page)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=simple-jquery-powered-web-page)
 
 ```
 <!DOCTYPE html>
@@ -195,7 +195,7 @@ jQuery enhances the basic event-handling mechanisms by offering the events metho
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-once-the-page-dom-is-ready)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-once-the-page-dom-is-ready)
 
 ```
 <script>
@@ -220,7 +220,7 @@ The jQuery `click()` method attach an event handler function to the selected ele
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-click-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-click-event)
 
 ```
 <script>
@@ -240,7 +240,7 @@ The jQuery `dblclick()` method attach an event handler function to the selected 
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-double-click-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-double-click-event)
 
 ```
 <script>
@@ -260,7 +260,7 @@ The following example will highlight `<p>` elements when you place the cursor on
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-hover-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-hover-event)
 
 ```
 <script>
@@ -282,7 +282,7 @@ The jQuery `mouseenter()` method attach an event handler function to the selecte
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-mouseenter-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-mouseenter-event)
 
 ```
 <script>
@@ -300,7 +300,7 @@ The jQuery `mouseleave()` method attach an event handler function to the selecte
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-mouseleave-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-mouseleave-event)
 
 ```
 <script>
@@ -324,7 +324,7 @@ The jQuery `keypress()` method attach an event handler function to the selected 
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-keypress-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-keypress-event)
 
 ```
 <script>
@@ -346,7 +346,7 @@ The jQuery `keydown()` method attach an event handler function to the selected e
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-keydown-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-keydown-event)
 
 ```
 <script>
@@ -366,7 +366,7 @@ The jQuery `keyup()` method attach an event handler function to the selected ele
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-keyup-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-keyup-event)
 
 ```
 <script>
@@ -392,7 +392,7 @@ The jQuery `change()` method attach an event handler function to the [`<input>`]
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-change-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-change-event)
 
 ```
 <script>
@@ -413,7 +413,7 @@ The jQuery `focus()` method attach an event handler function to the selected ele
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-focus-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-focus-event)
 
 ```
 <script>
@@ -431,7 +431,7 @@ The jQuery `blur()` method attach an event handler function to the form elements
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-blur-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-blur-event)
 
 ```
 <script>
@@ -449,7 +449,7 @@ The jQuery `submit()` method attach an event handler function to the [`<form>`](
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-submit-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-submit-event)
 
 ```
 <script>
@@ -481,7 +481,7 @@ The following example will replace the paragraphs text as soon as the DOM hierar
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-ready-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-ready-event)
 
 ```
 <script>
@@ -499,7 +499,7 @@ The following example will display the current width and height of the browser w
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-resize-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-resize-event)
 
 ```
 <script>
@@ -521,7 +521,7 @@ The following example will display a message when you scroll the browser window.
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=execute-a-function-on-scroll-event)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=execute-a-function-on-scroll-event)
 
 ```
 <script>
@@ -545,7 +545,7 @@ The `hide()` method simply sets the [inline style](https://www.tutorialrepublic.
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=show-hide-effects)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=show-hide-effects)
 
 ```
 <script>
@@ -569,7 +569,7 @@ Durations can be specified either using one of the predefined string `'slow'` or
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=animated-show-hide-effects)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=animated-show-hide-effects)
 
 ```
 <script>
@@ -601,7 +601,7 @@ You can also specify a [callback function](https://www.tutorialrepublic.com/jque
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=show-hide-effects-with-callback-function)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=show-hide-effects-with-callback-function)
 
 ```
 <script>
@@ -631,7 +631,7 @@ The jQuery `toggle()` method show or hide the elements in such a way that if the
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=toggle-effect)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=toggle-effect)
 
 ```
 <script>
@@ -648,7 +648,7 @@ Similarly, you can specify the duration parameter for the `toggle()` method to m
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=animated-toggle-effect)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=animated-toggle-effect)
 
 ```
 <script>
@@ -669,7 +669,7 @@ Similarly, you can also specify a [callback function](https://www.tutorialrepubl
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=toggle-effect-with-callback-function)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=toggle-effect-with-callback-function)
 
 ```
 <script>
@@ -695,7 +695,7 @@ You can use the jQuery `fadeIn()` and `fadeOut()` methods to display or hide the
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=fade-in-and-out-effects)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=fade-in-and-out-effects)
 
 ```
 <script>
@@ -717,7 +717,7 @@ Like other jQuery effects methods, you can optionally specify the duration or sp
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=set-the-duration-of-fade-in-and-out-effects)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=set-the-duration-of-fade-in-and-out-effects)
 
 ```
 <script>
@@ -749,7 +749,7 @@ You can also specify a [callback function](https://www.tutorialrepublic.com/jque
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=fade-in-and-out-effects-with-callback-function)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=fade-in-and-out-effects-with-callback-function)
 
 ```
 <script>
@@ -779,7 +779,7 @@ The jQuery `fadeToggle()` method display or hide the selected elements by animat
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=fade-toggle-effect)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=fade-toggle-effect)
 
 ```
 <script>
@@ -796,7 +796,7 @@ Similarly, you can specify the duration parameter for the `fadeToggle()` method 
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=set-the-duration-of-fade-toggle-effect)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=set-the-duration-of-fade-toggle-effect)
 
 ```
 <script>
@@ -817,7 +817,7 @@ Similarly, you can also specify a [callback function](https://www.tutorialrepubl
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=fade-toggle-effect-with-callback-function)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=fade-toggle-effect-with-callback-function)
 
 ```
 <script>
@@ -841,7 +841,7 @@ The required opacity parameter specifies the final opacity of the target element
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=fade-to-effect)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=fade-to-effect)
 
 ```
 <script>
@@ -866,7 +866,7 @@ The jQuery `slideUp()` and `slideDown()` methods is used to hide or show the HTM
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=slide-up-and-down-effects)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=slide-up-and-down-effects)
 
 ```
 <script>
@@ -888,7 +888,7 @@ Like other jQuery effects methods, you can optionally specify the duration or sp
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=set-the-duration-of-slide-up-and-down-effects)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=set-the-duration-of-slide-up-and-down-effects)
 
 ```
 <script>
@@ -918,7 +918,7 @@ You can also specify a [callback function](https://www.tutorialrepublic.com/jque
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=slide-up-and-down-effects-with-callback-function)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=slide-up-and-down-effects-with-callback-function)
 
 ```
 <script>
@@ -948,7 +948,7 @@ The jQuery `slideToggle()` method show or hide the selected elements by animatin
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=slide-toggle-effect)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=slide-toggle-effect)
 
 ```
 <script>
@@ -965,7 +965,7 @@ Similarly, you can specify the duration parameter for the `slideToggle()` method
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=set-the-duration-of-slide-toggle-effect)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=set-the-duration-of-slide-toggle-effect)
 
 ```
 <script>
@@ -986,7 +986,7 @@ Similarly, you can also specify a [callback function](https://www.tutorialrepubl
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=slide-toggle-effect-with-callback-function)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=slide-toggle-effect-with-callback-function)
 
 ```
 <script>
@@ -1018,15 +1018,15 @@ The basic syntax of the jQuery `animate()` method can be given with:$(selector).
 
 The parameters of the `animate()` method have the following meanings:
 
-* The required properties parameter defines the [CSS properties](https://www.tutorialrepublic.com/css-reference/css3-properties.php) to be animated.
-* The optional duration parameter specifies how long the animation will run. Durations can be specified either using one of the predefined string `'slow'` or `'fast'`, or in a number of milliseconds; higher values indicate slower animations.
-* The optional [callback](https://www.tutorialrepublic.com/jquery-tutorial/jquery-callback.php) parameter is a function to call once the animation is complete.
+- The required properties parameter defines the [CSS properties](https://www.tutorialrepublic.com/css-reference/css3-properties.php) to be animated.
+- The optional duration parameter specifies how long the animation will run. Durations can be specified either using one of the predefined string `'slow'` or `'fast'`, or in a number of milliseconds; higher values indicate slower animations.
+- The optional [callback](https://www.tutorialrepublic.com/jquery-tutorial/jquery-callback.php) parameter is a function to call once the animation is complete.
 
 Here's a simple example of the jQuery `animate()` method that animates an image from its original position to the right by 300 pixels on click of the button.
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=animation)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=animation)
 
 ```
 <script>
@@ -1048,7 +1048,7 @@ You can also animate multiple properties of an element together at the same time
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=animate-multiple-css-properties)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=animate-multiple-css-properties)
 
 ```
 <script>
@@ -1078,7 +1078,7 @@ The following example demonstrates a jQuery queued or chained animation, where e
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=queued-animation)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=queued-animation)
 
 ```
 <script>
@@ -1101,7 +1101,7 @@ You can also define the relative values for the animated properties. If a value 
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=animate-css-property-with-relative-values)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=animate-css-property-with-relative-values)
 
 ```
 <script>
@@ -1124,7 +1124,7 @@ In addition to the numeric values, each property can take the strings `'show'`, 
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=animate-css-property-with-pre-defined-values)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=animate-css-property-with-pre-defined-values)
 
 ```
 <script>
@@ -1150,7 +1150,7 @@ This is possible because most of the jQuery methods return a jQuery object that 
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=method-chaining)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=method-chaining)
 
 ```
 <script>
@@ -1170,7 +1170,7 @@ You can also break a single line of code into multiple lines for greater readabi
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=breaking-method-chaining-code-in-multiple-lines)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=breaking-method-chaining-code-in-multiple-lines)
 
 ```
 <script>
@@ -1191,7 +1191,7 @@ A typical example of this scenario is the `html()` method. If no parameters are 
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=method-chaining-exceptions)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=method-chaining-exceptions)
 
 ```
 <script>
@@ -1221,7 +1221,7 @@ Consider the following example in which we've placed the `slideToggle()` and `al
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=method-without-callback)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=method-without-callback)
 
 ```
 <script>
@@ -1238,7 +1238,7 @@ And, here's the modified version of the pevious example in which we've placed th
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=method-with-callback)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=method-with-callback)
 
 ```
 <script>
@@ -1259,7 +1259,7 @@ Similarly, you can define the callback functions for the other jQuery effect met
 
 **Example**
 
-[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery\&file=callback-executed-multiple-times)
+[Try this code »](https://www.tutorialrepublic.com/codelab.php?topic=jquery&file=callback-executed-multiple-times)
 
 ```
 <script>

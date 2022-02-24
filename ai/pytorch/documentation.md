@@ -4,7 +4,7 @@ Note
 
 Click [here](https://pytorch.org/tutorials/beginner/basics/intro.html#sphx-glr-download-beginner-basics-intro-py) to download the full example code
 
-**Learn the Basics** || [Quickstart](https://pytorch.org/tutorials/beginner/basics/quickstart\_tutorial.html) || [Tensors](https://pytorch.org/tutorials/beginner/basics/tensorqs\_tutorial.html) || [Datasets & DataLoaders](https://pytorch.org/tutorials/beginner/basics/data\_tutorial.html) || [Transforms](https://pytorch.org/tutorials/beginner/basics/transforms\_tutorial.html) || [Build Model](https://pytorch.org/tutorials/beginner/basics/buildmodel\_tutorial.html) || [Autograd](https://pytorch.org/tutorials/beginner/basics/autogradqs\_tutorial.html) || [Optimization](https://pytorch.org/tutorials/beginner/basics/optimization\_tutorial.html) || [Save & Load Model](https://pytorch.org/tutorials/beginner/basics/saveloadrun\_tutorial.html)
+**Learn the Basics** || [Quickstart](https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html) || [Tensors](https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html) || [Datasets & DataLoaders](https://pytorch.org/tutorials/beginner/basics/data_tutorial.html) || [Transforms](https://pytorch.org/tutorials/beginner/basics/transforms_tutorial.html) || [Build Model](https://pytorch.org/tutorials/beginner/basics/buildmodel_tutorial.html) || [Autograd](https://pytorch.org/tutorials/beginner/basics/autogradqs_tutorial.html) || [Optimization](https://pytorch.org/tutorials/beginner/basics/optimization_tutorial.html) || [Save & Load Model](https://pytorch.org/tutorials/beginner/basics/saveloadrun_tutorial.html)
 
 Authors: [Suraj Subramanian](https://github.com/suraj813), [Seth Juarez](https://github.com/sethjuarez/), [Cassie Breviu](https://github.com/cassieview/), [Dmitry Soshnikov](https://soshnikov.com), [Ari Bornstein](https://github.com/aribornstein/)
 
@@ -38,9 +38,9 @@ See [Torchscript](https://pytorch.org/docs/stable/jit.html)
 
 torch.onnx.export(model, dummy data, xxxx.proto) # exports an ONNX formatted # model using a trained model, dummy # data and the desired file name
 
-model = onnx.load("alexnet.proto") # load an ONNX model onnx.checker.check\_model(model) # check that the model # IR is well formed
+model = onnx.load("alexnet.proto") # load an ONNX model onnx.checker.check_model(model) # check that the model # IR is well formed
 
-onnx.helper.printable\_graph(model.graph) # print a human readable # representation of the graph
+onnx.helper.printable_graph(model.graph) # print a human readable # representation of the graph
 
 See [onnx](https://pytorch.org/docs/stable/onnx.html)
 
@@ -62,13 +62,13 @@ See [distributed](https://pytorch.org/docs/stable/distributed.html) and [multipr
 
 #### Creation
 
-x = torch.randn(\*size) # tensor with independent N(0,1) entries x = torch.\[ones|zeros]\(\*size) # tensor with all 1's \[or 0's] x = torch.tensor(L) # create tensor from \[nested] list or ndarray L y = x.clone() # clone of x with torch.no\_grad(): # code wrap that stops autograd from tracking tensor history requires\_grad=True # arg, when set to True, tracks computation # history for future derivative calculations
+x = torch.randn(\*size) # tensor with independent N(0,1) entries x = torch.\[ones|zeros]\(\*size) # tensor with all 1's \[or 0's] x = torch.tensor(L) # create tensor from \[nested] list or ndarray L y = x.clone() # clone of x with torch.no_grad(): # code wrap that stops autograd from tracking tensor history requires_grad=True # arg, when set to True, tracks computation # history for future derivative calculations
 
 See [tensor](https://pytorch.org/docs/stable/tensors.html)
 
 #### Dimensionality
 
-x.size() # return tuple-like object of dimensions x = torch.cat(tensor\_seq, dim=0) # concatenates tensors along dim y = x.view(a,b,...) # reshapes x into size (a,b,...) y = x.view(-1,a) # reshapes x into size (b,a) for some b y = x.transpose(a,b) # swaps dimensions a and b y = x.permute(\*dims) # permutes dimensions y = x.unsqueeze(dim) # tensor with added axis y = x.unsqueeze(dim=2) # (a,b,c) tensor -> (a,b,1,c) tensor y = x.squeeze() # removes all dimensions of size 1 (a,1,b,1) -> (a,b) y = x.squeeze(dim=1) # removes specified dimension of size 1 (a,1,b,1) -> (a,b,1)
+x.size() # return tuple-like object of dimensions x = torch.cat(tensor_seq, dim=0) # concatenates tensors along dim y = x.view(a,b,...) # reshapes x into size (a,b,...) y = x.view(-1,a) # reshapes x into size (b,a) for some b y = x.transpose(a,b) # swaps dimensions a and b y = x.permute(\*dims) # permutes dimensions y = x.unsqueeze(dim) # tensor with added axis y = x.unsqueeze(dim=2) # (a,b,c) tensor -> (a,b,1,c) tensor y = x.squeeze() # removes all dimensions of size 1 (a,1,b,1) -> (a,b) y = x.squeeze(dim=1) # removes specified dimension of size 1 (a,1,b,1) -> (a,b,1)
 
 See [tensor](https://pytorch.org/docs/stable/tensors.html)
 
@@ -80,11 +80,11 @@ See [math operations](https://pytorch.org/docs/stable/torch.html?highlight=mm#ma
 
 #### GPU Usage
 
-torch.cuda.is\_available # check for cuda x = x.cuda() # move x's data from # CPU to GPU and return new object
+torch.cuda.is_available # check for cuda x = x.cuda() # move x's data from # CPU to GPU and return new object
 
 x = x.cpu() # move x's data from GPU to CPU # and return new object
 
-if not args.disable\_cuda and torch.cuda.is\_available(): # device agnostic code args.device = torch.device('cuda') # and modularity else: # args.device = torch.device('cpu') #
+if not args.disable_cuda and torch.cuda.is_available(): # device agnostic code args.device = torch.device('cuda') # and modularity else: # args.device = torch.device('cpu') #
 
 net.to(device) # recursively convert their # parameters and buffers to # device specific tensors
 
@@ -100,7 +100,7 @@ nn.ConvXd(m,n,s) # X dimensional conv layer from # m to n channels where X⍷{1,
 
 nn.MaxPoolXd(s) # X dimension pooling layer # (notation as above)
 
-nn.BatchNormXd # batch norm layer nn.RNN/LSTM/GRU # recurrent layers nn.Dropout(p=0.5, inplace=False) # dropout layer for any dimensional input nn.Dropout2d(p=0.5, inplace=False) # 2-dimensional channel-wise dropout nn.Embedding(num\_embeddings, embedding\_dim) # (tensor-wise) mapping from # indices to embedding vectors
+nn.BatchNormXd # batch norm layer nn.RNN/LSTM/GRU # recurrent layers nn.Dropout(p=0.5, inplace=False) # dropout layer for any dimensional input nn.Dropout2d(p=0.5, inplace=False) # 2-dimensional channel-wise dropout nn.Embedding(num_embeddings, embedding_dim) # (tensor-wise) mapping from # indices to embedding vectors
 
 See [nn](https://pytorch.org/docs/stable/nn.html)
 
@@ -124,7 +124,7 @@ See [optimizers](https://pytorch.org/docs/stable/optim.html)
 
 #### Learning rate scheduling
 
-scheduler = optim.X(optimizer,...) # create lr scheduler scheduler.step() # update lr after optimizer updates weights optim.lr\_scheduler.X # where X is LambdaLR, MultiplicativeLR, # StepLR, MultiStepLR, ExponentialLR, # CosineAnnealingLR, ReduceLROnPlateau, CyclicLR, # OneCycleLR, CosineAnnealingWarmRestarts,
+scheduler = optim.X(optimizer,...) # create lr scheduler scheduler.step() # update lr after optimizer updates weights optim.lr_scheduler.X # where X is LambdaLR, MultiplicativeLR, # StepLR, MultiStepLR, ExponentialLR, # CosineAnnealingLR, ReduceLROnPlateau, CyclicLR, # OneCycleLR, CosineAnnealingWarmRestarts,
 
 See [learning rate scheduler](https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate)
 
@@ -138,7 +138,7 @@ See [datasets](https://pytorch.org/docs/stable/data.html?highlight=dataset#torch
 
 #### Dataloaders and DataSamplers
 
-DataLoader(dataset, batch\_size=1, ...) # loads data batches agnostic # of structure of individual data points
+DataLoader(dataset, batch_size=1, ...) # loads data batches agnostic # of structure of individual data points
 
 sampler.Sampler(dataset,...) # abstract class dealing with # ways to sample from dataset
 
@@ -150,14 +150,14 @@ See [dataloader](https://pytorch.org/docs/stable/data.html?highlight=dataloader#
 
 You can run this tutorial in a couple of ways:
 
-* **In the cloud**: This is the easiest way to get started! Each section has a “Run in Microsoft Learn” link at the top, which opens an integrated notebook in Microsoft Learn with the code in a fully-hosted environment.
-* **Locally**: This option requires you to setup PyTorch and TorchVision first on your local machine ([installation instructions](https://pytorch.org/get-started/locally/)). Download the notebook or copy the code into your favorite IDE.
+- **In the cloud**: This is the easiest way to get started! Each section has a “Run in Microsoft Learn” link at the top, which opens an integrated notebook in Microsoft Learn with the code in a fully-hosted environment.
+- **Locally**: This option requires you to setup PyTorch and TorchVision first on your local machine ([installation instructions](https://pytorch.org/get-started/locally/)). Download the notebook or copy the code into your favorite IDE.
 
 ### How to Use this Guide
 
-If you’re familiar with other deep learning frameworks, check out the [0. Quickstart](https://pytorch.org/tutorials/beginner/basics/quickstart\_tutorial.html) first to quickly familiarize yourself with PyTorch’s API.
+If you’re familiar with other deep learning frameworks, check out the [0. Quickstart](https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html) first to quickly familiarize yourself with PyTorch’s API.
 
-If you’re new to deep learning frameworks, head right into the first section of our step-by-step guide: [1. Tensors](https://pytorch.org/tutorials/beginner/basics/tensor\_tutorial.html).
+If you’re new to deep learning frameworks, head right into the first section of our step-by-step guide: [1. Tensors](https://pytorch.org/tutorials/beginner/basics/tensor_tutorial.html).
 
 **Total running time of the script:** ( 0 minutes 0.000 seconds)
 
@@ -177,99 +177,99 @@ Features described in this documentation are classified by release status:
 
 Notes
 
-* [Automatic Mixed Precision examples](https://pytorch.org/docs/stable/notes/amp\_examples.html)
-* [Autograd mechanics](https://pytorch.org/docs/stable/notes/autograd.html)
-* [Broadcasting semantics](https://pytorch.org/docs/stable/notes/broadcasting.html)
-* [CPU threading and TorchScript inference](https://pytorch.org/docs/stable/notes/cpu\_threading\_torchscript\_inference.html)
-* [CUDA semantics](https://pytorch.org/docs/stable/notes/cuda.html)
-* [Distributed Data Parallel](https://pytorch.org/docs/stable/notes/ddp.html)
-* [Extending PyTorch](https://pytorch.org/docs/stable/notes/extending.html)
-* [Frequently Asked Questions](https://pytorch.org/docs/stable/notes/faq.html)
-* [Gradcheck mechanics](https://pytorch.org/docs/stable/notes/gradcheck.html)
-* [HIP (ROCm) semantics](https://pytorch.org/docs/stable/notes/hip.html)
-* [Features for large-scale deployments](https://pytorch.org/docs/stable/notes/large\_scale\_deployments.html)
-* [Modules](https://pytorch.org/docs/stable/notes/modules.html)
-* [Multiprocessing best practices](https://pytorch.org/docs/stable/notes/multiprocessing.html)
-* [Reproducibility](https://pytorch.org/docs/stable/notes/randomness.html)
-* [Serialization semantics](https://pytorch.org/docs/stable/notes/serialization.html)
-* [Windows FAQ](https://pytorch.org/docs/stable/notes/windows.html)
+- [Automatic Mixed Precision examples](https://pytorch.org/docs/stable/notes/amp_examples.html)
+- [Autograd mechanics](https://pytorch.org/docs/stable/notes/autograd.html)
+- [Broadcasting semantics](https://pytorch.org/docs/stable/notes/broadcasting.html)
+- [CPU threading and TorchScript inference](https://pytorch.org/docs/stable/notes/cpu_threading_torchscript_inference.html)
+- [CUDA semantics](https://pytorch.org/docs/stable/notes/cuda.html)
+- [Distributed Data Parallel](https://pytorch.org/docs/stable/notes/ddp.html)
+- [Extending PyTorch](https://pytorch.org/docs/stable/notes/extending.html)
+- [Frequently Asked Questions](https://pytorch.org/docs/stable/notes/faq.html)
+- [Gradcheck mechanics](https://pytorch.org/docs/stable/notes/gradcheck.html)
+- [HIP (ROCm) semantics](https://pytorch.org/docs/stable/notes/hip.html)
+- [Features for large-scale deployments](https://pytorch.org/docs/stable/notes/large_scale_deployments.html)
+- [Modules](https://pytorch.org/docs/stable/notes/modules.html)
+- [Multiprocessing best practices](https://pytorch.org/docs/stable/notes/multiprocessing.html)
+- [Reproducibility](https://pytorch.org/docs/stable/notes/randomness.html)
+- [Serialization semantics](https://pytorch.org/docs/stable/notes/serialization.html)
+- [Windows FAQ](https://pytorch.org/docs/stable/notes/windows.html)
 
 Language Bindings
 
-* [C++](https://pytorch.org/docs/stable/cpp\_index.html)
-* [Javadoc](https://pytorch.org/javadoc/)
+- [C++](https://pytorch.org/docs/stable/cpp_index.html)
+- [Javadoc](https://pytorch.org/javadoc/)
 
 Python API
 
-* [torch](https://pytorch.org/docs/stable/torch.html)
-* [torch.nn](https://pytorch.org/docs/stable/nn.html)
-* [torch.nn.functional](https://pytorch.org/docs/stable/nn.functional.html)
-* [torch.Tensor](https://pytorch.org/docs/stable/tensors.html)
-* [Tensor Attributes](https://pytorch.org/docs/stable/tensor\_attributes.html)
-* [Tensor Views](https://pytorch.org/docs/stable/tensor\_view.html)
-* [torch.autograd](https://pytorch.org/docs/stable/autograd.html)
-* [torch.cuda](https://pytorch.org/docs/stable/cuda.html)
-* [torch.cuda.amp](https://pytorch.org/docs/stable/amp.html)
-* [torch.backends](https://pytorch.org/docs/stable/backends.html)
-* [torch.distributed](https://pytorch.org/docs/stable/distributed.html)
-* [torch.distributed.algorithms.join](https://pytorch.org/docs/stable/distributed.algorithms.join.html)
-* [torch.distributed.elastic](https://pytorch.org/docs/stable/distributed.elastic.html)
-* [torch.distributed.optim](https://pytorch.org/docs/stable/distributed.optim.html)
-* [torch.distributions](https://pytorch.org/docs/stable/distributions.html)
-* [torch.fft](https://pytorch.org/docs/stable/fft.html)
-* [torch.futures](https://pytorch.org/docs/stable/futures.html)
-* [torch.fx](https://pytorch.org/docs/stable/fx.html)
-* [torch.hub](https://pytorch.org/docs/stable/hub.html)
-* [torch.jit](https://pytorch.org/docs/stable/jit.html)
-* [torch.linalg](https://pytorch.org/docs/stable/linalg.html)
-* [torch.special](https://pytorch.org/docs/stable/special.html)
-* [torch.overrides](https://pytorch.org/docs/stable/torch.overrides.html)
-* [torch.package](https://pytorch.org/docs/stable/package.html)
-* [torch.profiler](https://pytorch.org/docs/stable/profiler.html)
-* [torch.nn.init](https://pytorch.org/docs/stable/nn.init.html)
-* [torch.onnx](https://pytorch.org/docs/stable/onnx.html)
-* [torch.optim](https://pytorch.org/docs/stable/optim.html)
-* [Complex Numbers](https://pytorch.org/docs/stable/complex\_numbers.html)
-* [DDP Communication Hooks](https://pytorch.org/docs/stable/ddp\_comm\_hooks.html)
-* [Pipeline Parallelism](https://pytorch.org/docs/stable/pipeline.html)
-* [Quantization](https://pytorch.org/docs/stable/quantization.html)
-* [Distributed RPC Framework](https://pytorch.org/docs/stable/rpc.html)
-* [torch.random](https://pytorch.org/docs/stable/random.html)
-* [torch.sparse](https://pytorch.org/docs/stable/sparse.html)
-* [torch.Storage](https://pytorch.org/docs/stable/storage.html)
-* [torch.testing](https://pytorch.org/docs/stable/testing.html)
-* [torch.utils.benchmark](https://pytorch.org/docs/stable/benchmark\_utils.html)
-* [torch.utils.bottleneck](https://pytorch.org/docs/stable/bottleneck.html)
-* [torch.utils.checkpoint](https://pytorch.org/docs/stable/checkpoint.html)
-* [torch.utils.cpp\_extension](https://pytorch.org/docs/stable/cpp\_extension.html)
-* [torch.utils.data](https://pytorch.org/docs/stable/data.html)
-* [torch.utils.dlpack](https://pytorch.org/docs/stable/dlpack.html)
-* [torch.utils.mobile\_optimizer](https://pytorch.org/docs/stable/mobile\_optimizer.html)
-* [torch.utils.model\_zoo](https://pytorch.org/docs/stable/model\_zoo.html)
-* [torch.utils.tensorboard](https://pytorch.org/docs/stable/tensorboard.html)
-* [Type Info](https://pytorch.org/docs/stable/type\_info.html)
-* [Named Tensors](https://pytorch.org/docs/stable/named\_tensor.html)
-* [Named Tensors operator coverage](https://pytorch.org/docs/stable/name\_inference.html)
-* [torch.\_\_config\_\_](https://pytorch.org/docs/stable/\_\_config\_\_.html)
+- [torch](https://pytorch.org/docs/stable/torch.html)
+- [torch.nn](https://pytorch.org/docs/stable/nn.html)
+- [torch.nn.functional](https://pytorch.org/docs/stable/nn.functional.html)
+- [torch.Tensor](https://pytorch.org/docs/stable/tensors.html)
+- [Tensor Attributes](https://pytorch.org/docs/stable/tensor_attributes.html)
+- [Tensor Views](https://pytorch.org/docs/stable/tensor_view.html)
+- [torch.autograd](https://pytorch.org/docs/stable/autograd.html)
+- [torch.cuda](https://pytorch.org/docs/stable/cuda.html)
+- [torch.cuda.amp](https://pytorch.org/docs/stable/amp.html)
+- [torch.backends](https://pytorch.org/docs/stable/backends.html)
+- [torch.distributed](https://pytorch.org/docs/stable/distributed.html)
+- [torch.distributed.algorithms.join](https://pytorch.org/docs/stable/distributed.algorithms.join.html)
+- [torch.distributed.elastic](https://pytorch.org/docs/stable/distributed.elastic.html)
+- [torch.distributed.optim](https://pytorch.org/docs/stable/distributed.optim.html)
+- [torch.distributions](https://pytorch.org/docs/stable/distributions.html)
+- [torch.fft](https://pytorch.org/docs/stable/fft.html)
+- [torch.futures](https://pytorch.org/docs/stable/futures.html)
+- [torch.fx](https://pytorch.org/docs/stable/fx.html)
+- [torch.hub](https://pytorch.org/docs/stable/hub.html)
+- [torch.jit](https://pytorch.org/docs/stable/jit.html)
+- [torch.linalg](https://pytorch.org/docs/stable/linalg.html)
+- [torch.special](https://pytorch.org/docs/stable/special.html)
+- [torch.overrides](https://pytorch.org/docs/stable/torch.overrides.html)
+- [torch.package](https://pytorch.org/docs/stable/package.html)
+- [torch.profiler](https://pytorch.org/docs/stable/profiler.html)
+- [torch.nn.init](https://pytorch.org/docs/stable/nn.init.html)
+- [torch.onnx](https://pytorch.org/docs/stable/onnx.html)
+- [torch.optim](https://pytorch.org/docs/stable/optim.html)
+- [Complex Numbers](https://pytorch.org/docs/stable/complex_numbers.html)
+- [DDP Communication Hooks](https://pytorch.org/docs/stable/ddp_comm_hooks.html)
+- [Pipeline Parallelism](https://pytorch.org/docs/stable/pipeline.html)
+- [Quantization](https://pytorch.org/docs/stable/quantization.html)
+- [Distributed RPC Framework](https://pytorch.org/docs/stable/rpc.html)
+- [torch.random](https://pytorch.org/docs/stable/random.html)
+- [torch.sparse](https://pytorch.org/docs/stable/sparse.html)
+- [torch.Storage](https://pytorch.org/docs/stable/storage.html)
+- [torch.testing](https://pytorch.org/docs/stable/testing.html)
+- [torch.utils.benchmark](https://pytorch.org/docs/stable/benchmark_utils.html)
+- [torch.utils.bottleneck](https://pytorch.org/docs/stable/bottleneck.html)
+- [torch.utils.checkpoint](https://pytorch.org/docs/stable/checkpoint.html)
+- [torch.utils.cpp_extension](https://pytorch.org/docs/stable/cpp_extension.html)
+- [torch.utils.data](https://pytorch.org/docs/stable/data.html)
+- [torch.utils.dlpack](https://pytorch.org/docs/stable/dlpack.html)
+- [torch.utils.mobile_optimizer](https://pytorch.org/docs/stable/mobile_optimizer.html)
+- [torch.utils.model_zoo](https://pytorch.org/docs/stable/model_zoo.html)
+- [torch.utils.tensorboard](https://pytorch.org/docs/stable/tensorboard.html)
+- [Type Info](https://pytorch.org/docs/stable/type_info.html)
+- [Named Tensors](https://pytorch.org/docs/stable/named_tensor.html)
+- [Named Tensors operator coverage](https://pytorch.org/docs/stable/name_inference.html)
+- [torch.\_\_config\_\_](https://pytorch.org/docs/stable/__config__.html)
 
 Libraries
 
-* [torchaudio](https://pytorch.org/audio/stable)
-* [torchtext](https://pytorch.org/text/stable)
-* [torchvision](https://pytorch.org/vision/stable)
-* [TorchServe](https://pytorch.org/serve)
-* [PyTorch on XLA Devices](http://pytorch.org/xla/)
+- [torchaudio](https://pytorch.org/audio/stable)
+- [torchtext](https://pytorch.org/text/stable)
+- [torchvision](https://pytorch.org/vision/stable)
+- [TorchServe](https://pytorch.org/serve)
+- [PyTorch on XLA Devices](http://pytorch.org/xla/)
 
 Community
 
-* [PyTorch Contribution Guide](https://pytorch.org/docs/stable/community/contribution\_guide.html)
-* [PyTorch Governance](https://pytorch.org/docs/stable/community/governance.html)
-* [PyTorch Governance | Persons of Interest](https://pytorch.org/docs/stable/community/persons\_of\_interest.html)
+- [PyTorch Contribution Guide](https://pytorch.org/docs/stable/community/contribution_guide.html)
+- [PyTorch Governance](https://pytorch.org/docs/stable/community/governance.html)
+- [PyTorch Governance | Persons of Interest](https://pytorch.org/docs/stable/community/persons_of_interest.html)
 
 ## INDICES AND TABLES
 
-* [Index](https://pytorch.org/docs/stable/genindex.html)
-* [Module Index](https://pytorch.org/docs/stable/py-modindex.html)
+- [Index](https://pytorch.org/docs/stable/genindex.html)
+- [Module Index](https://pytorch.org/docs/stable/py-modindex.html)
 
 **Author**: [Justin Johnson](https://github.com/jcjohnson/pytorch-examples)
 
@@ -281,14 +281,14 @@ This tutorial introduces the fundamental concepts of [PyTorch](https://github.co
 
 At its core, PyTorch provides two main features:
 
-* An n-dimensional Tensor, similar to numpy but can run on GPUs
-* Automatic differentiation for building and training neural networks
+- An n-dimensional Tensor, similar to numpy but can run on GPUs
+- Automatic differentiation for building and training neural networks
 
 We will use a problem of fitting y=sin⁡(x)y=\sin(x) with a third order polynomial as our running example. The network will have four parameters, and will be trained with gradient descent to fit random data by minimizing the Euclidean distance between the network output and the true output.
 
-### [Tensors](https://pytorch.org/tutorials/beginner/pytorch\_with\_examples.html#id12)
+### [Tensors](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#id12)
 
-#### [Warm-up: numpy](https://pytorch.org/tutorials/beginner/pytorch\_with\_examples.html#id13)
+#### [Warm-up: numpy](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#id13)
 
 Before introducing PyTorch, we will first implement the network using numpy.
 
@@ -300,7 +300,7 @@ Numpy provides an n-dimensional array object, and many functions for manipulatin
 
 \# Randomly initialize weights a = np.random.randn() b = np.random.randn() c = np.random.randn() d = np.random.randn()
 
-learning\_rate = 1e-6 for t in range(2000): # Forward pass: compute predicted y # y = a + b x + c x^2 + d x^3 y\_pred = a + b \* x + c \* x \*\* 2 + d \* x \*\* 3
+learning_rate = 1e-6 for t in range(2000): # Forward pass: compute predicted y # y = a + b x + c x^2 + d x^3 y_pred = a + b \* x + c \* x \*\* 2 + d \* x \*\* 3
 
 ```
 \# Compute and print loss
@@ -324,7 +324,7 @@ d \-= learning\_rate \* grad\_d
 
 print(f'Result: y = {a} + {b} x + {c} x^2 + {d} x^3')
 
-#### [PyTorch: Tensors](https://pytorch.org/tutorials/beginner/pytorch\_with\_examples.html#id14)
+#### [PyTorch: Tensors](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#id14)
 
 Numpy is a great framework, but it cannot utilize GPUs to accelerate its numerical computations. For modern deep neural networks, GPUs often provide speedups of [50x or greater](https://github.com/jcjohnson/cnn-benchmarks), so unfortunately numpy won’t be enough for modern deep learning.
 
@@ -344,7 +344,7 @@ dtype = torch.float device = torch.device("cpu") # device = torch.device("cuda:0
 
 \# Randomly initialize weights a = torch.randn((), device=device, dtype=dtype) b = torch.randn((), device=device, dtype=dtype) c = torch.randn((), device=device, dtype=dtype) d = torch.randn((), device=device, dtype=dtype)
 
-learning\_rate = 1e-6 for t in range(2000): # Forward pass: compute predicted y y\_pred = a + b \* x + c \* x \*\* 2 + d \* x \*\* 3
+learning_rate = 1e-6 for t in range(2000): # Forward pass: compute predicted y y_pred = a + b \* x + c \* x \*\* 2 + d \* x \*\* 3
 
 ```
 \# Compute and print loss
@@ -368,13 +368,13 @@ d \-= learning\_rate \* grad\_d
 
 print(f'Result: y = {a.item()} + {b.item()} x + {c.item()} x^2 + {d.item()} x^3')
 
-### [Autograd](https://pytorch.org/tutorials/beginner/pytorch\_with\_examples.html#id15)
+### [Autograd](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#id15)
 
-#### [PyTorch: Tensors and autograd](https://pytorch.org/tutorials/beginner/pytorch\_with\_examples.html#id16)
+#### [PyTorch: Tensors and autograd](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#id16)
 
 In the above examples, we had to manually implement both the forward and backward passes of our neural network. Manually implementing the backward pass is not a big deal for a small two-layer network, but can quickly get very hairy for large complex networks.
 
-Thankfully, we can use [automatic differentiation](https://en.wikipedia.org/wiki/Automatic\_differentiation) to automate the computation of backward passes in neural networks. The **autograd** package in PyTorch provides exactly this functionality. When using autograd, the forward pass of your network will define a **computational graph**; nodes in the graph will be Tensors, and edges will be functions that produce output Tensors from input Tensors. Backpropagating through this graph then allows you to easily compute gradients.
+Thankfully, we can use [automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation) to automate the computation of backward passes in neural networks. The **autograd** package in PyTorch provides exactly this functionality. When using autograd, the forward pass of your network will define a **computational graph**; nodes in the graph will be Tensors, and edges will be functions that produce output Tensors from input Tensors. Backpropagating through this graph then allows you to easily compute gradients.
 
 This sounds complicated, it’s pretty simple to use in practice. Each Tensor represents a node in a computational graph. If `x` is a Tensor that has `x.requires_grad=True` then `x.grad` is another Tensor holding the gradient of `x` with respect to some scalar value.
 
@@ -384,11 +384,11 @@ Here we use PyTorch Tensors and autograd to implement our fitting sine wave with
 
 dtype = torch.float device = torch.device("cpu") # device = torch.device("cuda:0") # Uncomment this to run on GPU
 
-\# Create Tensors to hold input and outputs. # By default, requires\_grad=False, which indicates that we do not need to # compute gradients with respect to these Tensors during the backward pass. x = torch.linspace(-math.pi, math.pi, 2000, device=device, dtype=dtype) y = torch.sin(x)
+\# Create Tensors to hold input and outputs. # By default, requires_grad=False, which indicates that we do not need to # compute gradients with respect to these Tensors during the backward pass. x = torch.linspace(-math.pi, math.pi, 2000, device=device, dtype=dtype) y = torch.sin(x)
 
-\# Create random Tensors for weights. For a third order polynomial, we need # 4 weights: y = a + b x + c x^2 + d x^3 # Setting requires\_grad=True indicates that we want to compute gradients with # respect to these Tensors during the backward pass. a = torch.randn((), device=device, dtype=dtype, requires\_grad=True) b = torch.randn((), device=device, dtype=dtype, requires\_grad=True) c = torch.randn((), device=device, dtype=dtype, requires\_grad=True) d = torch.randn((), device=device, dtype=dtype, requires\_grad=True)
+\# Create random Tensors for weights. For a third order polynomial, we need # 4 weights: y = a + b x + c x^2 + d x^3 # Setting requires_grad=True indicates that we want to compute gradients with # respect to these Tensors during the backward pass. a = torch.randn((), device=device, dtype=dtype, requires_grad=True) b = torch.randn((), device=device, dtype=dtype, requires_grad=True) c = torch.randn((), device=device, dtype=dtype, requires_grad=True) d = torch.randn((), device=device, dtype=dtype, requires_grad=True)
 
-learning\_rate = 1e-6 for t in range(2000): # Forward pass: compute predicted y using operations on Tensors. y\_pred = a + b \* x + c \* x \*\* 2 + d \* x \*\* 3
+learning_rate = 1e-6 for t in range(2000): # Forward pass: compute predicted y using operations on Tensors. y_pred = a + b \* x + c \* x \*\* 2 + d \* x \*\* 3
 
 ```
 \# Compute and print loss using operations on Tensors.
@@ -422,13 +422,13 @@ with torch.no\_grad():
 
 print(f'Result: y = {a.item()} + {b.item()} x + {c.item()} x^2 + {d.item()} x^3')
 
-#### [PyTorch: Defining new autograd functions](https://pytorch.org/tutorials/beginner/pytorch\_with\_examples.html#id17)
+#### [PyTorch: Defining new autograd functions](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#id17)
 
 Under the hood, each primitive autograd operator is really two functions that operate on Tensors. The **forward** function computes output Tensors from input Tensors. The **backward** function receives the gradient of the output Tensors with respect to some scalar value, and computes the gradient of the input Tensors with respect to that same scalar value.
 
 In PyTorch we can easily define our own autograd operator by defining a subclass of `torch.autograd.Function` and implementing the `forward` and `backward` functions. We can then use our new autograd operator by constructing an instance and calling it like a function, passing Tensors containing input data.
 
-In this example we define our model as y=a+bP3(c+dx)y=a+b P\_3(c+dx) instead of y=a+bx+cx2+dx3y=a+bx+cx^2+dx^3, where P3(x)=12(5x3−3x)P\_3(x)=\frac{1}{2}\left(5x^3-3x\right) is the [Legendre polynomial](https://en.wikipedia.org/wiki/Legendre\_polynomials) of degree three. We write our own custom autograd function for computing forward and backward of P3P\_3, and use it to implement our model:
+In this example we define our model as y=a+bP3(c+dx)y=a+b P_3(c+dx) instead of y=a+bx+cx2+dx3y=a+bx+cx^2+dx^3, where P3(x)=12(5x3−3x)P_3(x)=\frac{1}{2}\left(5x^3-3x\right) is the [Legendre polynomial](https://en.wikipedia.org/wiki/Legendre_polynomials) of degree three. We write our own custom autograd function for computing forward and backward of P3P_3, and use it to implement our model:
 
 \# -\*- coding: utf-8 -\*- import torch import math
 
@@ -440,7 +440,7 @@ def forward(ctx, input):
     """
 ```
 
-In the forward pass we receive a Tensor containing the input and return a Tensor containing the output. ctx is a context object that can be used to stash information for backward computation. You can cache arbitrary objects for use in the backward pass using the ctx.save\_for\_backward method. """ ctx.save\_for\_backward(input) return 0.5 \* (5 \* input \*\* 3 - 3 \* input)
+In the forward pass we receive a Tensor containing the input and return a Tensor containing the output. ctx is a context object that can be used to stash information for backward computation. You can cache arbitrary objects for use in the backward pass using the ctx.save_for_backward method. """ ctx.save_for_backward(input) return 0.5 \* (5 \* input \*\* 3 - 3 \* input)
 
 ```
 @staticmethod
@@ -448,15 +448,15 @@ def backward(ctx, grad\_output):
     """
 ```
 
-In the backward pass we receive a Tensor containing the gradient of the loss with respect to the output, and we need to compute the gradient of the loss with respect to the input. """ input, = ctx.saved\_tensors return grad\_output \* 1.5 \* (5 \* input \*\* 2 - 1)
+In the backward pass we receive a Tensor containing the gradient of the loss with respect to the output, and we need to compute the gradient of the loss with respect to the input. """ input, = ctx.saved_tensors return grad_output \* 1.5 \* (5 \* input \*\* 2 - 1)
 
 dtype = torch.float device = torch.device("cpu") # device = torch.device("cuda:0") # Uncomment this to run on GPU
 
-\# Create Tensors to hold input and outputs. # By default, requires\_grad=False, which indicates that we do not need to # compute gradients with respect to these Tensors during the backward pass. x = torch.linspace(-math.pi, math.pi, 2000, device=device, dtype=dtype) y = torch.sin(x)
+\# Create Tensors to hold input and outputs. # By default, requires_grad=False, which indicates that we do not need to # compute gradients with respect to these Tensors during the backward pass. x = torch.linspace(-math.pi, math.pi, 2000, device=device, dtype=dtype) y = torch.sin(x)
 
-\# Create random Tensors for weights. For this example, we need # 4 weights: y = a + b \* P3(c + d \* x), these weights need to be initialized # not too far from the correct result to ensure convergence. # Setting requires\_grad=True indicates that we want to compute gradients with # respect to these Tensors during the backward pass. a = torch.full((), 0.0, device=device, dtype=dtype, requires\_grad=True) b = torch.full((), -1.0, device=device, dtype=dtype, requires\_grad=True) c = torch.full((), 0.0, device=device, dtype=dtype, requires\_grad=True) d = torch.full((), 0.3, device=device, dtype=dtype, requires\_grad=True)
+\# Create random Tensors for weights. For this example, we need # 4 weights: y = a + b \* P3(c + d \* x), these weights need to be initialized # not too far from the correct result to ensure convergence. # Setting requires_grad=True indicates that we want to compute gradients with # respect to these Tensors during the backward pass. a = torch.full((), 0.0, device=device, dtype=dtype, requires_grad=True) b = torch.full((), -1.0, device=device, dtype=dtype, requires_grad=True) c = torch.full((), 0.0, device=device, dtype=dtype, requires_grad=True) d = torch.full((), 0.3, device=device, dtype=dtype, requires_grad=True)
 
-learning\_rate = 5e-6 for t in range(2000): # To apply our Function, we use Function.apply method. We alias this as 'P3'. P3 = LegendrePolynomial3.apply
+learning_rate = 5e-6 for t in range(2000): # To apply our Function, we use Function.apply method. We alias this as 'P3'. P3 = LegendrePolynomial3.apply
 
 ```
 \# Forward pass: compute predicted y using operations; we compute
@@ -487,9 +487,9 @@ with torch.no\_grad():
 
 print(f'Result: y = {a.item()} + {b.item()} \* P3({c.item()} + {d.item()} x)')
 
-### [nn module](https://pytorch.org/tutorials/beginner/pytorch\_with\_examples.html#id18)
+### [nn module](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#id18)
 
-#### [PyTorch: nn](https://pytorch.org/tutorials/beginner/pytorch\_with\_examples.html#id19)
+#### [PyTorch: nn](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#id19)
 
 Computational graphs and autograd are a very powerful paradigm for defining complex operators and automatically taking derivatives; however for large neural networks raw autograd can be a bit too low-level.
 
@@ -511,9 +511,9 @@ In this example we use the `nn` package to implement our polynomial model networ
 
 \# Use the nn package to define our model as a sequence of layers. nn.Sequential # is a Module which contains other Modules, and applies them in sequence to # produce its output. The Linear Module computes output from input using a # linear function, and holds internal Tensors for its weight and bias. # The Flatten layer flatens the output of the linear layer to a 1D tensor, # to match the shape of \`y\`. model = torch.nn.Sequential( torch.nn.Linear(3, 1), torch.nn.Flatten(0, 1) )
 
-\# The nn package also contains definitions of popular loss functions; in this # case we will use Mean Squared Error (MSE) as our loss function. loss\_fn = torch.nn.MSELoss(reduction='sum')
+\# The nn package also contains definitions of popular loss functions; in this # case we will use Mean Squared Error (MSE) as our loss function. loss_fn = torch.nn.MSELoss(reduction='sum')
 
-learning\_rate = 1e-6 for t in range(2000):
+learning_rate = 1e-6 for t in range(2000):
 
 ```
 \# Forward pass: compute predicted y by passing x to the model. Module objects
@@ -545,11 +545,11 @@ with torch.no\_grad():
         param \-= learning\_rate \* param.grad
 ```
 
-\# You can access the first layer of \`model\` like accessing the first item of a list linear\_layer = model\[0]
+\# You can access the first layer of \`model\` like accessing the first item of a list linear_layer = model\[0]
 
-\# For linear layer, its parameters are stored as \`weight\` and \`bias\`. print(f'Result: y = {linear\_layer.bias.item()} + {linear\_layer.weight\[:, 0].item()} x + {linear\_layer.weight\[:, 1].item()} x^2 + {linear\_layer.weight\[:, 2].item()} x^3')
+\# For linear layer, its parameters are stored as \`weight\` and \`bias\`. print(f'Result: y = {linear_layer.bias.item()} + {linear_layer.weight\[:, 0].item()} x + {linear_layer.weight\[:, 1].item()} x^2 + {linear_layer.weight\[:, 2].item()} x^3')
 
-#### [PyTorch: optim](https://pytorch.org/tutorials/beginner/pytorch\_with\_examples.html#id20)
+#### [PyTorch: optim](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#id20)
 
 Up to this point we have updated the weights of our models by manually mutating the Tensors holding learnable parameters with `torch.no_grad()`. This is not a huge burden for simple optimization algorithms like stochastic gradient descent, but in practice we often train neural networks using more sophisticated optimizers like AdaGrad, RMSProp, Adam, etc.
 
@@ -563,9 +563,9 @@ In this example we will use the `nn` package to define our model as before, but 
 
 \# Prepare the input tensor (x, x^2, x^3). p = torch.tensor(\[1, 2, 3]) xx = x.unsqueeze(-1).pow(p)
 
-\# Use the nn package to define our model and loss function. model = torch.nn.Sequential( torch.nn.Linear(3, 1), torch.nn.Flatten(0, 1) ) loss\_fn = torch.nn.MSELoss(reduction='sum')
+\# Use the nn package to define our model and loss function. model = torch.nn.Sequential( torch.nn.Linear(3, 1), torch.nn.Flatten(0, 1) ) loss_fn = torch.nn.MSELoss(reduction='sum')
 
-\# Use the optim package to define an Optimizer that will update the weights of # the model for us. Here we will use RMSprop; the optim package contains many other # optimization algorithms. The first argument to the RMSprop constructor tells the # optimizer which Tensors it should update. learning\_rate = 1e-3 optimizer = torch.optim.RMSprop(model.parameters(), lr=learning\_rate) for t in range(2000): # Forward pass: compute predicted y by passing x to the model. y\_pred = model(xx)
+\# Use the optim package to define an Optimizer that will update the weights of # the model for us. Here we will use RMSprop; the optim package contains many other # optimization algorithms. The first argument to the RMSprop constructor tells the # optimizer which Tensors it should update. learning_rate = 1e-3 optimizer = torch.optim.RMSprop(model.parameters(), lr=learning_rate) for t in range(2000): # Forward pass: compute predicted y by passing x to the model. y_pred = model(xx)
 
 ```
 \# Compute and print loss.
@@ -589,9 +589,9 @@ loss.backward()
 optimizer.step()
 ```
 
-linear\_layer = model\[0] print(f'Result: y = {linear\_layer.bias.item()} + {linear\_layer.weight\[:, 0].item()} x + {linear\_layer.weight\[:, 1].item()} x^2 + {linear\_layer.weight\[:, 2].item()} x^3')
+linear_layer = model\[0] print(f'Result: y = {linear_layer.bias.item()} + {linear_layer.weight\[:, 0].item()} x + {linear_layer.weight\[:, 1].item()} x^2 + {linear_layer.weight\[:, 2].item()} x^3')
 
-#### [PyTorch: Custom nn Modules](https://pytorch.org/tutorials/beginner/pytorch\_with\_examples.html#id21)
+#### [PyTorch: Custom nn Modules](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#id21)
 
 Sometimes you will want to specify models that are more complex than a sequence of existing Modules; for these cases you can define your own Modules by subclassing `nn.Module` and defining a `forward` which receives input Tensors and produces output Tensors using other modules or other autograd operations on Tensors.
 
@@ -619,7 +619,7 @@ Just like any class in Python, you can also define custom method on PyTorch modu
 
 \# Construct our model by instantiating the class defined above model = Polynomial3()
 
-\# Construct our loss function and an Optimizer. The call to model.parameters() # in the SGD constructor will contain the learnable parameters (defined # with torch.nn.Parameter) which are members of the model. criterion = torch.nn.MSELoss(reduction='sum') optimizer = torch.optim.SGD(model.parameters(), lr=1e-6) for t in range(2000): # Forward pass: Compute predicted y by passing x to the model y\_pred = model(x)
+\# Construct our loss function and an Optimizer. The call to model.parameters() # in the SGD constructor will contain the learnable parameters (defined # with torch.nn.Parameter) which are members of the model. criterion = torch.nn.MSELoss(reduction='sum') optimizer = torch.optim.SGD(model.parameters(), lr=1e-6) for t in range(2000): # Forward pass: Compute predicted y by passing x to the model y_pred = model(x)
 
 ```
 \# Compute and print loss
@@ -635,7 +635,7 @@ optimizer.step()
 
 print(f'Result: {model.string()}')
 
-#### [PyTorch: Control Flow + Weight Sharing](https://pytorch.org/tutorials/beginner/pytorch\_with\_examples.html#id22)
+#### [PyTorch: Control Flow + Weight Sharing](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#id22)
 
 As an example of dynamic graphs and weight sharing, we implement a very strange model: a third-fifth order polynomial that on each forward pass chooses a random number between 3 and 5 and uses that many orders, reusing the same weights multiple times to compute the fourth and fifth order.
 
@@ -669,7 +669,7 @@ Just like any class in Python, you can also define custom method on PyTorch modu
 
 \# Construct our model by instantiating the class defined above model = DynamicNet()
 
-\# Construct our loss function and an Optimizer. Training this strange model with # vanilla stochastic gradient descent is tough, so we use momentum criterion = torch.nn.MSELoss(reduction='sum') optimizer = torch.optim.SGD(model.parameters(), lr=1e-8, momentum=0.9) for t in range(30000): # Forward pass: Compute predicted y by passing x to the model y\_pred = model(x)
+\# Construct our loss function and an Optimizer. Training this strange model with # vanilla stochastic gradient descent is tough, so we use momentum criterion = torch.nn.MSELoss(reduction='sum') optimizer = torch.optim.SGD(model.parameters(), lr=1e-8, momentum=0.9) for t in range(30000): # Forward pass: Compute predicted y by passing x to the model y_pred = model(x)
 
 ```
 \# Compute and print loss
@@ -685,6 +685,6 @@ optimizer.step()
 
 print(f'Result: {model.string()}')
 
-### [Examples](https://pytorch.org/tutorials/beginner/pytorch\_with\_examples.html#id23)
+### [Examples](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#id23)
 
 You can browse the above examples here.

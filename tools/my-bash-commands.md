@@ -2,7 +2,7 @@
 
 ## Resources:
 
-* [holy grail](https://gist.github.com/bgoonz/df74dfa73bb5edd239ac738a14104eee)
+- [holy grail](https://gist.github.com/bgoonz/df74dfa73bb5edd239ac738a14104eee)
 
 ## 1. Remove spaces from file and folder names and then remove numbers from files and folder names....
 
@@ -13,7 +13,7 @@
 **code:**
 
 ```bash
-find . -name "* *" -type d | rename 's/ /_/g'   
+find . -name "* *" -type d | rename 's/ /_/g'
 find . -name "* *" -type f | rename 's/ /_/g'
 ```
 
@@ -35,16 +35,14 @@ for i in *.*; do mv "$i" "${i%-*}.${i##*.}"; done
 
 ```javascript
 //APPEND-DIR.js
-const fs = require('fs');
-let cat = require('child_process')
-  .execSync('cat *')
-  .toString('UTF-8');
-fs.writeFile('output.md', cat, err => {
+const fs = require("fs");
+let cat = require("child_process").execSync("cat *").toString("UTF-8");
+fs.writeFile("output.md", cat, (err) => {
   if (err) throw err;
 });
 ```
 
-***
+---
 
 ## 2. Download Website Using Wget:
 
@@ -58,7 +56,7 @@ fs.writeFile('output.md', cat, err => {
 wget --limit-rate=200k --no-clobber --convert-links --random-wait -r -p -E -e robots=off -U mozilla https://bootcamp42.gitbook.io/python/
 ```
 
-***
+---
 
 ## 3. Clean Out Messy Git Repo:
 
@@ -69,7 +67,7 @@ wget --limit-rate=200k --no-clobber --convert-links --random-wait -r -p -E -e ro
 **code:**
 
 ```
-find . -empty -type d -print -delete        
+find . -empty -type d -print -delete
 
 
 find . \( -name ".git" -o -name ".gitignore" -o -name ".gitmodules" -o -name ".gitattributes" \) -exec rm -rf -- {} +
@@ -78,7 +76,7 @@ find . \( -name ".git" -o -name ".gitignore" -o -name ".gitmodules" -o -name ".g
 find . \( -name "*SECURITY.txt" -o -name "*RELEASE.txt" -o  -name "*CHANGELOG.txt" -o -name "*LICENSE.txt" -o -name "*CONTRIBUTING.txt" -name "*HISTORY.md" -o -name "*LICENSE" -o -name "*SECURITY.md" -o -name "*RELEASE.md" -o  -name "*CHANGELOG.md" -o -name "*LICENSE.md" -o -name "*CODE_OF_CONDUCT.md" -o -name "*CONTRIBUTING.md" \) -exec rm -rf -- {} +
 ```
 
-***
+---
 
 ## 4. clone all of a user's git repositories
 
@@ -119,7 +117,7 @@ curl "https://api.github.com/$CNTX/$NAME/repos?page=$PAGE&per_page=200"?branch=m
   xargs -L1 git clone
 ```
 
-***
+---
 
 ## 5. Git Workflow
 
@@ -163,7 +161,7 @@ git commit -m"update"
 git push -u origin preview
 ```
 
-***
+---
 
 ## 6. Recursive Unzip In Place
 
@@ -181,7 +179,7 @@ find . -name "*.zip" | while read filename; do unzip -o -d "`dirname "$filename"
 find . -name "*.zip" -type f -print -delete
 ```
 
-***
+---
 
 ## 7. git pull keeping local changes:
 
@@ -197,7 +195,7 @@ git pull
 git stash pop
 ```
 
-***
+---
 
 ## 8. Prettier Code Formatter:
 
@@ -213,7 +211,7 @@ sudo npm i prettier -g
 prettier --write .
 ```
 
-***
+---
 
 ## 9. Pandoc
 
@@ -235,7 +233,7 @@ find ./ -iname "*.html" -type f -exec sh -c 'pandoc --wrap=none --from html --to
 find ./ -iname "*.docx" -type f -exec sh -c 'pandoc "${0}" -o "${0%.docx}.md"' {} \;
 ```
 
-***
+---
 
 ## 10. Gitpod Installs
 
@@ -246,7 +244,7 @@ find ./ -iname "*.docx" -type f -exec sh -c 'pandoc "${0}" -o "${0%.docx}.md"' {
 **code:**
 
 ```
-sudo apt install tree 
+sudo apt install tree
 sudo apt install pandoc -y
 sudo apt install rename -y
 sudo apt install black -y
@@ -263,7 +261,7 @@ prettier --write .
 npm-recursive-install
 ```
 
-***
+---
 
 ## 11. Repo Utils Package:
 
@@ -277,7 +275,7 @@ npm-recursive-install
 npm i @bgoonz11/repoutils
 ```
 
-***
+---
 
 ## 12. Unix Tree Package Usage:
 
@@ -304,7 +302,7 @@ tree -f  -I  'node_modules' -d >TREE.md
 tree -f >README.md
 ```
 
-***
+---
 
 ## 13. Find & Replace string in file & folder names recursively..
 
@@ -330,16 +328,16 @@ find . -type d -exec rename 's/-main//g' {} +
 
 
 
-rename 's/\.js\.download$/.js/' *.js\.download 
+rename 's/\.js\.download$/.js/' *.js\.download
 
 
-rename 's/\.html\.markdown$/.md/' *.html\.markdown 
+rename 's/\.html\.markdown$/.md/' *.html\.markdown
 
 
 find . -type d -exec rename 's/es6//g' {} +
 ```
 
-***
+---
 
 ## 14. Remove double extensions :
 
@@ -379,7 +377,7 @@ do
 done
 ```
 
-***
+---
 
 ## 15. Truncate folder names down to 12 characters:
 
@@ -393,7 +391,7 @@ done
 for d in ./*; do mv $d ${d:0:12}; done
 ```
 
-***
+---
 
 ## 16.Appendir.js
 
@@ -405,16 +403,14 @@ for d in ./*; do mv $d ${d:0:12}; done
 
 ```js
 //APPEND-DIR.js
-const fs = require('fs');
-let cat = require('child_process')
-  .execSync('cat *')
-  .toString('UTF-8');
-fs.writeFile('output.md', cat, err => {
+const fs = require("fs");
+let cat = require("child_process").execSync("cat *").toString("UTF-8");
+fs.writeFile("output.md", cat, (err) => {
   if (err) throw err;
 });
 ```
 
-***
+---
 
 ## 17. Replace space in filename with underscore
 
@@ -427,10 +423,10 @@ fs.writeFile('output.md', cat, err => {
 ```
 find . -name "* *" -type f | rename 's/_//g'
 
-find . -name "* *" -type d | rename 's/#/_/g'   
+find . -name "* *" -type d | rename 's/#/_/g'
 ```
 
-***
+---
 
 ## 18. Filter & delete files by name and extension
 
@@ -456,7 +452,7 @@ find . -name 'right.html' -type f -prune -exec rm -rf '{}' +
 find . -name 'left.html' -type f -prune -exec rm -rf '{}' +
 ```
 
-***
+---
 
 ## 19. Remove lines containing string:
 
@@ -484,7 +480,7 @@ sudo sed -i '/github\.com/d' ./*out.md
 sudo sed -i '/author/d' ./*
 ```
 
-***
+---
 
 ## 20. Remove duplicate lines from a text file
 
@@ -501,7 +497,7 @@ sudo apt install uniq
 uniq -u input.txt output.txt
 ```
 
-***
+---
 
 ## 21. Remove lines containing string:
 
@@ -541,9 +537,9 @@ sudo sed -i '/right\.html/d' ./index.html
 sudo sed -i '/right\.html/d' ./right.html
 ```
 
-***
+---
 
-## 22. Zip directory excluding .git and node\_modules all the way down (Linux)
+## 22. Zip directory excluding .git and node_modules all the way down (Linux)
 
 #### Description:
 
@@ -558,15 +554,15 @@ zip -r $1.$TSTAMP.zip $1 -x "**.git/*" -x "**node_modules/*" `shift; echo $@;`
 
 printf "\nCreated: $1.$TSTAMP.zip\n"
 
-# usage: 
+# usage:
 # - zipdir thedir
 # - zip thedir -x "**anotherexcludedsubdir/*"    (important the double quotes to prevent glob expansion)
 
-# if in windows/git-bash, add 'zip' command this way: 
+# if in windows/git-bash, add 'zip' command this way:
 # https://stackoverflow.com/a/55749636/1482990
 ```
 
-***
+---
 
 ## 23. Delete files containing a certain string:
 
@@ -582,7 +578,7 @@ vi doit.sh // check for murphy and his law
 source doit.sh
 ```
 
-***
+---
 
 ## 24.
 
@@ -690,7 +686,7 @@ echo '  </style>'
 cmd $listing --sort=extension >>$html
 ```
 
-***
+---
 
 ## 25. Index of Iframes
 
@@ -699,6 +695,7 @@ cmd $listing --sort=extension >>$html
 > Notes: Useful Follow up Code:
 
 ```
+
 ```
 
 **code:**
@@ -800,7 +797,7 @@ echo '  </style>'
 cmd $listing --sort=extension >>$html
 ```
 
-***
+---
 
 ## 26. Filter Corrupted Git Repo For Troublesome File:
 
@@ -814,7 +811,7 @@ cmd $listing --sort=extension >>$html
 git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch assets/_index.html' HEAD
 ```
 
-***
+---
 
 ## 27. OVERWRITE LOCAL CHANGES:
 
@@ -845,7 +842,7 @@ git fetch --all
 git reset --hard origin/master
 ```
 
-***
+---
 
 ## 28. Remove Submodules:
 
@@ -853,7 +850,7 @@ git reset --hard origin/master
 
 > Notes:
 
-> Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes git add .gitmodules Delete the relevant section from .git/config. Run git rm --cached path\_to\_submodule (no trailing slash). Run rm -rf .git/modules/path\_to\_submodule (no trailing slash). Commit git commit -m "Removed submodule " Delete the now untracked submodule files rm -rf path\_to\_submodule
+> Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes git add .gitmodules Delete the relevant section from .git/config. Run git rm --cached path_to_submodule (no trailing slash). Run rm -rf .git/modules/path_to_submodule (no trailing slash). Commit git commit -m "Removed submodule " Delete the now untracked submodule files rm -rf path_to_submodule
 
 **code:**
 
@@ -861,7 +858,7 @@ git reset --hard origin/master
 git submodule deinit
 ```
 
-***
+---
 
 ## 29. GET GISTS
 
@@ -887,7 +884,7 @@ wget -q -O - https://api.github.com/users/drodsou/gists | grep raw_url | awk -F\
 wget -q -O - https://api.github.com/users/thomasmb/gists | grep raw_url | awk -F\" '{print $4}' | xargs -n1 wget
 ```
 
-***
+---
 
 ## 30. Remove Remote OriginL
 
@@ -901,7 +898,7 @@ wget -q -O - https://api.github.com/users/thomasmb/gists | grep raw_url | awk -F
 git remote remove origin
 ```
 
-***
+---
 
 ## 31. just clone .git folder:
 
@@ -915,7 +912,7 @@ git remote remove origin
 git clone --bare --branch=master --single-branch https://github.com/bgoonz/My-Web-Dev-Archive.git
 ```
 
-***
+---
 
 ## 32. Undo recent pull request:
 
@@ -929,7 +926,7 @@ git clone --bare --branch=master --single-branch https://github.com/bgoonz/My-We
 git reset --hard master@{"10 minutes ago"}
 ```
 
-***
+---
 
 ## 33. Lebab
 
@@ -964,12 +961,12 @@ lebab --replace ./ --transform arg-spread
 lebab --replace ./ --transform arg-rest
 lebab --replace ./ --transform for-each
 lebab --replace ./ --transform for-of
-lebab --replace ./ --transform commonjs 
+lebab --replace ./ --transform commonjs
 lebab --replace ./ --transform exponent
 lebab --replace ./ --transform multi-var
 lebab --replace ./ --transform template
 lebab --replace ./ --transform default-param
-lebab --replace ./ --transform  destruct-param 
+lebab --replace ./ --transform  destruct-param
 lebab --replace ./ --transform includes
 lebab --replace ./ --transform obj-method
 lebab --replace ./ --transform class
@@ -978,16 +975,16 @@ lebab --replace ./ --transform arg-spread
 lebab --replace ./ --transform arg-rest
 lebab --replace ./ --transform for-each
 lebab --replace ./ --transform for-of
-lebab --replace ./ --transform commonjs 
+lebab --replace ./ --transform commonjs
 lebab --replace ./ --transform exponent
 lebab --replace ./ --transform multi-var
 lebab --replace ./ --transform template
 lebab --replace ./ --transform default-param
-lebab --replace ./ --transform  destruct-param 
+lebab --replace ./ --transform  destruct-param
 lebab --replace ./ --transform includes
 ```
 
-***
+---
 
 ## 34. Troubleshoot Ubuntu Input/Output Error
 
@@ -1003,7 +1000,7 @@ lebab --replace ./ --transform includes
  Get-Service LxssManager | Restart-Service
 ```
 
-***
+---
 
 ## 35. Export Medium as Markdown
 
@@ -1020,7 +1017,7 @@ npm i mediumexporter -g
 mediumexporter https://medium.com/codex/fundamental-data-structures-in-javascript-8f9f709c15b4 >ds.md
 ```
 
-***
+---
 
 ## 36. Delete files in violation of a given size range (100MB for git)
 
@@ -1039,7 +1036,7 @@ find . -size +75M -a -print -a -exec rm -f {} \;
 find . -size +98M -a -print -a -exec rm -f {} \;
 ```
 
-***
+---
 
 ## 37. download all links of given file type
 
@@ -1053,7 +1050,7 @@ find . -size +98M -a -print -a -exec rm -f {} \;
 wget -r -A.pdf https://overapi.com/git
 ```
 
-***
+---
 
 ## 38. Kill all node processes
 
@@ -1067,7 +1064,7 @@ wget -r -A.pdf https://overapi.com/git
 killall -s KILL node
 ```
 
-***
+---
 
 ## 39. Remove string from file names recursively
 
@@ -1095,7 +1092,7 @@ find <mydir> -type d -exec sed -i 's/<string1>/<string2>/g' {} +
 find . -type d -exec rename 's/-master//g' {} +
 ```
 
-***
+---
 
 ## 40. Remove spaces from file and folder names recursively
 
@@ -1106,11 +1103,11 @@ find . -type d -exec rename 's/-master//g' {} +
 **code:**
 
 ```
-find . -name "* *" -type d | rename 's/ /_/g'   
+find . -name "* *" -type d | rename 's/ /_/g'
 find . -name "* *" -type f | rename 's/ /_/g'
 ```
 
-***
+---
 
 ## 41. Zip Each subdirectories in a given directory into their own zip file
 
@@ -1124,7 +1121,7 @@ find . -name "* *" -type f | rename 's/ /_/g'
 for i in */; do zip -r "${i%/}.zip" "$i"; done
 ```
 
-***
+---
 
 ## 42.
 
@@ -1135,9 +1132,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 43.
 
@@ -1148,9 +1146,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 44.
 
@@ -1161,9 +1160,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 45.
 
@@ -1174,9 +1174,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 46.
 
@@ -1187,9 +1188,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 47.
 
@@ -1200,9 +1202,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 48.
 
@@ -1213,9 +1216,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 49.
 
@@ -1226,9 +1230,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 50.
 
@@ -1239,9 +1244,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 51.
 
@@ -1252,9 +1258,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 52.
 
@@ -1265,9 +1272,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 53.
 
@@ -1278,9 +1286,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 54.
 
@@ -1291,9 +1300,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 55.
 
@@ -1304,9 +1314,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 56.
 
@@ -1317,9 +1328,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 57.
 
@@ -1330,9 +1342,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 58.
 
@@ -1343,9 +1356,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 59.
 
@@ -1356,9 +1370,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 60.
 
@@ -1369,9 +1384,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 61.
 
@@ -1382,9 +1398,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 62.
 
@@ -1395,9 +1412,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 63.
 
@@ -1408,9 +1426,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 64.
 
@@ -1421,9 +1440,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 65.
 
@@ -1434,9 +1454,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 66.
 
@@ -1447,9 +1468,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 67.
 
@@ -1460,9 +1482,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 68.
 
@@ -1473,9 +1496,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 69.
 
@@ -1486,9 +1510,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 70.
 
@@ -1499,9 +1524,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 71.
 
@@ -1512,9 +1538,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 72.
 
@@ -1525,9 +1552,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 73.
 
@@ -1538,9 +1566,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 74.
 
@@ -1551,9 +1580,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 75.
 
@@ -1564,9 +1594,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 76.
 
@@ -1577,9 +1608,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 77.
 
@@ -1590,9 +1622,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 78.
 
@@ -1603,9 +1636,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 79.
 
@@ -1616,9 +1650,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 80.
 
@@ -1629,9 +1664,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 81.
 
@@ -1642,9 +1678,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 82.
 
@@ -1655,9 +1692,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 83.
 
@@ -1668,9 +1706,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 84.
 
@@ -1681,9 +1720,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 85.
 
@@ -1694,9 +1734,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 86.
 
@@ -1707,9 +1748,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 87.
 
@@ -1720,9 +1762,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 88.
 
@@ -1733,9 +1776,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 89.
 
@@ -1746,9 +1790,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 90.
 
@@ -1759,9 +1804,10 @@ for i in */; do zip -r "${i%/}.zip" "$i"; done
 **code:**
 
 ```
+
 ```
 
-***
+---
 
 ## 91. Unzip PowerShell
 
@@ -1776,24 +1822,24 @@ PARAM (
     [string] $ZipFilesPath = "./",
     [string] $UnzipPath = "./RESULT"
 )
- 
+
 $Shell = New-Object -com Shell.Application
 $Location = $Shell.NameSpace($UnzipPath)
- 
+
 $ZipFiles = Get-Childitem $ZipFilesPath -Recurse -Include *.ZIP
- 
+
 $progress = 1
 foreach ($ZipFile in $ZipFiles) {
     Write-Progress -Activity "Unzipping to $($UnzipPath)" -PercentComplete (($progress / ($ZipFiles.Count + 1)) * 100) -CurrentOperation $ZipFile.FullName -Status "File $($Progress) of $($ZipFiles.Count)"
     $ZipFolder = $Shell.NameSpace($ZipFile.fullname)
- 
- 
+
+
     $Location.Copyhere($ZipFolder.items(), 1040) # 1040 - No msgboxes to the user - http://msdn.microsoft.com/en-us/library/bb787866%28VS.85%29.aspx
     $progress++
 }
 ```
 
-***
+---
 
 ## 92. return to bash from zsh
 
@@ -1807,7 +1853,7 @@ foreach ($ZipFile in $ZipFiles) {
  sudo apt --purge remove zsh
 ```
 
-***
+---
 
 ## 93. Symbolic Link
 
@@ -1823,7 +1869,7 @@ ln -s "$(pwd)" ~/NameOfLink
 ln -s "$(pwd)" ~/Downloads
 ```
 
-***
+---
 
 ## 94. auto generate readme
 
@@ -1837,7 +1883,7 @@ ln -s "$(pwd)" ~/Downloads
 npx @appnest/readme generate
 ```
 
-***
+---
 
 ## 95. Log into postgres:
 
@@ -1851,7 +1897,7 @@ npx @appnest/readme generate
 sudo -u postgres psql
 ```
 
-***
+---
 
 ## 96. URL To Subscribe To YouTube Channel
 
@@ -1865,7 +1911,7 @@ sudo -u postgres psql
 https://www.youtube.com/channel/UC1HDa0wWnIKUf-b4yY9JecQ?sub_confirmation=1
 ```
 
-***
+---
 
 ## 97. Embed Repl.it In Medium Post:
 
@@ -1883,7 +1929,7 @@ https://repl.it/@bgoonz/interview-prac?lite=true&amp;referrer=https%3A%2F%2Fbrya
 https://repl.it/@bgoonz/Database-Prac?lite=true&amp;referrer=https%3A%2F%2Fbryanguner.medium.com
 ```
 
-***
+---
 
 ## 98.
 
@@ -1900,7 +1946,7 @@ find . -name *right.html  -type f -exec sed -i 's/target="_parent"//g' {} +
 find . -name *right.html  -type f -exec sed -i 's/target="_parent"//g' {} +
 ```
 
-***
+---
 
 ## 99. Cheat Sheet
 
@@ -2100,7 +2146,7 @@ echo $$                      # prints process ID of the current shell
 echo $!                      # prints process ID of the most recently invoked background job
 echo $?                      # displays the exit status of the last command
 read <varname>               # reads a string from the input and assigns it to a variable
-read -p "prompt" <varname>   # same as above but outputs a prompt to ask user for value 
+read -p "prompt" <varname>   # same as above but outputs a prompt to ask user for value
 column -t <filename>         # display info in pretty columns (often used with pipe)
 let <varname> = <equation>   # performs mathematical calculation using operators like +, -, *, /, %
 export VARNAME=value         # defines an environment variable (will be available in subprocesses)
@@ -2397,9 +2443,9 @@ function returntrap {
 trap returntrap RETURN  # is executed each time a shell function or a script executed with the . or source commands finishes executing
 
 ##############################################################################
-# COLORS AND BACKGROUNDS 
+# COLORS AND BACKGROUNDS
 ##############################################################################
-# note: \e or \x1B also work instead of \033 
+# note: \e or \x1B also work instead of \033
 # Reset
 Color_Off='\033[0m' # Text Reset
 
@@ -2456,9 +2502,9 @@ On_White='\033[47m' # White
 
 # Example of usage
 echo -e "${Green}This is GREEN text${Color_Off} and normal text"
-echo -e "${Red}${On_White}This is Red test on White background${Color_Off}" 
+echo -e "${Red}${On_White}This is Red test on White background${Color_Off}"
 # option -e is mandatory, it enable interpretation of backslash escapes
 printf "${Red} This is red \n"
 ```
 
-***
+---

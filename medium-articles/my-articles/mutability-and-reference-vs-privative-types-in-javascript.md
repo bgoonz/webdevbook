@@ -2,13 +2,13 @@
 
 Mutability && Primitive && Reference Examples
 
-***
+---
 
 ### Mutability And Reference VS Privative Types in JavaScript
 
 ### Mutability && Primitive && Reference Examples
 
-![](https://cdn-images-1.medium.com/max/800/0\*J3mKJ-lWgfS3qi5E.png)[_**Mutability**_](https://doesitmutate.xyz)
+![](https://cdn-images-1.medium.com/max/800/0*J3mKJ-lWgfS3qi5E.png)[_**Mutability**_](https://doesitmutate.xyz)
 
 In JavaScript, `String` values are immutable, which means that they cannot be altered once created.
 
@@ -72,7 +72,7 @@ To dereference attributes from an object, use `let {}` syntax.
 
 ### Primitive Data Types in Depth
 
-![](https://cdn-images-1.medium.com/max/2560/1\*mRr-4QeqbjcMUTtQQNOlEw.png)
+![](https://cdn-images-1.medium.com/max/2560/1*mRr-4QeqbjcMUTtQQNOlEw.png)
 
 ### Check Out My New Blog:
 

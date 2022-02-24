@@ -2,13 +2,13 @@
 
 This is going to be a running list of youtube videos and channels that I discover as I learn web development. It will not be strictly…
 
-***
+---
 
 ### Awesome Web Development Youtube Video Archive
 
 #### This is going to be a running list of youtube videos and channels that I discover as I learn web development. It will not be strictly confined to web development but that will be it’s focus.
 
-![](https://cdn-images-1.medium.com/max/800/0\*SmvOx9hz2KcF1QP4.gif)Tutorials:
+![](https://cdn-images-1.medium.com/max/800/0*SmvOx9hz2KcF1QP4.gif)Tutorials:
 
 Inspiration:
 

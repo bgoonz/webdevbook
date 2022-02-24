@@ -4,19 +4,19 @@
 
 ### pydrive.apiattr module[¶](https://pythonhosted.org/PyDrive/pydrive.html#module-pydrive.apiattr)
 
-_class_ `pydrive.apiattr.``ApiAttribute`(_name_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiAttribute)
+_class_ ` pydrive.apiattr.``ApiAttribute `(_name_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiAttribute)
 
 Bases: `object`
 
 A data descriptor that sets and returns values.
 
-_class_ `pydrive.apiattr.``ApiAttributeMixin`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiAttributeMixin)
+_class_ ` pydrive.apiattr.``ApiAttributeMixin `[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiAttributeMixin)
 
 Bases: `object`
 
 Mixin to initialize required global variables to use ApiAttribute.
 
-_class_ `pydrive.apiattr.``ApiResource`(_\*args_, _\*\*kwargs_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiResource)
+_class_ ` pydrive.apiattr.``ApiResource `(_\*args_, _\*\*kwargs_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiResource)
 
 Bases: `dict`
 
@@ -44,7 +44,7 @@ A data descriptor that sets and returns values.
 
 Overwritten method of dictionary.
 
-_class_ `pydrive.apiattr.``ApiResourceList`(_auth=None_, _metadata=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiResourceList)
+_class_ ` pydrive.apiattr.``ApiResourceList `(_auth=None_, _metadata=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiResourceList)
 
 Bases: [`pydrive.apiattr.ApiAttributeMixin`](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiAttributeMixin), [`pydrive.apiattr.ApiResource`](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiResource), `six.Iterator`
 
@@ -72,33 +72,33 @@ A data descriptor that sets and returns values.
 
 ### pydrive.auth module[¶](https://pythonhosted.org/PyDrive/pydrive.html#module-pydrive.auth)
 
-_exception_ `pydrive.auth.``AuthError`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.AuthError)
+_exception_ ` pydrive.auth.``AuthError `[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.AuthError)
 
 Bases: `exceptions.Exception`
 
 Base error for authentication/authorization errors.
 
-_exception_ `pydrive.auth.``AuthenticationError`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.AuthenticationError)
+_exception_ ` pydrive.auth.``AuthenticationError `[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.AuthenticationError)
 
 Bases: [`pydrive.auth.AuthError`](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.AuthError)
 
 General authentication error.
 
-_exception_ `pydrive.auth.``AuthenticationRejected`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.AuthenticationRejected)
+_exception_ ` pydrive.auth.``AuthenticationRejected `[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.AuthenticationRejected)
 
 Bases: [`pydrive.auth.AuthError`](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.AuthError)
 
 User rejected authentication.
 
-`pydrive.auth.``CheckAuth`(_decoratee_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.CheckAuth)
+` pydrive.auth.``CheckAuth `(_decoratee_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.CheckAuth)
 
 Decorator to check if it requires OAuth2 flow request.
 
-`pydrive.auth.``CheckServiceAuth`(_decoratee_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.CheckServiceAuth)
+` pydrive.auth.``CheckServiceAuth `(_decoratee_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.CheckServiceAuth)
 
 Decorator to authorize service account.
 
-_class_ `pydrive.auth.``GoogleAuth`(_settings\_file='settings.yaml'_, _http\_timeout=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth)
+_class_ ` pydrive.auth.``GoogleAuth `(_settings_file='settings.yaml'_, _http_timeout=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth)
 
 Bases: [`pydrive.apiattr.ApiAttributeMixin`](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiAttributeMixin), `object`
 
@@ -136,7 +136,7 @@ Raises:
 
 AuthenticationError
 
-`CLIENT_CONFIGS_LIST` _= \['client\_id', 'client\_secret', 'auth\_uri', 'token\_uri', 'revoke\_uri', 'redirect\_uri']_[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.CLIENT\_CONFIGS\_LIST)
+`CLIENT_CONFIGS_LIST` _= \['client_id', 'client_secret', 'auth_uri', 'token_uri', 'revoke_uri', 'redirect_uri']_[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.CLIENT_CONFIGS_LIST)
 
 `CommandLineAuth`(_\*args_, _\*\*kwargs_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.CommandLineAuth)
 
@@ -146,7 +146,7 @@ Returns:
 
 str – code returned from commandline.
 
-`DEFAULT_SETTINGS` _= {'save\_credentials': False, 'client\_config\_file': 'client\_secrets.json', 'client\_config\_backend': 'file', 'oauth\_scope': \['https://www.googleapis.com/auth/drive']}_[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.DEFAULT\_SETTINGS)
+`DEFAULT_SETTINGS` _= {'save_credentials': False, 'client_config_file': 'client_secrets.json', 'client_config_backend': 'file', 'oauth_scope': \['https://www.googleapis.com/auth/drive']}_[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.DEFAULT_SETTINGS)
 
 `GetAuthUrl`()[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.GetAuthUrl)
 
@@ -164,7 +164,7 @@ Raises:
 
 InvalidConfigError
 
-`Get_Http_Object`()[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.Get\_Http\_Object)
+`Get_Http_Object`()[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.Get_Http_Object)
 
 Create and authorize an httplib2.Http object. Necessary for thread-safety. :return: The http object to be used in each call. :rtype: httplib2.Http
 
@@ -182,7 +182,7 @@ Raises:
 
 InvalidConfigError
 
-`LoadClientConfigFile`(_client\_config\_file=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.LoadClientConfigFile)
+`LoadClientConfigFile`(_client_config_file=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.LoadClientConfigFile)
 
 Loads client configuration file downloaded from APIs console.
 
@@ -190,7 +190,7 @@ Loads client config file from path in settings if not specified.
 
 Parameters:
 
-**client\_config\_file** (_str._) – path of client config file to read.
+**client_config_file** (_str._) – path of client config file to read.
 
 Raises:
 
@@ -216,7 +216,7 @@ Raises:
 
 InvalidConfigError
 
-`LoadCredentialsFile`(_credentials\_file=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.LoadCredentialsFile)
+`LoadCredentialsFile`(_credentials_file=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.LoadCredentialsFile)
 
 Loads credentials or create empty credentials if it doesn’t exist.
 
@@ -224,7 +224,7 @@ Loads credentials file from path in settings if not specified.
 
 Parameters:
 
-**credentials\_file** (_str._) – path of credentials file to read.
+**credentials_file** (_str._) – path of credentials file to read.
 
 Raises:
 
@@ -242,8 +242,8 @@ This function is not for web server application. It creates local web server for
 
 Parameters:
 
-* **host\_name** (_str._) – host name of the local web server.
-* **port\_numbers** (_list._) – list of port numbers to be tried to used.
+- **host_name** (_str._) – host name of the local web server.
+- **port_numbers** (_list._) – list of port numbers to be tried to used.
 
 Returns:
 
@@ -255,13 +255,13 @@ AuthenticationRejected, AuthenticationError
 
 `Refresh`()[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.Refresh)
 
-Refreshes the access\_token.
+Refreshes the access_token.
 
 Raises:
 
 RefreshError
 
-`SERVICE_CONFIGS_LIST` _= \['client\_service\_email', 'client\_user\_email', 'client\_pkcs12\_file\_path']_[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.SERVICE\_CONFIGS\_LIST)
+`SERVICE_CONFIGS_LIST` _= \['client_service_email', 'client_user_email', 'client_pkcs12_file_path']_[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.SERVICE_CONFIGS_LIST)
 
 `SaveCredentials`(_backend=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.SaveCredentials)
 
@@ -277,13 +277,13 @@ Raises:
 
 InvalidConfigError
 
-`SaveCredentialsFile`(_credentials\_file=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.SaveCredentialsFile)
+`SaveCredentialsFile`(_credentials_file=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.SaveCredentialsFile)
 
 Saves credentials to the file in JSON format.
 
 Parameters:
 
-**credentials\_file** (_str._) – destination to save file to.
+**credentials_file** (_str._) – destination to save file to.
 
 Raises:
 
@@ -293,7 +293,7 @@ InvalidConfigError, InvalidCredentialsError
 
 Authenticate and authorize using P12 private key, client id and client email for a Service account. :raises: AuthError, InvalidConfigError
 
-`access_token_expired`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.access\_token\_expired)
+`access_token_expired`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.access_token_expired)
 
 Checks if access token doesn’t exist or is expired.
 
@@ -301,11 +301,11 @@ Returns:
 
 bool – True if access token doesn’t exist or is expired.
 
-`auth_method`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.auth\_method)
+`auth_method`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.auth_method)
 
 A data descriptor that sets and returns values.
 
-`client_config`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.client\_config)
+`client_config`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.GoogleAuth.client_config)
 
 A data descriptor that sets and returns values.
 
@@ -329,17 +329,17 @@ A data descriptor that sets and returns values.
 
 A data descriptor that sets and returns values.
 
-_exception_ `pydrive.auth.``InvalidCredentialsError`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.InvalidCredentialsError)
+_exception_ ` pydrive.auth.``InvalidCredentialsError `[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.InvalidCredentialsError)
 
 Bases: `exceptions.IOError`
 
 Error trying to read credentials file.
 
-`pydrive.auth.``LoadAuth`(_decoratee_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.LoadAuth)
+` pydrive.auth.``LoadAuth `(_decoratee_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.LoadAuth)
 
 Decorator to check if the auth is valid and loads auth if not.
 
-_exception_ `pydrive.auth.``RefreshError`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.RefreshError)
+_exception_ ` pydrive.auth.``RefreshError `[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.RefreshError)
 
 Bases: [`pydrive.auth.AuthError`](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.auth.AuthError)
 
@@ -347,7 +347,7 @@ Access token refresh error.
 
 ### pydrive.drive module[¶](https://pythonhosted.org/PyDrive/pydrive.html#module-pydrive.drive)
 
-_class_ `pydrive.drive.``GoogleDrive`(_auth=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.drive.GoogleDrive)
+_class_ ` pydrive.drive.``GoogleDrive `(_auth=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.drive.GoogleDrive)
 
 Bases: [`pydrive.apiattr.ApiAttributeMixin`](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiAttributeMixin), `object`
 
@@ -391,25 +391,25 @@ pydrive.files.GoogleDriveFileList – initialized with auth of this instance.
 
 ### pydrive.files module[¶](https://pythonhosted.org/PyDrive/pydrive.html#module-pydrive.files)
 
-_exception_ `pydrive.files.``ApiRequestError`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.ApiRequestError)
+_exception_ ` pydrive.files.``ApiRequestError `[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.ApiRequestError)
 
 Bases: `exceptions.IOError`
 
 Error while making any API requests.
 
-_exception_ `pydrive.files.``FileNotDownloadableError`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.FileNotDownloadableError)
+_exception_ ` pydrive.files.``FileNotDownloadableError `[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.FileNotDownloadableError)
 
 Bases: `exceptions.RuntimeError`
 
 Error trying to download file that is not downloadable.
 
-_exception_ `pydrive.files.``FileNotUploadedError`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.FileNotUploadedError)
+_exception_ ` pydrive.files.``FileNotUploadedError `[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.FileNotUploadedError)
 
 Bases: `exceptions.RuntimeError`
 
 Error trying to access metadata of file that is not uploaded.
 
-_class_ `pydrive.files.``GoogleDriveFile`(_auth=None_, _metadata=None_, _uploaded=False_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.GoogleDriveFile)
+_class_ ` pydrive.files.``GoogleDriveFile `(_auth=None_, _metadata=None_, _uploaded=False_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.GoogleDriveFile)
 
 Bases: [`pydrive.apiattr.ApiAttributeMixin`](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiAttributeMixin), [`pydrive.apiattr.ApiResource`](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiResource)
 
@@ -429,13 +429,13 @@ Raises:
 
 ApiRequestError
 
-`DeletePermission`(_permission\_id_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.GoogleDriveFile.DeletePermission)
+`DeletePermission`(_permission_id_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.GoogleDriveFile.DeletePermission)
 
-Deletes the permission specified by the permission\_id.
+Deletes the permission specified by the permission_id.
 
 Parameters:
 
-**permission\_id** (_str_) – The permission id.
+**permission_id** (_str_) – The permission id.
 
 Returns:
 
@@ -447,7 +447,7 @@ bool
 
 `FetchContent`(_\*args_, _\*\*kwargs_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.GoogleDriveFile.FetchContent)
 
-Download file’s content from download\_url.
+Download file’s content from download_url.
 
 Raises:
 
@@ -465,7 +465,7 @@ by commas, e.g. ‘fields,labels’. :type fields: str
 
 Parameters:
 
-**fetch\_all** (_bool_) – Whether to fetch all fields.
+**fetch_all** (_bool_) – Whether to fetch all fields.
 
 Raises:
 
@@ -477,8 +477,8 @@ Save content of this file as a local file.
 
 Parameters:
 
-* **filename** (_str_) – name of the file to write to.
-* **mimetype** (_str_) – mimeType of the file.
+- **filename** (_str_) – name of the file to write to.
+- **mimetype** (_str_) – mimeType of the file.
 
 Raises:
 
@@ -508,13 +508,13 @@ Return type:
 
 object\[]
 
-`InsertPermission`(_new\_permission_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.GoogleDriveFile.InsertPermission)
+`InsertPermission`(_new_permission_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.GoogleDriveFile.InsertPermission)
 
 Insert a new permission. Re-fetches all permissions after call.
 
 Parameters:
 
-**new\_permission** – The new permission to insert, please see the
+**new_permission** – The new permission to insert, please see the
 
 official Google Drive API guide on permissions.insert for details.
 
@@ -582,7 +582,7 @@ A data descriptor that sets and returns values.
 
 A data descriptor that sets and returns values.
 
-_class_ `pydrive.files.``GoogleDriveFileList`(_auth=None_, _param=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.GoogleDriveFileList)
+_class_ ` pydrive.files.``GoogleDriveFileList `(_auth=None_, _param=None_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.GoogleDriveFileList)
 
 Bases: [`pydrive.apiattr.ApiResourceList`](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.apiattr.ApiResourceList)
 
@@ -590,7 +590,7 @@ Google Drive FileList instance.
 
 Equivalent to Files.list() in Drive APIs.
 
-`pydrive.files.``LoadMetadata`(_decoratee_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.LoadMetadata)
+` pydrive.files.``LoadMetadata `(_decoratee_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.files.LoadMetadata)
 
 Decorator to check if the file has metadata and fetches it if not.
 
@@ -600,13 +600,13 @@ ApiRequestError, FileNotUploadedError
 
 ### pydrive.settings module[¶](https://pythonhosted.org/PyDrive/pydrive.html#module-pydrive.settings)
 
-_exception_ `pydrive.settings.``InvalidConfigError`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.settings.InvalidConfigError)
+_exception_ ` pydrive.settings.``InvalidConfigError `[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.settings.InvalidConfigError)
 
 Bases: `exceptions.IOError`
 
 Error trying to read client configuration.
 
-`pydrive.settings.``LoadSettingsFile`(_filename='settings.yaml'_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.settings.LoadSettingsFile)
+` pydrive.settings.``LoadSettingsFile `(_filename='settings.yaml'_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.settings.LoadSettingsFile)
 
 Loads settings file in yaml format given file name.
 
@@ -618,13 +618,13 @@ Raises:
 
 SettingsError
 
-_exception_ `pydrive.settings.``SettingsError`[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.settings.SettingsError)
+_exception_ ` pydrive.settings.``SettingsError `[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.settings.SettingsError)
 
 Bases: `exceptions.IOError`
 
 Error while loading/saving settings
 
-`pydrive.settings.``ValidateSettings`(_data_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.settings.ValidateSettings)
+` pydrive.settings.``ValidateSettings `(_data_)[¶](https://pythonhosted.org/PyDrive/pydrive.html#pydrive.settings.ValidateSettings)
 
 Validates if current settings is valid.
 

@@ -5,12 +5,13 @@ Most people study inefficiently. This is mostly because they never really learne
 As the HackYourFuture course is very demanding, this is critical to get through the program successfully. In fact, many successful experts that require focus and concentration for their craft (scientists, programmers, writers, artists, craftsmen, etc.) share one thing in common: they are very serious about ​how ​they learn. This chapter will give you a short introduction into how you can study most effectively.
 
 ### Index
-* [Planning](#planning)
-* [Don’t just read, code it!](#Don-t-just-read--code-it)
-* [Go to the basics](#Go-to-the-basics)
-* [Sleep, Breaks and Exercise](#Sleep--Breaks-and-Exercise)
-* [Distractions](#distractions)
-* [How to become a pro at learning](#How-to-become-a-pro-at-learning)
+
+- [Planning](#planning)
+- [Don’t just read, code it!](#Don-t-just-read--code-it)
+- [Go to the basics](#Go-to-the-basics)
+- [Sleep, Breaks and Exercise](#Sleep--Breaks-and-Exercise)
+- [Distractions](#distractions)
+- [How to become a pro at learning](#How-to-become-a-pro-at-learning)
 
 ---
 
@@ -19,19 +20,22 @@ As the HackYourFuture course is very demanding, this is critical to get through 
 The first part of studying should be to make a study plan.
 
 Your homework will consist of various components. You will need to:
-* read/watch​ a certain amount of information,
-* apply ​this knowledge in the homework exercises.
+
+- read/watch​ a certain amount of information,
+- apply ​this knowledge in the homework exercises.
 
 Every week consists of the homework of the previous week and the reading material for the following week. For example, let’s say you are preparing for the lecture of JavaScript 1 week 3 on Sunday. This means you will have to do:
-* the ​HOMEWORK​ of JavaScript 1 week 2 (The MAKEME.md ​here​)
-* the ​READING​ for JavaScript 1 week 3 (The README.md ​here​)
+
+- the ​HOMEWORK​ of JavaScript 1 week 2 (The MAKEME.md ​here​)
+- the ​READING​ for JavaScript 1 week 3 (The README.md ​here​)
 
 Before you start doing anything, it’s good to ​plan your week ahead.
 Divide the large amounts of tasks into small pieces, and think about how much time you expect spend on each task by having a quick look at it.
 
 Let’s take the example of JavaScript 1 week 3.
 
-__Homework + Recap (19 hours)__
+**Homework + Recap (19 hours)**
+
 1. Recapping previous concepts (5 hours)
 2. JavaScript exercises (4 hours)
 3. Freecodecamp challenges (10 hours)
@@ -42,7 +46,8 @@ You can do this by asking your teacher to record on Sunday their lessons and sha
 
 It is advised to watch some parts of the lecture again and practice with the examples/exercises provided in class. Change the values, variables and other aspects of the code to improve your understanding of the practical use of these concepts. In addition to the videos, you can go through the reading material of the previous week. Again, the idea is that you practice the concepts by putting them into code.
 
-__Reading/Watching (6 hours)__
+**Reading/Watching (6 hours)**
+
 1. Article arrays (60 min)
 2. Article Loops (60 min.)
 3. Article functions (60min)
@@ -120,6 +125,7 @@ To reach this level of optimal concentration and create a state of flow, distrac
 [Here you can find a presentation](https://github.com/HackYourFutureBelgium/hack-the-talks/blob/master/How_to_increase_focus%26productivity.pdf) on **'How to increase focus & productivity'** one of our coaches shared with us during a HackTheTalk, the inspirational talks we organize on Sunday Mornings.
 
 ### Challenge number 1: Social Media & Phone
+
 Social media is incredibly bad for your focus and therefore it decreases your ability to learn complex concepts. In order to understand programming concepts your brain needs full focus. Every time it is interrupted by a phone or a message online, your brain has to switch its attention. To go back to your code after that will cost a lot of energy. In fact, studies have shown that just having a phone in the same room, reduces your ability to study significantly.
 
 We highly recommend you: when you are studying, put your phone away and use your study time for studying only.

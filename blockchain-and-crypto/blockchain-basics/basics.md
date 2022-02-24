@@ -8,13 +8,13 @@ The Bitcoin Core developers sign all of their releases using the “Pretty Good 
 
 **See also:**![](https://hackernoon.com/emojis/heart.png)![](https://hackernoon.com/emojis/light.png)![](https://hackernoon.com/emojis/money.png)![](https://hackernoon.com/emojis/thumbs-down.png)
 
-* [Paxos](https://en.wikipedia.org/wiki/Paxos\_\(computer\_science\)?ref=hackernoon.com)
-* [Proof of authority](https://en.wikipedia.org/wiki/Proof\_of\_authority?ref=hackernoon.com)
-* [Proof of burn](https://en.wikipedia.org/wiki/Proof\_of\_burn?ref=hackernoon.com)
-* [Proof of personhood](https://en.wikipedia.org/wiki/Proof\_of\_personhood?ref=hackernoon.com)
-* [Proof of space](https://en.wikipedia.org/wiki/Proof\_of\_space?ref=hackernoon.com)
-* [Proof of stake](https://en.wikipedia.org/wiki/Proof\_of\_stake?ref=hackernoon.com)
-* [Proof of elapsed time](https://en.wikipedia.org/wiki/Proof\_of\_elapsed\_time?ref=hackernoon.com)
+- [Paxos](<https://en.wikipedia.org/wiki/Paxos_(computer_science)?ref=hackernoon.com>)
+- [Proof of authority](https://en.wikipedia.org/wiki/Proof_of_authority?ref=hackernoon.com)
+- [Proof of burn](https://en.wikipedia.org/wiki/Proof_of_burn?ref=hackernoon.com)
+- [Proof of personhood](https://en.wikipedia.org/wiki/Proof_of_personhood?ref=hackernoon.com)
+- [Proof of space](https://en.wikipedia.org/wiki/Proof_of_space?ref=hackernoon.com)
+- [Proof of stake](https://en.wikipedia.org/wiki/Proof_of_stake?ref=hackernoon.com)
+- [Proof of elapsed time](https://en.wikipedia.org/wiki/Proof_of_elapsed_time?ref=hackernoon.com)
 
 In many respects, blockchain can be considered a meta-technology, since it utilizes, enhances, challenges, and potentially supersedes other pre-existing software technologies. As such, it allows us to create versatile technological solutions that aim to minimize the agency of third-party providers and, in a way, return power back to the users. This can be achieved by the blockchain providing an environment where users can interact freely in a trustless ecosystem for very low to almost zero fees, at speeds that make everybody in the world reachable in a matter of minutes. To make this possible, the blockchain is used as a transaction platform and distributed accounting ledger that uses cryptocurrency tokens (digital money) as a representation of a specific value at the current time (much like traditional fiat currencies). Nevertheless, for trustless technology to work on a global scale, it needs to implement trust in a different manner. This is where ISO standards come into the picture, as they ensure that the blockchain interactions follow globally applicable rules, norms, and procedures. This is also why starting in 2016, the blockchain technology obtained its own set of ISO standards, called ISO/TC307.![](https://hackernoon.com/emojis/heart.png)![](https://hackernoon.com/emojis/light.png)![](https://hackernoon.com/emojis/money.png)![](https://hackernoon.com/emojis/thumbs-down.png)
 
@@ -96,7 +96,7 @@ An important question from a regulatory standpoint is, “Are cryptosystems mone
 
 An entity that receives money from one person and transmits that money to another person or location. This entity needs to be registered with FINCEN and is required to have an anti-money laundering compliance program, including the “Know Your Customer” procedure, KYC.![](https://hackernoon.com/emojis/heart.png)![](https://hackernoon.com/emojis/light.png)![](https://hackernoon.com/emojis/money.png)![](https://hackernoon.com/emojis/thumbs-down.png)
 
-See a video of Yago’s thoughts on ‘**The dangers of KYC**’ [here](https://www.youtube.com/watch?v=9QtJ6oo-QuY\&ab\_channel=Sovryn\&ref=hackernoon.com).DeFi - A money-service business that is not a money transmitter![](https://hackernoon.com/emojis/heart.png)![](https://hackernoon.com/emojis/light.png)![](https://hackernoon.com/emojis/money.png)![](https://hackernoon.com/emojis/thumbs-down.png)
+See a video of Yago’s thoughts on ‘**The dangers of KYC**’ [here](https://www.youtube.com/watch?v=9QtJ6oo-QuY&ab_channel=Sovryn&ref=hackernoon.com).DeFi - A money-service business that is not a money transmitter![](https://hackernoon.com/emojis/heart.png)![](https://hackernoon.com/emojis/light.png)![](https://hackernoon.com/emojis/money.png)![](https://hackernoon.com/emojis/thumbs-down.png)
 
 Non-custodial DeFi systems - like Sovryn - do not take possession of your funds. They are not controlled by a single entity and do not hold transactional control over users’ funds. Using smart contracts to distance DeFi platforms from the ownership of the funds being used causes a regulatory grey area in most jurisdictions. Therefore, the system is not currently classed as a regulated financial institution, but its users can be regulated in other ways, such as being taxed on profits, or having limits on fiat on/off-ramps.![](https://hackernoon.com/emojis/heart.png)![](https://hackernoon.com/emojis/light.png)![](https://hackernoon.com/emojis/money.png)![](https://hackernoon.com/emojis/thumbs-down.png)
 
@@ -116,7 +116,7 @@ Blockchains provide: proof of the history of any data recorded on a blockchain d
 
 ### Trusted Time stamping
 
-In the context of blockchain, you can specifically encounter a term called [Trusted Timestamping](https://en.wikipedia.org/wiki/Trusted\_timestamping?ref=hackernoon.com). This is a process of securely keeping track of the creation and modification time of a document, and it is an indispensable tool in the business world. It allows interested parties to know, without a doubt, that a document in question existed at a particular date and time. By design, a Bitcoin transaction includes a date and time held on the blockchain. By including a cryptographic digest of a file, you can later certify that the data existed at that time.![](https://hackernoon.com/emojis/heart.png)![](https://hackernoon.com/emojis/light.png)![](https://hackernoon.com/emojis/money.png)![](https://hackernoon.com/emojis/thumbs-down.png)
+In the context of blockchain, you can specifically encounter a term called [Trusted Timestamping](https://en.wikipedia.org/wiki/Trusted_timestamping?ref=hackernoon.com). This is a process of securely keeping track of the creation and modification time of a document, and it is an indispensable tool in the business world. It allows interested parties to know, without a doubt, that a document in question existed at a particular date and time. By design, a Bitcoin transaction includes a date and time held on the blockchain. By including a cryptographic digest of a file, you can later certify that the data existed at that time.![](https://hackernoon.com/emojis/heart.png)![](https://hackernoon.com/emojis/light.png)![](https://hackernoon.com/emojis/money.png)![](https://hackernoon.com/emojis/thumbs-down.png)
 
 ### Important Blockchain and Bitcoin Milestones
 
@@ -154,7 +154,7 @@ Stefan Konst publishes his theory of cryptographically secured chains, plus idea
 \
 Invention of cryptocurrency. Developer(s) working under the pseudonym Satoshi Nakamoto released a white paper establishing the model for a blockchain.\
 \
-31 October: Bitcoin [white paper](https://en.wikipedia.org/wiki/White\_paper?ref=hackernoon.com) published on the internet.\
+31 October: Bitcoin [white paper](https://en.wikipedia.org/wiki/White_paper?ref=hackernoon.com) published on the internet.\
 \
 **2009**\
 \
