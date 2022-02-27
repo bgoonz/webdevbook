@@ -92,7 +92,7 @@ In this chapter, we examine a few applications of the discrete Fourier transform
 
 Let's start with one of the most common applications, converting a sound signal (consisting of variations of air pressure over time) to a _spectrogram_. You might have seen spectrograms on your music player's equalizer view, or even on an old-school stereo.
 
-![The Numark EQ2600 Stereo Equalizer; image used with permission from the author, Sergey Gerasimuk. Source: http://sgerasimuk.blogspot.com/2014/06/numark-eq-2600-10-band-stereo-graphic.html](https://bgoonz-blog.netlify.app/docs/audio/images/sergey_gerasimuk_numark-eq-2600-IMG_0236.JPG)
+![The Numark EQ2600 Stereo Equalizer; image used with permission from the author, Sergey Gerasimuk. Source: http://sgerasimuk.blogspot.com/2014/06/numark-eq-2600-10-band-stereo-graphic.html](https://bgoonz-blog.netlify.app/docs/audio/images/sergey\_gerasimuk\_numark-eq-2600-IMG\_0236.JPG)
 
 Listen to the following snippet of nightingale birdsong (released under CC BY 4.0 at [http://www.orangefreesounds.com/nightingale-sound/](http://www.orangefreesounds.com/nightingale-sound/)):
 
@@ -143,7 +143,7 @@ So, to find both the frequencies and the time at which they were sung, we'll nee
 
 We'll split the signal into slices of 1024 samples—that's about 0.02 seconds of audio. Why we choose 1024 and not 1000 we'll explain in a second when we examine performance. The slices will overlap by 100 samples as shown here:
 
-![A sliding window operation](https://bgoonz-blog.netlify.app/docs/audio/figures/generated/sliding_window.png)
+![A sliding window operation](https://bgoonz-blog.netlify.app/docs/audio/figures/generated/sliding\_window.png)
 
 Start by chopping up the signal into slices of 1024 samples, each slice overlapping the previous by 100 samples. The resulting `slices` object contains one slice per row.
 
@@ -223,16 +223,16 @@ Tracing the exact origins of the Fourier transform is tricky. Some related proce
 
 The discrete Fourier transform functionality in SciPy lives in the \`scipy.fftpack module. Among other things, it provides the following DFT-related functionality:
 
--   `fft`, `fft2`, `fftn`: Compute the discrete Fourier transform using the Fast Fourier Transform algorithm in 1, 2, or `n` dimensions.
--   `ifft`, `ifft2`, `ifftn`: Compute the inverse of the DFT
--   `dct`, `idct`, `dst`, `idst`: Compute the cosine and sine transforms, and their inverses.
--   `fftshift`, `ifftshift`: Shift the zero-frequency component to the center of the spectrum and back, respectively (more about that soon).
--   `fftfreq`: Return the discrete Fourier transform sample frequencies.
--   `rfft`: Compute the DFT of a real sequence, exploiting the symmetry of the resulting spectrum for increased performance. Also used by `fft` internally when applicable.
+* `fft`, `fft2`, `fftn`: Compute the discrete Fourier transform using the Fast Fourier Transform algorithm in 1, 2, or `n` dimensions.
+* `ifft`, `ifft2`, `ifftn`: Compute the inverse of the DFT
+* `dct`, `idct`, `dst`, `idst`: Compute the cosine and sine transforms, and their inverses.
+* `fftshift`, `ifftshift`: Shift the zero-frequency component to the center of the spectrum and back, respectively (more about that soon).
+* `fftfreq`: Return the discrete Fourier transform sample frequencies.
+* `rfft`: Compute the DFT of a real sequence, exploiting the symmetry of the resulting spectrum for increased performance. Also used by `fft` internally when applicable.
 
 This is complemented by the following functions in NumPy:
 
--   `np.hanning`, `np.hamming`, `np.bartlett`, `np.blackman`, `np.kaiser`: Tapered windowing functions.
+* `np.hanning`, `np.hamming`, `np.bartlett`, `np.blackman`, `np.kaiser`: Tapered windowing functions.
 
 It is also used to perform fast convolutions of large inputs by `scipy.signal.fftconvolve`.
 
@@ -240,7 +240,7 @@ SciPy wraps the Fortran FFTPACK library—it is not the fastest out there, but u
 
 ### Choosing the length of the discrete Fourier transform (DFT)
 
-A naive calculation of the DFT takes $\mathcal{O}\left(N^2\right)$ operations [big_o](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fn-big_o). How come? Well, you have $N$ (complex) sinusoids of different frequencies ($2 \pi f \times 0, 2 \pi f \times 1, 2 \pi f \times 3, ..., 2 \pi f \times (N - 1)$), and you want to see how strongly your signal corresponds to each. Starting with the first, you take the dot product with the signal (which, in itself, entails $N$ multiplication operations). Repeating this operation $N$ times, once for each sinusoid, then gives $N^2$ operations.
+A naive calculation of the DFT takes $\mathcal{O}\left(N^2\right)$ operations [big\_o](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fn-big\_o). How come? Well, you have $N$ (complex) sinusoids of different frequencies ($2 \pi f \times 0, 2 \pi f \times 1, 2 \pi f \times 3, ..., 2 \pi f \times (N - 1)$), and you want to see how strongly your signal corresponds to each. Starting with the first, you take the dot product with the signal (which, in itself, entails $N$ multiplication operations). Repeating this operation $N$ times, once for each sinusoid, then gives $N^2$ operations.
 
 Now, contrast that with the fast Fourier transform, which is $\mathcal{O}\left(N \log N\right)$ in the ideal case due to the clever re-use of calculations—a great improvement! However, the classical Cooley-Tukey algorithm implemented in FFTPACK (and used by SciPy) recursively breaks up the transform into smaller (prime-sized) pieces and only shows this improvement for "smooth" input lengths (an input length is considered smooth when its largest prime factor is small). For large prime-sized pieces, the Bluestein or Rader algorithms can be used in conjunction with the Cooley-Tukey algorithm, but this optimization is not implemented in FFTPACK.[fast](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fn-fast)
 
@@ -356,11 +356,11 @@ Sometimes, it is convenient to view the spectrum organized slightly differently,
 >
 > The function $e^{j2\pi k/N}=\left(e^{j2\pi/N}\right)^{k}=w^{k}$ takes on discrete values between $0$ and $2\pi\frac{N-1}{N}$ on the unit circle in the complex plane. The function $e^{j2\pi kn/N}=w^{kn}$ encircles the origin $n\frac{N-1}{N}$ times, thus generating harmonics of the fundamental sinusoid for which $n=1$.
 >
-> The way in which we defined the DFT leads to a few subtleties when $n>\frac{N}{2}$, for even $N$ [odd_n](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fn-odd_n). The function $e^{j2\pi kn/N}$ is plotted for increasing values of $k$ in the figure below, for the cases $n=1$ to $n=N-1$ for $N=16$. When $k$ increases from $k$ to $k+1$, the angle increases by $\frac{2\pi n}{N}$. When $n=1$, the step is $\frac{2\pi}{N}$. When $n=N-1$, the angle increases by $2\pi\frac{N-1}{N}=2\pi-\frac{2\pi}{N}$. Since $2\pi$ is precisely once around the circle, the step equates to $-\frac{2\pi}{N}$, i.e. in the direction of a negative frequency. The components up to $N/2$ represent _positive_ frequency components, those above $N/2$ up to $N-1$ represent _negative_ frequencies. The angle increment for the component $N/2$ for $N$ even advances precisely halfway around the circle for each increment in $k$ and can therefore be interpreted as either a positive or a negative frequency. This component of the DFT represents the Nyquist Frequency, i.e. half of the sampling frequency, and is useful to orientate oneself when looking at DFT graphics.
+> The way in which we defined the DFT leads to a few subtleties when $n>\frac{N}{2}$, for even $N$ [odd\_n](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fn-odd\_n). The function $e^{j2\pi kn/N}$ is plotted for increasing values of $k$ in the figure below, for the cases $n=1$ to $n=N-1$ for $N=16$. When $k$ increases from $k$ to $k+1$, the angle increases by $\frac{2\pi n}{N}$. When $n=1$, the step is $\frac{2\pi}{N}$. When $n=N-1$, the angle increases by $2\pi\frac{N-1}{N}=2\pi-\frac{2\pi}{N}$. Since $2\pi$ is precisely once around the circle, the step equates to $-\frac{2\pi}{N}$, i.e. in the direction of a negative frequency. The components up to $N/2$ represent _positive_ frequency components, those above $N/2$ up to $N-1$ represent _negative_ frequencies. The angle increment for the component $N/2$ for $N$ even advances precisely halfway around the circle for each increment in $k$ and can therefore be interpreted as either a positive or a negative frequency. This component of the DFT represents the Nyquist Frequency, i.e. half of the sampling frequency, and is useful to orientate oneself when looking at DFT graphics.
 >
 > The FFT in turn is simply a special and highly efficient algorithm for calculating the DFT. Whereas a straightforward calculation of the DFT takes of the order of $N^{2}$ calculations to compute, the FFT algorithm requires of the order $N\log N$ calculations. The FFT was the key to the wide-spread use of the DFT in real-time applications and was included in a list of the top $10$ algorithms of the $20^{th}$ century by the IEEE journal Computing in Science & Engineering in the year $2000$.
 >
-> ![Unit circle samples](https://bgoonz-blog.netlify.app/docs/audio/figures/unit_circle_samples.png)
+> ![Unit circle samples](https://bgoonz-blog.netlify.app/docs/audio/figures/unit\_circle\_samples.png)
 
 Let's examine the frequency components in a noisy image. Note that, while a static image has no time-varying component, its values do vary across _space_. The DFT applies equally to either case.
 
@@ -501,7 +501,7 @@ sm._A = []
 plt.colorbar(sm).set_label(r'Kaiser $\beta$');
 ```
 
-By changing the parameter $\beta$, the shape of the window can be changed from rectangular ($\beta=0$, no windowing) to a window that produces signals that smoothly increase from zero and decrease to zero at the endpoints of the sampled interval, producing very low side lobes ($\beta$ typically between 5 and 10) [choosing_a_window](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fn-choosing_a_window).
+By changing the parameter $\beta$, the shape of the window can be changed from rectangular ($\beta=0$, no windowing) to a window that produces signals that smoothly increase from zero and decrease to zero at the endpoints of the sampled interval, producing very low side lobes ($\beta$ typically between 5 and 10) [choosing\_a\_window](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fn-choosing\_a\_window).
 
 The effect of windowing our previous example is noticeable:
 
@@ -538,18 +538,18 @@ We are particularly interested in the first, since that gives us some indication
 
 > **A simple FMCW radar system** {.callout}
 >
-> ![The block diagram of a simple FMCW radar system](https://bgoonz-blog.netlify.app/docs/audio/figures/FMCW_Block.png)
+> ![The block diagram of a simple FMCW radar system](https://bgoonz-blog.netlify.app/docs/audio/figures/FMCW\_Block.png)
 >
 > A block diagram of a simple FMCW radar that uses separate transmit and receive antennas is shown above. The radar consists of a waveform generator that generates a sinusoidal signal of which the frequency varies linearly around the required transmit frequency. The generated signal is amplified to the required power level by the transmit amplifier and routed to the transmit antenna via a coupler circuit where a copy of the transmit signal is tapped off. The transmit antenna radiates the transmit signal as an electromagnetic wave in a narrow beam towards the target to be detected. When the wave encounters an object that reflects electromagnetic waves, a fraction of of the energy irradiating the target is reflected back to the receiver as a second electromagnetic wave that propagates in the direction of the radar system. When this wave encounters the receive antenna, the antenna collects the energy in the wave energy impinging on it and converts it to a fluctuating voltage that is fed to the mixer. The mixer multiplies the received signal with a replica of the transmit signal and produces a sinusoidal signal with a frequency equal to the difference in frequency between the transmitted and received signals. The low-pass filter ensures that the received signal is band limited (i.e., does not contain frequencies that we don't care about) and the receive amplifier strengthens the signal to a suitable amplitude for the analog to digital converter (ADC) that feeds data to the computer.
 
 To summarize, we should note that:
 
--   The data that reaches the computer consists of $N$ samples sampled (from the multiplied, filtered signal) at a sample frequency of $f\_{s}$.
--   The **amplitude** of the returned signal varies depending on the **strength of the reflection** (i.e., is a property of the target object and the distance between the target and the radar).
--   The **frequency measured** is an indication of the **distance** of the target object from the radar.
+* The data that reaches the computer consists of $N$ samples sampled (from the multiplied, filtered signal) at a sample frequency of $f\_{s}$.
+* The **amplitude** of the returned signal varies depending on the **strength of the reflection** (i.e., is a property of the target object and the distance between the target and the radar).
+* The **frequency measured** is an indication of the **distance** of the target object from the radar.
 
 ![The frequency relationships in an FMCW radar with
- linear frequency modulation](https://bgoonz-blog.netlify.app/docs/audio/figures/FMCW_waveform.png)
+linear frequency modulation](https://bgoonz-blog.netlify.app/docs/audio/figures/FMCW\_waveform.png)
 
 To start off, we'll generate some synthetic signals, after which we'll turn our focus to the output of an actual radar.
 
@@ -557,11 +557,11 @@ Recall that the radar is increasing its frequency as it transmits at a rate of $
 
 Combining the above observations, we can calculate the amount of time it would take the signal to travel to, bounce off, and return from a target that is distance $R$ away:
 
-\$$ t_R = 2R / v \$$
+\$$ t\_R = 2R / v \$$
 
 Therefore, the change in frequency for a target at range $R$ will be:
 
-\$$ f\_{d}= t_R S = \frac{2RS}{v}\$$
+\$$ f\_{d}= t\_R S = \frac{2RS}{v}\$$
 
 ```python
 pi = np.pi
@@ -622,7 +622,7 @@ Above, we generate a synthetic signal, $v\_\mathrm{single}$, received when looki
 A real radar will rarely receive only a single echo, though. The simulated signal $v\_\mathrm{sim}$ shows what a radar signal will look like with five targets at different ranges (including two close to one another at 154 and 159 meters), and $v\_\mathrm{actual}(t)$ shows the output signal obtained with an actual radar. When multiple echoes add together, the result makes little intuitive sense; until, that is, we look at it more carefully through the lens of the discrete Fourier transform.
 
 ![Receiver output signals: (a) single simulated target
- (b) five simulated targets (c) actual radar data](https://bgoonz-blog.netlify.app/docs/audio/figures/generated/radar_time_signals.png)
+(b) five simulated targets (c) actual radar data](https://bgoonz-blog.netlify.app/docs/audio/figures/generated/radar\_time\_signals.png)
 
 The real-world radar data is read from a NumPy-format `.npz` file (a light-weight, cross-platform and cross-version compatible storage format). These files can be saved with the `np.savez` or `np.savez_compressed` functions. Note that SciPy's `io` submodule can also easily read other formats, such as MATLAB(R) and NetCDF files.
 
@@ -649,15 +649,15 @@ v_actual = v_actual * (2.5 / 8192)
 
 Since `.npz`-files can store multiple variables, we have to select the one we want: `data['scan']`. That returns a _structured NumPy array_ with the following fields:
 
--   **time** : unsigned 64-bit (8 byte) integer (`np.uint64`)
--   **size** : unsigned 32-bit (4 byte) integer (`np.uint32`)
--   **position**
-    -   **az** : 32-bit float (`np.float32`)
-    -   **el** : 32-bit float (`np.float32`)
-    -   **region_type** : unsigned 8-bit (1 byte) integer (`np.uint8`)
-    -   **region_ID** : unsigned 16-bit (2 byte) integer (`np.uint16`)
-    -   **gain** : unsigned 8-bit (1 byte) integer (`np.uin8`)
-    -   **samples** : 2048 unsigned 16-bit (2 byte) integers (`np.uint16`)
+* **time** : unsigned 64-bit (8 byte) integer (`np.uint64`)
+* **size** : unsigned 32-bit (4 byte) integer (`np.uint32`)
+* **position**
+  * **az** : 32-bit float (`np.float32`)
+  * **el** : 32-bit float (`np.float32`)
+  * **region\_type** : unsigned 8-bit (1 byte) integer (`np.uint8`)
+  * **region\_ID** : unsigned 16-bit (2 byte) integer (`np.uint16`)
+  * **gain** : unsigned 8-bit (1 byte) integer (`np.uin8`)
+  * **samples** : 2048 unsigned 16-bit (2 byte) integers (`np.uint16`)
 
 While it is true that NumPy arrays are _homogeneous_ (i.e., all the elements inside are the same), it does not mean that those elements cannot be compound elements, as is the case here.
 
@@ -827,7 +827,7 @@ A rock slope consists of thousands of reflectors. A range bin can be thought of 
 
 We will now draw some contour plots of the resulting radar data. Please refer to the diagram below to see how the different slices are taken. A first slice at fixed range shows the strength of echoes against elevation and azimuth. Another two slices at fixed elevation and azimuth respectively shows the slope. The stepped construction of the high wall in an opencast mine is visible in the azimuth plane.
 
-![Diagram showing azimuth, elevation and range slices through data volume](https://bgoonz-blog.netlify.app/docs/audio/figures/axes_slices.png)
+![Diagram showing azimuth, elevation and range slices through data volume](https://bgoonz-blog.netlify.app/docs/audio/figures/axes\_slices.png)
 
 ```python
 data = np.load('data/radar_scan_1.npz')
@@ -929,21 +929,21 @@ The examples above show just one of the uses of the FFT in radar. There are many
 
 On the Fourier transform:
 
--   A. Papoulis, _The Fourier Integral and Its Applications_, McGraw-Hill, 1960.
--   Ronald A. Bracewell, _The Fourier Transform and Its Applications_, McGraw-Hill, 1986.
+* A. Papoulis, _The Fourier Integral and Its Applications_, McGraw-Hill, 1960.
+* Ronald A. Bracewell, _The Fourier Transform and Its Applications_, McGraw-Hill, 1986.
 
 On radar signal processing:
 
--   Mark A. Richards, _Principles of Modern Radar: Basic Principles_, SciTech, 2010
--   Mark A. Richards, _Fundamentals of Radar Signal Processing_, McGraw-Hill, 2014.
+* Mark A. Richards, _Principles of Modern Radar: Basic Principles_, SciTech, 2010
+* Mark A. Richards, _Fundamentals of Radar Signal Processing_, McGraw-Hill, 2014.
 
 **Exercise:** The FFT is often used to speed up image convolution (convolution is the application of a moving filter mask). Convolve an image with `np.ones((5, 5))`, using a) numpy's `np.convolve` and b) `np.fft.fft2`. Confirm that the results are identical.
 
 Hints:
 
--   The convolution of `x` and `y` is equivalent to `ifft2(X * Y)`, where `X` and `Y` are the FFTs of x and y respectively.
--   In order to multiply `X` and `Y`, they have to be the same size. Use `np.pad` to extend `x` and `y` with zeros (toward the right and bottom) _before_ taking their FFT.
--   You may see some edge effects. These can be removed by increasing the padding size, so that both `x` and `y` have dimensions `shape(x) + shape(y) - 1`.
+* The convolution of `x` and `y` is equivalent to `ifft2(X * Y)`, where `X` and `Y` are the FFTs of x and y respectively.
+* In order to multiply `X` and `Y`, they have to be the same size. Use `np.pad` to extend `x` and `y` with zeros (toward the right and bottom) _before_ taking their FFT.
+* You may see some edge effects. These can be removed by increasing the padding size, so that both `x` and `y` have dimensions `shape(x) + shape(y) - 1`.
 
 **Solution:**
 
@@ -968,43 +968,35 @@ z = signal.convolve2d(x, y)
 print('Results are equal?', np.allclose(zz, z))
 ```
 
----
+***
 
 1.  The discrete Fourier transform operates on sampled data, in contrast to the standard Fourier transform which is defined for continuous functions.
 
     [↩](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fnref-discrete)
-
 2.  The Fourier transform essentially tells us how to combine a set of sinusoids of varying frequency to form the input signal. The spectrum consists of complex numbers—one for each sinusoid. A complex number encodes two things: a magnitude and an angle. The magnitude is the strength of the sinusoid in the signal, and the angle how much it is shifted in time. At this point, we only care about the magnitude, which we calculate using `np.abs`.
 
     [↩](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fnref-complex)
-
 3.  For more on techniques for calculating both (approximate) frequencies and time of occurrence, read up on wavelet analysis.
 
     [↩](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fnref-time)
-
 4.  SciPy goes to some effort to preserve the energy in the spectrum. Therefore, when taking only half the components (for N even), it multiplies the remaining components, apart from the first and last components, by two (those two components are "shared" by the two halves of the spectrum). It also normalizes the window by dividing it by its sum.
 
     [↩](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fnref-scaling)
-
 5.  The period can, in fact, also be infinite! The general continuous Fourier transform provides for this possibility. Discrete Fourier transforms are generally defined over a finite interval, and this is implicitly the period of the time domain function that is transformed. In other words, if you do the inverse discrete Fourier transform, you _always_ get a periodic signal out.
 
     [↩](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fnref-periodic)
-
 6.  In computer science, the computational cost of an algorithm is often expressed in "Big O" notation. The notation gives us an indication of how an algorithm's execution time scales with an increasing number of elements. If an algorithm is $\mathcal{O}(N)$, it means its execution time increases linearly with the number of input elements (for example, searching for a given value in an unsorted list is $\mathcal{O}\left(N\right)$). Bubble sort is an example of an $O\left(N^2\right)$ algorithm; the exact number of operations performed may, hypothetically, be $N + \frac{1}{2} N^2$, meaning that the computational cost grows quadratically with the number of input elements.
 
-    [↩](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fnref-big_o)
-
+    [↩](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fnref-big\_o)
 7.  While ideally we don't want to reimplement existing algorithms, sometimes it becomes necessary in order to obtain the best execution speeds possible, and tools like [Cython](http://cython.org)—which compiles Python to C—and [Numba](http://numba.pydata.org)—which does just-in-time compilation of Python code—make life a lot easier (and faster!). If you are able to use GPL-licenced software, you may consider using [PyFFTW](https://github.com/hgomersall/pyFFTW) for faster FFTs.
 
     [↩](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fnref-fast)
-
 8.  We leave it as an exercise for the reader to picture the situation for $N$ odd. In this chapter, all examples use even-order DFTs.
 
-    [↩](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fnref-odd_n)
-
+    [↩](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fnref-odd\_n)
 9.  The classical windowing functions include Hann, Hamming, and Blackman. They differ in their sidelobe levels and in the broadening of the main lobe (in the Fourier domain). A modern and flexible window function that is close to optimal for most applications is the Kaiser window—a good approximation to the optimal prolate spheroid window, which concentrates the most energy into the main lobe. The Kaiser window can be tuned to suit the particular application, as illustrated in the main text, by adjusting the parameter $\beta$.
 
-    [↩](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fnref-choosing_a_window)
+    [↩](https://bgoonz-blog.netlify.app/docs/audio/dfft/#fnref-choosing\_a\_window)
 
 ## Dynamic Time Warping Algorithm Explained (Python)
 
@@ -1016,15 +1008,15 @@ As part of Walmart Real Estate team, I am working on understanding the energy co
 
 In the example below, the items refresh routine of a store has shifted by 2 hours on Tuesday leading the shift in peak energy consumption of refrigeration units and this information was not available to us for many such stores.
 
-![](https://miro.medium.com/max/60/1*WEe7LQivzU4YOvDCe0_P_A.png?q=20)
+![](https://miro.medium.com/max/60/1\*WEe7LQivzU4YOvDCe0\_P\_A.png?q=20)
 
-![](https://miro.medium.com/max/630/1*WEe7LQivzU4YOvDCe0_P_A.png)
+![](https://miro.medium.com/max/630/1\*WEe7LQivzU4YOvDCe0\_P\_A.png)
 
 The peak at 2 am got shifted to 4 am. DTW when run recursively for consecutive days can identify the cases for which phase shift occurred without much change in shape of signals.
 
-![](https://miro.medium.com/max/52/1*jDuu7XE8XitCTBSythQICw.png?q=20)
+![](https://miro.medium.com/max/52/1\*jDuu7XE8XitCTBSythQICw.png?q=20)
 
-![](https://miro.medium.com/max/630/1*jDuu7XE8XitCTBSythQICw.png)
+![](https://miro.medium.com/max/630/1\*jDuu7XE8XitCTBSythQICw.png)
 
 The training data can be restricted to Tuesday onwards to improve the prediction of energy consumption in future in this case as phase shift was detected on Tuesday. The setup improved the predictions substantially ( > 50%) for the stores for which the reason of shift was not known. This was not possible by traditional ways of one to one comparison of signals.
 
@@ -1034,15 +1026,15 @@ In this blog, I will explain how DTW algorithm works and throw some light on the
 
 Any two time series can be compared using euclidean distance or other similar distances on a one to one basis on time axis. The amplitude of first time series at time T will be compared with amplitude of second time series at time T. This will result into a very poor comparison and similarity score even if the two time series are very similar in shape but out of phase in time.
 
-![](https://miro.medium.com/max/60/1*HQleh0-1HlGsLkVlcaFRLw.png?q=20)
+![](https://miro.medium.com/max/60/1\*HQleh0-1HlGsLkVlcaFRLw.png?q=20)
 
-![](https://miro.medium.com/max/630/1*HQleh0-1HlGsLkVlcaFRLw.png)
+![](https://miro.medium.com/max/630/1\*HQleh0-1HlGsLkVlcaFRLw.png)
 
 DTW compares amplitude of first signal at time T with amplitude of second signal at time T+1 and T-1 or T+2 and T-2. This makes sure it does not give low similarity score for signals with similar shape and different phase.
 
-![](https://miro.medium.com/max/60/1*6Yzt8SiQ-kTRx8pFqDZXkw.png?q=20)
+![](https://miro.medium.com/max/60/1\*6Yzt8SiQ-kTRx8pFqDZXkw.png?q=20)
 
-![](https://miro.medium.com/max/630/1*6Yzt8SiQ-kTRx8pFqDZXkw.png)
+![](https://miro.medium.com/max/630/1\*6Yzt8SiQ-kTRx8pFqDZXkw.png)
 
 1. How it works?
 
@@ -1052,17 +1044,17 @@ Series 1 (P) : 1,4,5,10,9,3,2,6,8,4
 
 Series 2 (Q): 1,7,3,4,1,10,5,4,7,4
 
-![](https://miro.medium.com/max/60/1*x8-vv9W3cfmdd0mW_1MLTg.png?q=20)
+![](https://miro.medium.com/max/60/1\*x8-vv9W3cfmdd0mW\_1MLTg.png?q=20)
 
-![](https://miro.medium.com/max/630/1*x8-vv9W3cfmdd0mW_1MLTg.png)
+![](https://miro.medium.com/max/630/1\*x8-vv9W3cfmdd0mW\_1MLTg.png)
 
 _Step 1 :_ Empty Cost Matrix Creation
 
 Create an empty cost matrix M with x and y labels as amplitudes of the two series to be compared.
 
-![](https://miro.medium.com/max/60/1*MrjHYFHyeeE3aiBEA-E5cw.png?q=20)
+![](https://miro.medium.com/max/60/1\*MrjHYFHyeeE3aiBEA-E5cw.png?q=20)
 
-![](https://miro.medium.com/max/630/1*MrjHYFHyeeE3aiBEA-E5cw.png)
+![](https://miro.medium.com/max/630/1\*MrjHYFHyeeE3aiBEA-E5cw.png)
 
 _Step 2: Cost Calculation_
 
@@ -1078,21 +1070,21 @@ i is the iterator for series P
 
 j is the iterator for series Q
 
-![](https://miro.medium.com/max/60/1*hhpagt7BEeFU22X83Q76yQ.png?q=20)
+![](https://miro.medium.com/max/60/1\*hhpagt7BEeFU22X83Q76yQ.png?q=20)
 
-![](https://miro.medium.com/max/630/1*hhpagt7BEeFU22X83Q76yQ.png)
+![](https://miro.medium.com/max/630/1\*hhpagt7BEeFU22X83Q76yQ.png)
 
 Let us take few examples (11,3 and 8 ) to illustrate the calculation as highlighted in the below table.
 
-![](https://miro.medium.com/max/60/1*bHaMHM9eBfLc6q166iiI9g.png?q=20)
+![](https://miro.medium.com/max/60/1\*bHaMHM9eBfLc6q166iiI9g.png?q=20)
 
-![](https://miro.medium.com/max/630/1*bHaMHM9eBfLc6q166iiI9g.png)
+![](https://miro.medium.com/max/630/1\*bHaMHM9eBfLc6q166iiI9g.png)
 
 for 11,
 
-![](https://miro.medium.com/max/60/1*dzBbhICP6wqwtmW-GGwGmg.png?q=20)
+![](https://miro.medium.com/max/60/1\*dzBbhICP6wqwtmW-GGwGmg.png?q=20)
 
-![](https://miro.medium.com/max/630/1*dzBbhICP6wqwtmW-GGwGmg.png)
+![](https://miro.medium.com/max/630/1\*dzBbhICP6wqwtmW-GGwGmg.png)
 
 |10 --4| + min( 5, 12, 5 )
 
@@ -1118,9 +1110,9 @@ and for 8,
 
 The full table will look like this:
 
-![](https://miro.medium.com/max/60/1*7pphf0WWYElhtohnQPFPNA.png?q=20)
+![](https://miro.medium.com/max/60/1\*7pphf0WWYElhtohnQPFPNA.png?q=20)
 
-![](https://miro.medium.com/max/630/1*7pphf0WWYElhtohnQPFPNA.png)
+![](https://miro.medium.com/max/630/1\*7pphf0WWYElhtohnQPFPNA.png)
 
 _Step 3:_ Warping Path Identification
 
@@ -1128,25 +1120,25 @@ Identify the warping path starting from top right corner of the matrix and trave
 
 In our example it starts with 15 and looks for minimum value i.e. 15 among its neighbours 18, 15 and 18.
 
-![](https://miro.medium.com/max/60/1*p6hJxIcUjOzgpTINBHLdmQ.png?q=20)
+![](https://miro.medium.com/max/60/1\*p6hJxIcUjOzgpTINBHLdmQ.png?q=20)
 
-![](https://miro.medium.com/max/630/1*p6hJxIcUjOzgpTINBHLdmQ.png)
+![](https://miro.medium.com/max/630/1\*p6hJxIcUjOzgpTINBHLdmQ.png)
 
-![](https://miro.medium.com/max/60/1*RnqvEKdMmWklx5m59YiP3g.png?q=20)
+![](https://miro.medium.com/max/60/1\*RnqvEKdMmWklx5m59YiP3g.png?q=20)
 
-![](https://miro.medium.com/max/630/1*RnqvEKdMmWklx5m59YiP3g.png)
+![](https://miro.medium.com/max/630/1\*RnqvEKdMmWklx5m59YiP3g.png)
 
 The next number in the warping traversal path is 14. This process continues till we reach the bottom or the left axis of the table.
 
-![](https://miro.medium.com/max/60/1*mjtlGiB44Zz2pALmMiYNLQ.png?q=20)
+![](https://miro.medium.com/max/60/1\*mjtlGiB44Zz2pALmMiYNLQ.png?q=20)
 
-![](https://miro.medium.com/max/630/1*mjtlGiB44Zz2pALmMiYNLQ.png)
+![](https://miro.medium.com/max/630/1\*mjtlGiB44Zz2pALmMiYNLQ.png)
 
 The final path will look like this:
 
-![](https://miro.medium.com/max/60/1*WaC_xFSpJi-2GlF7OG37CA.png?q=20)
+![](https://miro.medium.com/max/60/1\*WaC\_xFSpJi-2GlF7OG37CA.png?q=20)
 
-![](https://miro.medium.com/max/630/1*WaC_xFSpJi-2GlF7OG37CA.png)
+![](https://miro.medium.com/max/630/1\*WaC\_xFSpJi-2GlF7OG37CA.png)
 
 Let this warping path series be called as d.
 
@@ -1156,9 +1148,9 @@ _Step 4:_ Final Distance Calculation
 
 Time normalised distance , D
 
-![](https://miro.medium.com/max/60/1*6M_cotyKNao7xo03zsMLZQ.png?q=20)
+![](https://miro.medium.com/max/60/1\*6M\_cotyKNao7xo03zsMLZQ.png?q=20)
 
-![](https://miro.medium.com/max/385/1*6M_cotyKNao7xo03zsMLZQ.png)
+![](https://miro.medium.com/max/385/1\*6M\_cotyKNao7xo03zsMLZQ.png)
 
 where k is the length of the series d.
 
@@ -1172,15 +1164,15 @@ D = ( 15 + 15 + 14 + 13 + 11 + 9 + 8 + 8 + 4 + 4 + 3 + 0 ) /12
 
 Let us take another example with two very similar time series with unit time shift difference.
 
-![](https://miro.medium.com/max/60/1*CLSlk3qD0Hil2H4XBBeE3Q.png?q=20)
+![](https://miro.medium.com/max/60/1\*CLSlk3qD0Hil2H4XBBeE3Q.png?q=20)
 
-![](https://miro.medium.com/max/630/1*CLSlk3qD0Hil2H4XBBeE3Q.png)
+![](https://miro.medium.com/max/630/1\*CLSlk3qD0Hil2H4XBBeE3Q.png)
 
 Cost matrix and warping path will look like this.
 
-![](https://miro.medium.com/max/60/1*Wx823zTAqUkrSbX1ivMAlg.png?q=20)
+![](https://miro.medium.com/max/60/1\*Wx823zTAqUkrSbX1ivMAlg.png?q=20)
 
-![](https://miro.medium.com/max/630/1*Wx823zTAqUkrSbX1ivMAlg.png)
+![](https://miro.medium.com/max/630/1\*Wx823zTAqUkrSbX1ivMAlg.png)
 
 DTW distance ,D =
 
@@ -1210,55 +1202,55 @@ A warping path 𝑊 maps the elements of 𝑋 and 𝑌 to minimize the _distance
 
 ### Warping Path and DTW distance
 
-The Optimal path to (𝑖*𝑘, 𝑗*𝑘) can be computed by:
+The Optimal path to (𝑖_𝑘, 𝑗_𝑘) can be computed by:
 
-![](https://miro.medium.com/max/60/1*8hJEJWuxrccwCMuUG_aPbQ.png?q=20)
+![](https://miro.medium.com/max/60/1\*8hJEJWuxrccwCMuUG\_aPbQ.png?q=20)
 
-![](https://miro.medium.com/max/630/1*8hJEJWuxrccwCMuUG_aPbQ.png)
+![](https://miro.medium.com/max/630/1\*8hJEJWuxrccwCMuUG\_aPbQ.png)
 
 where 𝑑 is the Euclidean distance. Then, the overall path cost can be calculated as
 
-![](https://miro.medium.com/max/60/1*2OGDOJ-a0zTO_9T1FIGejQ.png?q=20)
+![](https://miro.medium.com/max/60/1\*2OGDOJ-a0zTO\_9T1FIGejQ.png?q=20)
 
-![](https://miro.medium.com/max/272/1*2OGDOJ-a0zTO_9T1FIGejQ.png)
+![](https://miro.medium.com/max/272/1\*2OGDOJ-a0zTO\_9T1FIGejQ.png)
 
 ## Restrictions on the Warping function
 
 The warping path is found using a dynamic programming approach to align two sequences. Going through all possible paths is "combinatorically explosive" \[1]. Therefore, for efficiency purposes, it's important to limit the number of possible warping paths, and hence the following constraints are outlined:
 
--   Boundary Condition: This constraint ensures that the warping path begins with the start points of both signals and terminates with their endpoints.
+* Boundary Condition: This constraint ensures that the warping path begins with the start points of both signals and terminates with their endpoints.
 
-![](https://miro.medium.com/max/60/1*SHsmQu2TqpaDyIArn2snzg.png?q=20)
+![](https://miro.medium.com/max/60/1\*SHsmQu2TqpaDyIArn2snzg.png?q=20)
 
-![](https://miro.medium.com/max/452/1*SHsmQu2TqpaDyIArn2snzg.png)
+![](https://miro.medium.com/max/452/1\*SHsmQu2TqpaDyIArn2snzg.png)
 
--   Monotonicity condition: This constraint preserves the time-order of points (not going back in time).
+* Monotonicity condition: This constraint preserves the time-order of points (not going back in time).
 
-![](https://miro.medium.com/max/60/1*RNg2VENGaWoyvGrvyeg61A.png?q=20)
+![](https://miro.medium.com/max/60/1\*RNg2VENGaWoyvGrvyeg61A.png?q=20)
 
-![](https://miro.medium.com/max/311/1*RNg2VENGaWoyvGrvyeg61A.png)
+![](https://miro.medium.com/max/311/1\*RNg2VENGaWoyvGrvyeg61A.png)
 
--   Continuity (step size) condition: This constraint limits the path transitions to adjacent points in time (not jumping in time).
+* Continuity (step size) condition: This constraint limits the path transitions to adjacent points in time (not jumping in time).
 
-![](https://miro.medium.com/max/60/1*lU99pFyomdPeaHuR26bDyA.png?q=20)
+![](https://miro.medium.com/max/60/1\*lU99pFyomdPeaHuR26bDyA.png?q=20)
 
-![](https://miro.medium.com/max/418/1*lU99pFyomdPeaHuR26bDyA.png)
+![](https://miro.medium.com/max/418/1\*lU99pFyomdPeaHuR26bDyA.png)
 
 In addition to the above three constraints, there are other less frequent conditions for an allowable warping path:
 
--   Warping window condition: Allowable points can be restricted to fall within a given warping window of width 𝜔 (a positive integer).
+* Warping window condition: Allowable points can be restricted to fall within a given warping window of width 𝜔 (a positive integer).
 
-![](https://miro.medium.com/max/60/1*9apgwkXeU3gOHLudFsIosA.png?q=20)
+![](https://miro.medium.com/max/60/1\*9apgwkXeU3gOHLudFsIosA.png?q=20)
 
-![](https://miro.medium.com/max/168/1*9apgwkXeU3gOHLudFsIosA.png)
+![](https://miro.medium.com/max/168/1\*9apgwkXeU3gOHLudFsIosA.png)
 
--   Slope condition: The warping path can be constrained by restricting the slope, and consequently avoiding extreme movements in one direction.
+* Slope condition: The warping path can be constrained by restricting the slope, and consequently avoiding extreme movements in one direction.
 
 An acceptable warping path has combinations of chess king moves that are:
 
--   Horizontal moves: (𝑖, 𝑗) → (𝑖, 𝑗+1)
--   Vertical moves: (𝑖, 𝑗) → (𝑖+1, 𝑗)
--   Diagonal moves: (𝑖, 𝑗) → (𝑖+1, 𝑗+1)
+* Horizontal moves: (𝑖, 𝑗) → (𝑖, 𝑗+1)
+* Vertical moves: (𝑖, 𝑗) → (𝑖+1, 𝑗)
+* Diagonal moves: (𝑖, 𝑗) → (𝑖+1, 𝑗+1)
 
 ## Implementation
 
@@ -1270,7 +1262,7 @@ import matplotlib.pyplot as plt\
 import seaborn as sbn# Configuring Matplotlib\
 import matplotlib as mpl\
 mpl.rcParams\['figure.dpi'] = 300\
-savefig_options = dict(format="png", dpi=300, bbox_inches="tight")# Computation packages\
+savefig\_options = dict(format="png", dpi=300, bbox\_inches="tight")# Computation packages\
 from scipy.spatial.distance import euclidean\
 from fastdtw import fastdtw
 
@@ -1287,9 +1279,9 @@ y = \[2, 0, 0, 3, 3, 1, 0]
 
 We cannot calculate the Euclidean distance between _x_ and _y_ since they don't have equal lengths.
 
-![](https://miro.medium.com/max/60/1*ADzLGLGGq13onO72EO_ZpQ.png?q=20)
+![](https://miro.medium.com/max/60/1\*ADzLGLGGq13onO72EO\_ZpQ.png?q=20)
 
-![](https://miro.medium.com/max/630/1*ADzLGLGGq13onO72EO_ZpQ.png)
+![](https://miro.medium.com/max/630/1\*ADzLGLGGq13onO72EO\_ZpQ.png)
 
 Example 1: Euclidean distance between x and y (is it possible? 🤔) (Image by Author)
 
@@ -1297,17 +1289,17 @@ Example 1: Euclidean distance between x and y (is it possible? 🤔) (Image by A
 
 Many Python packages calculate the DTW by just providing the sequences and the type of distance (usually Euclidean). Here, we use a popular Python implementation of DTW that is [FastDTW](https://github.com/slaypni/fastdtw) which is an approximate DTW algorithm with lower time and memory complexities \[2].
 
-dtw_distance, warp_path = fastdtw(x, y, dist=euclidean)
+dtw\_distance, warp\_path = fastdtw(x, y, dist=euclidean)
 
 Note that we are using [SciPy](https://pypi.org/project/scipy/)'s distance function _Euclidean_ that we imported earlier. For a better understanding of the warp path, let's first compute the accumulated cost matrix and then visualize the path on a grid. The following code will plot a heatmap of the accumulated cost matrix.
 
-cost_matrix = compute_accumulated_cost_matrix(x, y)
+cost\_matrix = compute\_accumulated\_cost\_matrix(x, y)
 
 Example 1: Python code to plot (and save) the heatmap of the accumulated cost matrix
 
-![](https://miro.medium.com/max/54/1*PIKZAwsV15NBvqkh9N1KMg.png?q=20)
+![](https://miro.medium.com/max/54/1\*PIKZAwsV15NBvqkh9N1KMg.png?q=20)
 
-![](https://miro.medium.com/max/375/1*PIKZAwsV15NBvqkh9N1KMg.png)
+![](https://miro.medium.com/max/375/1\*PIKZAwsV15NBvqkh9N1KMg.png)
 
 Example 1: Accumulated cost matrix and warping path (Image by Author)
 
@@ -1318,8 +1310,8 @@ The color bar shows the cost of each point in the grid. As can be seen, the warp
 
 The warping path starts at point (0, 0) and ends at (4, 6) by 6 moves. Let's also calculate the accumulated cost most using the functions we defined earlier and compare the values with the heatmap.
 
-cost_matrix = compute_accumulated_cost_matrix(x, y)\
-print(np.flipud(cost_matrix)) # Flipping the cost matrix for easier comparison with heatmap values!>>> \[\[32. 12. 10. 10. 6.]\
+cost\_matrix = compute\_accumulated\_cost\_matrix(x, y)\
+print(np.flipud(cost\_matrix)) # Flipping the cost matrix for easier comparison with heatmap values!>>> \[\[32. 12. 10. 10. 6.]\
 \[23. 11. 6. 6. 5.]\
 \[19. 11. 5. 5. 9.]\
 \[19. 7. 4. 5. 8.]\
@@ -1333,9 +1325,9 @@ Now let's plot the two sequences and connect the mapping points. The code to plo
 
 Example 1: Python code to plot (and save) the DTW distance between x and y
 
-![](https://miro.medium.com/max/60/1*bF9I-49iVW9b2MvDbRBZxA.png?q=20)
+![](https://miro.medium.com/max/60/1\*bF9I-49iVW9b2MvDbRBZxA.png?q=20)
 
-![](https://miro.medium.com/max/630/1*bF9I-49iVW9b2MvDbRBZxA.png)
+![](https://miro.medium.com/max/630/1\*bF9I-49iVW9b2MvDbRBZxA.png)
 
 Example 1: DTW distance between x and y (Image by Author)
 
@@ -1347,13 +1339,13 @@ Example 2: Generate two sinusoidal signals (x1 and x2) with different lengths
 
 Just like Example 1, let's calculate the DTW distance and the warp path for \*x1 \*and \*x2 \*signals using FastDTW package.
 
-distance, warp_path = fastdtw(x1, x2, dist=euclidean)
+distance, warp\_path = fastdtw(x1, x2, dist=euclidean)
 
 Example 2: Python code to plot (and save) the DTW distance between x1 and x2
 
-![](https://miro.medium.com/max/60/1*Bzubc5uGFXd_-Sj7W_QFjg.png?q=20)
+![](https://miro.medium.com/max/60/1\*Bzubc5uGFXd\_-Sj7W\_QFjg.png?q=20)
 
-![](https://miro.medium.com/max/630/1*Bzubc5uGFXd_-Sj7W_QFjg.png)
+![](https://miro.medium.com/max/630/1\*Bzubc5uGFXd\_-Sj7W\_QFjg.png)
 
 Example 2: DTW distance between x1 and x2 (Image by Author)
 
@@ -1367,13 +1359,13 @@ The issue is around the head and tail of time-series that do not properly match.
 
 DTW is an algorithm to find an optimal alignment between two sequences and a useful distance metric to have in our toolbox. This technique is useful when we are working with two non-linear sequences, particularly if one sequence is a non-linear stretched/shrunk version of the other. The warping path is a combination of "chess king" moves that starts from the head of two sequences and ends with their tails.
 
-You can find the Jupyter notebook for this blog post [here](https://github.com/e-alizadeh/medium/blob/master/notebooks/intro_to_dtw.ipynb). Thanks for reading!
+You can find the Jupyter notebook for this blog post [here](https://github.com/e-alizadeh/medium/blob/master/notebooks/intro\_to\_dtw.ipynb). Thanks for reading!
 
 ## References
 
 \[1] Donald J. Berndt and James Clifford, [Using Dynamic Time Warping to Find Patterns in Time Series](https://www.aaai.org/Papers/Workshops/1994/WS-94-03/WS94-03-031.pdf), 3rd International Conference on Knowledge Discovery and Data Mining
 
-\[2] Salvador, S. and P. Chan, [FastDTW: Toward accurate dynamic time warping in linear time and space](https://cs.fit.edu/~pkc/papers/tdm04.pdf)(2007), Intelligent Data Analysis
+\[2] Salvador, S. and P. Chan, [FastDTW: Toward accurate dynamic time warping in linear time and space](https://cs.fit.edu/\~pkc/papers/tdm04.pdf)(2007), Intelligent Data Analysis
 
 \[3] Diego Furtado Silva, _et al._, [On the effect of endpoints on dynamic time warping](https://core.ac.uk/display/147806669) (2016), SIGKDD Workshop on Mining and Learning from Time Series
 
@@ -1407,17 +1399,17 @@ Yes, in a lot of scenarios DTW is playing a key role.
 
 One use case is to detect the sound pattern of the same kind. Suppose we want to recognise the voice of a person by analysing his sound track, and we are able to collect his sound track of saying `Hello` in one scenario. However, people speak in the same word in different ways, what if he speaks hello in a much slower pace like `Heeeeeeelloooooo` , we will need an algorithm to match up the sound track of different lengths and be able to identify they come from the same person.
 
-![](https://miro.medium.com/max/60/1*gi1TtOqFCsb2M_U7iAUAag.png?q=20)
+![](https://miro.medium.com/max/60/1\*gi1TtOqFCsb2M\_U7iAUAag.png?q=20)
 
-![](https://miro.medium.com/max/630/1*gi1TtOqFCsb2M_U7iAUAag.png)
+![](https://miro.medium.com/max/630/1\*gi1TtOqFCsb2M\_U7iAUAag.png)
 
 ### Stock Market
 
 In a stock market, people always hope to be able to predict the future, however using general machine learning algorithms can be exhaustive, as most prediction task requires test and training set to have the same dimension of features. However, if you ever speculate in the stock market, you will know that even the same pattern of a stock can have very different length reflection on klines and indicators.
 
-![](https://miro.medium.com/max/60/1*4QUO4Tqm_z-8ydMBGgqmPg.png?q=20)
+![](https://miro.medium.com/max/60/1\*4QUO4Tqm\_z-8ydMBGgqmPg.png?q=20)
 
-![](https://miro.medium.com/max/630/1*4QUO4Tqm_z-8ydMBGgqmPg.png)
+![](https://miro.medium.com/max/630/1\*4QUO4Tqm\_z-8ydMBGgqmPg.png)
 
 ## Definition & Idea
 
@@ -1429,9 +1421,9 @@ _The idea to compare arrays with different length is to build one-to-many and ma
 
 Suppose we have two different arrays red and blue with different length:
 
-![](https://miro.medium.com/max/42/1*uFicSZjqkNBfsyrsJw7J9g.jpeg?q=20)
+![](https://miro.medium.com/max/42/1\*uFicSZjqkNBfsyrsJw7J9g.jpeg?q=20)
 
-![](https://miro.medium.com/max/612/1*uFicSZjqkNBfsyrsJw7J9g.jpeg)
+![](https://miro.medium.com/max/612/1\*uFicSZjqkNBfsyrsJw7J9g.jpeg)
 
 Clearly these two series follow the same pattern, but the blue curve is longer than the red. If we apply the one-to-one match, shown in the top, the mapping is not perfectly synced up and the tail of the blue curve is being left out.
 
@@ -1441,10 +1433,10 @@ DTW overcomes the issue by developing a one-to-many match so that the troughs an
 
 In general, DTW is a method that calculates an optimal match between two given sequences (e.g. time series) with certain restriction and rules(comes from wiki):
 
--   Every index from the first sequence must be matched with one or more indices from the other sequence and vice versa
--   The first index from the first sequence must be matched with the first index from the other sequence (but it does not have to be its only match)
--   The last index from the first sequence must be matched with the last index from the other sequence (but it does not have to be its only match)
--   The mapping of the indices from the first sequence to indices from the other sequence must be monotonically increasing, and vice versa, i.e. if `j > i` are indices from the first sequence, then there must not be two indices `l > k` in the other sequence, such that index `i` is matched with index `l` and index `j` is matched with index `k` , and vice versa
+* Every index from the first sequence must be matched with one or more indices from the other sequence and vice versa
+* The first index from the first sequence must be matched with the first index from the other sequence (but it does not have to be its only match)
+* The last index from the first sequence must be matched with the last index from the other sequence (but it does not have to be its only match)
+* The mapping of the indices from the first sequence to indices from the other sequence must be monotonically increasing, and vice versa, i.e. if `j > i` are indices from the first sequence, then there must not be two indices `l > k` in the other sequence, such that index `i` is matched with index `l` and index `j` is matched with index `k` , and vice versa
 
 The optimal match is denoted by the match that satisfies all the restrictions and the rules and that has the minimal cost, where the cost is computed as the sum of absolute differences, for each matched pair of indices, between their values.
 
@@ -1454,9 +1446,9 @@ To summarise is that _head and tail must be positionally matched, no cross-match
 
 The implementation of the algorithm looks extremely concise:
 
-![](https://miro.medium.com/max/60/1*fGr2Mj7fEB7tEyqAzcp2LA.png?q=20)
+![](https://miro.medium.com/max/60/1\*fGr2Mj7fEB7tEyqAzcp2LA.png?q=20)
 
-![](https://miro.medium.com/max/630/1*fGr2Mj7fEB7tEyqAzcp2LA.png)
+![](https://miro.medium.com/max/630/1\*fGr2Mj7fEB7tEyqAzcp2LA.png)
 
 where `DTW[i, j]` is the distance between `s[1:i]` and `t[1:j]` with the best alignment.
 
@@ -1472,9 +1464,9 @@ Put it in python would be:
 
 Example:
 
-![](https://miro.medium.com/max/60/1*eogOkXkOUzi6Cq7U9BgiLg.png?q=20)
+![](https://miro.medium.com/max/60/1\*eogOkXkOUzi6Cq7U9BgiLg.png?q=20)
 
-![](https://miro.medium.com/max/630/1*eogOkXkOUzi6Cq7U9BgiLg.png)
+![](https://miro.medium.com/max/630/1\*eogOkXkOUzi6Cq7U9BgiLg.png)
 
 The distance between `a and b` would be the last element of the matrix, which is 2.
 
@@ -1487,17 +1479,17 @@ b = \[1, 2, 2, 2, 2, 2, 2, 2, ..., 5]
 
 To minimise the distance, the element 2 in array `a` would match all the 2 in array `b` , which causes an array `b` to bent severely. To avoid this, we can add a window constraint to limit the number of elements one can match:
 
-![](https://miro.medium.com/max/60/1*0_xypte7FHDWJuuBexEvHg.png?q=20)
+![](https://miro.medium.com/max/60/1\*0\_xypte7FHDWJuuBexEvHg.png?q=20)
 
-![](https://miro.medium.com/max/630/1*0_xypte7FHDWJuuBexEvHg.png)
+![](https://miro.medium.com/max/630/1\*0\_xypte7FHDWJuuBexEvHg.png)
 
 The key difference is that now each element is confined to match elements in range `i --- w` and `i + w` . The `w := max(w, abs(n-m))` guarantees all indices can be matched up.
 
 The implementation and example would be:
 
-![](https://miro.medium.com/max/60/1*2K6C-3QrRmbbhpe-jt9UQA.png?q=20)
+![](https://miro.medium.com/max/60/1\*2K6C-3QrRmbbhpe-jt9UQA.png?q=20)
 
-![](https://miro.medium.com/max/630/1*2K6C-3QrRmbbhpe-jt9UQA.png)
+![](https://miro.medium.com/max/630/1\*2K6C-3QrRmbbhpe-jt9UQA.png)
 
 ## Apply a Package
 

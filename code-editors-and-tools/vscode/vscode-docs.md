@@ -1,3 +1,3 @@
 # Vscode Docs
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (2).png>)
