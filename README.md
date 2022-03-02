@@ -26,8 +26,6 @@ https://testmysite.io/61e5ff836a840eeeef7e78e9/bgoonz-blog.netlify.app
 
 [                                                      ****                                                      ![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/aac9892cd5e6fe8241ce?action=collection%2Fimport#?env%5Bblog%5D=dW5kZWZpbmVk)![GitHub visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page\_id=bgoonz.visitor.badge.reloaded\&color=00bbbb\&style=for-the-badge\&logo=github)
 
-![preview](https://github.com/bgoonz/BGOONZ\_BLOG\_2.0/blob/master/static/images/screencapture-bgoonz-blog-netlify-app-2022-01-20-23\_58\_59.png?raw=true)
-
 <details>
 
 <summary>Bash Commands</summary>
