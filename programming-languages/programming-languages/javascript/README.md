@@ -7,6 +7,14 @@ coverY: 0
 
 <details>
 
+<summary>list</summary>
+
+
+
+</details>
+
+<details>
+
 <summary>Resources</summary>
 
 
@@ -941,9 +949,21 @@ Besides libraries, there're [Collection on Codepen](http://codepen.io/collection
 
 </details>
 
+
+
+
+
+
+
+
+
+
+
 {% content-ref url="../../../javascript/untitled/" %}
 [untitled](../../../javascript/untitled/)
 {% endcontent-ref %}
+
+
 
 {% content-ref url="jquery.md" %}
 [jquery.md](jquery.md)
